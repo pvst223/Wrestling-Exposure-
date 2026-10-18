@@ -1,0 +1,44 @@
+REVIEWER AUTHORIZATION — GEMINI PROCEDURE FREEZE
+I independently reviewed the corrected final Gemini freeze candidate and its supplied files.
+RULING: APPROVED FOR FREEZE.
+Verified final candidate manifest:
+`GEMINI_FREEZE_CANDIDATE_MANIFEST.json`
+SHA-256:
+`1810e4346908adfd3f2d9be5c877fabaefa158edc72719c155b07178c15e9c72`
+The reviewer-directed corrections are accepted:
+
+1. PERSONAL Google account / NOT dedicated is accurately recorded as a limitation.
+2. Two prep-only Gemini interactions are definitively disclosed; neither involved Holdout #2/study imagery or study annotation.
+3. The incompatible generic §3 route controls are explicitly superseded/not applicable for the consumer Gemini web route where they conflict with governing §3a/§10a.
+
+I also verified that the frozen annotation prompt remains byte-identical:
+`PROMPT_V1.txt`
+SHA-256:
+`dcfd8f7d4387b443e3c43f0584bba9f8e1beb806fec647e65157eb43d2ec8b1d`
+Parser self-test: PASS — 11 cases.
+AUTHORIZED FREEZE ACTION
+Freeze this exact candidate as the governing V0.6.1 Gemini annotation procedure.
+Record a new immutable freeze record containing at minimum:
+
+* this reviewer authorization;
+* exact candidate-manifest filename and SHA-256 above;
+* hashes of every governed procedure component;
+* current spec_v4 manifest SHA-256 `efb2a797c358cdcad73bc933ccc5a80d95979610179240daf6229b4ba86c88af`;
+* Git commit containing the frozen procedure;
+* audit-ledger head after the freeze entry;
+* explicit statement that subsequent scientific/procedural changes require a new prospectively authorized version and may not silently modify this frozen procedure.
+
+After freezing, rename/status-mark files as appropriate so there is no ambiguity that the approved versions are FROZEN rather than merely PROPOSED, while preserving historical files and provenance. Any renaming/copying must preserve the approved file contents byte-for-byte unless a purely status/filename artifact necessarily receives its own new hash; do not silently edit the governed scientific content.
+The following statuses remain unchanged by this authorization:
+
+* R1: CLOSED
+* R2: CLOSED
+* R3: `UNRESOLVED / THIRD-PARTY TRANSMISSION BLOCKED`
+* R4: UNMET by declared AI substitution
+* V0.6.1: `ANNOTATION-PROVISIONAL`
+* Gemini AI-vs-first-pass analysis: exploratory reproducibility/sensitivity analysis only
+
+This freeze authorization DOES NOT authorize acquisition, Holdout #2 access, transmission of any footage-derived material to Gemini, annotation, training, tuning, exploratory execution, or V0.6.1 analysis.
+In particular, R3 remains a hard prerequisite before any source-derived image/crop may be transmitted to Gemini.
+UI-exposed Gemini model designation remains `RECORD_AT_RUN` and is not to be inferred or filled prospectively.
+Perform only the authorized freeze/recordkeeping operation, verify resulting hashes and repository state, return the final freeze record and status, and STOP

@@ -1,0 +1,58 @@
+{
+ "record": "FREEZE_RECORD_GEMINI_V1",
+ "status": "FROZEN - V0.6.1 Gemini annotation procedure v1 (procedure only; not V0.6.1 results; not permission to acquire/access Holdout #2 or to transmit anything to Gemini)",
+ "frozen_utc": "2026-10-18T20:34:19Z",
+ "reviewer_authorization_file": "v061/gemini_procedure_frozen_v1/REVIEWER_AUTHORIZATION_GEMINI_FREEZE.txt",
+ "reviewer_authorization_sha256": "2c0fe651561af8dd5d29503e0401b2a3c8f2baf99b6e94620819965094a7993d",
+ "candidate_manifest_file": "GEMINI_FREEZE_CANDIDATE_MANIFEST.json",
+ "candidate_manifest_sha256": "1810e4346908adfd3f2d9be5c877fabaefa158edc72719c155b07178c15e9c72",
+ "governed_components_sha256": {
+  "v061/gemini_procedure_frozen_v1/GEMINI_ANNOTATION_PROCEDURE_PROPOSED.md": "6972a383305199d0c5af584a4528f54d888054562fa98d711dfa0bbbff519868",
+  "v061/gemini_procedure_frozen_v1/PROMPT_V1.txt": "dcfd8f7d4387b443e3c43f0584bba9f8e1beb806fec647e65157eb43d2ec8b1d",
+  "v061/gemini_procedure_frozen_v1/parse_response.py": "01206cce50319b7e6310f2540ab446e15c4f8a41bb1db7e8278fcec3359cc5ac",
+  "v061/gemini_procedure_frozen_v1/selftest_parse.py": "af2b9dc8c13d3f0042f4f71e50535410688bafb23b21fa65eede2a7cc1440dfe",
+  "v061/gemini_procedure_frozen_v1/REFERENCE_MANIFEST_SPEC.md": "c02c9a94d281bd63a104e0ee34beb48a6b9f852cc71853b3c39ee7fdfa5be14d",
+  "v061/gemini_procedure_frozen_v1/GEMINI_ROUTE_CONFIG_COMPLETED_PROPOSED.json": "7504b1a5e54cf97173fe323840e30916b4dea3cf57a2a04da540cd8e9aa6f51f",
+  "v061/gemini_procedure_frozen_v1/GEMINI_PRIVACY_REVIEW_RECORD_COMPLETED_PROPOSED.md": "73e214559fde347b7136b672fba8878146f63f3da34d4e2a68566ac25db1ed69",
+  "v061/gemini_procedure_frozen_v1/GEMINI_PREP_INTERACTION_DISCLOSURE.md": "64af244f0c40ff0bb243b1de0324dccfe8145153a64947595c7b81010d662b1d",
+  "v061/gemini_procedure_frozen_v1/GEMINI_FREEZE_CANDIDATE_MANIFEST.json": "1810e4346908adfd3f2d9be5c877fabaefa158edc72719c155b07178c15e9c72"
+ },
+ "status_files_added_by_freeze_sha256": {
+  "v061/gemini_procedure_frozen_v1/README_FROZEN_STATUS.md": "60ec71be4de2dd65c88484922b50e37a7fdbe80fe010eb16a69d07773a6fa979",
+  "v061/gemini_procedure/README_SUPERSEDED_BY_FROZEN_V1.md": "06967bbd8e0d5e4eb5e84a08d68f1f55c0d4908d84bc4a44cde25253192f2eb3"
+ },
+ "byte_identical_to_approved_candidate": true,
+ "related_accepted_record": {
+  "v061/owner_gates/DEVIATION_R4_AI_SECOND_ANNOTATOR_PROPOSED.md": "350d9084a53ad44e635bfb6127a6b8ae59f873a55bc6ccfa81d35333732fab22"
+ },
+ "spec_v4_manifest_sha256": "efb2a797c358cdcad73bc933ccc5a80d95979610179240daf6229b4ba86c88af",
+ "git_commit_containing_frozen_procedure": {
+  "source_commit": "cca74ba434e6e71d397fcdc142799b1b61ef6ea4",
+  "merge_commit_on_main": "07bd7cf2696ea7f860ab086eb11463bc970d09b0",
+  "pr": 8
+ },
+ "audit_ledger_head_before_freeze_entry_sha256": "d80e487b47c654acdb27eed6bad74d0b1217e0de1c75142e175a7c60324024f2",
+ "audit_ledger_entries_before_freeze_entry": 67,
+ "audit_ledger_head_after_freeze_entry": "A record cannot contain the hash of the ledger entry that contains the record's own hash. The head after the freeze entry GFRZ1 is reported in the freeze return and is recomputable as the SHA-256 of v06/frozen/AUDIT_LEDGER.jsonl at the merge commit of the PR that adds this record; ledger entry GFRZ1 carries this record's SHA-256.",
+ "statuses_unchanged": {
+  "R1": "CLOSED",
+  "R2": "CLOSED",
+  "R3": "UNRESOLVED / THIRD-PARTY TRANSMISSION BLOCKED",
+  "R4": "UNMET by declared AI substitution",
+  "V0.6.1": "ANNOTATION-PROVISIONAL",
+  "gemini_analysis": "exploratory reproducibility/sensitivity analysis only (AI-vs-first-pass)"
+ },
+ "gemini_prep_status": "two Gemini prep-only interactions occurred; Gemini has NOT been exposed to Holdout #2 or study imagery and has performed NO study annotation",
+ "runtime_model_designation": "RECORD_AT_RUN (UI-exposed designation; not inferred or filled prospectively)",
+ "not_authorized": [
+  "acquisition",
+  "Holdout #2 access",
+  "transmission of any footage-derived material to Gemini (R3 hard prerequisite)",
+  "annotation",
+  "training",
+  "tuning",
+  "exploratory execution",
+  "V0.6.1 analysis"
+ ],
+ "change_control": "Subsequent scientific or procedural changes require a new prospectively authorized version and may not silently modify this frozen procedure."
+}
