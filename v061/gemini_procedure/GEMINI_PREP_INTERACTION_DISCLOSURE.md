@@ -1,4 +1,4 @@
-# Owner disclosure: one prep-only Gemini interaction (recorded prospectively, 2026-10-18)
+# Owner disclosure: two prep-only Gemini interactions (first recorded 2026-10-18; second added by owner resolution 2026-10-18)
 
 Owner's factual correction for the audit record. Gemini was invoked once in a preparation-only interaction after the prospective AI-annotator deviation (DEV1) had been recorded.
 
@@ -8,3 +8,6 @@ Owner's factual correction for the audit record. Gemini was invoked once in a pr
 - Precise status language from now on: **Gemini prep-only interaction occurred; Gemini has NOT been exposed to Holdout #2 or study imagery and has performed NO study annotation.**
 - Not satisfying R4 or the future annotation procedure. spec_v4 unchanged. Earlier ledger fields `gemini_invoked: false` (entries GP0-GP2) were written without knowledge of this interaction and are corrected by this disclosure (append-only; they are not edited). Those fields meant "no study use".
 - The anticipated prompt-level instructions given in the prep chat were not part of the frozen PROMPT_V1.txt and are not part of the study procedure; the study uses only the frozen prompt in fresh context. The owner has not provided the prep-chat text; if the reviewer wants it, the owner can supply it and its hash.
+
+## Addendum: second prep-only interaction (owner resolution, definite)
+YES, a second prep-only interaction occurred after Keep Activity was turned off. It contained no Holdout #2 material, no study imagery/crops, no first-pass labels, no model/B0/L1 outputs, no study results, no answer key, and no wrestler identity material. No study annotation was requested or performed. It must not be used as an actual annotation session. This replaces the conditional wording "if recorded" in the owner's earlier statement. The earlier statement's hash is preserved; the owner resolution text is hashed separately.
