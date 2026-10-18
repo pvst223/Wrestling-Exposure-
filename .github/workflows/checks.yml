@@ -1,0 +1,38 @@
+name: checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          pip install numpy scipy opencv-python-headless
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Repo hygiene scan (media/weights/secrets, 30 MB cap)
+        run: python v061/tooling/hygiene_scan.py
+      - name: Synthetic self-tests
+        run: |
+          cd v06/tools
+          for t in selftest selftest2 selftest3 selftest4 selftest5 selftest7; do
+            echo "== $t"; python $t.py
+          done
+  frozen-hash:
+    name: frozen-hash check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify frozen files, spec_v4 manifest, ledger chain
+        run: python v061/tooling/frozen_hash_check.py
