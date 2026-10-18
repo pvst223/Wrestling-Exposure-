@@ -1,0 +1,224 @@
+{
+ "authorization_entry": {
+  "annotation_status": "ANNOTATION-PROVISIONAL",
+  "authorization": "Execute the frozen Phase-1 bake-off exactly as specified by PREREGISTRATION_V3, SEED_FEASIBILITY_AMENDMENT_V1, PHASE1_IMPLEMENTATION_CLOSURE_V1, the ratified D1-D8 rulings, and FINAL_READY_MANIFEST_V3. No tuning, methodological changes, additional data acquisition, annotation adjudication, or post-result optimization are authorized.",
+  "human_reliability_gate": "NOT SATISFIED AS SPECIFIED",
+  "id": "AUTH1",
+  "kind": "BAKEOFF_AUTHORIZATION",
+  "prev_entry_sha256": "36320a7d123bfb5fa8bb9f84a6616b954a50ff09cc8a81e45d5476ca65f4dd6a",
+  "ready_manifest_file": "FINAL_READY_MANIFEST_V3.json",
+  "ready_manifest_sha256": "6cc30a8b35709ebe6c0821d1e2fc22af5cf5c93d9369930af6778c48fb8e9ef3",
+  "ts_utc": "2026-10-18T05:55:57Z"
+ },
+ "chronology": "AUTH1 -> hash verification (84/84) -> EX0 -> feature extraction (18 artifacts) -> EX1 -> L1 training TRAIN-only seed 0 (TR1) -> DEV selection frozen (DS1) -> TEST opened once (TST0) -> primary frozen (PR1) -> secondary (SE1). No step was repeated or changed after observing results.",
+ "code_hashes": {
+  "tools/adjudicate.py": "1949dc381335579298ddfa72f1b1bc09257a07b8f078a3454f618b508d3f1a86",
+  "tools/annotation_agreement.py": "e76ee6ba570e0f504a799dc7646ff551672e181cbd93b2f548c81eccd8700a8a",
+  "tools/authorization_guard.py": "3cc01790a1c575ec25940327fe54cfd115a909a284d4c9e0c5b7c2366e6e1c5a",
+  "tools/blind_sample.py": "048968d30a45ada5b12b5f3f1ee0d1dd56a4d99c09423f5a2fa0adb83a1eee69",
+  "tools/build_tracklets.py": "5e606acf964a3046d96b30eac8a9b551bbfcab5fde0d37dd84b381b244715d11",
+  "tools/count_units.py": "b7c8cfa56d384bc6d0542ef8016464facb053a4837f3429ab5367b5e1f1af54b",
+  "tools/dependency_smoke.py": "71e5cf1b8882f06cbea916f734db632138ce52664cb1b417ac61993defe0d262",
+  "tools/detect_clips.py": "ebcbad68b02f61f5db528058d02e1c756c6f13a7617dcd1169562a5280dc1ee9",
+  "tools/dup_audit.py": "517a305896526731558aa2e712528faeef29ca0549d3c7dc26eb5d0f4d49551c",
+  "tools/extract_features.py": "4635113b1abc5fb716df127e4ef2f98790691bc681ac85f3928dd4e5d633ad4b",
+  "tools/extract_features_v1_superseded.py": "fd6322ed716cfcc866d4826b5171f4a03a37e48f586f825b4737d3b472cc503f",
+  "tools/heads.py": "248958cff119a8637cda2b0f758048bdeee518215f2ada90213ef6421b6b7aae",
+  "tools/ingest_clip.py": "8a5fcc7035d205751cd0504d40b40e840be0fe3e7f980b559ec35af2edc01423",
+  "tools/leakage_audit.py": "a26c6eb0e75d0f39a85c823f4fde807da6743158cf9c42d6ae35cab6966dd9c8",
+  "tools/make_annotation_package.py": "2f42d730aec7735abf0ea75d59e4332a154734f8ec4ba1edd4fb6084af619bfb",
+  "tools/make_annotation_package_v2.py": "6c0d882c0e5a55f4dd0573eb10c55904ec0fe906843faa936d2dba2170bcbc37",
+  "tools/make_splits.py": "9ceaac13ca9b0ef27cf94534b8d92d76cacdbb9460865f85e6ba93361a53b558",
+  "tools/make_tracklet_sheets.py": "e30b0981dbf36fc80f3e6567f7d3f73358ab7f0d0082a0dc8ee942be54a647c8",
+  "tools/phase1_execute.py": "111a54622c5580e447d57215123d1b18c157306a9bbca08879f555f958baac81",
+  "tools/phase1_metrics.py": "ece625a3df68eb36048d66ffdf5d8d778ddccb830b1619e5a57d4c28f6dc6e76",
+  "tools/phase1_metrics_v1_superseded.py": "e62a90acceedde25b0cc2da30da106b29806d8754705adbae9afff81f4b4f46f",
+  "tools/phase1_run.py": "6b6635710accef432619aa5e88a04a2700b318b1afdf8e8598940b5a10129d50",
+  "tools/phase1_structure.py": "285d28d3028955f355752f1f0a28aeacf18905df19e542c3eef0dd1f1bb7caa1",
+  "tools/pipeline_guard.py": "318ba8617e86672f00bd20554ee976534f2cdb792062a1094499bf36b2abdea6",
+  "tools/registry.py": "55afe4d6b666facc6a9496fbaa9011d52b67f40f8eccf2f6c045a5d38796bb3a",
+  "tools/report_check.py": "824bd58a9b6e457ebd6eb1e135c6dead585b61ceb9466c3ab4b090b45be66c6f",
+  "tools/selftest.py": "b42546f5a2d3937c7339437f8953648d0f9c4bef4eb47d418b8e9e01fa4e51e7",
+  "tools/selftest2.py": "c2a6a35dd930f002c9107ae7ddef9458cb9e1cf33acefcf1d24fbc8494548d9d",
+  "tools/selftest3.py": "9590247a041d0e4cb4bd5866edee6ef5ed6c9e974cc8782f390cdcb4fde84145",
+  "tools/selftest4.py": "981ff12f1fef2a7b9eb2c7da82964306234112c8fe179a9aca8c62cfec6429d0",
+  "tools/selftest5.py": "b979c6d8266503527a50e435264a3317f7804c77b30d6acf5ea5e152879c9bc9",
+  "tools/selftest6.py": "a1dd0f9f0c0efec15f32d50dde450a25b317e35869aaeec2edf3f9619462207c",
+  "tools/selftest7.py": "2e65d32b6ceeaf3febaa66974fc9dcdf06215e81d2d5bfa63e0b655fed0c9136",
+  "tools/validate_labels.py": "6c2207309356fb1c53436c75a42aefeeb285dff4b4593b3a653ca0ac17fa3248",
+  "tools/write_labels.py": "9e1ab94b0363263ade1d660396742bcf0e254a2494612b28376bba88562dc766"
+ },
+ "deviations_or_runtime_problems": "none (no software/runtime failure; no step re-run with changed settings). Disclosed addition: tools/phase1_execute.py (staging driver) and tools/selftest7.py are new files not in FINAL_READY_MANIFEST_V3, registered in ledger EX0; the driver only calls frozen phase1_run functions and cross-check run_primary reproduced its result (consistency_check.json: matches_driver=true).",
+ "environment": {
+  "cpu_count": 2,
+  "numpy": "2.5.3",
+  "os": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "python": "3.13.16",
+  "scipy": "1.18.1",
+  "torch": "2.14.1+cu130"
+ },
+ "feature_artifacts": {
+  "feat_dinov2_vits14_b1_hbk_raw_20050502_8810f36806a5ae35.npz": {
+   "bytes": 2414263,
+   "dim": 384,
+   "rows": 1695,
+   "sha256": "918d726ca8ac4109ae4dbd23c613ed9f55734c51e22efd5ae907253ee7b2c38a"
+  },
+  "feat_dinov2_vits14_b1_orton_rollins_wm31_4277a2d60b99eacb.npz": {
+   "bytes": 1779026,
+   "dim": 384,
+   "rows": 1248,
+   "sha256": "af2b35e6e7c1b3e80cb0699e4ef44fbb888ee13c511ee975ab75603b8b830a31"
+  },
+  "feat_dinov2_vits14_b1_rock_hhh_judgmentday2000_44b2f04fbc88f17d.npz": {
+   "bytes": 3860661,
+   "dim": 384,
+   "rows": 2710,
+   "sha256": "ee08d96977d395385d3c86906f5c029ffbb4db1525177f719eee45058874297e"
+  },
+  "feat_dinov2_vits14_b2_batch2_clip_condensed_67634413c053fcec.npz": {
+   "bytes": 3327066,
+   "dim": 384,
+   "rows": 2335,
+   "sha256": "d89678899a02cc22f753d6cf13dca9215d885c7c1b0a85a7a6dec7a29df6473a"
+  },
+  "feat_dinov2_vits14_b2_videoplayback_2_4794d920310b4694.npz": {
+   "bytes": 3223367,
+   "dim": 384,
+   "rows": 2263,
+   "sha256": "c59bb8ecc8d2b95a2b2a19a8f4881fc7c8c97e8a8c255a07598dda0a33062d64"
+  },
+  "feat_dinov2_vits14_b2_videoplayback_5_3cf55a76eb59fe39.npz": {
+   "bytes": 4023993,
+   "dim": 384,
+   "rows": 2825,
+   "sha256": "e27b6309d58b09bd6a1137da6b41da6f8ce0851939a10002360da74674a27f7a"
+  },
+  "feat_mobileclip_b_b1_hbk_raw_20050502_44eba718ea302afa.npz": {
+   "bytes": 3236302,
+   "dim": 512,
+   "rows": 1695,
+   "sha256": "94406ad136bf7716d64584bf9c50ee7412e3a76fa0222768343e9312bef52852"
+  },
+  "feat_mobileclip_b_b1_orton_rollins_wm31_d53ce15c509caae5.npz": {
+   "bytes": 2383881,
+   "dim": 512,
+   "rows": 1248,
+   "sha256": "e434f47ab47bc22eb4dfca9a75d287842432fc7f29e652fa1b594ffdf225f421"
+  },
+  "feat_mobileclip_b_b1_rock_hhh_judgmentday2000_4c88a173da431497.npz": {
+   "bytes": 5174963,
+   "dim": 512,
+   "rows": 2710,
+   "sha256": "a63266193ab799d607997df749280fa9afbd9b45aa10a75fd8c0616c6d8f8f9c"
+  },
+  "feat_mobileclip_b_b2_batch2_clip_condensed_9de641fa25ac2be5.npz": {
+   "bytes": 4456844,
+   "dim": 512,
+   "rows": 2335,
+   "sha256": "70450e1ae7ad66342d83320bdd14a9916e87ed8f1e9dc98ffa3542e58df1eb69"
+  },
+  "feat_mobileclip_b_b2_videoplayback_2_a8c2cd6ba7e3d853.npz": {
+   "bytes": 4318911,
+   "dim": 512,
+   "rows": 2263,
+   "sha256": "f52006564cb1acaae282d574f51fe4a23cdc43cb68129c84e257492a5a1c889e"
+  },
+  "feat_mobileclip_b_b2_videoplayback_5_22b44095d0aa4006.npz": {
+   "bytes": 5393580,
+   "dim": 512,
+   "rows": 2825,
+   "sha256": "57bc94e360969116d652468e04465a0f7e1af2c938a6659f3f12229cce7a3dd5"
+  },
+  "feat_osnet_x1_0_b1_hbk_raw_20050502_0617f94652c377d9.npz": {
+   "bytes": 1825418,
+   "dim": 512,
+   "rows": 1695,
+   "sha256": "0ecc65ab863000693aac423a2666c63808d8b530df7d546f91c948634b7bbe74"
+  },
+  "feat_osnet_x1_0_b1_orton_rollins_wm31_747f554218e899fc.npz": {
+   "bytes": 1368818,
+   "dim": 512,
+   "rows": 1248,
+   "sha256": "b4fb99a1fd872d5b70d41f8589cd8e5a2ff332c32d778906a72c3d595a67aefa"
+  },
+  "feat_osnet_x1_0_b1_rock_hhh_judgmentday2000_6338186821d83500.npz": {
+   "bytes": 2934380,
+   "dim": 512,
+   "rows": 2710,
+   "sha256": "ddc3b65c01635d2d5a678c36cdb310af28e1e0b66092b023d1eada5dbb33f6a7"
+  },
+  "feat_osnet_x1_0_b2_batch2_clip_condensed_5731b4e786ec7f02.npz": {
+   "bytes": 2570011,
+   "dim": 512,
+   "rows": 2335,
+   "sha256": "db53ed0d09fe2d3c87154ab2ba0d92e7453318fd3baad77cc08d30b8b66fb789"
+  },
+  "feat_osnet_x1_0_b2_videoplayback_2_98527e26e281591f.npz": {
+   "bytes": 2477680,
+   "dim": 512,
+   "rows": 2263,
+   "sha256": "eda0214df8ef89484ac51180d087361e52d69abfd34c4a7602b42730cd9cbf5b"
+  },
+  "feat_osnet_x1_0_b2_videoplayback_5_b01f9aa122e6fd3c.npz": {
+   "bytes": 3111007,
+   "dim": 512,
+   "rows": 2825,
+   "sha256": "a0c05d570c46cdaaee5ddc45cb6c4d7972e7b03e4ebb06bc1145e106398f466b"
+  }
+ },
+ "input_hashes": {
+  "amendment": "b81b159758d4e39c9356c5402d5dc753088dbfc97f62a3ca6a8ff89afd12110a",
+  "closure": "dfedb26aa19769ed60d7f2fac24fcdf3a2d89a7eec9af5e5a2e24991007a54cb",
+  "dependency_registry": "1d53543a65d9e9d1c3212c031a9588f979ebf2cf3e69dbd1c53eb9c1c5609cd8",
+  "extraction_frame_manifest": "d5e749dc8ec436fcfc3358faf19bc4df7bfc899a199f1da3fad8336033fa45ba",
+  "prereg_V3": "3e40f5ec3aea93539daeacdac7cb0bf1b4cfadbd90fb7de245641160c5c4ab78",
+  "ready_manifest_V3": "6cc30a8b35709ebe6c0821d1e2fc22af5cf5c93d9369930af6778c48fb8e9ef3",
+  "seed_manifest_V2": "9d6d1134ad80b604ff431e381c757fd83cb14f6cd76b4d6b7b0fc94e3a50b33b"
+ },
+ "ledger_entries_through_SE1": 24,
+ "ledger_sha256_at_package_build": "fc9e2dc332d1585206a233643d87fe0103400437a36efb70e7d9544cf18d9b01",
+ "limitations": [
+  "L1 trained on only one TRAIN episode / two identities (Orton, Rollins)",
+  "annotation remains ANNOTATION-PROVISIONAL",
+  "preregistered independent-human reliability gate remains NOT SATISFIED AS SPECIFIED (AI-vs-AI exploratory agreement only)",
+  "domain/resolution/promotion shifts remain confounded",
+  "OSNet anisotropic-resize limitation",
+  "pilot-level directional diagnostics only; no claim of validation, accuracy, generalisation, clinical utility, workload, fatigue or injury prediction"
+ ],
+ "record": "PHASE1_PROVENANCE",
+ "stages_in_ledger_order": [
+  [
+   "AUTH1",
+   "2026-10-18T05:55:57Z"
+  ],
+  [
+   "EX0",
+   "2026-10-18T05:58:19Z"
+  ],
+  [
+   "EX1",
+   "2026-10-18T08:13:50Z"
+  ],
+  [
+   "TR1",
+   "2026-10-18T08:13:58Z"
+  ],
+  [
+   "DS1",
+   "2026-10-18T08:13:59Z"
+  ],
+  [
+   "TST0",
+   "2026-10-18T08:13:59Z"
+  ],
+  [
+   "PR1",
+   "2026-10-18T08:13:59Z"
+  ],
+  [
+   "SE1",
+   "2026-10-18T08:14:04Z"
+  ]
+ ]
+}

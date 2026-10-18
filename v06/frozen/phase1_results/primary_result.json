@@ -1,0 +1,127 @@
+{
+ "B0_metrics": {
+  "coverage": 0.7308462269521361,
+  "fa_units": 39,
+  "fta": 0.35135135135135137,
+  "n_target_units": 56,
+  "n_units": 111,
+  "strata": {
+   "OTHER_NAMED_WRESTLER": {
+    "fa": 19,
+    "n": 56
+   },
+   "REFEREE": {
+    "fa": 9,
+    "n": 33
+   },
+   "SPECTATOR": {
+    "fa": 4,
+    "n": 9
+   },
+   "STAFF": {
+    "fa": 7,
+    "n": 13
+   }
+  }
+ },
+ "B0_point": [
+  0.3,
+  0.02
+ ],
+ "L1_metrics": {
+  "coverage": 0.0,
+  "fa_units": 0,
+  "fta": 0.0,
+  "n_target_units": 56,
+  "n_units": 111,
+  "strata": {
+   "OTHER_NAMED_WRESTLER": {
+    "fa": 0,
+    "n": 56
+   },
+   "REFEREE": {
+    "fa": 0,
+    "n": 33
+   },
+   "SPECTATOR": {
+    "fa": 0,
+    "n": 9
+   },
+   "STAFF": {
+    "fa": 0,
+    "n": 13
+   }
+  }
+ },
+ "L1_point": [
+  0.8
+ ],
+ "annotation_status": "ANNOTATION-PROVISIONAL",
+ "backbone": "mobileclip_b",
+ "cstar": 0.4,
+ "decision": {
+  "annotation_gate_satisfied": false,
+  "baseline_fa_units": 39,
+  "coverage_b0": 0.7308462269521361,
+  "coverage_l1": 0.0,
+  "crit1_sign_test": true,
+  "crit2_coverage": false,
+  "crit3_strata": true,
+  "fta_b0": 0.35135135135135137,
+  "fta_l1": 0.0,
+  "inconclusive_data": false,
+  "n_post_seed_target_units": 56,
+  "paired": {
+   "b_baseline_only": 39,
+   "both": 0,
+   "c_learned_only": 0,
+   "discordant": 39,
+   "n_units": 111,
+   "one_sided_p_b_gt_c": 1.8189894035458565e-12
+  },
+  "reportable_status": "MODIFY (ANNOTATION-PROVISIONAL)",
+  "reported_class": "MODIFY (ANNOTATION-PROVISIONAL)",
+  "strata": {
+   "OTHER_NAMED_WRESTLER": {
+    "eligible": true,
+    "fa_b0": 19,
+    "fa_l1": 0,
+    "n": 56,
+    "violates": false
+   },
+   "REFEREE": {
+    "eligible": true,
+    "fa_b0": 9,
+    "fa_l1": 0,
+    "n": 33,
+    "violates": false
+   },
+   "SPECTATOR": {
+    "eligible": false,
+    "fa_b0": 4,
+    "fa_l1": 0,
+    "n": 9,
+    "violates": false
+   },
+   "STAFF": {
+    "eligible": false,
+    "fa_b0": 7,
+    "fa_l1": 0,
+    "n": 13,
+    "violates": false
+   }
+  },
+  "uncapped_methodological_outcome": "MODIFY"
+ },
+ "dev_selection_record_sha256": "dca3b63b0680f161e51db7f7721f6e80c0d6bf5aff0a9dcff21ebf3859058349",
+ "human_reliability_gate": "NOT SATISFIED AS SPECIFIED",
+ "record": "PRIMARY_RESULT",
+ "reportable_status": "MODIFY (ANNOTATION-PROVISIONAL)",
+ "test_decisions_csv_sha256": "6ba9d998a25563066b122e17c5dc99b6743ea75ea90c0a0b265abb644cac5eb2",
+ "test_episodes": [
+  "b2_batch2_clip_condensed|andrade|rey_mysterio",
+  "b2_videoplayback_5|andrade|kenny_omega"
+ ],
+ "test_unit_table_csv_sha256": "fb03c2da8cfc2fc9b4215698aef76cc38e2878d614d15558d274ddddada5a521",
+ "uncapped_methodological_outcome": "MODIFY"
+}

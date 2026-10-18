@@ -1,0 +1,4 @@
+pose weight sha256 (pinned, downloaded v8.3.0): dbe539ea268db2534390942cfdf206e521f376f19e5415967a57f6a2ddfa3c90
+earlier local models/yolov8m-pose.pt sha256 (used for first 400 pose frames): dbe539ea268db2534390942cfdf206e521f376f19e5415967a57f6a2ddfa3c90 -> IDENTICAL to pinned
+so interrupted partial caches (pose 400 / seg 300 frames, never viewed) were restored and resumed, not regenerated
+platform: x86_64 Python 3.13.16

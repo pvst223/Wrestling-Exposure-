@@ -1,0 +1,560 @@
+{
+ "status_A": {
+  "UNRESOLVED": 619,
+  "PARTIAL": 50,
+  "MEASURED": 37
+ },
+ "unresolved_reasons_A": {
+  "IDENTITY_LOW_SCORE": 161,
+  "OWNERSHIP_UNCERTAIN": 130,
+  "IDENTITY_CONTRA_CUE": 94,
+  "OWNERSHIP_MIXED_BODY_SUSPECTED": 61,
+  "IDENTITY_AMBIGUOUS_JOINT": 54,
+  "REACQUISITION_UNCERTAIN": 32,
+  "PROBATION": 29,
+  "IDENTITY_INSUFFICIENT_EVIDENCE": 25,
+  "IDENTITY_AMBIGUOUS_COMPETITOR": 11,
+  "LOW_ANATOMY_MASS": 11,
+  "ANATOMY_FAIL": 8,
+  "AB_COLLAPSE_SUSPECTED": 3
+ },
+ "identity_state_A": {
+  "SUPPORTED_INDEPENDENT": 326,
+  "NOT_IN_VIEW_OR_CONTRA": 255,
+  "AMBIGUOUS": 100,
+  "INSUFFICIENT": 25
+ },
+ "ownership_state_A": {
+  "NOT_EVALUATED": 380,
+  "OWNERSHIP_UNCERTAIN": 138,
+  "SINGLE_BODY_SUPPORTED": 127,
+  "MIXED_BODY_SUSPECTED": 61
+ },
+ "emitted_A": 87,
+ "limiting_factors_A": {
+  "": 37,
+  "IDENTITY_TIER_ACCEPT": 19,
+  "LOW_MASS": 18,
+  "LOW_MASS;IDENTITY_TIER_ACCEPT": 13
+ },
+ "emitted_identity_basis_A": {
+  "appearance": 87
+ },
+ "emitted_identity_tier_A": {
+  "HIGH": 55,
+  "ACCEPT": 32
+ },
+ "status_B": {
+  "UNRESOLVED": 511,
+  "MEASURED": 160,
+  "PARTIAL": 32,
+  "PREDICTED": 3
+ },
+ "unresolved_reasons_B": {
+  "IDENTITY_CONTRA_CUE": 125,
+  "OWNERSHIP_UNCERTAIN": 114,
+  "IDENTITY_LOW_SCORE": 112,
+  "IDENTITY_INSUFFICIENT_EVIDENCE": 57,
+  "OWNERSHIP_MIXED_BODY_SUSPECTED": 43,
+  "OPPONENT_PRESUMED_ABSORBED": 28,
+  "PROBATION": 9,
+  "REACQUISITION_UNCERTAIN": 7,
+  "LOW_ANATOMY_MASS": 5,
+  "AB_COLLAPSE_SUSPECTED": 3,
+  "THIRD_PERSON_PRESUMED_ABSORBED": 3,
+  "IDENTITY_AMBIGUOUS_JOINT": 2,
+  "ANATOMY_FAIL": 2,
+  "IDENTITY_AMBIGUOUS_COMPETITOR": 1
+ },
+ "identity_state_B": {
+  "SUPPORTED_INDEPENDENT": 397,
+  "NOT_IN_VIEW_OR_CONTRA": 239,
+  "INSUFFICIENT": 57,
+  "AMBIGUOUS": 13
+ },
+ "ownership_state_B": {
+  "NOT_EVALUATED": 309,
+  "SINGLE_BODY_SUPPORTED": 207,
+  "OWNERSHIP_UNCERTAIN": 147,
+  "MIXED_BODY_SUSPECTED": 43
+ },
+ "emitted_B": 192,
+ "limiting_factors_B": {
+  "": 160,
+  "IDENTITY_TIER_ACCEPT": 32
+ },
+ "emitted_identity_basis_B": {
+  "appearance": 192
+ },
+ "emitted_identity_tier_B": {
+  "HIGH": 160,
+  "ACCEPT": 32
+ },
+ "shots": [
+  {
+   "shot": 0,
+   "start": 0,
+   "end": 12,
+   "n": 13,
+   "emitted_A": 0,
+   "first_A_latency": null,
+   "emitted_B": 11,
+   "first_B_latency": 2
+  },
+  {
+   "shot": 1,
+   "start": 13,
+   "end": 78,
+   "n": 66,
+   "emitted_A": 12,
+   "first_A_latency": 2,
+   "emitted_B": 19,
+   "first_B_latency": 13
+  },
+  {
+   "shot": 2,
+   "start": 79,
+   "end": 113,
+   "n": 35,
+   "emitted_A": 27,
+   "first_A_latency": 4,
+   "emitted_B": 13,
+   "first_B_latency": 2
+  },
+  {
+   "shot": 3,
+   "start": 114,
+   "end": 157,
+   "n": 44,
+   "emitted_A": 1,
+   "first_A_latency": 19,
+   "emitted_B": 10,
+   "first_B_latency": 3
+  },
+  {
+   "shot": 4,
+   "start": 158,
+   "end": 241,
+   "n": 84,
+   "emitted_A": 19,
+   "first_A_latency": 23,
+   "emitted_B": 22,
+   "first_B_latency": 6
+  },
+  {
+   "shot": 5,
+   "start": 242,
+   "end": 468,
+   "n": 227,
+   "emitted_A": 24,
+   "first_A_latency": 3,
+   "emitted_B": 67,
+   "first_B_latency": 2
+  },
+  {
+   "shot": 6,
+   "start": 469,
+   "end": 539,
+   "n": 71,
+   "emitted_A": 0,
+   "first_A_latency": null,
+   "emitted_B": 47,
+   "first_B_latency": 4
+  },
+  {
+   "shot": 7,
+   "start": 540,
+   "end": 593,
+   "n": 54,
+   "emitted_A": 0,
+   "first_A_latency": null,
+   "emitted_B": 3,
+   "first_B_latency": 9
+  },
+  {
+   "shot": 8,
+   "start": 594,
+   "end": 619,
+   "n": 26,
+   "emitted_A": 0,
+   "first_A_latency": null,
+   "emitted_B": 0,
+   "first_B_latency": null
+  },
+  {
+   "shot": 9,
+   "start": 620,
+   "end": 705,
+   "n": 86,
+   "emitted_A": 4,
+   "first_A_latency": 61,
+   "emitted_B": 0,
+   "first_B_latency": null
+  }
+ ],
+ "n_shots": 10,
+ "shots_with_A_emission": 6,
+ "shots_with_B_emission": 8,
+ "review_overall": {
+  "CLEAN": {
+   "n": 51,
+   "emitted": 45,
+   "withheld": 6
+  },
+  "CLEAN_POOR_POSE": {
+   "n": 5,
+   "emitted": 2,
+   "withheld": 3
+  },
+  "MIXED_BODIES": {
+   "n": 2,
+   "emitted": 0,
+   "withheld": 2
+  },
+  "WRONG_PERSON_NOT_A_WRESTLER": {
+   "n": 16,
+   "emitted": 5,
+   "withheld": 11
+  }
+ },
+ "review_A": {
+  "CLEAN": {
+   "n": 30,
+   "emitted": 27,
+   "withheld": 3
+  },
+  "CLEAN_POOR_POSE": {
+   "n": 5,
+   "emitted": 2,
+   "withheld": 3
+  },
+  "MIXED_BODIES": {
+   "n": 1,
+   "emitted": 0,
+   "withheld": 1
+  },
+  "WRONG_PERSON_NOT_A_WRESTLER": {
+   "n": 16,
+   "emitted": 5,
+   "withheld": 11
+  }
+ },
+ "review_B": {
+  "CLEAN": {
+   "n": 21,
+   "emitted": 18,
+   "withheld": 3
+  },
+  "MIXED_BODIES": {
+   "n": 1,
+   "emitted": 0,
+   "withheld": 1
+  }
+ },
+ "review_R1_R2_emission_samples": {
+  "CLEAN": {
+   "n": 34,
+   "emitted": 34,
+   "withheld": 0
+  },
+  "CLEAN_POOR_POSE": {
+   "n": 2,
+   "emitted": 2,
+   "withheld": 0
+  },
+  "WRONG_PERSON_NOT_A_WRESTLER": {
+   "n": 4,
+   "emitted": 4,
+   "withheld": 0
+  }
+ },
+ "review_R3_systematic_assigned": {
+  "CLEAN": {
+   "n": 20,
+   "emitted": 14,
+   "withheld": 6
+  },
+  "CLEAN_POOR_POSE": {
+   "n": 3,
+   "emitted": 0,
+   "withheld": 3
+  },
+  "MIXED_BODIES": {
+   "n": 2,
+   "emitted": 0,
+   "withheld": 2
+  },
+  "WRONG_PERSON_NOT_A_WRESTLER": {
+   "n": 12,
+   "emitted": 1,
+   "withheld": 11
+  }
+ },
+ "bad_frames_detail": [
+  {
+   "idx": 12,
+   "frame": 75,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "PARTIAL",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "SINGLE_BODY_SUPPORTED",
+   "unresolved_reason": NaN
+  },
+  {
+   "idx": 16,
+   "frame": 683,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "PARTIAL",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "SINGLE_BODY_SUPPORTED",
+   "unresolved_reason": NaN
+  },
+  {
+   "idx": 22,
+   "frame": 420,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "MIXED_BODY_SUSPECTED",
+   "unresolved_reason": "OWNERSHIP_MIXED_BODY_SUSPECTED"
+  },
+  {
+   "idx": 34,
+   "frame": 181,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "PARTIAL",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "SINGLE_BODY_SUPPORTED",
+   "unresolved_reason": NaN
+  },
+  {
+   "idx": 35,
+   "frame": 281,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "PARTIAL",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "SINGLE_BODY_SUPPORTED",
+   "unresolved_reason": NaN
+  },
+  {
+   "idx": 40,
+   "frame": 330,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "ANATOMY_FAIL"
+  },
+  {
+   "idx": 48,
+   "frame": 675,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "OWNERSHIP_UNCERTAIN"
+  },
+  {
+   "idx": 55,
+   "frame": 690,
+   "target": "A",
+   "verdict": "MIXED_BODIES",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "MIXED_BODY_SUSPECTED",
+   "unresolved_reason": "OWNERSHIP_MIXED_BODY_SUSPECTED"
+  },
+  {
+   "idx": 59,
+   "frame": 270,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "OWNERSHIP_UNCERTAIN"
+  },
+  {
+   "idx": 60,
+   "frame": 645,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "OWNERSHIP_UNCERTAIN"
+  },
+  {
+   "idx": 69,
+   "frame": 660,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "OWNERSHIP_UNCERTAIN"
+  },
+  {
+   "idx": 78,
+   "frame": 345,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "ANATOMY_FAIL"
+  },
+  {
+   "idx": 81,
+   "frame": 69,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "PARTIAL",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "SINGLE_BODY_SUPPORTED",
+   "unresolved_reason": NaN
+  },
+  {
+   "idx": 82,
+   "frame": 570,
+   "target": "B",
+   "verdict": "MIXED_BODIES",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "MIXED_BODY_SUSPECTED",
+   "unresolved_reason": "OWNERSHIP_MIXED_BODY_SUSPECTED"
+  },
+  {
+   "idx": 85,
+   "frame": 180,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "OWNERSHIP_UNCERTAIN"
+  },
+  {
+   "idx": 87,
+   "frame": 375,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "MIXED_BODY_SUSPECTED",
+   "unresolved_reason": "OWNERSHIP_MIXED_BODY_SUSPECTED"
+  },
+  {
+   "idx": 90,
+   "frame": 165,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "OWNERSHIP_UNCERTAIN"
+  },
+  {
+   "idx": 91,
+   "frame": 45,
+   "target": "A",
+   "verdict": "WRONG_PERSON_NOT_A_WRESTLER",
+   "status": "UNRESOLVED",
+   "identity_state": "SUPPORTED_INDEPENDENT",
+   "ownership_state": "OWNERSHIP_UNCERTAIN",
+   "unresolved_reason": "OWNERSHIP_UNCERTAIN"
+  }
+ ],
+ "coverage_ground_truth_plain_every30": {
+  "A": {
+   "plain_frames_target_visible": 23,
+   "of_which_emitted": 3,
+   "frames_visible_not_emitted": [
+    630,
+    540,
+    60,
+    660,
+    690,
+    420,
+    330,
+    30,
+    120,
+    270,
+    390,
+    570,
+    180,
+    210,
+    360,
+    150,
+    510,
+    600,
+    450,
+    480
+   ],
+   "overlap_visible": 10,
+   "overlap_emitted": 0
+  },
+  "B": {
+   "plain_frames_target_visible": 19,
+   "of_which_emitted": 8,
+   "frames_visible_not_emitted": [
+    630,
+    540,
+    660,
+    690,
+    0,
+    30,
+    570,
+    210,
+    90,
+    150,
+    600
+   ],
+   "overlap_visible": 11,
+   "overlap_emitted": 2
+  }
+ },
+ "prediction_log_rows": 149,
+ "prediction_decisions": null,
+ "predicted_frames": {
+  "A": [],
+  "B": [
+   75,
+   77,
+   169
+  ]
+ },
+ "predicted_off_image": 0,
+ "event_log_rows": 571,
+ "event_types": {
+  "A": 358,
+  "B": 202,
+  "N": 8,
+  "AB": 3
+ },
+ "cuts_detected": [
+  13,
+  79,
+  114,
+  158,
+  242,
+  469,
+  540,
+  594,
+  620
+ ],
+ "cut_events_total": 10,
+ "non_cut_transients": [
+  343
+ ],
+ "frames_both_emit": 35,
+ "both_emit_COM_dist_px_min": 87.71193305360455,
+ "both_emit_COM_closer_than_30px": 0
+}

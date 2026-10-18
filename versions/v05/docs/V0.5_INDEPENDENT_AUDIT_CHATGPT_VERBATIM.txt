@@ -1,0 +1,30 @@
+V0.5 — Independent Audit Results
+ChatGPT completed an independent audit of the actual frozen V0.5 package, including source code, config, CSV outputs, changelog, preregistered plan, hashes, annotated video, and a reproducibility rerun.
+Overall verdict: V0.5 is the strongest version so far and should now be permanently frozen. It is not validated and is not ready to be treated as a measurement system, but it is ready for an unchanged diagnostic unseen holdout test.
+Key independent findings:
+- Coverage: Confirmed 226 MEASURED + 83 PARTIAL = 309 emitted A frames, down from 359 in V0.4. Only 10/21 shots contained an emission, confirming a real safety/coverage tradeoff.
+- Identity: Confirmed identity evidence is genuinely separated from temporal continuity. All 309 emitted A frames require independent identity support; temporal continuity cannot independently authorize COM emission.
+- Anatomical ownership: Confirmed V0.5 implements person-specific mask/landmark ownership and no longer uses appearance-part coherence as anatomical proof.
+- Remaining anatomical limitation: Confirmed merged-person masks can still appear SINGLE_BODY_SUPPORTED. In the carry interaction, several known difficult frames passed the raw mask-only ownership logic and were rejected only because of the temporal OPPONENT_PRESUMED_ABSORBED state. Therefore the underlying merged-mask problem is not solved by per-frame anatomical evidence.
+- D12: Independently reproduced. Maximum unexplained-mask fractions across the documented distance-scale grid were approximately .282/.137/.078/.048/.028, supporting selection of 0.4 under the stated seed criterion.
+- D15–D18: Confirmed the absorbed-person architecture was introduced after observing development-clip failure classes. This is appropriately disclosed but means its apparent success on the Cena clip cannot establish generalization.
+- 150-frame persistence constant: Confirmed as a developer convention rather than validated parameter. However, the major carry sequence cleared after ~41 frames upon separate opponent reacquisition, so the headline improvement was not simply caused by choosing a 150-frame timeout.
+- Safety: Confirmed the preregistered in-sample numerical gates were met, including 2/260 known/inferred-bad emissions, 0/16 viewed multi-body emissions, 1/18 wrong-person emissions, 20 true/0 false cuts, and no off-image predictions. These are development-set diagnostics, not accuracy estimates.
+- Prediction: Confirmed highly conservative use with only 2 A PREDICTED frames.
+- Reproducibility: Package hashes passed with zero failures. The separately supplied annotated video matched the full manifest. A rerun using the frozen packaged inputs/caches reproduced the core frozen CSV/event outputs byte-for-byte.
+- Hardcoding: No regression-frame-specific decision code was found.
+- Documentation/honesty: Claims were appropriately conservative. No major unsupported validation/generalization claims were identified.
+One point of disagreement with your self-audit:
+Your holdout gate was NO because merged-mask contamination lacks a reliable independent per-frame detector and the absorbed-state rule was developed from observed Cena failures.
+The independent audit distinguishes:
+1. Ready to be trusted/validated as a measurement system: NO.
+2. Ready for a permanently frozen, unchanged diagnostic test on genuinely unseen footage: YES.
+The unresolved generalization of the absorbed-person logic is now exactly what an unseen holdout can test. Further tuning on the Cena clip would increase development-set fitting rather than answer that question.
+Therefore:
+V0.5 — CLOSED AND FROZEN 🔒
+Do not modify V0.5 based on this audit. Do not create V0.5.1 or make any fixes to decision logic, thresholds, config, identity, ownership, prediction, or status rules.
+Please:
+1. Add/archive this independent-audit response with the V0.5 records.
+2. Record any disagreements or comments you have without changing the frozen system.
+3. Confirm V0.5 remains frozen and ready to be run unchanged when I provide the unseen holdout.
+Do not begin holdout analysis yet. Wait for the holdout clip and separate instructions.

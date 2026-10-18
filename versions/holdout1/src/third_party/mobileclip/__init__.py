@@ -1,0 +1,1 @@
+# V0.4: minimal __init__ (image-encoder only). Original package at https://github.com/apple/ml-mobileclip commit 48faa0fea4b08d74188b3841771aca6ff2c92852 (MIT code license; model weights under Apple's separate model licence, see repo LICENSE_MODELS).

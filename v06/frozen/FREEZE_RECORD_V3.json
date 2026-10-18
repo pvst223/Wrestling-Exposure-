@@ -1,0 +1,34 @@
+{
+ "frozen_utc": "2026-10-18T00:21:07Z",
+ "status": "PREREGISTRATION V3 FROZEN exactly as submitted; Phase 1 remains BLOCKED (A: independent annotation not done; B: person-reID and DINOv2-small artifacts not pinned)",
+ "preregistration_v3": {
+  "file": "frozen/PREREGISTRATION_V3_FROZEN.md",
+  "sha256": "3e40f5ec3aea93539daeacdac7cb0bf1b4cfadbd90fb7de245641160c5c4ab78",
+  "identical_to_submitted": true
+ },
+ "annotation_package_v2_final": {
+  "zip": "V0.6_Annotation_Package_BLIND_v2.zip",
+  "zip_sha256": "1b4499515c26ee29e65a54fa4c34222b22410b7b4ecdcf5f7084d550c655169a",
+  "file_hash_list": "frozen/ANNOTATION_PACKAGE_V2_HASHES.txt",
+  "file_hash_list_sha256": "b3d5ec7c531b3ebc2a67cf1ecef568df3da64318ee0f3f050c73959ed97ec2ec",
+  "annotation_sheet_sha256": "3e7f54d16780734943aa783093701b99d7746ec424738517e1516e2f90b277f1",
+  "items": 298,
+  "note": "final; not to be rebuilt; reference shortfalls accepted"
+ },
+ "internal_not_shared": {
+  "annotation_key_v2_sha256": "35beefe830364fc945542c9dce57143cf7db0b9921dc25c1f2441b0d8feb6e0b"
+ },
+ "reserve_sha256": "8af7bf14c66602ae813aac082c59c20b8fe51e61af519d3f7d8a2696773e82bc",
+ "split_sha256": "05342bf8178646c70e8ccc64e269e1400da3db662acd38c077c56ab2a7d0adc4",
+ "code": {
+  "phase1_metrics.py": "ece625a3df68eb36048d66ffdf5d8d778ddccb830b1619e5a57d4c28f6dc6e76",
+  "adjudicate.py": "1949dc381335579298ddfa72f1b1bc09257a07b8f078a3454f618b508d3f1a86",
+  "annotation_agreement.py": "7d32ce7d741ad3da88df9c7b14013807b7e11db22758a82297b25a3669d49ad7",
+  "make_annotation_package_v2.py": "6c0d882c0e5a55f4dd0573eb10c55904ec0fe906843faa936d2dba2170bcbc37",
+  "extract_features.py": "fd6322ed716cfcc866d4826b5171f4a03a37e48f586f825b4737d3b472cc503f",
+  "heads.py": "248958cff119a8637cda2b0f758048bdeee518215f2ada90213ef6421b6b7aae",
+  "selftest5.py": "b979c6d8266503527a50e435264a3317f7804c77b30d6acf5ea5e152879c9bc9"
+ },
+ "annotation_return_protocol": "Original returned CSV preserved unchanged; SHA-256 recorded before reconciliation; run tools/annotation_agreement.py then adjudicate.py exactly as in V3; disagreements never used to tune models, thresholds, data or rules.",
+ "open_item_for_reviewer": "V3 section 2 says 'tracklet-level kappa < 0.60' without stating whether kappa includes or excludes UNLABELABLE for the gate; the agreement tool reports both and makes no choice. A clarification is needed before the annotation is returned (a clarification, not a change to V3 as frozen)."
+}

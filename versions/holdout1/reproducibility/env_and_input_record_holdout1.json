@@ -1,0 +1,29 @@
+{
+ "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+ "machine": "x86_64",
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "opencv": "5.0.0",
+ "torch": "2.14.1+cu130",
+ "ultralytics": "8.4.177",
+ "pandas": "3.0.5",
+ "cpus": 2,
+ "note": "x86-64 Linux, same architecture family as the original V0.5 development environment (Cursor ARM64 environment NOT used). Known limitation: ~0.4% (6/1501 A frames) boundary-sensitive across architectures in development comparison.",
+ "files": {
+  "raw/hardy_original_720p.mp4": "31e37c006347d0081405ecf2b6a00872fc40d6597ff590dd8c7602d049a69a6b",
+  "holdout1_640x360.mp4": "f15b568cb82ab6786054df2e2dc16db146ae5ec080cc100432d2a2b50fcafb66",
+  "weights/yolov8m-pose_v8.3.0.pt": "dbe539ea268db2534390942cfdf206e521f376f19e5415967a57f6a2ddfa3c90",
+  "../v05/models/yolov8m-seg.pt": "51fa7e5ef385efa6d5b1d8e31b73399be6ed5d7ca71bda4bd4b2794bb445c4f4",
+  "../v04/models/mobileclip_blt.ts": "a67804d1b0f07b8b9a20c1761ec0847f34660f5fa338ec70e8f3fce68ed95e54",
+  "config/seeds_holdout1.json": "c56589e7599596a276a493f5631b14235139a6699f047137c8f1a020ba2f5ef6",
+  "cache/raw_detections_holdout1.pkl": "b92989a51b081cffa7493b70b98f20610d92dc71c0553a55043e026ffb691377",
+  "cache/seg_masks_holdout1.pkl": "8f38c58ab2f4634034314989b7fc7bf973a7fe59f54558330e25deba3a2e9f6c",
+  "cache/cuts_holdout1.json": "5c55a53f3a2de55b0e388123eb5626d7bd8d6b4838b2f0186403bd9e7e7184d9"
+ },
+ "preprocessing_notes": [
+  "video downscaled 1280x720 -> 640x360 with ffmpeg (scale=640:360, libx264 crf12, yuv420p, 30 fps) to match V0.5's development resolution",
+  "pose cache: first part produced by an interrupted run using models/yolov8m-pose.pt (SHA identical to pinned weight), resumed unchanged; never viewed before seeds",
+  "seed sheets viewed from pose cache only, before any tracker output",
+  "embedding execution: no GPU, 2 CPUs; no acceleration used"
+ ]
+}

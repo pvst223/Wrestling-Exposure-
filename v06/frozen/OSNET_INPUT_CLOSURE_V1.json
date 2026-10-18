@@ -1,0 +1,27 @@
+{
+ "id": "OSNET_INPUT_CLOSURE_V1",
+ "status": "DERIVED from pinned official source; PROPOSED for reviewer ratification; implemented nowhere yet (no code change made during audit)",
+ "basis": {
+  "repo": "KaiyangZhou/deep-person-reid",
+  "commit": "f8cd150fdf77e8d9e1ed143b7f308c2c609ded50",
+  "files": [
+   "torchreid/utils/feature_extractor.py (FeatureExtractor: T.Resize(image_size=(256,128)), T.ToTensor(), T.Normalize(mean,std))",
+   "torchreid/data/transforms.py build_transforms test branch: Resize((height,width)) [PIL img.resize((W,H), Image.BILINEAR)], ToTensor, Normalize(ImageNet)"
+  ]
+ },
+ "source_crop": "the already-frozen 224x224 RGB uint8 letterboxed crop (pad 114, cv2.INTER_AREA), unchanged; no re-crop from the original frame",
+ "transform_applied_to_source_crop": [
+  "PIL.Image.fromarray(crop_rgb_uint8)",
+  "resize to (width=128, height=256) with PIL Image.BILINEAR (official test-time interpolation; Pillow 12.3.0 in this environment; anisotropic: horizontal 224->128, vertical 224->256, no aspect preservation, no additional padding or cropping)",
+  "ToTensor: uint8 [0,255] -> float32 [0,1], CHW, RGB order",
+  "Normalize mean (0.485,0.456,0.406) std (0.229,0.224,0.225) (ImageNet, as in the pinned smoke record)",
+  "model.eval(), forward returns 512-d feature before classifier; L2 normalisation applied downstream (as for other backbones)"
+ ],
+ "other_backbones_for_context": {
+  "dinov2_vits14": "frozen 224x224 crop, no resize, ToTensor [0,1], ImageNet mean/std, CLS embedding after final norm (384-d)",
+  "mobileclip_b": "frozen 224x224 crop, ToTensor [0,1], NO mean/std normalisation (extract_features embed() mean=None path for the V0.5 TorchScript loader), L2 normalised"
+ },
+ "disclosed_limitation": "The frozen crop is a square with grey side padding for upright persons; squeezing it 224->128 horizontally gives OSNet a person-region aspect and padding fraction different from its 256x128 tight-box training distribution. This is a mechanical consequence of the frozen source crop, not a performance-informed choice, and it may depress OSNet's results; it must be disclosed and cannot be altered after results exist.",
+ "not_chosen": "re-cropping from the original frame to a 2:1 tight crop would change the frozen experimental crop and is NOT permitted by this closure; if the reviewer prefers it, that is a prospective amendment before Phase 1.",
+ "pil_float_note": "Exact bitwise output depends on Pillow/torch versions; recorded in manifest."
+}

@@ -1,0 +1,8 @@
+cd holdout1
+python3 src/stage1_detect.py holdout1_640x360.mp4 cache/raw_detections_holdout1.pkl weights/yolov8m-pose_v8.3.0.pt
+python3 src/seg_extract.py holdout1_640x360.mp4 cache/seg_masks_holdout1.pkl ../v05/models/yolov8m-seg.pt
+python3 src/cuts_events.py holdout1_640x360.mp4 cache/cuts_holdout1.json
+python3 src/embed_crops.py --video holdout1_640x360.mp4 --dets cache/raw_detections_holdout1.pkl --seeds config/seeds_holdout1.json --weights ../v04/models/mobileclip_blt.ts --out cache/embeddings_boxupperlower_holdout1.npz
+python3 src/embed_masked.py --video holdout1_640x360.mp4 --dets cache/raw_detections_holdout1.pkl --seg cache/seg_masks_holdout1.pkl --seeds config/seeds_holdout1.json --weights ../v04/models/mobileclip_blt.ts --out cache/embeddings_masked_holdout1.npz
+# embeddings_holdout1.npz = np.concatenate of the two (box/upper/lower first, then masked), as for V0.5 development
+python3 src/track_v05.py --video holdout1_640x360.mp4 --dets cache/raw_detections_holdout1.pkl --seg cache/seg_masks_holdout1.pkl --cuts cache/cuts_holdout1.json --seeds config/seeds_holdout1.json --emb cache/embeddings_holdout1.npz --out_dir out

@@ -1,0 +1,45 @@
+{
+ "returned_csv_sha256": "055cb17fb3003f0993340f14a0274fbc8b056da9eb303dbc11ebfd6868d4912d",
+ "n_items": 298,
+ "raw_agreement_tracklet_level": 0.7114093959731543,
+ "kappa_including_unlabelable": 0.6363842737759112,
+ "kappa_excluding_unlabelable_either": 0.778619018776499,
+ "n_items_excluding_unlabelable_either": 255,
+ "unit_level_agreement_on_reserved_units": {
+  "n_reserved_units": 51,
+  "units_present_in_independent_labels": 45,
+  "fraction": 0.8823529411764706
+ },
+ "confusion_firstpass_rows_vs_independent_cols": {
+  "REFEREE|REFEREE": 38,
+  "REFEREE|SPECTATOR": 2,
+  "REFEREE|STAFF": 5,
+  "REFEREE|TARGET_B": 1,
+  "REFEREE|UNLABELABLE": 6,
+  "SPECTATOR|SPECTATOR": 83,
+  "SPECTATOR|STAFF": 12,
+  "STAFF|SPECTATOR": 6,
+  "STAFF|STAFF": 16,
+  "STAFF|UNLABELABLE": 2,
+  "TARGET_A|SPECTATOR": 1,
+  "TARGET_A|TARGET_A": 34,
+  "TARGET_A|TARGET_B": 9,
+  "TARGET_A|UNLABELABLE": 8,
+  "TARGET_B|SPECTATOR": 1,
+  "TARGET_B|STAFF": 1,
+  "TARGET_B|TARGET_A": 5,
+  "TARGET_B|TARGET_B": 41,
+  "UNLABELABLE|SPECTATOR": 12,
+  "UNLABELABLE|STAFF": 4,
+  "UNLABELABLE|TARGET_A": 6,
+  "UNLABELABLE|TARGET_B": 5
+ },
+ "reliability_gate": {
+  "governing_statistic": "tracklet-level Cohen's kappa INCLUDING UNLABELABLE (clarification C1, AUDIT_LEDGER.jsonl)",
+  "kappa_including_unlabelable": 0.6363842737759112,
+  "governing_gate_passed_kappa_ge_0.60": true,
+  "status_if_not_passed": "PROVISIONAL: primary outcome cannot exceed MODIFY",
+  "secondary_required_diagnostic_kappa_excluding_unlabelable_either": 0.778619018776499,
+  "note": "passing the gate only means the prespecified reliability gate was passed; it is NOT validation of the annotation"
+ }
+}

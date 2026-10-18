@@ -1,0 +1,26 @@
+{
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "opencv": "5.0.0",
+ "pandas": "3.0.5",
+ "torch": "2.14.1+cu130",
+ "ultralytics": "8.4.177",
+ "timm": "1.0.30",
+ "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+ "cpus": 2,
+ "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+ "random_seeds": "none used by tracker; torch.manual_seed(0) in embedding extraction; adjudication sample seed to be recorded post-freeze",
+ "models": {
+  "yolov8m_pose": {
+   "source": "V0.1 stage1 (cached detections only; hash of cache in PRE_RUN_HASHES)"
+  },
+  "yolov8m_seg": {
+   "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8m-seg.pt",
+   "sha256": "51fa7e5ef385efa6d5b1d8e31b73399be6ed5d7ca71bda4bd4b2794bb445c4f4"
+  },
+  "mobileclip_b": {
+   "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/mobileclip_blt.ts",
+   "sha256": "a67804d1b0f07b8b9a20c1761ec0847f34660f5fa338ec70e8f3fce68ed95e54"
+  }
+ }
+}

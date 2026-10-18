@@ -1,0 +1,1176 @@
+{
+ "note": "Single-reviewer (developer) visual verdicts, shuffled sheets drawn without status text, in-sample, NOT independent. CLEAN = plausible single body on the correct wrestler; CONTAM = landmarks visibly on more than one body or wrong person; UNSURE = could not be resolved from one frame; RIGHT = identity-only box on the correct wrestler; CENA_CLEAN = V0.1's box shows Cena alone (so a V0.4 rejection was unnecessary); NOT_CLEAN = V0.1 box mixed with another body (rejection justified). For S7 (V0.3 emissions V0.4 rejected) CLEAN means the rejection was unnecessary, CONTAM means it was justified.",
+ "seed": 20261014,
+ "strata": {
+  "S1_emit_in_known_bad": {
+   "n": 27,
+   "counts": {
+    "CONTAM": 15,
+    "UNSURE": 11,
+    "CLEAN": 1
+   },
+   "frames": [
+    [
+     2,
+     272,
+     "CONTAM"
+    ],
+    [
+     5,
+     1082,
+     "UNSURE"
+    ],
+    [
+     7,
+     271,
+     "CONTAM"
+    ],
+    [
+     10,
+     273,
+     "CONTAM"
+    ],
+    [
+     17,
+     617,
+     "CLEAN"
+    ],
+    [
+     18,
+     931,
+     "CONTAM"
+    ],
+    [
+     20,
+     1112,
+     "UNSURE"
+    ],
+    [
+     21,
+     1214,
+     "UNSURE"
+    ],
+    [
+     23,
+     1091,
+     "UNSURE"
+    ],
+    [
+     24,
+     1090,
+     "UNSURE"
+    ],
+    [
+     26,
+     1084,
+     "UNSURE"
+    ],
+    [
+     31,
+     1210,
+     "CONTAM"
+    ],
+    [
+     39,
+     957,
+     "CONTAM"
+    ],
+    [
+     44,
+     956,
+     "CONTAM"
+    ],
+    [
+     49,
+     274,
+     "CONTAM"
+    ],
+    [
+     50,
+     934,
+     "CONTAM"
+    ],
+    [
+     53,
+     1083,
+     "UNSURE"
+    ],
+    [
+     54,
+     1093,
+     "UNSURE"
+    ],
+    [
+     58,
+     1089,
+     "UNSURE"
+    ],
+    [
+     60,
+     951,
+     "CONTAM"
+    ],
+    [
+     61,
+     935,
+     "CONTAM"
+    ],
+    [
+     64,
+     269,
+     "UNSURE"
+    ],
+    [
+     66,
+     270,
+     "CONTAM"
+    ],
+    [
+     68,
+     954,
+     "CONTAM"
+    ],
+    [
+     73,
+     950,
+     "CONTAM"
+    ],
+    [
+     77,
+     940,
+     "CONTAM"
+    ],
+    [
+     80,
+     268,
+     "UNSURE"
+    ]
+   ],
+   "contaminated_wilson95_pct": [
+    37,
+    72
+   ]
+  },
+  "S2_new_vs_v03_embedding_necessary": {
+   "n": 12,
+   "counts": {
+    "CLEAN": 12
+   },
+   "frames": [
+    [
+     3,
+     732,
+     "CLEAN"
+    ],
+    [
+     11,
+     712,
+     "CLEAN"
+    ],
+    [
+     16,
+     723,
+     "CLEAN"
+    ],
+    [
+     29,
+     695,
+     "CLEAN"
+    ],
+    [
+     32,
+     707,
+     "CLEAN"
+    ],
+    [
+     35,
+     731,
+     "CLEAN"
+    ],
+    [
+     38,
+     722,
+     "CLEAN"
+    ],
+    [
+     59,
+     718,
+     "CLEAN"
+    ],
+    [
+     65,
+     736,
+     "CLEAN"
+    ],
+    [
+     70,
+     737,
+     "CLEAN"
+    ],
+    [
+     78,
+     711,
+     "CLEAN"
+    ],
+    [
+     83,
+     727,
+     "CLEAN"
+    ]
+   ],
+   "contaminated_wilson95_pct": [
+    0,
+    24
+   ]
+  },
+  "S2_new_vs_v03_other": {
+   "n": 8,
+   "counts": {
+    "CLEAN": 8
+   },
+   "frames": [
+    [
+     1,
+     823,
+     "CLEAN"
+    ],
+    [
+     12,
+     824,
+     "CLEAN"
+    ],
+    [
+     19,
+     827,
+     "CLEAN"
+    ],
+    [
+     28,
+     834,
+     "CLEAN"
+    ],
+    [
+     36,
+     819,
+     "CLEAN"
+    ],
+    [
+     48,
+     35,
+     "CLEAN"
+    ],
+    [
+     57,
+     818,
+     "CLEAN"
+    ],
+    [
+     72,
+     817,
+     "CLEAN"
+    ]
+   ],
+   "contaminated_wilson95_pct": [
+    0,
+    32
+   ]
+  },
+  "S4_B_emission": {
+   "n": 9,
+   "counts": {
+    "CLEAN": 9
+   },
+   "frames": [
+    [
+     22,
+     839,
+     "CLEAN"
+    ],
+    [
+     25,
+     793,
+     "CLEAN"
+    ],
+    [
+     30,
+     322,
+     "CLEAN"
+    ],
+    [
+     37,
+     844,
+     "CLEAN"
+    ],
+    [
+     43,
+     630,
+     "CLEAN"
+    ],
+    [
+     45,
+     804,
+     "CLEAN"
+    ],
+    [
+     55,
+     824,
+     "CLEAN"
+    ],
+    [
+     63,
+     790,
+     "CLEAN"
+    ],
+    [
+     76,
+     796,
+     "CLEAN"
+    ]
+   ],
+   "contaminated_wilson95_pct": [
+    0,
+    30
+   ]
+  },
+  "S5_identity_only_low_mass": {
+   "n": 9,
+   "counts": {
+    "RIGHT": 9
+   },
+   "frames": [
+    [
+     4,
+     875,
+     "RIGHT"
+    ],
+    [
+     9,
+     871,
+     "RIGHT"
+    ],
+    [
+     13,
+     381,
+     "RIGHT"
+    ],
+    [
+     27,
+     365,
+     "RIGHT"
+    ],
+    [
+     34,
+     387,
+     "RIGHT"
+    ],
+    [
+     42,
+     1488,
+     "RIGHT"
+    ],
+    [
+     51,
+     1296,
+     "RIGHT"
+    ],
+    [
+     67,
+     390,
+     "RIGHT"
+    ],
+    [
+     74,
+     1308,
+     "RIGHT"
+    ]
+   ],
+   "contaminated_wilson95_pct": [
+    0,
+    30
+   ]
+  },
+  "S6_v04_rejects_v01_tracked_not_bad": {
+   "n": 9,
+   "counts": {
+    "CENA_CLEAN": 6,
+    "NOT_CLEAN": 3
+   },
+   "frames": [
+    [
+     8,
+     20,
+     "CENA_CLEAN"
+    ],
+    [
+     14,
+     26,
+     "CENA_CLEAN"
+    ],
+    [
+     41,
+     92,
+     "CENA_CLEAN"
+    ],
+    [
+     52,
+     614,
+     "CENA_CLEAN"
+    ],
+    [
+     56,
+     152,
+     "NOT_CLEAN"
+    ],
+    [
+     69,
+     749,
+     "CENA_CLEAN"
+    ],
+    [
+     75,
+     91,
+     "CENA_CLEAN"
+    ],
+    [
+     81,
+     296,
+     "NOT_CLEAN"
+    ],
+    [
+     82,
+     292,
+     "NOT_CLEAN"
+    ]
+   ],
+   "contaminated_wilson95_pct": [
+    0,
+    30
+   ]
+  },
+  "S7_v03_emitted_v04_not": {
+   "n": 9,
+   "counts": {
+    "CONTAM": 1,
+    "CLEAN": 3,
+    "UNSURE": 5
+   },
+   "frames": [
+    [
+     6,
+     235,
+     "CONTAM"
+    ],
+    [
+     15,
+     118,
+     "CLEAN"
+    ],
+    [
+     33,
+     119,
+     "CLEAN"
+    ],
+    [
+     40,
+     93,
+     "UNSURE"
+    ],
+    [
+     46,
+     166,
+     "UNSURE"
+    ],
+    [
+     47,
+     50,
+     "UNSURE"
+    ],
+    [
+     62,
+     212,
+     "UNSURE"
+    ],
+    [
+     71,
+     236,
+     "UNSURE"
+    ],
+    [
+     79,
+     793,
+     "CLEAN"
+    ]
+   ],
+   "contaminated_wilson95_pct": [
+    2,
+    44
+   ]
+  }
+ },
+ "items": [
+  {
+   "stratum": "S2_new_vs_v03_other",
+   "frame": 823,
+   "target": "A",
+   "kind": "emission",
+   "idx": 1,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 272,
+   "target": "A",
+   "kind": "emission",
+   "idx": 2,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 732,
+   "target": "A",
+   "kind": "emission",
+   "idx": 3,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 875,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 4,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1082,
+   "target": "A",
+   "kind": "emission",
+   "idx": 5,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 235,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 6,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 271,
+   "target": "A",
+   "kind": "emission",
+   "idx": 7,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 20,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 8,
+   "verdict": "CENA_CLEAN"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 871,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 9,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 273,
+   "target": "A",
+   "kind": "emission",
+   "idx": 10,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 712,
+   "target": "A",
+   "kind": "emission",
+   "idx": 11,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S2_new_vs_v03_other",
+   "frame": 824,
+   "target": "A",
+   "kind": "emission",
+   "idx": 12,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 381,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 13,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 26,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 14,
+   "verdict": "CENA_CLEAN"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 118,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 15,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 723,
+   "target": "A",
+   "kind": "emission",
+   "idx": 16,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 617,
+   "target": "A",
+   "kind": "emission",
+   "idx": 17,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 931,
+   "target": "A",
+   "kind": "emission",
+   "idx": 18,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S2_new_vs_v03_other",
+   "frame": 827,
+   "target": "A",
+   "kind": "emission",
+   "idx": 19,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1112,
+   "target": "A",
+   "kind": "emission",
+   "idx": 20,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1214,
+   "target": "A",
+   "kind": "emission",
+   "idx": 21,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 839,
+   "target": "B",
+   "kind": "emission",
+   "idx": 22,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1091,
+   "target": "A",
+   "kind": "emission",
+   "idx": 23,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1090,
+   "target": "A",
+   "kind": "emission",
+   "idx": 24,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 793,
+   "target": "B",
+   "kind": "emission",
+   "idx": 25,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1084,
+   "target": "A",
+   "kind": "emission",
+   "idx": 26,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 365,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 27,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S2_new_vs_v03_other",
+   "frame": 834,
+   "target": "A",
+   "kind": "emission",
+   "idx": 28,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 695,
+   "target": "A",
+   "kind": "emission",
+   "idx": 29,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 322,
+   "target": "B",
+   "kind": "emission",
+   "idx": 30,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1210,
+   "target": "A",
+   "kind": "emission",
+   "idx": 31,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 707,
+   "target": "A",
+   "kind": "emission",
+   "idx": 32,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 119,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 33,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 387,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 34,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 731,
+   "target": "A",
+   "kind": "emission",
+   "idx": 35,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S2_new_vs_v03_other",
+   "frame": 819,
+   "target": "A",
+   "kind": "emission",
+   "idx": 36,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 844,
+   "target": "B",
+   "kind": "emission",
+   "idx": 37,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 722,
+   "target": "A",
+   "kind": "emission",
+   "idx": 38,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 957,
+   "target": "A",
+   "kind": "emission",
+   "idx": 39,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 93,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 40,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 92,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 41,
+   "verdict": "CENA_CLEAN"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 1488,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 42,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 630,
+   "target": "B",
+   "kind": "emission",
+   "idx": 43,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 956,
+   "target": "A",
+   "kind": "emission",
+   "idx": 44,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 804,
+   "target": "B",
+   "kind": "emission",
+   "idx": 45,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 166,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 46,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 50,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 47,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S2_new_vs_v03_other",
+   "frame": 35,
+   "target": "A",
+   "kind": "emission",
+   "idx": 48,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 274,
+   "target": "A",
+   "kind": "emission",
+   "idx": 49,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 934,
+   "target": "A",
+   "kind": "emission",
+   "idx": 50,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 1296,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 51,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 614,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 52,
+   "verdict": "CENA_CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1083,
+   "target": "A",
+   "kind": "emission",
+   "idx": 53,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1093,
+   "target": "A",
+   "kind": "emission",
+   "idx": 54,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 824,
+   "target": "B",
+   "kind": "emission",
+   "idx": 55,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 152,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 56,
+   "verdict": "NOT_CLEAN"
+  },
+  {
+   "stratum": "S2_new_vs_v03_other",
+   "frame": 818,
+   "target": "A",
+   "kind": "emission",
+   "idx": 57,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 1089,
+   "target": "A",
+   "kind": "emission",
+   "idx": 58,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 718,
+   "target": "A",
+   "kind": "emission",
+   "idx": 59,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 951,
+   "target": "A",
+   "kind": "emission",
+   "idx": 60,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 935,
+   "target": "A",
+   "kind": "emission",
+   "idx": 61,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 212,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 62,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 790,
+   "target": "B",
+   "kind": "emission",
+   "idx": 63,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 269,
+   "target": "A",
+   "kind": "emission",
+   "idx": 64,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 736,
+   "target": "A",
+   "kind": "emission",
+   "idx": 65,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 270,
+   "target": "A",
+   "kind": "emission",
+   "idx": 66,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 390,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 67,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 954,
+   "target": "A",
+   "kind": "emission",
+   "idx": 68,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 749,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 69,
+   "verdict": "CENA_CLEAN"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 737,
+   "target": "A",
+   "kind": "emission",
+   "idx": 70,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 236,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 71,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S2_new_vs_v03_other",
+   "frame": 817,
+   "target": "A",
+   "kind": "emission",
+   "idx": 72,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 950,
+   "target": "A",
+   "kind": "emission",
+   "idx": 73,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S5_identity_only_low_mass",
+   "frame": 1308,
+   "target": "A",
+   "kind": "identity_only",
+   "idx": 74,
+   "verdict": "RIGHT"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 91,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 75,
+   "verdict": "CENA_CLEAN"
+  },
+  {
+   "stratum": "S4_B_emission",
+   "frame": 796,
+   "target": "B",
+   "kind": "emission",
+   "idx": 76,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 940,
+   "target": "A",
+   "kind": "emission",
+   "idx": 77,
+   "verdict": "CONTAM"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 711,
+   "target": "A",
+   "kind": "emission",
+   "idx": 78,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S7_v03_emitted_v04_not",
+   "frame": 793,
+   "target": "A",
+   "kind": "v03_emission",
+   "idx": 79,
+   "verdict": "CLEAN"
+  },
+  {
+   "stratum": "S1_emit_in_known_bad",
+   "frame": 268,
+   "target": "A",
+   "kind": "emission",
+   "idx": 80,
+   "verdict": "UNSURE"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 296,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 81,
+   "verdict": "NOT_CLEAN"
+  },
+  {
+   "stratum": "S6_v04_rejects_v01_tracked_not_bad",
+   "frame": 292,
+   "target": "A",
+   "kind": "v01_box",
+   "idx": 82,
+   "verdict": "NOT_CLEAN"
+  },
+  {
+   "stratum": "S2_new_vs_v03_embedding_necessary",
+   "frame": 727,
+   "target": "A",
+   "kind": "emission",
+   "idx": 83,
+   "verdict": "CLEAN"
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "_doc": "ALL V0.2 behavioural constants live here. Values were fixed from stated principles BEFORE the full V0.2 run; none were tuned by iterating on benchmark results. See docs/V0.2_ARCHITECTURE_AND_RATIONALE.md for the rationale of each.",
+ "pose": {
+  "DET_CONF_GATE": 0.3,
+  "MIN_BOX_H": 50,
+  "KP_CONF": 0.5,
+  "RAW_OTHER_CONF": 0.1
+ },
+ "seed": {
+  "FRAME": 99,
+  "DET_INDEX": 0,
+  "KP_CONF": 0.5,
+  "MIN_PIXELS": 50
+ },
+ "denim_rule": {
+  "H_SPREAD_MIN": 8,
+  "H_SPREAD_MAX": 18,
+  "H_SPREAD_MAD_MULT": 3,
+  "S_FLOOR": 35,
+  "S_PCT": 10,
+  "S_SCALE": 0.7,
+  "V_PCT_LO": 2,
+  "V_SCALE_LO": 0.8,
+  "V_PCT_HI": 98,
+  "V_SCALE_HI": 1.15,
+  "THIGH_POLY_HALFWIDTH": 0.3
+ },
+ "identity": {
+  "POLY_KP_CONF": 0.3,
+  "POLY_MIN_AREA_PX": 600,
+  "APP_COV_MIN": 0.35,
+  "APP_COV_REF": 0.57,
+  "BG_DENIM_MAX": 0.15,
+  "CONT_MAX_GAP": 5,
+  "CONT_IOU_MIN": 0.3,
+  "CONT_SCALE_MIN": 0.6,
+  "CONT_SCALE_MAX": 1.67,
+  "JUMP_BASE_DIAGS": 0.75,
+  "JUMP_PER_GAP_DIAGS": 0.25,
+  "JUMP_CAP_DIAGS": 2.0,
+  "AMBIG_MARGIN": 0.1,
+  "CONT_BONUS": 0.5,
+  "PROBATION_FRAMES": 3,
+  "LINEAGE_IOU_MIN": 0.5,
+  "CONT_WEAK_FACTOR": 0.7
+ },
+ "integrity": {
+  "SHARE_DIST_FRAC": 0.05,
+  "SHARE_MIN_JOINTS": 3,
+  "OVERLAP_IOU": 0.3,
+  "OVERLAP_COVER_OTHER": 0.5,
+  "OVERLAP_OTHER_JOINTS_INSIDE": 3,
+  "SCALE_SHOULDER_W_MULT": 1.15,
+  "SCALE_HIP_W_MULT": 1.5,
+  "LIMB_MAX_RATIO": {
+   "upper_arm": 1.4,
+   "forearm": 1.7,
+   "thigh": 1.8,
+   "shank": 1.8
+  },
+  "TORSO_SIDE_RATIO_MIN": 0.5,
+  "LM_OUTSIDE_BOX_MARGIN_FRAC": 0.1,
+  "TEMPORAL_SCALE_MIN": 0.6,
+  "TEMPORAL_SCALE_MAX": 1.67,
+  "TEMPORAL_JOINT_DISP_SCALES": 2.5,
+  "TEMPORAL_MAX_GAP": 5,
+  "DUP_IOU": 0.5
+ },
+ "status": {
+  "MEASURED_MASS": 0.85,
+  "PARTIAL_MASS": 0.4
+ },
+ "prediction": {
+  "MAX_PRED_GAP": 6,
+  "DAMP": 0.5,
+  "VEL_SMOOTH": 0.5,
+  "BOX_MARGIN_DIAGS": 1.0,
+  "DECAY": 0.9
+ },
+ "cuts": {
+  "BD_THR": 0.22,
+  "MD_THR": 25.0,
+  "INLIER_MAX": 60,
+  "CLUSTER_FRAMES": 4,
+  "ORB_FEATURES": 1500,
+  "ORB_RATIO": 0.75,
+  "RANSAC_PX": 4.0,
+  "POST_FRAMES": 8,
+  "RETURN_FRAMES": 12,
+  "POST_STABILITY_MAX_BD": 0.4,
+  "SCENE_RETURN_MIN_BD": 0.25,
+  "HIST_BINS_H": 16,
+  "HIST_BINS_S": 8,
+  "THUMB_W": 160,
+  "THUMB_H": 90
+ },
+ "output": {
+  "BANNER_FRAMES": 8,
+  "DISPLAY_KP_CONF": 0.7,
+  "MAX_BONE_FRAC_OF_BOX_DIAG": 0.75,
+  "CRF": 20
+ }
+}

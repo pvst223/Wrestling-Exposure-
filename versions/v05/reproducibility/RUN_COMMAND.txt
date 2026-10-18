@@ -1,0 +1,6 @@
+cd v05
+python3 src/cuts_events.py ../input.mp4 cache/cuts_v05.json            # unchanged detector; log byte-identical to V0.4
+python3 src/track_v05.py --video ../input.mp4 --dets ../out/raw_detections.pkl --seg cache/seg_masks_v05.pkl --cuts cache/cuts_v05.json \
+  --seeds config/seeds_v05_manual.json --emb cache/embeddings_v05.npz --out_dir out
+# upstream caches (shipped; regenerate only if needed): src/seg_extract.py -> cache/seg_masks_v05.pkl ; src/embed_masked.py -> cache/embeddings_masked_v05.npz ;
+# cache/embeddings_v05.npz = V0.4 embeddings (box/upper/lower) + masked-box embeddings concatenated

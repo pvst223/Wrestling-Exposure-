@@ -1,0 +1,357 @@
+{
+ "amendment": {
+  "file": "frozen/SEED_FEASIBILITY_AMENDMENT_V1.md",
+  "layered_on_V3_unmodified": true,
+  "sha256": "b81b159758d4e39c9356c5402d5dc753088dbfc97f62a3ca6a8ff89afd12110a"
+ },
+ "annotation": {
+  "agreement.json": "9bf3e0d9453adff580c92b18a4d38d9b11c1f6a1ce2cbdc7b5ea9953db54316e",
+  "disagreements.csv": "d9d18e1dea2ad077bb96abb9c2dbaa8da53c3238933ea1f01701ebb1b1574cfc",
+  "key_v2_internal": "35beefe830364fc945542c9dce57143cf7db0b9921dc25c1f2441b0d8feb6e0b",
+  "package_hash_list": "b3d5ec7c531b3ebc2a67cf1ecef568df3da64318ee0f3f050c73959ed97ec2ec",
+  "package_zip": "1b4499515c26ee29e65a54fa4c34222b22410b7b4ecdcf5f7084d550c655169a",
+  "protocol": "eeb5494944dcb437c44ea924b94cf58ff300e6df6a205adbe635d306a7087669",
+  "reserve": "8af7bf14c66602ae813aac082c59c20b8fe51e61af519d3f7d8a2696773e82bc",
+  "returned_csv": "055cb17fb3003f0993340f14a0274fbc8b056da9eb303dbc11ebfd6868d4912d"
+ },
+ "annotation_status": "ANNOTATION-PROVISIONAL; preregistered human reliability gate NOT SATISFIED AS SPECIFIED",
+ "audited_utc": "2026-10-18T05:52:45Z",
+ "backbones": {
+  "dependency_registry": "1d53543a65d9e9d1c3212c031a9588f979ebf2cf3e69dbd1c53eb9c1c5609cd8",
+  "dinov2_vits14": {
+   "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+   "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+  },
+  "mobileclip_b": {
+   "loader": "/home/claude/proj/holdout1/src/embed_crops.py sha256 bc29a895fd8b9c35037e2e3edfec13669e7712111979dd36f4917a14f63a8f3f",
+   "weights_sha256": "a67804d1b0f07b8b9a20c1761ec0847f34660f5fa338ec70e8f3fce68ed95e54"
+  },
+  "osnet_x1_0_msmt17_combineall": {
+   "code_commit": "f8cd150fdf77e8d9e1ed143b7f308c2c609ded50",
+   "weights_sha256": "48df972f72887b95cf3b43b3a07c3a7d2398381aea0f9cae64a7ef11d512b727"
+  },
+  "smoke_rerun_at_audit": "both PASSED (synthetic seeded tensor only)",
+  "smoke_results": {
+   "dinov2": "fef1af743b248eac7f28faca643e5bfe5fdf45b6bcbba3fc7077a2e7c60f0515",
+   "osnet": "62b36c90ea1fe414a4d2e96a629e3225063f1e841983a2fe9fcc1e879bc36c06"
+  }
+ },
+ "blockers": [],
+ "closed_blockers": {
+  "B1": "extract_features.py v2 iterates actual frame keys; sparse selftest",
+  "B2": "DINOv2/OSNet/MobileCLIP adapters + selftests (dims 384/512/512; OSNet preprocessing bit-identical to official)",
+  "B3": "extraction-frame manifest materialised and hashed",
+  "B4": "seed rule + pairwise episode builder + seed manifest materialised and hashed",
+  "B5": "exhaustive deterministic train-episode construction implemented (heads.py needed no extra sampling choice)",
+  "B6": "runner/decision logic implemented and selftested",
+  "B7": "margin 0.0 and score max(pA,pB) fixed and selftested"
+ },
+ "closed_blockers_V2": {
+  "N1": "amended rule yields 1 evaluable TRAIN episode (Orton/Rollins)",
+  "N2": "videoplayback_5 test episode now evaluable",
+  "N3": "D1-D8 ratified/amended by reviewer; D6 implemented"
+ },
+ "closure": {
+  "extraction_frame_manifest_sha256": "d5e749dc8ec436fcfc3358faf19bc4df7bfc899a199f1da3fad8336033fa45ba",
+  "osnet_input_closure_sha256": "6dd86fd8344bf54c67147eb54c35ec76d568326fbd4c64f714f0c3abb459b41d",
+  "record": "frozen/PHASE1_IMPLEMENTATION_CLOSURE_V1.md",
+  "seed_episode_manifest_V1_superseded_sha256": "f5c934cbb01247661a1edd615e813b834205e8ec0b97ccba85e645a74e25787d",
+  "seed_episode_manifest_V2_sha256": "9d6d1134ad80b604ff431e381c757fd83cb14f6cd76b4d6b7b0fc94e3a50b33b",
+  "sha256": "dfedb26aa19769ed60d7f2fac24fcdf3a2d89a7eec9af5e5a2e24991007a54cb"
+ },
+ "code_all_tools": {
+  "files": {
+   "tools/adjudicate.py": "1949dc381335579298ddfa72f1b1bc09257a07b8f078a3454f618b508d3f1a86",
+   "tools/annotation_agreement.py": "e76ee6ba570e0f504a799dc7646ff551672e181cbd93b2f548c81eccd8700a8a",
+   "tools/authorization_guard.py": "3cc01790a1c575ec25940327fe54cfd115a909a284d4c9e0c5b7c2366e6e1c5a",
+   "tools/blind_sample.py": "048968d30a45ada5b12b5f3f1ee0d1dd56a4d99c09423f5a2fa0adb83a1eee69",
+   "tools/build_tracklets.py": "5e606acf964a3046d96b30eac8a9b551bbfcab5fde0d37dd84b381b244715d11",
+   "tools/count_units.py": "b7c8cfa56d384bc6d0542ef8016464facb053a4837f3429ab5367b5e1f1af54b",
+   "tools/dependency_smoke.py": "71e5cf1b8882f06cbea916f734db632138ce52664cb1b417ac61993defe0d262",
+   "tools/detect_clips.py": "ebcbad68b02f61f5db528058d02e1c756c6f13a7617dcd1169562a5280dc1ee9",
+   "tools/dup_audit.py": "517a305896526731558aa2e712528faeef29ca0549d3c7dc26eb5d0f4d49551c",
+   "tools/extract_features.py": "4635113b1abc5fb716df127e4ef2f98790691bc681ac85f3928dd4e5d633ad4b",
+   "tools/extract_features_v1_superseded.py": "fd6322ed716cfcc866d4826b5171f4a03a37e48f586f825b4737d3b472cc503f",
+   "tools/heads.py": "248958cff119a8637cda2b0f758048bdeee518215f2ada90213ef6421b6b7aae",
+   "tools/ingest_clip.py": "8a5fcc7035d205751cd0504d40b40e840be0fe3e7f980b559ec35af2edc01423",
+   "tools/leakage_audit.py": "a26c6eb0e75d0f39a85c823f4fde807da6743158cf9c42d6ae35cab6966dd9c8",
+   "tools/make_annotation_package.py": "2f42d730aec7735abf0ea75d59e4332a154734f8ec4ba1edd4fb6084af619bfb",
+   "tools/make_annotation_package_v2.py": "6c0d882c0e5a55f4dd0573eb10c55904ec0fe906843faa936d2dba2170bcbc37",
+   "tools/make_splits.py": "9ceaac13ca9b0ef27cf94534b8d92d76cacdbb9460865f85e6ba93361a53b558",
+   "tools/make_tracklet_sheets.py": "e30b0981dbf36fc80f3e6567f7d3f73358ab7f0d0082a0dc8ee942be54a647c8",
+   "tools/phase1_metrics.py": "ece625a3df68eb36048d66ffdf5d8d778ddccb830b1619e5a57d4c28f6dc6e76",
+   "tools/phase1_metrics_v1_superseded.py": "e62a90acceedde25b0cc2da30da106b29806d8754705adbae9afff81f4b4f46f",
+   "tools/phase1_run.py": "6b6635710accef432619aa5e88a04a2700b318b1afdf8e8598940b5a10129d50",
+   "tools/phase1_structure.py": "285d28d3028955f355752f1f0a28aeacf18905df19e542c3eef0dd1f1bb7caa1",
+   "tools/pipeline_guard.py": "318ba8617e86672f00bd20554ee976534f2cdb792062a1094499bf36b2abdea6",
+   "tools/registry.py": "55afe4d6b666facc6a9496fbaa9011d52b67f40f8eccf2f6c045a5d38796bb3a",
+   "tools/report_check.py": "824bd58a9b6e457ebd6eb1e135c6dead585b61ceb9466c3ab4b090b45be66c6f",
+   "tools/selftest.py": "b42546f5a2d3937c7339437f8953648d0f9c4bef4eb47d418b8e9e01fa4e51e7",
+   "tools/selftest2.py": "c2a6a35dd930f002c9107ae7ddef9458cb9e1cf33acefcf1d24fbc8494548d9d",
+   "tools/selftest3.py": "9590247a041d0e4cb4bd5866edee6ef5ed6c9e974cc8782f390cdcb4fde84145",
+   "tools/selftest4.py": "981ff12f1fef2a7b9eb2c7da82964306234112c8fe179a9aca8c62cfec6429d0",
+   "tools/selftest5.py": "b979c6d8266503527a50e435264a3317f7804c77b30d6acf5ea5e152879c9bc9",
+   "tools/selftest6.py": "a1dd0f9f0c0efec15f32d50dde450a25b317e35869aaeec2edf3f9619462207c",
+   "tools/validate_labels.py": "6c2207309356fb1c53436c75a42aefeeb285dff4b4593b3a653ca0ac17fa3248",
+   "tools/write_labels.py": "9e1ab94b0363263ade1d660396742bcf0e254a2494612b28376bba88562dc766"
+  },
+  "n_files": 33
+ },
+ "code_freeze_record_hashes_note": "FREEZE_RECORD_V3 lists annotation_agreement.py 7d32ce7d...; the current e76ee6ba... is the post-C1 version recorded in ledger entry C1. All other listed hashes match.",
+ "detections": {
+  "frozen/dets/dets_b1_hbk_raw_20050502.pkl": "f1c57cf48a3678726ded0142cce306c645e71490d2682a04d0eff6ad6e74c090",
+  "frozen/dets/dets_b1_orton_rollins_wm31.pkl": "912cf163c9b970c81e88e54a7f22082feb73a77e0d8043c62e454bdeaeb9c0ae",
+  "frozen/dets/dets_b1_rock_hhh_judgmentday2000.pkl": "6c5cd72f9b413b63efbae0153214da0a6d6c79410cd40cf72119ce82d86f53da",
+  "frozen/dets/dets_b2_batch2_clip_condensed.pkl": "0788814e2726d47e5669d7e7c60728d27a240af1b8aa7f3eb125765fb10858ce",
+  "frozen/dets/dets_b2_videoplayback_2.pkl": "1e6648e5ca26352c817b883d89312834df6f55af0a663d1347a82ab7427a8893",
+  "frozen/dets/dets_b2_videoplayback_5.pkl": "c1a4f83d96d2661a5dce2b4d50f061b8bc510a117f5a350b60f36846884006f5"
+ },
+ "detector": {
+  "yolov8m-pose": "dbe539ea268db2534390942cfdf206e521f376f19e5415967a57f6a2ddfa3c90"
+ },
+ "disclosed_limitations": [
+  "L1 will be trained on a single evaluable TRAIN episode (Orton/Rollins; 2 identities); HBK/Benjamin and Rock/HHH remain UNEVALUABLE (<2 qualifying shots or gap/cap infeasible).",
+  "Seeds: seth_rollins seeds come from 3 shots; two Orton/Rollins etc. are single-clip identities; train/dev/test domain, resolution and promotion shifts remain confounded.",
+  "Outcome may still be INCONCLUSIVE-DATA (e.g. baseline <5 false-accept units).",
+  "OSNet square-letterbox anisotropic resize limitation.",
+  "annotation_agreement.py hash differs from freeze record via ledger-recorded C1."
+ ],
+ "effective_unit_counts_after_seed_removal": [
+  {
+   "id": "b1_hbk_raw_20050502|shawn_michaels|shelton_benjamin",
+   "split": "train",
+   "status": "UNEVALUABLE",
+   "target_units_after": 13,
+   "target_units_before": 13,
+   "units_after": 31,
+   "units_before": 33
+  },
+  {
+   "id": "b1_orton_rollins_wm31|randy_orton|seth_rollins",
+   "split": "train",
+   "status": "OK",
+   "target_units_after": 11,
+   "target_units_before": 15,
+   "units_after": 22,
+   "units_before": 27
+  },
+  {
+   "id": "b1_rock_hhh_judgmentday2000|the_rock|triple_h",
+   "split": "train",
+   "status": "UNEVALUABLE",
+   "target_units_after": 2,
+   "target_units_before": 2,
+   "units_after": 6,
+   "units_before": 7
+  },
+  {
+   "id": "b2_batch2_clip_condensed|andrade|rey_mysterio",
+   "split": "test",
+   "status": "OK",
+   "target_units_after": 45,
+   "target_units_before": 52,
+   "units_after": 90,
+   "units_before": 99
+  },
+  {
+   "id": "b2_videoplayback_2|brock_lesnar|daniel_bryan",
+   "split": "dev",
+   "status": "OK",
+   "target_units_after": 33,
+   "target_units_before": 36,
+   "units_after": 67,
+   "units_before": 72
+  },
+  {
+   "id": "b2_videoplayback_5|andrade|kenny_omega",
+   "split": "test",
+   "status": "OK",
+   "target_units_after": 11,
+   "target_units_before": 12,
+   "units_after": 21,
+   "units_before": 22
+  }
+ ],
+ "environment": {
+  "Pillow": "12.3.0",
+  "numpy": "2.5.3",
+  "opencv": "5.0.0",
+  "python": "3.13",
+  "torch": "2.14.1+cu130",
+  "torchvision": "0.29.1+cu130"
+ },
+ "episode_seed_spec": {
+  "bootstrap_seed": 20261020,
+  "episode_seed": 20261018,
+  "episodes": [
+   [
+    "b1_hbk_raw_20050502|shawn_michaels|shelton_benjamin",
+    "train",
+    "UNEVALUABLE"
+   ],
+   [
+    "b1_orton_rollins_wm31|randy_orton|seth_rollins",
+    "train",
+    "OK"
+   ],
+   [
+    "b1_rock_hhh_judgmentday2000|the_rock|triple_h",
+    "train",
+    "UNEVALUABLE"
+   ],
+   [
+    "b2_batch2_clip_condensed|andrade|rey_mysterio",
+    "test",
+    "OK"
+   ],
+   [
+    "b2_videoplayback_2|brock_lesnar|daniel_bryan",
+    "dev",
+    "OK"
+   ],
+   [
+    "b2_videoplayback_5|andrade|kenny_omega",
+    "test",
+    "OK"
+   ]
+  ],
+  "materialized_seed_manifest": "frozen/SEED_EPISODE_MANIFEST_V2.json",
+  "reserve_seed": 20261019
+ },
+ "first_pass_labels": {
+  "aggregate_sha256": "380936f9e3a763f49bac71f70e4cc32c0c6dac499ea2d09091ddd95fa6d06b9b",
+  "files": {
+   "frozen/labels/ALL_firstpass.csv": "1bd3e8e294f67d33b0f16169b782b45995e161902769cc5645a36479719b02ec",
+   "frozen/labels/b1_hbk_raw_20050502_labels_firstpass.csv": "892c64d18a10da15896440ebc294e3ae08eb946f1893e5995c347f856ddfd029",
+   "frozen/labels/b1_orton_rollins_wm31_labels_firstpass.csv": "aaa8cf9f57659dc014fd26ead581f0d476afd8856c9109b115b78189ce27bbff",
+   "frozen/labels/b1_rock_hhh_judgmentday2000_labels_firstpass.csv": "93bc8d2b27a6bae5c84e330ecaa75a33893737c10c9ab30d5de86d863968535e",
+   "frozen/labels/b2_batch2_clip_condensed_labels_firstpass.csv": "33f0ec1c3c5b5becb54dc97368de551cfdbac949cb2f89e97f85e45513d3cd94",
+   "frozen/labels/b2_videoplayback_2_labels_firstpass.csv": "9e8042fc4104a3233f25738a400ed3363a115edf69ce589ef9fa5ed3881e7e76",
+   "frozen/labels/b2_videoplayback_5_labels_firstpass.csv": "21556f9440e651c9e9a5503c2707afb98a9813d9ff4fdba86a067fa2f389360c"
+  },
+  "n_files": 7
+ },
+ "frozen_inputs_unchanged_vs_V2": {
+  "annotation_package_zip": true,
+  "annotation_returned_csv": true,
+  "dependency_registry": true,
+  "detections": true,
+  "first_pass_labels_aggregate": true,
+  "normalised_videos": true,
+  "splits": true,
+  "tracklets_aggregate": true,
+  "v3_prereg": true
+ },
+ "inputs_metadata": {
+  "COMBINED_INVENTORY_B1_B2.json": "952a81ca24c7beeb6584e4a91450e4b89bcd6ca7d97a6ee3a55723d077699229",
+  "frozen/MEASURED_UNITS_V1.json": "9ca78ec79ed940aaf3157d4eab4914cb432ac58ed4dacc92e7e90b497568b9ec",
+  "frozen/NORM_VIDEO_HASHES.txt": "706a4d988582ba8158af73446862d6c46e694784a448b31fc9f3950a76e4c841",
+  "frozen/PREPROCESSING_V1.json": "a115f25a1ad34060830e7d091a908387a3bee5f0b31779924ce50fd30c735a1f",
+  "frozen/dup_audit.json": "596cbcf4e6b1ce324843ffb108174a807af6e7cd7cf803fc04ff5282b91084ee",
+  "frozen/manifest_clips.csv": "62e91398f075c6f13159f6d7580312bda11dc1ea2cd520bd86b68282c6f2b817",
+  "frozen/meta_for_splits.csv": "22cb180624f2e543261a27f15a856ddb88e6e9cbddc9d81a0349ff9b425aa908"
+ },
+ "ledger_state_before_RA2": {
+  "chain_verified": true,
+  "entries": [
+   "E1",
+   "C1",
+   "E2",
+   "D1",
+   "D2",
+   "D3",
+   "A1",
+   "X1",
+   "R1",
+   "RA1",
+   "CL0",
+   "CL1"
+  ],
+  "file": "frozen/AUDIT_LEDGER.jsonl",
+  "sha256": "1f81f86fc9d30ba3827f2950b69e4e154e6daea04d220842144126e69e59c48b"
+ },
+ "ledger_state_before_RA3": {
+  "chain_verified": true,
+  "entries": [
+   "E1",
+   "C1",
+   "E2",
+   "D1",
+   "D2",
+   "D3",
+   "A1",
+   "X1",
+   "R1",
+   "RA1",
+   "CL0",
+   "CL1",
+   "RA2",
+   "AM0",
+   "AM1"
+  ],
+  "file": "frozen/AUDIT_LEDGER.jsonl",
+  "sha256": "d9ae3695c5306d95752fea69c747a78ae01d250014d8532af9295ce49dfbc64a"
+ },
+ "ledger_state_before_audit_entry": {
+  "chain_verified": true,
+  "entries": [
+   "E1",
+   "C1",
+   "E2",
+   "D1",
+   "D2",
+   "D3",
+   "A1",
+   "X1",
+   "R1"
+  ],
+  "file": "frozen/AUDIT_LEDGER.jsonl",
+  "sha256": "8f24b9549ee03826719e602bfa68dae68839b71a740586d9d018efe5f3eed5b1"
+ },
+ "manifest_id": "FINAL_READY_MANIFEST_V3",
+ "non_blocking_notes": [
+  "annotation_agreement.py hash differs from the freeze record via ledger-recorded clarification C1.",
+  "OSNet disclosed limitation: square letterbox anisotropically resized.",
+  "Without D1 the vp5 episode becomes obtainable but train remains infeasible."
+ ],
+ "normalised_videos": {
+  "frozen/norm/b1_hbk_raw_20050502.mp4": "440d573c3ed7fe7332548cac832b30261c1237d101da542511dc79ac359ed3cf",
+  "frozen/norm/b1_orton_rollins_wm31.mp4": "f64eeaf11ff60facd193b328d1a6263184b60d58a455e95591387c2075250a5f",
+  "frozen/norm/b1_rock_hhh_judgmentday2000.mp4": "f248682efb2fac806873fa623c9f17cf9ddd5354001a82761f391297bd598a48",
+  "frozen/norm/b2_batch2_clip_condensed.mp4": "c404c8e560fece5398cfe0c1408cd4dadd5e675e4676df8e8ca72472fc9e31d6",
+  "frozen/norm/b2_videoplayback_2.mp4": "334546c6c5d32426de8a9f64102840e5aa807ae23f0fff4b872754338dfc723a",
+  "frozen/norm/b2_videoplayback_5.mp4": "d36e40cf8d26d7abf29f16d93660fe240a5fdd8cad4a29fa6ba7a825dbe7436c"
+ },
+ "osnet_input_closure": {
+  "file": "frozen/OSNET_INPUT_CLOSURE_V1.json",
+  "sha256": "6dd86fd8344bf54c67147eb54c35ec76d568326fbd4c64f714f0c3abb459b41d"
+ },
+ "phase1_begun": false,
+ "preregistration": {
+  "file": "frozen/PREREGISTRATION_V3_FROZEN.md",
+  "modified": false,
+  "sha256": "3e40f5ec3aea93539daeacdac7cb0bf1b4cfadbd90fb7de245641160c5c4ab78"
+ },
+ "ready_meaning": "All frozen artefacts, code and manifests required to run Phase 1 exist, are hashed and selftested; READY is NOT an authorization. Bake-off requires an explicit reviewer BAKEOFF_AUTHORIZATION ledger entry referencing this manifest's hash (fail-closed guard).",
+ "smoke_rerun_at_reaudit": "dinov2 and osnet PASSED (synthetic seeded tensor only)",
+ "split": {
+  "EXCLUDED_KEYS.json": "65a59b124b2d73777506c8220c03946d53c4c21d861bdf705bcf17d3f748e7a2",
+  "leakage_audit": "OK [] (re-run on audit)",
+  "split_manifest_v1.csv": "1885c6cbf77caef10902eacc8330f8b6b44dab817d360eeeedd8eab07a2bb45e",
+  "splits_v1.csv": "05342bf8178646c70e8ccc64e269e1400da3db662acd38c077c56ab2a7d0adc4"
+ },
+ "status": "READY",
+ "supersedes": "FINAL_READY_MANIFEST_V2 (NOT_READY)",
+ "tracklets": {
+  "aggregate_sha256": "3f4592d6b7e9a4ea5aa13dd0dc492e0147c9f054e35b1a0d832835341269808d",
+  "files": {
+   "frozen/tracklets/b1_hbk_raw_20050502.json": "0d853f35ea68429ab8d9b05cc00549976d00bdfc1fddffcb2bb0700284256be4",
+   "frozen/tracklets/b1_orton_rollins_wm31.json": "1e1626c5966c571bc6b08f79e971f54e772607fa1dcdfa70e4a5bc67f1cf31b5",
+   "frozen/tracklets/b1_rock_hhh_judgmentday2000.json": "2a17437fa0460cf1158e7990f6eaa937afffec1c298347921e0bdf54d9b439b4",
+   "frozen/tracklets/b2_batch2_clip_condensed.json": "806c174e0246e238fe98ff33fe0234826fd840b631a601e7d8e182344d81cebb",
+   "frozen/tracklets/b2_videoplayback_2.json": "1f004758ef0bcac6c56e7816550045519b7d8bdbe06501f96d9e61f7724715b3",
+   "frozen/tracklets/b2_videoplayback_5.json": "7a2c7ca3693b350498987370fb5a74703c7702d67da9ea94cc077042fc8d6740"
+  },
+  "n_files": 6
+ }
+}

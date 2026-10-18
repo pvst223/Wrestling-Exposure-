@@ -1,0 +1,56 @@
+{
+ "_doc": "HOLDOUT #1 (Jeff Hardy) manual identity initialisation, frozen BEFORE any V0.5 tracking output existed. Same format as config/seeds_v05_manual.json. Chosen by viewing pose-box contact sheets sampled every 24th frame (scratch/seedsheet_*.jpg) from the pose detection cache only. WRESTLER_A = Jeff Hardy (black pants/vest, red sleeve, long hair); WRESTLER_B = opponent (grey/white camo shorts and vest); NEITHER = referee (black/white striped shirt). Criteria: clearly visible, minimally occluded, spread across viewpoints (wide kneeling, close-up seated, close-up upright, wide standing for A; wide back view, wide front, close-up lying, wide lying for B; wide and close-up for referee). Not chosen on tracker performance (no tracker output existed). No reseeding. denim_calibration_seed_index kept at 0 as in the frozen file (first A seed); the denim cue was designed for the development clip.",
+ "seeds": [
+  {
+   "frame": 96,
+   "det": 1,
+   "identity": "A"
+  },
+  {
+   "frame": 216,
+   "det": 0,
+   "identity": "A"
+  },
+  {
+   "frame": 240,
+   "det": 0,
+   "identity": "A"
+  },
+  {
+   "frame": 288,
+   "det": 2,
+   "identity": "A"
+  },
+  {
+   "frame": 0,
+   "det": 0,
+   "identity": "B"
+  },
+  {
+   "frame": 96,
+   "det": 0,
+   "identity": "B"
+  },
+  {
+   "frame": 216,
+   "det": 1,
+   "identity": "B"
+  },
+  {
+   "frame": 288,
+   "det": 0,
+   "identity": "B"
+  },
+  {
+   "frame": 24,
+   "det": 2,
+   "identity": "NEITHER"
+  },
+  {
+   "frame": 384,
+   "det": 0,
+   "identity": "NEITHER"
+  }
+ ],
+ "denim_calibration_seed_index": 0
+}

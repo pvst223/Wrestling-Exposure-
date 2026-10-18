@@ -1,0 +1,15 @@
+{
+ "AUDIT_LEDGER_through_SE1.jsonl": "fc9e2dc332d1585206a233643d87fe0103400437a36efb70e7d9544cf18d9b01",
+ "DEV_SELECTION_RECORD.json": "dca3b63b0680f161e51db7f7721f6e80c0d6bf5aff0a9dcff21ebf3859058349",
+ "L1_seed0_dinov2_vits14.pt": "57a1c7b6231e7cd00235e6e99daae0fded7cc01d0af91618adb0d628289f9af6",
+ "L1_seed0_mobileclip_b.pt": "835c73ed2846afb103265416eb610b266aaa35a7d64d91cc9f63b54647c96098",
+ "L1_seed0_osnet_x1_0.pt": "4425683192aa78daddd7a6771c829955411ca0e5cf163a38fa5231890586bcc4",
+ "PROVENANCE.json": "d31a83116d56be6fdd0b3ef3d0d513a7db62e50c4ab6c5eb7ea51cbd118b606a",
+ "README.txt": "bddc74f556d5d8c92d62c405abb7f5fdc6fdb365c601702f2e7ff6b3bc9dbc50",
+ "TRAIN_RECORD.json": "e2559a5ab3554444dee686485b01e4e673fb6d93b6cc3ec1085198913cc7169b",
+ "consistency_check.json": "5c3e63ba687d7c87ea820e85caed341040bce8842eb2be3ea505738c401fafee",
+ "primary_result.json": "3fbb61c6d8236c62798bcd12ce0a9819ceee89e2f168321826de5fe0fc9b1793",
+ "secondary_descriptive.json": "25db7e6c0f0efac2cd03e135a659c2b7c75278aefb0be1ffb8fb93ccc4546732",
+ "test_decisions.csv": "6ba9d998a25563066b122e17c5dc99b6743ea75ea90c0a0b265abb644cac5eb2",
+ "test_unit_table.csv": "fb03c2da8cfc2fc9b4215698aef76cc38e2878d614d15558d274ddddada5a521"
+}

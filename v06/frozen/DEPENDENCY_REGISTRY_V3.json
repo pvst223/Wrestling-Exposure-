@@ -1,0 +1,140 @@
+{
+ "registry_version": "DEPENDENCY_REGISTRY_V3",
+ "date": "2026-10-17",
+ "status": "FROZEN (dependency blocker B RESOLVED 2026-10-18)",
+ "policy": "Local artifact SHA-256 is authoritative. No substitution. Smoke tests are loading/shape only on a seeded synthetic tensor; no train/dev/test performance or comparative embeddings computed.",
+ "mobileclip_b": {
+  "status": "PINNED (unchanged)",
+  "sha256": "a67804d1b0f07b8b9a20c1761ec0847f34660f5fa338ec70e8f3fce68ed95e54"
+ },
+ "dinov2_vits14": {
+  "status": "PINNED, HASHED, VERIFIED (2026-10-18)",
+  "approved_pin": {
+   "canonical_model": "dinov2_vits14",
+   "architecture": "ViT-S/14",
+   "registers": false,
+   "pretraining": "official Meta DINOv2 LVD-142M",
+   "use": "backbone features only (CLS embedding after final norm), no head",
+   "forbidden": [
+    "register models",
+    "ViT-B/L/g",
+    "third-party reproductions",
+    "fine-tuned checkpoints",
+    "classification heads"
+   ]
+  },
+  "checkpoint_filename": "dinov2_vits14_pretrain.pth",
+  "official_source": "https://github.com/facebookresearch/dinov2",
+  "upstream_checkpoint_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth (constructed by the official code: dinov2/hub/backbones.py, _DINOV2_BASE_URL + model_base_name/model_full_name_pretrain.pth, weights=LVD142M)",
+  "pretraining_dataset": "LVD-142M (per official code)",
+  "file_size": 88283115,
+  "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "loading_code": {
+   "repo": "facebookresearch/dinov2",
+   "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+   "entry": "dinov2.hub.backbones.dinov2_vits14(pretrained=False) then strict load_state_dict",
+   "local_copy": "frozen/dep_source/dinov2_code (code only, no weights)"
+  },
+  "preprocessing": "224x224 input (frozen letterbox crop), ImageNet mean/std (0.485,0.456,0.406)/(0.229,0.224,0.225); patch 14 gives 16x16 tokens",
+  "output_embedding_dim_expected": 384,
+  "license_provenance": "Official DINOv2 repository README states code and model weights are Apache License 2.0 (repo commit 7764ea0f...). File supplied by the investigator, not downloaded by Claude; no upstream hash exists in the official release to compare against, so the local SHA-256 is the authoritative record and is attested only by the investigator's statement that the file is the official release.",
+  "loads_exactly": true,
+  "deterministic_smoke_test": "PASSED",
+  "reachability_2026-10-17": "dl.fbaipublicfiles.com: proxy CONNECT 403 (not on the allowlist); huggingface.co no response; code repo reachable via the git proxy",
+  "expected_filename": "dinov2_vits14_pretrain.pth",
+  "local_path": "frozen/artifacts/dinov2_vits14_pretrain.pth",
+  "smoke_result_file": "frozen/SMOKE_dinov2_vits14.json",
+  "smoke_result_sha256": "fef1af743b248eac7f28faca643e5bfe5fdf45b6bcbba3fc7077a2e7c60f0515",
+  "embedding_dim_verified": 384,
+  "verified_checks": {
+   "strict_load_ok": true,
+   "no_register_tokens": true,
+   "arch_vit_small_patch14": true,
+   "deterministic_two_runs": true,
+   "dim_384": true
+  },
+  "environment": {
+   "torch": "2.14.1+cu130",
+   "python": "3.13.16",
+   "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8"
+  }
+ },
+ "osnet_x1_0_reid": {
+  "status": "PINNED, HASHED, VERIFIED (2026-10-18)",
+  "approved_pin": {
+   "architecture": "osnet_x1_0",
+   "project": "official Torchreid / KaiyangZhou/deep-person-reid model zoo",
+   "checkpoint": "person-ReID-trained, training source MSMT17, combineall=True, cross-domain checkpoint (model zoo section 'MSMT17 (combineall=True) -> Market1501 & DukeMTMC-reID', row osnet_x1_0, softmax, (256,128), random_flip + color_jitter, euclidean)",
+   "expected_input": "256x128 (H x W)",
+   "expected_embedding_dim": 512,
+   "rationale_recorded_prospectively": "The intended use is person re-ID on professional-wrestling broadcast footage, a domain unseen by standard ReID datasets; the MSMT17 combineall cross-domain checkpoint is selected prospectively for its domain-generalisation training/evaluation role rather than a same-domain Market1501, DukeMTMC-reID or ordinary MSMT17 checkpoint. Chosen before any V0.6 comparative result exists; not to be revisited based on performance.",
+   "forbidden": [
+    "ImageNet-only OSNet",
+    "Market1501 checkpoint",
+    "DukeMTMC-reID checkpoint",
+    "ordinary / non-combineall MSMT17 checkpoint",
+    "multi-source checkpoint",
+    "OSNet x0.75 / x0.5 / x0.25",
+    "OSNet-AIN / OSNet-IBN",
+    "CLIP-ReID",
+    "any checkpoint selected after examining V0.6 performance"
+   ]
+  },
+  "official_source": "https://github.com/KaiyangZhou/deep-person-reid (docs/MODEL_ZOO.md)",
+  "checkpoint_filename": "osnet_x1_0_msmt17_combineall_256x128_amsgrad_ep150_stp60_lr0.0015_b64_fb10_softmax_labelsmooth_flip_jitter.pth",
+  "upstream_checkpoint_url": "https://drive.google.com/file/d/1IosIFlLiulGIjwW3H8uMRmx3MzPwf86x/view?usp=sharing",
+  "pretraining_dataset": "MSMT17, combineall=True (per the official model zoo table)",
+  "file_size": 17273805,
+  "sha256": "48df972f72887b95cf3b43b3a07c3a7d2398381aea0f9cae64a7ef11d512b727",
+  "loading_code": {
+   "repo": "KaiyangZhou/deep-person-reid",
+   "commit": "f8cd150fdf77e8d9e1ed143b7f308c2c609ded50",
+   "entry": "torchreid/models/osnet.py osnet_x1_0(num_classes=<from checkpoint classifier>, pretrained=False) loaded by file path, strict load_state_dict",
+   "local_copy": "frozen/dep_source/deep-person-reid_code (code only, no weights)"
+  },
+  "preprocessing": "256x128 (H x W) input per the model zoo, ImageNet mean/std; the frozen 224 letterbox crop must be resized to 256x128 only if the reviewer approves it as part of the pinned record (a size/aspect change is part of the pin)",
+  "output_embedding_dim_expected": 512,
+  "license_provenance": "deep-person-reid code: MIT (repo LICENSE at commit f8cd150f...). Checkpoint supplied by the investigator, Drive id 1IosIFlLiulGIjwW3H8uMRmx3MzPwf86x (not downloaded by Claude). Consistency evidence only, not proof of upstream identity: the filename states msmt17 / combineall / 256x128 / softmax_labelsmooth / flip_jitter, and the classifier has 4101 outputs, which is not the 1000-class ImageNet initialisation and matches the identity count expected for MSMT17 train+test combined (1041 + 3060). The official zoo publishes no hash, so the local SHA-256 is authoritative.",
+  "loads_exactly": true,
+  "deterministic_smoke_test": "PASSED",
+  "reachability_2026-10-17": "drive.google.com: no response; code repo reachable via the git proxy",
+  "official_checkpoint_identifier": {
+   "model_zoo_download_link": "https://drive.google.com/file/d/1IosIFlLiulGIjwW3H8uMRmx3MzPwf86x/view?usp=sharing",
+   "google_drive_file_id": "1IosIFlLiulGIjwW3H8uMRmx3MzPwf86x",
+   "model_zoo_doc": "docs/MODEL_ZOO.md line 73 at deep-person-reid commit f8cd150fdf77e8d9e1ed143b7f308c2c609ded50",
+   "sha256_of_doc": "6c7efc08326beab05431e06282a8efdfb278b4c0960761cd347f96c5816491c1"
+  },
+  "classifier_dim_note": "The smoke test records classifier_out_dim as an informational diagnostic (a combineall MSMT17 checkpoint would be expected to have a large identity classifier; the value is recorded, not assumed). The hard checks are: not 1000 (ImageNet init), strict load, 512-d deterministic output.",
+  "local_path": "frozen/artifacts/osnet_x1_0_msmt17_combineall_256x128_amsgrad_ep150_stp60_lr0.0015_b64_fb10_softmax_labelsmooth_flip_jitter.pth",
+  "smoke_result_file": "frozen/SMOKE_osnet_x1_0.json",
+  "smoke_result_sha256": "62b36c90ea1fe414a4d2e96a629e3225063f1e841983a2fe9fcc1e879bc36c06",
+  "embedding_dim_verified": 512,
+  "classifier_out_dim_observed": 4101,
+  "verified_checks": {
+   "not_imagenet_only_init": true,
+   "strict_load_ok": true,
+   "deterministic_two_runs": true,
+   "dim_512": true
+  },
+  "environment": {
+   "torch": "2.14.1+cu130",
+   "python": "3.13.16",
+   "code_commit": "f8cd150fdf77e8d9e1ed143b7f308c2c609ded50"
+  }
+ },
+ "smoke_tool": {
+  "file": "tools/dependency_smoke.py",
+  "sha256": "71e5cf1b8882f06cbea916f734db632138ce52664cb1b417ac61993defe0d262",
+  "self_test": "run on randomly initialised models in a temp directory with synthetic tensors: dinov2 ViT-S/14 passes, dinov2 register variant is rejected, osnet re-ID-like (classifier 751) passes, ImageNet-like (classifier 1000) is rejected. This validates the tool only; it says nothing about any real artifact."
+ },
+ "freeze_procedure_once_both_files_present": [
+  "sha256 + size recorded",
+  "tools/dependency_smoke.py dinov2 <pth> frozen/dep_source/dinov2_code out.json --pinned-sha256 <hash if the reviewer supplies one>",
+  "tools/dependency_smoke.py osnet <pth> frozen/dep_source/deep-person-reid_code out.json",
+  "all_checks_passed must be true for both",
+  "fill this registry, hash it, append an audit-ledger entry, freeze read-only"
+ ],
+ "final_blocker_B_status": "RESOLVED",
+ "updated": "2026-10-18",
+ "frozen_utc": "2026-10-18T04:28:28Z"
+}
