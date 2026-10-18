@@ -1,0 +1,78 @@
+{
+ "dev": [
+  {
+   "floor": 0.3,
+   "target_candidates_accepted_as_correct_wrestler": 0.7983193277310925,
+   "target_candidates_accepted_as_wrong_wrestler": 0.16638655462184873,
+   "nontarget_candidates_accepted": 0.01802451333813987
+  },
+  {
+   "floor": 0.4,
+   "target_candidates_accepted_as_correct_wrestler": 0.7983193277310925,
+   "target_candidates_accepted_as_wrong_wrestler": 0.16638655462184873,
+   "nontarget_candidates_accepted": 0.01802451333813987
+  },
+  {
+   "floor": 0.5,
+   "target_candidates_accepted_as_correct_wrestler": 0.7949579831932773,
+   "target_candidates_accepted_as_wrong_wrestler": 0.16470588235294117,
+   "nontarget_candidates_accepted": 0.01802451333813987
+  },
+  {
+   "floor": 0.6,
+   "target_candidates_accepted_as_correct_wrestler": 0.7680672268907563,
+   "target_candidates_accepted_as_wrong_wrestler": 0.1411764705882353,
+   "nontarget_candidates_accepted": 0.015861571737563085
+  },
+  {
+   "floor": 0.7,
+   "target_candidates_accepted_as_correct_wrestler": 0.7058823529411765,
+   "target_candidates_accepted_as_wrong_wrestler": 0.11092436974789915,
+   "nontarget_candidates_accepted": 0.010093727469358327
+  },
+  {
+   "floor": 0.8,
+   "target_candidates_accepted_as_correct_wrestler": 0.5865546218487395,
+   "target_candidates_accepted_as_wrong_wrestler": 0.07899159663865546,
+   "nontarget_candidates_accepted": 0.005046863734679163
+  }
+ ],
+ "test": [
+  {
+   "floor": 0.3,
+   "target_candidates_accepted_as_correct_wrestler": 0.5867881548974943,
+   "target_candidates_accepted_as_wrong_wrestler": 0.32710706150341684,
+   "nontarget_candidates_accepted": 0.037988228999464954
+  },
+  {
+   "floor": 0.4,
+   "target_candidates_accepted_as_correct_wrestler": 0.585876993166287,
+   "target_candidates_accepted_as_wrong_wrestler": 0.32437357630979496,
+   "nontarget_candidates_accepted": 0.034777956126270736
+  },
+  {
+   "floor": 0.5,
+   "target_candidates_accepted_as_correct_wrestler": 0.5617312072892938,
+   "target_candidates_accepted_as_wrong_wrestler": 0.30159453302961275,
+   "nontarget_candidates_accepted": 0.02835741037988229
+  },
+  {
+   "floor": 0.6,
+   "target_candidates_accepted_as_correct_wrestler": 0.2697038724373576,
+   "target_candidates_accepted_as_wrong_wrestler": 0.02824601366742597,
+   "nontarget_candidates_accepted": 0.008560727661851257
+  },
+  {
+   "floor": 0.7,
+   "target_candidates_accepted_as_correct_wrestler": 0.09476082004555808,
+   "target_candidates_accepted_as_wrong_wrestler": 0.0009111617312072893,
+   "nontarget_candidates_accepted": 0.0016051364365971107
+  },
+  {
+   "floor": 0.8,
+   "target_candidates_accepted_as_correct_wrestler": 0.0,
+   "target_candidates_accepted_as_wrong_wrestler": 0.0,
+   "nontarget_candidates_accepted": 0.0
+  }
+ ]
+}

@@ -1,5 +1,7 @@
 # Wrestling-Exposure
 
+> **Developers: read [DEVELOPER_NOTICE.md](DEVELOPER_NOTICE.md) first.** Phase 1 of V0.6 is frozen; review is welcome, but do not change the frozen scientific implementation. Scientific changes go in a new V0.6.1+ branch as proposals.
+
 Research code and audit records for a **markerless computer-vision prototype** aimed at understanding musculoskeletal-injury exposure in entertainment wrestling. This is a student research project. It is **not validated**, and nothing here is a clinical, medical or injury-prediction tool.
 
 > **Read this first.** No claim of validation, accuracy, generalisation, clinical utility, workload, fatigue or injury prediction is made anywhere in this repository. Confidence values produced by the pipeline are heuristic evidence, not probabilities. The system is built to **fail closed**: when evidence is weak it abstains.
@@ -11,7 +13,7 @@ Research code and audit records for a **markerless computer-vision prototype** a
 | V0.1 | Baseline: YOLOv8 pose detection + simple tracking | Frozen |
 | V0.2 – V0.4 | Cut handling, appearance cues, re-ID experiments | Frozen |
 | V0.5 | Anatomical ownership + identity pipeline | Frozen. **Failed Holdout #1** (see `versions/holdout1/HOLDOUT1_REPORT.md`) |
-| V0.6 | Small learned open-set wrestler re-ID head (L1) vs non-learned baseline (B0), kept separate from anatomical ownership with fail-closed fusion | Phase 1 executed once; **result: MODIFY (ANNOTATION-PROVISIONAL)**. Awaiting external reviewer ruling. Allowed to fail |
+| V0.6 | Small learned open-set wrestler re-ID head (L1) vs non-learned baseline (B0), kept separate from anatomical ownership with fail-closed fusion | Phase 1 executed once; **result: MODIFY (ANNOTATION-PROVISIONAL)**. Post-hoc diagnostics complete (`v06/posthoc_v1/`); V0.6.1 is a proposal only, awaiting reviewer authorization. Allowed to fail |
 
 V0.6 Phase 1 summary (full detail in `v06/frozen/phase1_results/`): on the test split, the learned head accepted nothing (coverage 0.000, 0 false accepts) while the baseline had 39 false-accept units (of 111 units). The comparison is vacuous for the learned head and is confounded by domain, resolution and promotion shifts. The head was trained on a single episode with 2 identities. The human annotation-reliability gate was **not satisfied as specified** (a blinded AI second annotator was used, recorded as deviation X1).
 
@@ -22,6 +24,7 @@ baseline_v0.1/          V0.1 code, README, pinned requirements, env capture scri
 versions/v02..v05/      Frozen code, docs, reproducibility hashes for V0.2-V0.5
 versions/holdout1/      V0.5 Holdout #1 code, config, report and metrics
 v06/tools/              V0.6 tooling: structure builder, feature extraction, heads, runner, guards, selftests
+v06/posthoc_v1/         Post-hoc diagnostics of the frozen Phase-1 result (code, numbers, report, V0.6.1 proposal; videos not included)
 v06/frozen/             Frozen preregistration, amendments, closure records, dependency registry,
                         READY manifest, hash-chained AUDIT_LEDGER.jsonl, aggregate Phase 1 results
 ```
@@ -57,7 +60,7 @@ cd v06/tools
 for t in selftest selftest2 selftest3 selftest4 selftest5 selftest6 selftest7; do python3 $t.py || break; done
 ```
 
-All must pass. They use synthetic data only. Some scripts assume the original working-directory layout (`frozen/`, `dets/`, `features/`), which you only have if given the private inputs. Paths are mostly passed as arguments (for example `--frozen_dir`, `--feat_dir`, `--out_dir`).
+`selftest` through `selftest5` and `selftest7` use synthetic data and are expected to pass (they passed in a fresh checkout). **`selftest6` is known to fail**: it depends on private files and absolute paths, and one of its assertions (guard fails closed on the real ledger) became stale once Phase 1 was authorized. It is frozen and not patched; see `v06/posthoc_v1/POSTHOC_DIAGNOSTIC_V1.md` section 9. Some scripts assume the original working-directory layout (`frozen/`, `dets/`, `features/`), which you only have if given the private inputs. Paths are mostly passed as arguments (for example `--frozen_dir`, `--feat_dir`, `--out_dir`).
 
 V0.1 baseline instructions: `baseline_v0.1/README.md`. It assumes `input.mp4` and a YOLOv8m-pose weight file, which are not included.
 

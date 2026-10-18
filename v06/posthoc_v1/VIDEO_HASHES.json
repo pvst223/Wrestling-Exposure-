@@ -1,0 +1,53 @@
+{
+ "DEV_lesnar_bryan": {
+  "path": "/home/claude/proj/v06_phase1/posthoc_v1/DEV_lesnar_bryan.mp4",
+  "sha256": "c04411e13cb7d349dd691fdc68dd5ac812ca509ceb167b26348e6f4658e1d548",
+  "bytes": 9317168,
+  "output_frames": 504,
+  "fps_out": 10,
+  "outcome_counts": {
+   "B0_rej": 1320,
+   "L1_rej": 1380,
+   "B0_OK": 324,
+   "L1_SWAP-FA": 47,
+   "B0_MISS": 243,
+   "L1_MISS": 199,
+   "B0_FA": 67,
+   "L1_FA": 7,
+   "L1_OK": 349,
+   "B0_SWAP-FA": 28
+  }
+ },
+ "TEST_condensed_andrade_mysterio": {
+  "path": "/home/claude/proj/v06_phase1/posthoc_v1/TEST_condensed_andrade_mysterio.mp4",
+  "sha256": "a2f67d410a13306fbfdf0373caf70b30bcdc5ef400d05994afacfcf64d636083",
+  "bytes": 20777730,
+  "output_frames": 1094,
+  "fps_out": 10,
+  "outcome_counts": {
+   "B0_OK": 855,
+   "L1_MISS": 1072,
+   "B0_rej": 916,
+   "L1_rej": 975,
+   "B0_MISS": 154,
+   "B0_SWAP-FA": 63,
+   "B0_FA": 59
+  }
+ },
+ "TEST_andrade_omega": {
+  "path": "/home/claude/proj/v06_phase1/posthoc_v1/TEST_andrade_omega.mp4",
+  "sha256": "66943e59bd1cdbcefa9b41cb8638d413ae2388202feb23030324938dcf5ed53e",
+  "bytes": 18766027,
+  "output_frames": 1009,
+  "fps_out": 10,
+  "outcome_counts": {
+   "B0_MISS": 670,
+   "L1_MISS": 1123,
+   "B0_rej": 876,
+   "L1_rej": 894,
+   "B0_OK": 305,
+   "B0_SWAP-FA": 148,
+   "B0_FA": 18
+  }
+ }
+}
