@@ -24,6 +24,7 @@ baseline_v0.1/          V0.1 code, README, pinned requirements, env capture scri
 versions/v02..v05/      Frozen code, docs, reproducibility hashes for V0.2-V0.5
 versions/holdout1/      V0.5 Holdout #1 code, config, report and metrics
 v06/tools/              V0.6 tooling: structure builder, feature extraction, heads, runner, guards, selftests
+v061/spec_v1/           V0.6.1 prospective design package (DRAFT, not implemented; awaiting reviewer approval)
 v06/posthoc_v1/         Post-hoc diagnostics of the frozen Phase-1 result (code, numbers, report, V0.6.1 proposal; videos not included)
 v06/frozen/             Frozen preregistration, amendments, closure records, dependency registry,
                         READY manifest, hash-chained AUDIT_LEDGER.jsonl, aggregate Phase 1 results
