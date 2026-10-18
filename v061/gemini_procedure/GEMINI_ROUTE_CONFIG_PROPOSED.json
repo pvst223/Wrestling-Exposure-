@@ -1,0 +1,32 @@
+{
+ "status": "PROPOSED completed owner configuration (consumer web app route). NOT FROZEN. Gemini not invoked; nothing transmitted. Fields marked RECORD_AT_RUN or OWNER_TO_CONFIRM are unresolved.",
+ "owner_decision_date": "2026-10-18",
+ "provider": "Google",
+ "access_route": "Consumer Gemini web application (Gemini Apps). Not the API, Vertex AI or an enterprise/Workspace route.",
+ "account": "OWNER_TO_CONFIRM: account type (personal consumer vs Workspace/school; terms may differ) and whether a dedicated account with no other study conversations is used",
+ "model_designation": "RECORD_AT_RUN: the model name shown by the web UI at annotation time, recorded for every item. No pinned version is available on this route (departure from the 'pinned version' wording of the structure the reviewer approved; flagged for reviewer).",
+ "settings": {
+  "keep_activity": "OFF before any study material is transmitted (owner to verify and capture a screenshot/hash)",
+  "conversation": "fresh/temporary chat per item, no prior study conversation context; chat deleted after the response is copied where the UI allows",
+  "feedback": "never submitted on annotation conversations (no thumbs up/down, no reports)",
+  "connected_apps": "disconnect/disable unnecessary Connected Apps; not intentionally invoked",
+  "search_grounding_tools": "not intentionally invoked; availability on the route cannot be fully disabled by the owner: RECORD_AT_RUN any visible tool/search use by the UI",
+  "memory_history_personal_context": "OWNER_TO_CONFIRM that any personalization / past-chats / saved-info features available in the UI are OFF",
+  "temperature": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "top_p": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "top_k": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "seed": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "max_output_tokens": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "reasoning_or_thinking_control": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE (RECORD_AT_RUN any mode selector shown and keep it the same for every item)",
+  "safety_settings": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "system_prompt": "none available; only PROMPT_V1.txt text is entered",
+  "regenerate_edit_retry": "PROHIBITED (no regenerate, edit, re-ask or alternative-draft use); first response is final except the transport rule"
+ },
+ "operation": "Manual: the operator pastes PROMPT_V1.txt text, attaches the item's reference A, reference B and item image in the frozen order, submits once, copies the response verbatim into the log. Response text is parsed by parse_response.py. Screenshots/raw copies are kept privately and hashed.",
+ "provider_terms_review": "see GEMINI_PRIVACY_REVIEW_RECORD_PROPOSED.md",
+ "prompt_sha256": "dcfd8f7d4387b443e3c43f0584bba9f8e1beb806fec647e65157eb43d2ec8b1d",
+ "parser_sha256": "01206cce50319b7e6310f2540ab446e15c4f8a41bb1db7e8278fcec3359cc5ac",
+ "reference_manifest_specification": "REFERENCE_MANIFEST_SPEC.md",
+ "owner_no_prior_exposure_statement_sha256": "UNRESOLVED_OWNER_TO_SUPPLY",
+ "owner_no_prior_exposure_statement_date": "UNRESOLVED_OWNER_TO_SUPPLY"
+}
