@@ -47,6 +47,9 @@ The frozen agreement tools (annotation_agreement.py, adjudicate.py) may be appli
 
 - **Technical failures are reported separately, before any mapping** (reviewer): the audit record keeps, per item, the raw status (OK, MALFORMED, EMPTY, REFUSAL_OR_BLOCK, or TRANSPORT_ERROR after exhausted re-sends) and the raw response. Counts of each technical failure are reported first, in their own table. A genuine Gemini UNLABELABLE output (status OK) is always distinguishable from a technical failure mapped to UNLABELABLE for the agreement calculation. The analysis mapping itself is unchanged. Exhausted TRANSPORT failures are unannotated and are reported, not mapped.
 
+## 10a. Mandatory limitation (reviewer ruling OGR5)
+The consumer Gemini web route does not expose a fixed backend model version or deterministic generation controls; therefore exact computational reproducibility of Gemini outputs cannot be guaranteed. The UI-exposed model designation is recorded for each annotation request where available; unavailable backend/version information is not inferred. The route is accepted ONLY for the prospectively declared AI-vs-first-pass reproducibility/sensitivity analysis. It does not make Gemini a validated annotator, a human annotator or a confirmatory measurement instrument, and it does not satisfy R4 (UNMET; V0.6.1 remains ANNOTATION-PROVISIONAL). No footage-derived material is transmitted for any source unless R3 establishes that third-party processing is permissible for that specific source; public viewability is not permission.
+
 ## 11. Pipeline testing before use
 No test that sends any content to Gemini is authorized. The reviewer ruled that no synthetic dry run is required; parser self-tests suffice unless a later implementation uncertainty specifically justifies one (then only synthetic non-footage images, after reviewer approval). None was run.
 

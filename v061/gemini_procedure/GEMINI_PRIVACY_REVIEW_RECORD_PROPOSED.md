@@ -25,6 +25,8 @@ The images are footage-derived and show spectators and staff. Sending them to a 
 ## 6. Limits to disclose in results
 Model version, temperature and other generation settings are not controllable or exposed on this route; the UI model designation may change over time; outputs may not be exactly reproducible. These are recorded per item and reported as limitations.
 
+Reviewer ruling OGR5 (2026-10-18): this route is acceptable only for the AI-vs-first-pass reproducibility/sensitivity analysis. Mandatory limitation: no fixed backend version or deterministic generation controls, so exact computational reproducibility cannot be guaranteed; the UI model designation is recorded per request where available and nothing unavailable is inferred. Public viewability of a source does not establish permission for third-party transmission (R3, per source).
+
 ## 7. Owner conclusion (OWNER TO SUPPLY, dated, hashed)
 UNRESOLVED. Owner has not yet stated whether the residual retention and possible safety review described above are acceptable.
 
@@ -36,4 +38,4 @@ UNRESOLVED. Owner has not yet stated whether the residual retention and possible
 5. Owner's conclusion in section 7.
 6. Owner no-prior-exposure statement (hash and date).
 7. R3 per-source permission for third-party transmission.
-8. Reviewer acceptance that a consumer route without a pinned version or generation controls is acceptable for the AI-vs-first-pass reproducibility analysis.
+8. (RESOLVED by reviewer ruling OGR5, with the mandatory limitation above.)
