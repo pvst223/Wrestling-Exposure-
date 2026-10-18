@@ -1,9 +1,9 @@
 {
- "status": "PROPOSED COMPLETED configuration (consumer web app route) built from the owner return of 2026-10-18. NOT FROZEN (reviewer has not approved). Gemini prep-only interaction occurred; Gemini has NOT been exposed to Holdout #2 or study imagery and has performed NO study annotation. Remaining unresolved fields are listed under 'unresolved_fields'.",
+ "status": "PROPOSED COMPLETED configuration (consumer web app route) built from the owner return of 2026-10-18. NOT FROZEN (reviewer has not approved). Gemini prep-only interaction occurred; Gemini has NOT been exposed to Holdout #2 or study imagery and has performed NO study annotation. Account and second-prep-interaction fields resolved by the owner 2026-10-18; remaining unresolved fields are listed under 'unresolved_fields'.",
  "owner_decision_date": "2026-10-18",
  "provider": "Google",
  "access_route": "Consumer Gemini web application (Gemini Apps). Not the API, Vertex AI or an enterprise/Workspace route.",
- "account": "UNRESOLVED_OWNER_TO_SUPPLY: account type (personal vs Workspace/school) and dedicated-account status were not supplied and are not guessed",
+ "account": "PERSONAL Google account; dedicated research account: NO (owner's normal personal account). Recorded as a limitation; not represented as dedicated or isolated.",
  "model_designation": "RECORD_AT_RUN (UI-exposed designation per request; no backend/version inference; no pinned version available)",
  "settings": {
   "keep_activity": "OFF, owner-verified 2026-10-18; screenshot SHA-256 df32dd3f9502d0a6221c58466e9e981fc1076865c1797094b91d6964c7868ca7 (hash supplied by owner; the screenshot file itself was not seen by Claude)",
@@ -38,10 +38,10 @@
  "owner_settings_declaration_sha256": "4d6afc22f854a5c9a555b568b1f2b49bcd2f36fe8e8b3691884668947d480992",
  "r3_transmission_gate": "R3 STATUS RECORDED - UNRESOLVED / THIRD-PARTY TRANSMISSION BLOCKED. No footage-derived material from any source may be sent to Gemini until source-specific third-party permission is established and recorded separately.",
  "unresolved_fields": [
-  "account type and dedicated-account status (owner to supply)",
-  "whether any second prep-only interaction occurred (statement says 'if recorded'; owner to state yes/no)",
   "UI model designation (record at run time only)",
-  "reviewer approval of the freeze package",
+  "reviewer verification and approval of the freeze candidate",
   "R3 source-specific third-party permission (blocks any transmission)"
- ]
+ ],
+ "prep_only_interactions": "TWO prep-only interactions occurred (second after Keep Activity was turned off); no study/Holdout material, no annotation; neither may be used as an annotation session. See GEMINI_PREP_INTERACTION_DISCLOSURE.md.",
+ "consumer_route_governs": "Generic section-3 requirements for a pinned version, deterministic settings, returned-version verification and halt-on-mismatch are SUPERSEDED / NOT APPLICABLE for this route (procedure sections 3a and 10a govern)."
 }

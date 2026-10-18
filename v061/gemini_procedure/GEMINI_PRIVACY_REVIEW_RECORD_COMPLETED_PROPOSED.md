@@ -34,9 +34,11 @@ Reviewer ruling OGR5 (2026-10-18): this route is acceptable only for the AI-vs-f
 - Owner conclusion: ACCEPT, for this limited exploratory AI-annotation role. The route is not zero-retention, may retain interactions for service/safety purposes under Google's stated policy, and cannot be represented as guaranteed free from possible human safety review. This acceptance does NOT establish permission to transmit any wrestling footage-derived material; R3 source-specific third-party permission remains separately required. Exact text hashed (SHA-256 in the freeze package manifest; text kept privately).
 - No study imagery or Holdout #2 material was uploaded during configuration (owner statement).
 
+## 7a. Owner resolution of account and second prep interaction (2026-10-18)
+- Account: PERSONAL Google account; dedicated research account: NO (the owner's normal personal account). Recorded as a limitation/context field; the account is not represented as dedicated or isolated.
+- A second prep-only interaction occurred after Keep Activity was turned off; no study/Holdout material, no annotation; never to be used as an annotation session. See GEMINI_PREP_INTERACTION_DISCLOSURE.md addendum.
+
 ## 8. Still unresolved fields
-1. Account type (personal vs Workspace/school) and dedicated-account status: not supplied; not guessed.
-2. Whether a second prep-only interaction occurred: the owner statement says "if recorded" and so does not say yes or no.
-3. UI model designation: recorded per request at run time only.
-4. Reviewer approval of the freeze package (not frozen).
-5. R3 source-specific third-party permission: blocks any transmission (R3 STATUS RECORDED - UNRESOLVED / THIRD-PARTY TRANSMISSION BLOCKED).
+1. UI model designation: recorded per request at run time only.
+2. Reviewer verification and approval of the freeze candidate (NOT frozen).
+3. R3 source-specific third-party permission: blocks any transmission (R3 STATUS RECORDED - UNRESOLVED / THIRD-PARTY TRANSMISSION BLOCKED).
