@@ -1,5 +1,5 @@
 {
- "status": "PROPOSED completed owner configuration (consumer web app route). NOT FROZEN. Gemini not invoked; nothing transmitted. Fields marked RECORD_AT_RUN or OWNER_TO_CONFIRM are unresolved.",
+ "status": "PROPOSED completed owner configuration (consumer web app route). NOT FROZEN. Gemini prep-only interaction occurred; Gemini has NOT been exposed to Holdout #2 or study imagery and has performed NO study annotation. No study material transmitted. Fields marked RECORD_AT_RUN or OWNER_TO_CONFIRM are unresolved.",
  "owner_decision_date": "2026-10-18",
  "provider": "Google",
  "access_route": "Consumer Gemini web application (Gemini Apps). Not the API, Vertex AI or an enterprise/Workspace route.",

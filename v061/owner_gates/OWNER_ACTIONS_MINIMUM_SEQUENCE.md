@@ -22,7 +22,7 @@ a. Choose the account (personal vs Workspace/school; ideally a dedicated account
 b. Capture the Google page https://support.google.com/gemini/answer/13594961 (save as PDF), note date/time, hash it.
 c. Set Keep Activity OFF; turn off any personalization / past chats / saved info; disconnect unnecessary Connected Apps. Take a screenshot of each setting, hash them.
 d. Write your conclusion on the residual 72-hour retention and possible human safety review (acceptable / not acceptable), dated, hashed. The record cannot call the route zero-retention.
-e. Sign the no-prior-exposure statement (template in GEMINI_ANNOTATION_PROCEDURE_PROPOSED.md section 9, with the Gemini UI model name left as "recorded at run time"). Hash and date it. It must be signed before any transmission and must be true: nothing from the study entered into any Gemini interface.
+e. Sign the no-prior-exposure statement (template in GEMINI_ANNOTATION_PROCEDURE_PROPOSED.md section 9, with the Gemini UI model name left as "recorded at run time"). Hash and date it. It must be signed before any transmission and must be true. It must disclose the single prep-only interaction (see GEMINI_PREP_INTERACTION_DISCLOSURE.md) and state that no study material has entered any Gemini interface.
 f. Send me the hashes; I fill the config, compute the final hashes, and submit the frozen-procedure package for reviewer approval.
 
 ## Step 7 - Return to reviewer
