@@ -1,0 +1,5168 @@
+[
+{
+"path": "/cstar",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_episodes[0]",
+"before": "b2_videoplayback_2|brock_lesnar|daniel_bryan",
+"after": "b2_videoplayback_2|brock_lesnar|daniel_bryan",
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/coverage",
+"before": 0.5930827974215642,
+"after": 0.5930827974215642,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/fa_units",
+"before": 32,
+"after": 32,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/fta",
+"before": 0.47761194029850745,
+"after": 0.47761194029850745,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/param[0]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/param[1]",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 15,
+"after": 15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/strata/SPECTATOR/fa",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[0]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/coverage",
+"before": 0.4911285766881101,
+"after": 0.4911285766881101,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/param[0]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/param[1]",
+"before": 0.02,
+"after": 0.02,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 8,
+"after": 8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/strata/SPECTATOR/fa",
+"before": 4,
+"after": 4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[1]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/coverage",
+"before": 0.2844846706196418,
+"after": 0.2844846706196418,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/fa_units",
+"before": 6,
+"after": 6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/fta",
+"before": 0.08955223880597014,
+"after": 0.08955223880597014,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/param[0]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/strata/STAFF/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[2]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/coverage",
+"before": 0.06219285187456604,
+"after": 0.06219285187456604,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/fa_units",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/fta",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/param[0]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/strata/SPECTATOR/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/strata/STAFF/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[3]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/coverage",
+"before": 0.5930827974215642,
+"after": 0.5930827974215642,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/fa_units",
+"before": 32,
+"after": 32,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/fta",
+"before": 0.47761194029850745,
+"after": 0.47761194029850745,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/param[0]",
+"before": 0.4,
+"after": 0.4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/param[1]",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 15,
+"after": 15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/strata/SPECTATOR/fa",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[4]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/coverage",
+"before": 0.4911285766881101,
+"after": 0.4911285766881101,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/param[0]",
+"before": 0.4,
+"after": 0.4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/param[1]",
+"before": 0.02,
+"after": 0.02,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 8,
+"after": 8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/strata/SPECTATOR/fa",
+"before": 4,
+"after": 4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[5]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/coverage",
+"before": 0.2844846706196418,
+"after": 0.2844846706196418,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/fa_units",
+"before": 6,
+"after": 6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/fta",
+"before": 0.08955223880597014,
+"after": 0.08955223880597014,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/param[0]",
+"before": 0.4,
+"after": 0.4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/strata/STAFF/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[6]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/coverage",
+"before": 0.06219285187456604,
+"after": 0.06219285187456604,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/fa_units",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/fta",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/param[0]",
+"before": 0.4,
+"after": 0.4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/strata/SPECTATOR/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/strata/STAFF/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[7]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/coverage",
+"before": 0.5930827974215642,
+"after": 0.5930827974215642,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/fa_units",
+"before": 32,
+"after": 32,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/fta",
+"before": 0.47761194029850745,
+"after": 0.47761194029850745,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/param[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/param[1]",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 15,
+"after": 15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/strata/SPECTATOR/fa",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[8]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/coverage",
+"before": 0.4911285766881101,
+"after": 0.4911285766881101,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/param[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/param[1]",
+"before": 0.02,
+"after": 0.02,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 8,
+"after": 8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/strata/SPECTATOR/fa",
+"before": 4,
+"after": 4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[9]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/coverage",
+"before": 0.2844846706196418,
+"after": 0.2844846706196418,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/fa_units",
+"before": 6,
+"after": 6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/fta",
+"before": 0.08955223880597014,
+"after": 0.08955223880597014,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/param[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/strata/STAFF/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[10]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/coverage",
+"before": 0.06219285187456604,
+"after": 0.06219285187456604,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/fa_units",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/fta",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/param[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/strata/SPECTATOR/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/strata/STAFF/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[11]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/coverage",
+"before": 0.5930827974215642,
+"after": 0.5930827974215642,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/fa_units",
+"before": 32,
+"after": 32,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/fta",
+"before": 0.47761194029850745,
+"after": 0.47761194029850745,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/param[0]",
+"before": 0.6,
+"after": 0.6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/param[1]",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 15,
+"after": 15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/strata/SPECTATOR/fa",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[12]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/coverage",
+"before": 0.4911285766881101,
+"after": 0.4911285766881101,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/param[0]",
+"before": 0.6,
+"after": 0.6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/param[1]",
+"before": 0.02,
+"after": 0.02,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 8,
+"after": 8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/strata/SPECTATOR/fa",
+"before": 4,
+"after": 4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[13]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/coverage",
+"before": 0.2844846706196418,
+"after": 0.2844846706196418,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/fa_units",
+"before": 6,
+"after": 6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/fta",
+"before": 0.08955223880597014,
+"after": 0.08955223880597014,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/param[0]",
+"before": 0.6,
+"after": 0.6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/strata/STAFF/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[14]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/coverage",
+"before": 0.06219285187456604,
+"after": 0.06219285187456604,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/fa_units",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/fta",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/param[0]",
+"before": 0.6,
+"after": 0.6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/strata/SPECTATOR/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/strata/STAFF/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[15]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/coverage",
+"before": 0.5890423933811602,
+"after": 0.5890423933811602,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/fa_units",
+"before": 31,
+"after": 31,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/fta",
+"before": 0.4626865671641791,
+"after": 0.4626865671641791,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/param[1]",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 15,
+"after": 15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/strata/SPECTATOR/fa",
+"before": 8,
+"after": 8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[16]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/coverage",
+"before": 0.4870881726477061,
+"after": 0.4870881726477061,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/param[1]",
+"before": 0.02,
+"after": 0.02,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 8,
+"after": 8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/strata/SPECTATOR/fa",
+"before": 4,
+"after": 4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[17]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/coverage",
+"before": 0.2844846706196418,
+"after": 0.2844846706196418,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/fa_units",
+"before": 6,
+"after": 6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/fta",
+"before": 0.08955223880597014,
+"after": 0.08955223880597014,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/strata/STAFF/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[18]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/coverage",
+"before": 0.06219285187456604,
+"after": 0.06219285187456604,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/fa_units",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/fta",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/strata/SPECTATOR/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/strata/STAFF/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/B0[19]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/coverage",
+"before": 0.7253302783844601,
+"after": 0.7253302783844601,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/fa_units",
+"before": 22,
+"after": 22,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/fta",
+"before": 0.3283582089552239,
+"after": 0.3283582089552239,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/param[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 14,
+"after": 14,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[0]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/coverage",
+"before": 0.7138286221459618,
+"after": 0.7138286221459618,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/fa_units",
+"before": 20,
+"after": 20,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/fta",
+"before": 0.29850746268656714,
+"after": 0.29850746268656714,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/param[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 12,
+"after": 12,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[1]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/coverage",
+"before": 0.6678411352455254,
+"after": 0.6678411352455254,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/param[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/param[1]",
+"before": 0.2,
+"after": 0.2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 10,
+"after": 10,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[2]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/coverage",
+"before": 0.5914019519197117,
+"after": 0.5914019519197117,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/fa_units",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/fta",
+"before": 0.23880597014925373,
+"after": 0.23880597014925373,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/param[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/param[1]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 10,
+"after": 10,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[3]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/coverage",
+"before": 0.7192696723238541,
+"after": 0.7192696723238541,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/fa_units",
+"before": 22,
+"after": 22,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/fta",
+"before": 0.3283582089552239,
+"after": 0.3283582089552239,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/param[0]",
+"before": 0.6,
+"after": 0.6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 14,
+"after": 14,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[4]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/coverage",
+"before": 0.7077680160853557,
+"after": 0.7077680160853557,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/fa_units",
+"before": 20,
+"after": 20,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/fta",
+"before": 0.29850746268656714,
+"after": 0.29850746268656714,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/param[0]",
+"before": 0.6,
+"after": 0.6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 12,
+"after": 12,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[5]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/coverage",
+"before": 0.6617805291849193,
+"after": 0.6617805291849193,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/param[0]",
+"before": 0.6,
+"after": 0.6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/param[1]",
+"before": 0.2,
+"after": 0.2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 10,
+"after": 10,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[6]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/coverage",
+"before": 0.5853413458591056,
+"after": 0.5853413458591056,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/fa_units",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/fta",
+"before": 0.23880597014925373,
+"after": 0.23880597014925373,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/param[0]",
+"before": 0.6,
+"after": 0.6,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/param[1]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 10,
+"after": 10,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[7]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/coverage",
+"before": 0.7192696723238541,
+"after": 0.7192696723238541,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/fa_units",
+"before": 22,
+"after": 22,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/fta",
+"before": 0.3283582089552239,
+"after": 0.3283582089552239,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 14,
+"after": 14,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[8]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/coverage",
+"before": 0.7077680160853557,
+"after": 0.7077680160853557,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/fa_units",
+"before": 20,
+"after": 20,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/fta",
+"before": 0.29850746268656714,
+"after": 0.29850746268656714,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 12,
+"after": 12,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[9]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/coverage",
+"before": 0.6617805291849193,
+"after": 0.6617805291849193,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/param[1]",
+"before": 0.2,
+"after": 0.2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 10,
+"after": 10,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[10]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/coverage",
+"before": 0.5853413458591056,
+"after": 0.5853413458591056,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/fa_units",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/fta",
+"before": 0.23880597014925373,
+"after": 0.23880597014925373,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/param[1]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 10,
+"after": 10,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[11]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/coverage",
+"before": 0.7136231449381962,
+"after": 0.7136231449381962,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/fa_units",
+"before": 22,
+"after": 22,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/fta",
+"before": 0.3283582089552239,
+"after": 0.3283582089552239,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/param[0]",
+"before": 0.8,
+"after": 0.8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 14,
+"after": 14,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[12]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/coverage",
+"before": 0.7021214886996978,
+"after": 0.7021214886996978,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/fa_units",
+"before": 20,
+"after": 20,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/fta",
+"before": 0.29850746268656714,
+"after": 0.29850746268656714,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/param[0]",
+"before": 0.8,
+"after": 0.8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 12,
+"after": 12,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[13]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/coverage",
+"before": 0.6561340017992614,
+"after": 0.6561340017992614,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/param[0]",
+"before": 0.8,
+"after": 0.8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/param[1]",
+"before": 0.2,
+"after": 0.2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 10,
+"after": 10,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[14]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/coverage",
+"before": 0.5796948184734477,
+"after": 0.5796948184734477,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/fa_units",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/fta",
+"before": 0.23880597014925373,
+"after": 0.23880597014925373,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/param[0]",
+"before": 0.8,
+"after": 0.8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/param[1]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 10,
+"after": 10,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/strata/REFEREE/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/strata/SPECTATOR/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/strata/STAFF/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[15]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/coverage",
+"before": 0.6734396898337925,
+"after": 0.6734396898337925,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/fa_units",
+"before": 18,
+"after": 18,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/fta",
+"before": 0.26865671641791045,
+"after": 0.26865671641791045,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/param[0]",
+"before": 0.9,
+"after": 0.9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/param[1]",
+"before": 0.05,
+"after": 0.05,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 13,
+"after": 13,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/strata/REFEREE/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/strata/STAFF/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[16]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/coverage",
+"before": 0.6619380335952941,
+"after": 0.6619380335952941,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/fa_units",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/fta",
+"before": 0.23880597014925373,
+"after": 0.23880597014925373,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/param[0]",
+"before": 0.9,
+"after": 0.9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/param[1]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/strata/REFEREE/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/strata/STAFF/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[17]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/coverage",
+"before": 0.6187053676314969,
+"after": 0.6187053676314969,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/fa_units",
+"before": 14,
+"after": 14,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/fta",
+"before": 0.208955223880597,
+"after": 0.208955223880597,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/param[0]",
+"before": 0.9,
+"after": 0.9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/param[1]",
+"before": 0.2,
+"after": 0.2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/strata/REFEREE/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/strata/STAFF/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[18]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/coverage",
+"before": 0.5476241114027407,
+"after": 0.5476241114027407,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/fa_units",
+"before": 12,
+"after": 12,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/fta",
+"before": 0.1791044776119403,
+"after": 0.1791044776119403,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/param[0]",
+"before": 0.9,
+"after": 0.9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/param[1]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/strata/STAFF/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_grids/L1[19]/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/coverage",
+"before": 0.5890423933811602,
+"after": 0.5890423933811602,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/fa_units",
+"before": 31,
+"after": 31,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/fta",
+"before": 0.4626865671641791,
+"after": 0.4626865671641791,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 15,
+"after": 15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/strata/SPECTATOR/fa",
+"before": 8,
+"after": 8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_B0/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/coverage",
+"before": 0.5476241114027407,
+"after": 0.5476241114027407,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/fa_units",
+"before": 12,
+"after": 12,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/fta",
+"before": 0.1791044776119403,
+"after": 0.1791044776119403,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/strata/STAFF/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/dev_insample_L1/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/diagnostic_flags_descriptive_only/D_GATE_lower_ci_below_0_70",
+"before": false,
+"after": false,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/diagnostic_flags_descriptive_only/F_ASSIGN_interval_includes_0_5",
+"before": false,
+"after": false,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/B0_coverage",
+"before": 0.7308462269521361,
+"after": 0.7308462269521361,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/B0_fta",
+"before": 0.35135135135135137,
+"after": 0.35135135135135137,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/L1_coverage",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/L1_fta",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/paired/b_baseline_only",
+"before": 39,
+"after": 39,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/paired/both",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/paired/c_learned_only",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/paired/discordant",
+"before": 39,
+"after": 39,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/paired/n_units",
+"before": 111,
+"after": 111,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/paired/one_sided_p_b_gt_c",
+"before": 1.8189894035458565e-12,
+"after": 1.8189894035458565e-12,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/frozen_V0.6_reference/reportable_status",
+"before": "MODIFY (ANNOTATION-PROVISIONAL)",
+"after": "MODIFY (ANNOTATION-PROVISIONAL)",
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/head_sha256",
+"before": "835c73ed2846afb103265416eb610b266aaa35a7d64d91cc9f63b54647c96098",
+"after": "835c73ed2846afb103265416eb610b266aaa35a7d64d91cc9f63b54647c96098",
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/joint_levels[0]",
+"before": 0.5,
+"after": 0.5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/joint_levels[1]",
+"before": 0.4,
+"after": 0.4,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/joint_levels[2]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/joint_levels[3]",
+"before": 0.2,
+"after": 0.2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/joint_levels[4]",
+"before": 0.1,
+"after": 0.1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/label",
+"before": "V0.6.1 DEVELOPMENT / HYPOTHESIS CHECK ONLY",
+"after": "V0.6.1 DEVELOPMENT / HYPOTHESIS CHECK ONLY",
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/seed",
+"before": 2041071414,
+"after": 1132388753,
+"identical": false,
+"seed_dependent": true
+},
+{
+"path": "/selected_B0/coverage",
+"before": 0.5890423933811602,
+"after": 0.5890423933811602,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/fa_units",
+"before": 31,
+"after": 31,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/fta",
+"before": 0.4626865671641791,
+"after": 0.4626865671641791,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/param[0]",
+"before": 0.7,
+"after": 0.7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/param[1]",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 15,
+"after": 15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/strata/REFEREE/fa",
+"before": 3,
+"after": 3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/strata/SPECTATOR/fa",
+"before": 8,
+"after": 8,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/strata/STAFF/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_B0/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/coverage",
+"before": 0.5476241114027407,
+"after": 0.5476241114027407,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/fa_units",
+"before": 12,
+"after": 12,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/fta",
+"before": 0.1791044776119403,
+"after": 0.1791044776119403,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/n_target_units",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/n_units",
+"before": 67,
+"after": 67,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/param[0]",
+"before": 0.9,
+"after": 0.9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/param[1]",
+"before": 0.3,
+"after": 0.3,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/strata/OTHER_NAMED_WRESTLER/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/strata/REFEREE/n",
+"before": 16,
+"after": 16,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/strata/SPECTATOR/fa",
+"before": 1,
+"after": 1,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/strata/SPECTATOR/n",
+"before": 11,
+"after": 11,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/strata/STAFF/fa",
+"before": 2,
+"after": 2,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/selected_L1/strata/STAFF/n",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/status",
+"before": "OK",
+"after": "OK",
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/coverage",
+"before": 0.8139413846188189,
+"after": 0.8139413846188189,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/coverage_ci95_bootstrap[0]",
+"before": 0.7336396420541242,
+"after": 0.7351201493799432,
+"identical": false,
+"seed_dependent": true
+},
+{
+"path": "/test_B0/coverage_ci95_bootstrap[1]",
+"before": 0.8848198162322934,
+"after": 0.8877483631088032,
+"identical": false,
+"seed_dependent": true
+},
+{
+"path": "/test_B0/fa_units",
+"before": 49,
+"after": 49,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/fta",
+"before": 0.44144144144144143,
+"after": 0.44144144144144143,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/fta_ci95_exact[0]",
+"before": 0.34727137677264547,
+"after": 0.34727137677264547,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/fta_ci95_exact[1]",
+"before": 0.5388143984057558,
+"after": 0.5388143984057558,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/n_target_units",
+"before": 56,
+"after": 56,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/n_units",
+"before": 111,
+"after": 111,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 22,
+"after": 22,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/strata/OTHER_NAMED_WRESTLER/n",
+"before": 56,
+"after": 56,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/strata/REFEREE/fa",
+"before": 15,
+"after": 15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/strata/REFEREE/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/strata/SPECTATOR/fa",
+"before": 5,
+"after": 5,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/strata/SPECTATOR/n",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/strata/STAFF/fa",
+"before": 7,
+"after": 7,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_B0/strata/STAFF/n",
+"before": 13,
+"after": 13,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/coverage",
+"before": 0.008737220490951835,
+"after": 0.008737220490951835,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/coverage_ci95_bootstrap[0]",
+"before": 0.00026652452025586353,
+"after": 0.00026652452025586353,
+"identical": true,
+"seed_dependent": true
+},
+{
+"path": "/test_L1/coverage_ci95_bootstrap[1]",
+"before": 0.020221693729156415,
+"after": 0.020377337215023772,
+"identical": false,
+"seed_dependent": true
+},
+{
+"path": "/test_L1/fa_units",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/fta",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/fta_ci95_exact[0]",
+"before": 0.0,
+"after": 0.0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/fta_ci95_exact[1]",
+"before": 0.032686994023947695,
+"after": 0.032686994023947695,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/n_target_units",
+"before": 56,
+"after": 56,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/n_units",
+"before": 111,
+"after": 111,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/strata/OTHER_NAMED_WRESTLER/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/strata/OTHER_NAMED_WRESTLER/n",
+"before": 56,
+"after": 56,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/strata/REFEREE/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/strata/REFEREE/n",
+"before": 33,
+"after": 33,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/strata/SPECTATOR/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/strata/SPECTATOR/n",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/strata/STAFF/fa",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_L1/strata/STAFF/n",
+"before": 13,
+"after": 13,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_assignment_auroc/auroc",
+"before": 0.6840978120978121,
+"after": 0.6840978120978121,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_assignment_auroc/ci95[0]",
+"before": 0.5270128276730638,
+"after": 0.5394388655078798,
+"identical": false,
+"seed_dependent": true
+},
+{
+"path": "/test_assignment_auroc/ci95[1]",
+"before": 0.8161488382701633,
+"after": 0.8208142954845707,
+"identical": false,
+"seed_dependent": true
+},
+{
+"path": "/test_decision_decomposition_candidates/REFEREE/ABSTAIN",
+"before": 19,
+"after": 19,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_decision_decomposition_candidates/REFEREE/REJECT",
+"before": 1046,
+"after": 1046,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_decision_decomposition_candidates/SPECTATOR/REJECT",
+"before": 607,
+"after": 607,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_decision_decomposition_candidates/STAFF/ABSTAIN",
+"before": 23,
+"after": 23,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_decision_decomposition_candidates/STAFF/REJECT",
+"before": 174,
+"after": 174,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_decision_decomposition_candidates/TARGET/ABSTAIN",
+"before": 1867,
+"after": 1867,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_decision_decomposition_candidates/TARGET/ACCEPT",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_decision_decomposition_candidates/TARGET/REJECT",
+"before": 319,
+"after": 319,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_episodes[0]",
+"before": "b2_batch2_clip_condensed|andrade|rey_mysterio",
+"after": "b2_batch2_clip_condensed|andrade|rey_mysterio",
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_episodes[1]",
+"before": "b2_videoplayback_5|andrade|kenny_omega",
+"after": "b2_videoplayback_5|andrade|kenny_omega",
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_gate_auroc/auroc",
+"before": 0.979438409440201,
+"after": 0.979438409440201,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_gate_auroc/ci95[0]",
+"before": 0.9565577524029882,
+"after": 0.9575904270781013,
+"identical": false,
+"seed_dependent": true
+},
+{
+"path": "/test_gate_auroc/ci95[1]",
+"before": 0.9921230068861406,
+"after": 0.9924792509040252,
+"identical": false,
+"seed_dependent": true
+},
+{
+"path": "/test_paired/b_baseline_only",
+"before": 49,
+"after": 49,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_paired/both",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_paired/c_learned_only",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_paired/discordant",
+"before": 49,
+"after": 49,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_paired/n_units",
+"before": 111,
+"after": 111,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_paired/one_sided_p_b_gt_c",
+"before": 1.7763568394002505e-15,
+"after": 1.7763568394002505e-15,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_target_candidates_accepted",
+"before": 9,
+"after": 9,
+"identical": true,
+"seed_dependent": false
+},
+{
+"path": "/test_target_candidates_accepted_as_wrong_wrestler",
+"before": 0,
+"after": 0,
+"identical": true,
+"seed_dependent": false
+}
+]
