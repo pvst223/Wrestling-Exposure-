@@ -1,0 +1,47 @@
+{
+ "status": "PROPOSED COMPLETED configuration (consumer web app route) built from the owner return of 2026-10-18. NOT FROZEN (reviewer has not approved). Gemini prep-only interaction occurred; Gemini has NOT been exposed to Holdout #2 or study imagery and has performed NO study annotation. Account and second-prep-interaction fields resolved by the owner 2026-10-18; remaining unresolved fields are listed under 'unresolved_fields'.",
+ "owner_decision_date": "2026-10-18",
+ "provider": "Google",
+ "access_route": "Consumer Gemini web application (Gemini Apps). Not the API, Vertex AI or an enterprise/Workspace route.",
+ "account": "PERSONAL Google account; dedicated research account: NO (owner's normal personal account). Recorded as a limitation; not represented as dedicated or isolated.",
+ "model_designation": "RECORD_AT_RUN (UI-exposed designation per request; no backend/version inference; no pinned version available)",
+ "settings": {
+  "keep_activity": "OFF, owner-verified 2026-10-18; screenshot SHA-256 df32dd3f9502d0a6221c58466e9e981fc1076865c1797094b91d6964c7868ca7 (hash supplied by owner; the screenshot file itself was not seen by Claude)",
+  "conversation": "fresh/temporary chat per item, no prior study conversation context; chat deleted after the response is copied where the UI allows",
+  "feedback": "never submitted on annotation conversations (no thumbs up/down, no reports)",
+  "connected_apps": "Connected Apps reviewed 2026-10-18; screenshot SHA-256 e902d71298a3a2a5c90018642ec77ff9f82d91a9b4d38990974b98cff2d1e632 (hash supplied by owner; file not seen by Claude). 'Gemini Notebook' and 'Verify AI' remain shown as active platform-integrated features and are NOT user-disconnectable through the interface. They will not be intentionally invoked during annotation. They are NOT represented as disconnected. Any visible use of them or of search/tools is RECORD_AT_RUN.",
+  "search_grounding_tools": "not intentionally invoked; cannot be fully disabled by the owner on this route; any visible tool/search/integrated-feature use is RECORD_AT_RUN per item",
+  "memory_history_personal_context": "Memory / past-chat personalization OFF, owner-verified 2026-10-18; screenshot SHA-256 c52166a63d614a171b5b769186a62747d6cde3ca3390664d83f3e4f8325c11a5 (hash supplied by owner; file not seen by Claude)",
+  "temperature": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "top_p": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "top_k": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "seed": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "max_output_tokens": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "reasoning_or_thinking_control": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE (RECORD_AT_RUN any mode selector shown and keep it the same for every item)",
+  "safety_settings": "UNCONTROLLABLE / NOT EXPOSED BY ROUTE",
+  "system_prompt": "none available; only PROMPT_V1.txt text is entered",
+  "regenerate_edit_retry": "PROHIBITED (no regenerate, edit, re-ask or alternative-draft use); first response is final except the transport rule"
+ },
+ "operation": "Manual: the operator pastes PROMPT_V1.txt text, attaches the item's reference A, reference B and item image in the frozen order, submits once, copies the response verbatim into the log. Response text is parsed by parse_response.py. Screenshots/raw copies are kept privately and hashed.",
+ "provider_terms_review": {
+  "record": "GEMINI_PRIVACY_REVIEW_RECORD_COMPLETED_PROPOSED.md",
+  "privacy_hub_pdf_sha256": "c1fa81f793355a478a8914d7411fae1caa33650d4e91b105c662494980d96824",
+  "privacy_hub_pdf_note": "owner-captured 2026-10-18; page identifies itself as last updated October 13, 2026; hash supplied by owner; the PDF was not seen by Claude",
+  "owner_conclusion": "ACCEPT (limited exploratory AI-annotation role; not zero-retention; human safety review not excluded; not permission to transmit footage-derived material)",
+  "owner_conclusion_text_sha256": "e6e48def3a32e786fbb5afeba067025034d6279c8e4f975bce401429a11f02b8"
+ },
+ "prompt_sha256": "dcfd8f7d4387b443e3c43f0584bba9f8e1beb806fec647e65157eb43d2ec8b1d",
+ "parser_sha256": "01206cce50319b7e6310f2540ab446e15c4f8a41bb1db7e8278fcec3359cc5ac",
+ "reference_manifest_specification": "REFERENCE_MANIFEST_SPEC.md",
+ "owner_no_prior_exposure_statement_sha256": "371061c855a00061341e92ec20ba7f8be60d6fdab4353e28cb080f3c3e6969ab",
+ "owner_no_prior_exposure_statement_date": "2026-10-18",
+ "owner_settings_declaration_sha256": "4d6afc22f854a5c9a555b568b1f2b49bcd2f36fe8e8b3691884668947d480992",
+ "r3_transmission_gate": "R3 STATUS RECORDED - UNRESOLVED / THIRD-PARTY TRANSMISSION BLOCKED. No footage-derived material from any source may be sent to Gemini until source-specific third-party permission is established and recorded separately.",
+ "unresolved_fields": [
+  "UI model designation (record at run time only)",
+  "reviewer verification and approval of the freeze candidate",
+  "R3 source-specific third-party permission (blocks any transmission)"
+ ],
+ "prep_only_interactions": "TWO prep-only interactions occurred (second after Keep Activity was turned off); no study/Holdout material, no annotation; neither may be used as an annotation session. See GEMINI_PREP_INTERACTION_DISCLOSURE.md.",
+ "consumer_route_governs": "Generic section-3 requirements for a pinned version, deterministic settings, returned-version verification and halt-on-mismatch are SUPERSEDED / NOT APPLICABLE for this route (procedure sections 3a and 10a govern)."
+}

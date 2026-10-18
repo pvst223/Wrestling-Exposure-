@@ -1,0 +1,60 @@
+# Proposed frozen procedure: Gemini as blinded AI second annotator for Holdout #2 (CONDITIONALLY APPROVED IN STRUCTURE by the reviewer; NOT FROZEN; Gemini NOT authorized)
+
+Status: PROPOSED for reviewer approval. Governed by the accepted deviation record (DEV1; `DEVIATION_R4_AI_SECOND_ANNOTATOR_PROPOSED.md`). spec_v4 (manifest `efb2a797c358cdcad73bc933ccc5a80d95979610179240daf6229b4ba86c88af`) is unchanged. R4 remains UNMET; V0.6.1 remains ANNOTATION-PROVISIONAL. Gemini prep-only interaction occurred; Gemini has NOT been exposed to Holdout #2 or study imagery and has performed NO study annotation. See GEMINI_PREP_INTERACTION_DISCLOSURE.md. Holdout #2 has not been acquired. Items marked OWNER-FILL cannot be decided by Claude and must be completed, hashed and approved before any transmission.
+
+## 1. Scope
+- Gemini labels ONLY the prospectively selected 20% stratified reserve of Holdout #2 tracklets (spec 02 section 2.6; same seed rule, selected before any model output exists). It is not sent the rest of Holdout #2, minimising transmission of non-target imagery.
+- The custodian prepares the items. No model developer (including Claude) receives Holdout #2 pixels before the opening is recorded.
+
+## 2. Frozen elements (each hashed; the set is committed to the ledger before exposure)
+| Element | Content | Hash |
+|---|---|---|
+| Prompt | `PROMPT_V1.txt`, used verbatim, no per-item edits | `dcfd8f7d4387b443e3c43f0584bba9f8e1beb806fec647e65157eb43d2ec8b1d` |
+| Parser | `parse_response.py` (selftest `selftest_parse.py`) | `01206cce50319b7e6310f2540ab446e15c4f8a41bb1db7e8278fcec3359cc5ac` |
+| Model / version / route / settings | `FREEZE_CONFIG_TEMPLATE.json` filled by the owner (OWNER-FILL) | after fill |
+| Reference-material manifest specification | \`REFERENCE_MANIFEST_SPEC.md\` (the manifest itself is built by the custodian at acquisition, before transmission) | see ledger |
+| This procedure | this file | recorded in the ledger at approval |
+
+## 3. Model, route, settings (OWNER-FILL)
+**SUPERSEDED / NOT APPLICABLE FOR THE APPROVED CONSUMER GEMINI WEB ROUTE wherever it conflicts with section 3a (consistency clarification before freeze; reviewer-directed):** the requirements in this section for a pinned model version, deterministic or lowest-variability sampling, fixed reasoning mode, small max output length, provider-default safety settings as a controlled setting, `search, grounding, tools, memory and chat history all OFF` as an absolute, verification of the returned model-version string, and halting on a version mismatch. On the consumer web route the governing behavior is section 3a and section 10a: the UI-exposed model designation is recorded per request where available; the backend version is not inferred; temperature, top_p, top_k, seed, max output, reasoning and safety controls are recorded as UNCONTROLLABLE / NOT EXPOSED where applicable; exact computational reproducibility cannot be guaranteed; a change of the UI-exposed designation between items is recorded and reported, not worked around, and does not halt the run by itself. The original wording follows unchanged for history. Exact provider, access route, pinned model version string (not a floating alias), and settings are written into the filled config: deterministic or lowest-variability sampling, fixed reasoning mode, small max output length, provider-default safety settings recorded, no system prompt beyond the frozen prompt, and search, grounding, tools, memory and chat history all OFF. Each request is a fresh, stateless call; no conversation carries over between items. The returned model-version string is logged with every response; a mismatch with the pinned version halts the run and is reported, not worked around.
+
+## 3a. Completed route configuration (owner return 2026-10-18)
+The proposed completed configuration is `GEMINI_ROUTE_CONFIG_COMPLETED_PROPOSED.json` and the privacy record is `GEMINI_PRIVACY_REVIEW_RECORD_COMPLETED_PROPOSED.md`. Keep Activity and Memory/past-chat personalization are OFF (owner-verified). `Gemini Notebook` and `Verify AI` are platform-integrated features that the owner cannot disconnect; they are not intentionally invoked and are not represented as disconnected, and any visible use is recorded per item. Wherever this procedure says Connected Apps are disconnected, this paragraph governs. Account: PERSONAL Google account, NOT a dedicated research account (the owner's normal personal account); this is recorded as a limitation and the account is not represented as dedicated or isolated. These files supersede the earlier GEMINI_ROUTE_CONFIG_PROPOSED.json and GEMINI_PRIVACY_REVIEW_RECORD_PROPOSED.md for the freeze package; the earlier files stay in the repository unchanged as history.
+
+## 4. What Gemini may receive (minimum reference material)
+Per item, one request containing exactly: (a) for the item's clip, two reference images labelled only "Target A" and "Target B" in that fixed order, the same two images for every item of that clip (the same reference images already used to define the targets for annotators); (b) the item image (a tracklet crop, same format as the V0.6 blind package); (c) the frozen prompt.
+Not sent, by construction: wrestler or promotion names, clip titles or sources, the A/B answer key beyond the two labelled reference images, the item-to-tracklet map, first-pass labels, any model or B0 output, any result or outcome, other items' labels, or reserve-selection information. The custodian confirms this by hash of the reference manifest and a written checklist before transmission. No outside identification is requested or accepted (the prompt forbids it).
+
+## 5. Presentation and order
+Items are sent one per request, in the order of the blinded annotation sheet (ascending item_id as provided; clips grouped as in the sheet). The order is fixed in advance, identical for every item, and not changed during the run.
+
+## 6. Output labels and parsing
+Allowed output is exactly one of TARGET_A, TARGET_B, REFEREE, STAFF, SPECTATOR, UNLABELABLE, and nothing else. `parse_response.py` accepts only a response that, after whitespace trimming, equals one label exactly (case-sensitive). Anything else is not interpreted or repaired.
+
+## 7. Malformed responses, refusals, uncertainty, UNLABELABLE, retries
+- UNLABELABLE is a valid label. Hedged, multi-label, lowercase, punctuated or explanatory answers are MALFORMED, empty answers are EMPTY, and safety blocks or refusals are REFUSAL_OR_BLOCK.
+- Each non-OK status maps to the label UNLABELABLE with the status recorded; counts per status are reported. No manual repair.
+- PROHIBITED: re-prompting, rephrasing, adding examples, changing settings, switching model or route, or re-running an item because the answer looks wrong, disagrees with the first-pass label, or is unexpected. Any such action is unauthorized and would void the run.
+- The ONLY permitted re-send is an identical request after a TRANSPORT error that returned no response content (timeout, connection error, 5xx), at most twice, decided without reference to any label. If still failing the item is recorded as unannotated TRANSPORT_ERROR and reported, not substituted.
+- Every raw response and request metadata (item_id, UTC timestamp, UI-exposed model designation where available per section 3a, status) is stored privately; the log SHA-256 is committed before any V0.6.1 score for Holdout #2 exists.
+
+## 8. Provider privacy and retention review (before any footage-derived material is transmitted)
+The owner reviews, records and hashes (OWNER-FILL in the config) the provider's current terms for the chosen route: whether inputs are used for model training or reviewed by humans, retention and deletion, and region. A route where inputs may be used for training, or reviewed by humans without reviewer acceptance, is not used. Frames show spectators and staff: only the reserve is sent, nothing is shared or published, provider-side stored data is deleted where the route allows, and no footage, frames or crops go to GitHub. Rights status (R3) stays UNRESOLVED per source and is not authorization; if a source's terms or licence do not permit third-party processing, that source's items are not sent. The reviewer accepts the privacy review before transmission.
+
+## 9. Owner statement (dated, before first transmission) - template
+> I, [OWNER ID], state on [DATE] that, apart from the two prep-only interactions disclosed in GEMINI_PREP_INTERACTION_DISCLOSURE.md (no study material; neither is ever used for annotation), Gemini (model/version [X], route [Y]) has had no exposure to any Holdout #2 material, study image or crop, first-pass label, model/B0/L1 output, result, outcome, answer key or wrestler identity material before this date, that no Holdout #2 material has been entered into any Gemini interface (including consumer apps) or any chat/memory feature, and that I will not do so except as the frozen procedure allows. This statement describes an AI annotator accurately; it is not a human independence attestation and does not satisfy R4.
+The signed statement is kept privately; its SHA-256 and date go in the ledger.
+
+## 10. Analysis and reporting (unchanged statistics, relabelled)
+The frozen agreement tools (annotation_agreement.py, adjudicate.py) may be applied with the AI labels in place of the human labels. Every output is labelled AI-vs-AI / AI-vs-first-pass reproducibility or sensitivity analysis, including raw agreement, kappa including and excluding UNLABELABLE, and unit-level agreement. The kappa >= 0.60 value is not described as human reliability, annotation validation, or satisfaction of R4. Disagreements are never used to tune the model, thresholds, data or rules. Outcome stays capped as ANNOTATION-PROVISIONAL.
+
+- **Technical failures are reported separately, before any mapping** (reviewer): the audit record keeps, per item, the raw status (OK, MALFORMED, EMPTY, REFUSAL_OR_BLOCK, or TRANSPORT_ERROR after exhausted re-sends) and the raw response. Counts of each technical failure are reported first, in their own table. A genuine Gemini UNLABELABLE output (status OK) is always distinguishable from a technical failure mapped to UNLABELABLE for the agreement calculation. The analysis mapping itself is unchanged. Exhausted TRANSPORT failures are unannotated and are reported, not mapped.
+
+## 10a. Mandatory limitation (reviewer ruling OGR5)
+The consumer Gemini web route does not expose a fixed backend model version or deterministic generation controls; therefore exact computational reproducibility of Gemini outputs cannot be guaranteed. The UI-exposed model designation is recorded for each annotation request where available; unavailable backend/version information is not inferred. The route is accepted ONLY for the prospectively declared AI-vs-first-pass reproducibility/sensitivity analysis. It does not make Gemini a validated annotator, a human annotator or a confirmatory measurement instrument, and it does not satisfy R4 (UNMET; V0.6.1 remains ANNOTATION-PROVISIONAL). No footage-derived material is transmitted for any source unless R3 establishes that third-party processing is permissible for that specific source; public viewability is not permission.
+
+## 11. Pipeline testing before use
+No test that sends any content to Gemini is authorized. The reviewer ruled that no synthetic dry run is required; parser self-tests suffice unless a later implementation uncertainty specifically justifies one (then only synthetic non-footage images, after reviewer approval). None was run.
+
+## 12. Order of events (nothing below has happened)
+1. Reviewer approves this procedure. 2. Owner fills and hashes the config and privacy review; reviewer accepts. 3. Owner statement signed. 4. Ledger entry records all hashes and the freeze. 5. Holdout #2 acquisition (only after reviewer authorization and the owner gates). 6. Custodian builds reserve items and reference manifest; hash recorded. 7. Run once exactly as frozen. 8. Log and labels committed by hash before any V0.6.1 Holdout score.
