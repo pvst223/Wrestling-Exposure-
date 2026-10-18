@@ -1,0 +1,19 @@
+# 05 Tooling and reproducibility plan (REVISION 3; controls APPROVED; V0.6.1+ only; frozen V0.6 stays untouched)
+
+All fixes are NEW files under `v061/`; no edit to `v06/`. A hash-check of the frozen tree is part of CI so an accidental edit fails the build.
+
+| Issue (from POSTHOC_DIAGNOSTIC_V1 section 9) | Plan |
+|---|---|
+| Stale `selftest6.py` (guard assertion false after AUTH1; private paths; weight path) | New `v061/tests/test_guard.py` builds temporary ledgers in a temp dir (no AUTH entry -> must fail closed; AUTH entry + matching READY manifest -> passes; hash mismatch -> fails) so it never depends on the real ledger state. Real-data structure tests are split into a separate suite marked `needs_private_inputs` and skipped, not failed, when inputs are absent. |
+| Hardcoded absolute paths (`phase1_structure.py`, `extract_features.py`, `selftest6.py`) | New code takes all paths from CLI args or a single `v061/config.py` that reads env vars (`V061_FROZEN_DIR`, `V061_FEATURE_DIR`, `V061_WEIGHTS_DIR`, `V061_PRIVATE_DATA_DIR`); no `/home/claude` literals; a test greps for absolute paths. |
+| No pinned V0.6 dependencies | `v061/requirements.lock` pinned from the environment used for the frozen run (numpy 2.5.3, scipy 1.18.1, torch 2.14.1, torchvision 0.29.1, pillow 12.3.0, pandas 3.0.5, opencv, timm 1.0.30, ultralytics 8.4.177, matplotlib 3.11.2; Python 3.13). Hash-pinned install optional. Document which packages the synthetic suite needs vs the full pipeline. |
+| README claims all selftests pass | CI runs the synthetic suite on every push and the README states exactly what is expected to pass. |
+| Frozen state can be edited by accident | `verify_frozen.py` checks `v06/` and posthoc files against a committed hash manifest; CI fails on mismatch. Branch protection on `main` per the reviewer F8 ruling (see the repository-controls row). |
+| Ledger | New hash-chained V0.6.1 ledger `v061/AUDIT_LEDGER_V061.jsonl` whose first entry carries the V0.6 final ledger hash; same chaining rule; append-only; verified by a script. |
+| Secrets/weights/footage | Pre-commit and CI secret scan; denylist for media, weights, npz, pickles; size cap 30 MB per file. |
+| Reproducibility | `make`-style entry points with documented inputs/outputs; each result file carries code hash, config hash, input hashes, seed. |
+| Review and merge control (reviewer ruling) | Every V0.6.1 scientific change (code, grids, thresholds, rule, training data selection) enters through a reviewable pull request on a branch and is merged or frozen only after explicit reviewer authorization, recorded in the V0.6.1 ledger. Tooling-only PRs (tests, docs, CI, paths) may be merged by maintainers after review if they touch no scientific code path and CI passes. Frozen V0.6 is immutable: tag `phase1-frozen` (local tag; the git proxy rejected pushing it, so the frozen state is also identified by commit `f93a6ea`) and CI hash-check. |
+| Protected `main` (reviewer F8) | Required settings (to be applied by the repository owner in GitHub settings; the Claude GitHub App cannot set them): require a pull request before merging; required status checks = CI (synthetic tests, secret/media/weights scan, 30 MB cap) and the frozen-hash check; no force pushes; no deletion; do not rewrite frozen history (commit `f93a6ea` and everything under `v06/` and `v06/posthoc_v1/`). Tooling-only PRs may be maintainer-merged after review if no scientific path is touched; any PR touching scientific paths (rule, grids, thresholds, training-data selection, comparator, evaluation code, `v061/spec_*`) needs explicit reviewer authorization recorded in the V0.6.1 ledger. |
+| Docs | Short CONTRIBUTING with the governance rules from DEVELOPER_NOTICE.md; issue template for "possible bug affecting a frozen result: record, do not patch". |
+
+None of this is implemented now.
