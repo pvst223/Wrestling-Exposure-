@@ -1,0 +1,13 @@
+{
+ "status": "TEMPLATE - fields to be filled by the owner BEFORE freeze; not filled by Claude; nothing here is a claim",
+ "provider": "TO_BE_FILLED",
+ "access_route": "TO_BE_FILLED (e.g. a paid API route whose terms exclude training on inputs and human review; the free/consumer app is not acceptable unless the reviewer says so)",
+ "model_name_and_exact_version": "TO_BE_FILLED (pinned version string, not a floating alias)",
+ "settings": {"temperature": "0 or lowest supported", "top_p": "TO_BE_FILLED", "top_k": "TO_BE_FILLED", "seed": "TO_BE_FILLED if supported", "max_output_tokens": "small fixed value (labels are < 15 characters)", "thinking_or_reasoning_mode": "TO_BE_FILLED, same for every item", "safety_settings": "provider default, recorded", "system_prompt": "none beyond PROMPT_V1.txt", "tools_search_grounding_memory_history": "all OFF"},
+ "provider_terms_review": {"terms_url_and_version_date": "TO_BE_FILLED", "terms_capture_sha256": "TO_BE_FILLED", "inputs_used_for_training": "TO_BE_FILLED (must be NO)", "human_review_of_inputs": "TO_BE_FILLED (must be NO or reviewer-accepted)", "retention_period_and_deletion": "TO_BE_FILLED", "owner_conclusion": "TO_BE_FILLED"},
+ "prompt_sha256": "dcfd8f7d4387b443e3c43f0584bba9f8e1beb806fec647e65157eb43d2ec8b1d",
+ "parser_sha256": "01206cce50319b7e6310f2540ab446e15c4f8a41bb1db7e8278fcec3359cc5ac",
+ "reference_material_manifest_sha256": "TO_BE_FILLED (computed by the custodian at Holdout #2 build, before transmission)",
+ "owner_no_prior_exposure_statement_sha256": "TO_BE_FILLED",
+ "owner_no_prior_exposure_statement_date": "TO_BE_FILLED"
+}
