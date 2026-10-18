@@ -1,4 +1,4 @@
-# Proposed frozen procedure: Gemini as blinded AI second annotator for Holdout #2 (PROPOSED, not frozen)
+# Proposed frozen procedure: Gemini as blinded AI second annotator for Holdout #2 (CONDITIONALLY APPROVED IN STRUCTURE by the reviewer; NOT FROZEN; Gemini NOT authorized)
 
 Status: PROPOSED for reviewer approval. Governed by the accepted deviation record (DEV1; `DEVIATION_R4_AI_SECOND_ANNOTATOR_PROPOSED.md`). spec_v4 (manifest `efb2a797c358cdcad73bc933ccc5a80d95979610179240daf6229b4ba86c88af`) is unchanged. R4 remains UNMET; V0.6.1 remains ANNOTATION-PROVISIONAL. Gemini has not been invoked and has seen no Holdout #2 material. Holdout #2 has not been acquired. Items marked OWNER-FILL cannot be decided by Claude and must be completed, hashed and approved before any transmission.
 
@@ -12,7 +12,7 @@ Status: PROPOSED for reviewer approval. Governed by the accepted deviation recor
 | Prompt | `PROMPT_V1.txt`, used verbatim, no per-item edits | `dcfd8f7d4387b443e3c43f0584bba9f8e1beb806fec647e65157eb43d2ec8b1d` |
 | Parser | `parse_response.py` (selftest `selftest_parse.py`) | `01206cce50319b7e6310f2540ab446e15c4f8a41bb1db7e8278fcec3359cc5ac` |
 | Model / version / route / settings | `FREEZE_CONFIG_TEMPLATE.json` filled by the owner (OWNER-FILL) | after fill |
-| Reference-material manifest | built by the custodian at acquisition, before transmission | after build |
+| Reference-material manifest specification | \`REFERENCE_MANIFEST_SPEC.md\` (the manifest itself is built by the custodian at acquisition, before transmission) | see ledger |
 | This procedure | this file | recorded in the ledger at approval |
 
 ## 3. Model, route, settings (OWNER-FILL)
@@ -45,8 +45,10 @@ The signed statement is kept privately; its SHA-256 and date go in the ledger.
 ## 10. Analysis and reporting (unchanged statistics, relabelled)
 The frozen agreement tools (annotation_agreement.py, adjudicate.py) may be applied with the AI labels in place of the human labels. Every output is labelled AI-vs-AI / AI-vs-first-pass reproducibility or sensitivity analysis, including raw agreement, kappa including and excluding UNLABELABLE, and unit-level agreement. The kappa >= 0.60 value is not described as human reliability, annotation validation, or satisfaction of R4. Disagreements are never used to tune the model, thresholds, data or rules. Outcome stays capped as ANNOTATION-PROVISIONAL.
 
+- **Technical failures are reported separately, before any mapping** (reviewer): the audit record keeps, per item, the raw status (OK, MALFORMED, EMPTY, REFUSAL_OR_BLOCK, or TRANSPORT_ERROR after exhausted re-sends) and the raw response. Counts of each technical failure are reported first, in their own table. A genuine Gemini UNLABELABLE output (status OK) is always distinguishable from a technical failure mapped to UNLABELABLE for the agreement calculation. The analysis mapping itself is unchanged. Exhausted TRANSPORT failures are unannotated and are reported, not mapped.
+
 ## 11. Pipeline testing before use
-No test that sends any content to Gemini is authorized. If a dry run is wanted, it may use only synthetic non-footage placeholder images, only after reviewer approval, and its results do not enter the study. None was run.
+No test that sends any content to Gemini is authorized. The reviewer ruled that no synthetic dry run is required; parser self-tests suffice unless a later implementation uncertainty specifically justifies one (then only synthetic non-footage images, after reviewer approval). None was run.
 
 ## 12. Order of events (nothing below has happened)
 1. Reviewer approves this procedure. 2. Owner fills and hashes the config and privacy review; reviewer accepts. 3. Owner statement signed. 4. Ledger entry records all hashes and the freeze. 5. Holdout #2 acquisition (only after reviewer authorization and the owner gates). 6. Custodian builds reserve items and reference manifest; hash recorded. 7. Run once exactly as frozen. 8. Log and labels committed by hash before any V0.6.1 Holdout score.
