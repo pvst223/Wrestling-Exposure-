@@ -1,0 +1,33 @@
+{
+ "status": "PROPOSED FINAL FREEZE PACKAGE for reviewer inspection. NOT FROZEN. Reviewer approval required. Gemini prep-only interaction occurred; Gemini has NOT been exposed to Holdout #2 or study imagery and has performed NO study annotation. R3 STATUS RECORDED - UNRESOLVED / THIRD-PARTY TRANSMISSION BLOCKED. R4 UNMET; ANNOTATION-PROVISIONAL.",
+ "spec_v4_manifest_sha256": "efb2a797c358cdcad73bc933ccc5a80d95979610179240daf6229b4ba86c88af",
+ "repo_files_sha256": {
+  "v061/gemini_procedure/GEMINI_ANNOTATION_PROCEDURE_PROPOSED.md": "d1cf8d94bb6faf4b6bc901950de8b036cd529b8783ecd150a86adee421b6ef2c",
+  "v061/gemini_procedure/PROMPT_V1.txt": "dcfd8f7d4387b443e3c43f0584bba9f8e1beb806fec647e65157eb43d2ec8b1d",
+  "v061/gemini_procedure/parse_response.py": "01206cce50319b7e6310f2540ab446e15c4f8a41bb1db7e8278fcec3359cc5ac",
+  "v061/gemini_procedure/selftest_parse.py": "af2b9dc8c13d3f0042f4f71e50535410688bafb23b21fa65eede2a7cc1440dfe",
+  "v061/gemini_procedure/REFERENCE_MANIFEST_SPEC.md": "c02c9a94d281bd63a104e0ee34beb48a6b9f852cc71853b3c39ee7fdfa5be14d",
+  "v061/gemini_procedure/GEMINI_ROUTE_CONFIG_COMPLETED_PROPOSED.json": "534d04f06563aadd70c74b07c9a9b9ab98acdbdfe63dab4788539ee7fdb53256",
+  "v061/gemini_procedure/GEMINI_PRIVACY_REVIEW_RECORD_COMPLETED_PROPOSED.md": "6ddbb385a6fd5fb8a84098414c71ba9b485b0c7fad6eed5f450891a086254e6a",
+  "v061/gemini_procedure/GEMINI_PREP_INTERACTION_DISCLOSURE.md": "e601d249839bef5690744b90c92e38105c0f3688c22f3a342b29d15f68c94df0"
+ },
+ "owner_private_texts_sha256": {
+  "OWNER_GEMINI_SETTINGS_DECLARATION.txt": "4d6afc22f854a5c9a555b568b1f2b49bcd2f36fe8e8b3691884668947d480992",
+  "OWNER_GEMINI_RETENTION_CONCLUSION.txt": "e6e48def3a32e786fbb5afeba067025034d6279c8e4f975bce401429a11f02b8",
+  "OWNER_GEMINI_NO_PRIOR_EXPOSURE_STATEMENT.txt": "371061c855a00061341e92ec20ba7f8be60d6fdab4353e28cb080f3c3e6969ab"
+ },
+ "owner_supplied_evidence_sha256_not_seen_by_claude": {
+  "keep_activity_screenshot": "df32dd3f9502d0a6221c58466e9e981fc1076865c1797094b91d6964c7868ca7",
+  "memory_screenshot": "c52166a63d614a171b5b769186a62747d6cde3ca3390664d83f3e4f8325c11a5",
+  "connected_apps_screenshot": "e902d71298a3a2a5c90018642ec77ff9f82d91a9b4d38990974b98cff2d1e632",
+  "privacy_hub_pdf": "c1fa81f793355a478a8914d7411fae1caa33650d4e91b105c662494980d96824"
+ },
+ "reference_manifest": "specification hashed above; the manifest itself is built by the custodian at acquisition (not built)",
+ "unresolved_fields": [
+  "account type / dedicated-account status",
+  "whether a second prep-only interaction occurred (yes/no)",
+  "UI model designation (run time)",
+  "reviewer approval",
+  "R3 source-specific third-party permission"
+ ]
+}
