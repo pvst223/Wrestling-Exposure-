@@ -29,4 +29,15 @@ class T(unittest.TestCase):
             open(os.path.join(d, "AUDIT_LEDGER.jsonl"), "w").write(json.dumps({"id": "X"}) + "\n")
             with self.assertRaises(SystemExit): S2.preflight(d, os.path.join(d, "r.json"))
     def test_fixed_param_is_dr1_point(self): self.assertEqual(S2.FIXED_PARAM, (0.9, 0.1))
+class T2(unittest.TestCase):
+    def test_analyse_end_to_end_synthetic(self):
+        rng = np.random.default_rng(0); base = {"a": [.8, .1, .1], "b": [.1, .8, .1], "REFEREE": [.03, .03, .94]}
+        def mk(i, clip):
+            tr = [["a", "b", "REFEREE"][j % 3] for j in range(60)]; P = np.array([np.clip(np.array(base[t]) + rng.normal(0, .03, 3), .001, None) for t in tr]); P = P / P.sum(1, keepdims=True)
+            return dict(id=f"e{i}", targets=("a", "b"), clip=clip, rows=[dict(clip=clip, shot=j % 4, truth=t) for j, t in enumerate(tr)], P=P)
+        L = [mk(0, "c1"), mk(1, "c2"), mk(2, "c3")]; comp = {"c1": "F1", "c2": "F2", "c3": "F2"}
+        B0 = S2.grid_pts(L, S2.groups_of(L, comp), lambda e, tau, mg: [dict(clip=r["clip"], shot=r["shot"], truth=r["truth"], accepted=("a" if r["truth"] == "a" else "")) for r in e["rows"]], [(0.5, 0.0)])
+        out = S2.analyse(L, comp, B0, 3, B=50); self.assertEqual(len(out["grid"]), 20); self.assertIn("fixed_point", out); self.assertEqual(len(out["grid"][0]["fold_coverages"]), 2)
+        self.assertGreater(out["fixed_point"]["gate_auroc"], .99); self.assertIn("reselected_point", out)
+        ab = S2.grid_pts(L, S2.groups_of(L, comp), lambda e, tau: S2.old_rule_rows(e, tau), [(t,) for t in S2.OLD_FLOOR_GRID]); self.assertEqual(len(ab), 5)
 if __name__ == "__main__": unittest.main()

@@ -22,7 +22,7 @@ def preflight(frozen, result_path):
     r = subprocess.run([sys.executable, os.path.join(REPO, "v061", "tooling", "impl_manifest.py")], capture_output=True, text=True)
     if r.returncode != 0 or C1.sha(os.path.join(REPO, "v061", "impl", "IMPLEMENTATION_MANIFEST.txt")) != C1.LOCKED_IMPL_MANIFEST_SHA256: raise SystemExit("locked implementation check FAILED")
     ms, _ = manifest_sha("devrun2"); led = [json.loads(l) for l in open(os.path.join(frozen, "AUDIT_LEDGER.jsonl"))]
-    dr2 = [e for e in led if e.get("id") == "DR2"]
+    dr2 = [e for e in led if e.get("id") in ("DR2", "DR2R")]
     if not dr2 or dr2[-1].get("devrun2_code_manifest_sha256") != ms: raise SystemExit("ledger DR2 missing or devrun2 code hash differs")
     if any(e.get("id") == "DR3" for e in led) or os.path.exists(result_path): raise SystemExit("EXECUTED ALREADY (exactly-once rule)")
     return ms
@@ -104,9 +104,9 @@ def compact(d):
                 gate_auroc=d["target_gate"]["auroc"], gate_ci95=d["target_gate"]["ci95"], target_rejected=d["target_gate"]["target_candidates_rejected"], target_candidates=d["target_gate"]["target_candidates"],
                 ab_auroc=d["ab_assignment"]["auroc"], ab_ci95=d["ab_assignment"]["ci95"], abstained=d["ab_assignment"]["target_candidates_abstained"], accepted_target=d["ab_assignment"]["accepted_target_candidates"], wrong_wrestler=d["ab_assignment"]["accepted_as_wrong_target"],
                 nontarget_accepted=d["false_target_acceptance"]["nontarget_candidates_accepted"], numeric_failures=d["n_numeric_failures"])
-def analyse(eps_L1, groups, B0pts, seed, fixed=FIXED_PARAM, B=2000):
+def analyse(eps_L1, comp, B0pts, seed, fixed=FIXED_PARAM, B=2000):
     """Locked two-stage rule: fixed-point view (DR1 point, unchanged) and the V0.6-precedent re-selection view (same deterministic procedure at the joint c*)."""
-    gL1 = grid_pts(eps_L1, groups, E.rows_for, R.GRID_L1); cstar = S.joint_cstar({"L1": gL1, "B0": B0pts}); out = dict(grid=gL1, cstar=cstar)
+    groups = groups_of(eps_L1, comp); gL1 = grid_pts(eps_L1, groups, E.rows_for, R.GRID_L1); cstar = S.joint_cstar({"L1": gL1, "B0": B0pts}); out = dict(grid=gL1, cstar=cstar)
     out["fixed_point"] = compact(E.diagnostics(eps_L1, *fixed, seed=seed, B=B))
     if cstar is not None:
         pl = S.select_point(gL1, cstar); out["reselected_point"] = compact(E.diagnostics(eps_L1, *pl["param"], seed=seed, B=B)) if pl else None
@@ -136,13 +136,13 @@ def calibration_transfer(ins, eps_L1):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--frozen_dir", default=os.environ.get("V061_FROZEN_DIR")); ap.add_argument("--feat_dir", default=os.environ.get("V061_FEATURE_DIR")); ap.add_argument("--dr1_result", required=True); ap.add_argument("--result", required=True); a = ap.parse_args()
     frozen, feat_dir = os.path.abspath(a.frozen_dir), os.path.abspath(a.feat_dir); ms = preflight(frozen, a.result)
-    import torch, phase1_run as RUN, heads; dr1 = json.load(open(a.dr1_result)); D = build_data(frozen, feat_dir); comp = D["comp"]; eps = D["eval_eps"]; groups = groups_of(eps, comp); B0 = b0_pts(eps, comp); seed = C1.EP_SEED
+    import torch, phase1_run as RUN, heads; dr1 = json.load(open(a.dr1_result)); D = build_data(frozen, feat_dir); comp = D["comp"]; eps = D["eval_eps"]; B0 = b0_pts(eps, comp); seed = C1.EP_SEED
     res = dict(label=LABEL, locked_impl_manifest_sha256=C1.LOCKED_IMPL_MANIFEST_SHA256, devrun2_code_manifest_sha256=ms, dr1_result_sha256=C1.sha(a.dr1_result), ep_seed=seed, fixed_param=FIXED_PARAM, relaxed_clips=D["relaxed_clips"],
                note="Secondary, descriptive. No outcome class; no scientific change; final head not trained; old-TEST check not rerun; Holdout #2 untouched.")
     # ---- seeds 0..3 (seed 0 = integrity reproduction of DR1) ----
     res["seed_variance"] = {}; cache = {}
     for s in (0, 1, 2, 3):
-        probs, ins = crossfit(D, s, want_insample=(s == 0)); cache[s] = probs; L = l1_eps(eps, probs); res["seed_variance"][str(s)] = analyse(L, groups, B0, seed)
+        probs, ins = crossfit(D, s, want_insample=(s == 0)); cache[s] = probs; L = l1_eps(eps, probs); res["seed_variance"][str(s)] = analyse(L, comp, B0, seed)
         if s == 0:
             same = all(abs(p["fta"] - q["fta"]) < 1e-12 and abs(p["coverage"] - q["coverage"]) < 1e-12 for p, q in zip(res["seed_variance"]["0"]["grid"], dr1["grids"]["L1"]))
             res["dr1_reproduction_check"] = dict(l1_grid_identical_to_dr1=bool(same))
@@ -150,7 +150,7 @@ def main():
             res["breakdown_seed0_fixed_point"] = ab_breakdown(L, FIXED_PARAM); res["calibration_transfer_seed0_descriptive"] = calibration_transfer(ins, L); L0 = L
     res["seed_variance_note"] = "Heads differ only by training/initialisation seed; data and K=5 seed draws fixed. Fixed-point = DR1 point (0.9, 0.10); reselected = same deterministic procedure at the joint c* (V0.6 variance precedent)."
     # ---- Ablation A: old 3-class floor rule + new (seed-0) cross-fitted head ----
-    gA = grid_pts(L0, groups, lambda e, tau: old_rule_rows(e, tau), [(t,) for t in OLD_FLOOR_GRID]); cA = S.joint_cstar({"L1old": gA, "B0": B0}); ab = dict(grid=gA, cstar=cA)
+    gA = grid_pts(L0, groups_of(L0, comp), lambda e, tau: old_rule_rows(e, tau), [(t,) for t in OLD_FLOOR_GRID]); cA = S.joint_cstar({"L1old": gA, "B0": B0}); ab = dict(grid=gA, cstar=cA)
     if cA is not None:
         pa = S.select_point(gA, cA); ab["selected"] = dict(param=pa["param"], fta=pa["fta"], coverage=pa["coverage"], fa_units=pa["fa_units"], n_units=pa["n_units"], strata=pa["strata"], fold_coverages=pa["fold_coverages"])
         wrong = 0; accT = 0; nt = 0
@@ -164,14 +164,14 @@ def main():
     res["ablation_A_old_rule_new_head_seed0"] = ab
     # ---- Ablation B: new rule + frozen old single-episode head, on episodes it did not train on ----
     old = heads.LearnedHead(D["d_in"]); old.load_state_dict(torch.load(os.path.join(frozen, "phase1_results", "L1_seed0_mobileclip_b.pt"))); old.eval()
-    sub = [e for e in eps if e["clip"] != "b1_orton_rollins_wm31"]; subG = groups_of(sub, comp); subB0 = b0_pts(sub, comp)
+    sub = [e for e in eps if e["clip"] != "b1_orton_rollins_wm31"]; subB0 = b0_pts(sub, comp)
     Lold = l1_eps(sub, {e["id"]: softmax_np(old, e) for e in sub}); Lnew = [x for x in L0 if x["clip"] != "b1_orton_rollins_wm31"]
     res["ablation_B_new_rule_old_head"] = dict(episodes=[e["id"] for e in sub], old_head_sha256=C1.sha(os.path.join(frozen, "phase1_results", "L1_seed0_mobileclip_b.pt")),
                                               note="Old head was trained on the Orton/Rollins episode, so that episode is excluded; comparison head = seed-0 cross-fitted head on the same 3 episodes.",
-                                              old_head=analyse(Lold, subG, subB0, seed), new_head_same_episodes=analyse(Lnew, subG, subB0, seed))
+                                              old_head=analyse(Lold, comp, subB0, seed), new_head_same_episodes=analyse(Lnew, comp, subB0, seed))
     # ---- Ablation C: drop relaxed-seed training episodes (HBK, Rock contribute nothing), seeds 0..3 ----
     res["ablation_C_drop_relaxed_episodes"] = dict(dropped_clips=D["relaxed_clips"], by_seed={})
     for s in (0, 1, 2, 3):
-        probs, _ = crossfit(D, s, exclude_clips=set(D["relaxed_clips"])); res["ablation_C_drop_relaxed_episodes"]["by_seed"][str(s)] = analyse(l1_eps(eps, probs), groups, B0, seed)
+        probs, _ = crossfit(D, s, exclude_clips=set(D["relaxed_clips"])); res["ablation_C_drop_relaxed_episodes"]["by_seed"][str(s)] = analyse(l1_eps(eps, probs), comp, B0, seed)
     res["input_sha256"] = dr1["input_sha256"]; json.dump(res, open(a.result, "w"), indent=1, sort_keys=True, default=lambda o: o.tolist() if hasattr(o, "tolist") else str(o)); os.chmod(a.result, 0o444); print("result sha256", C1.sha(a.result))
 if __name__ == "__main__": main()
