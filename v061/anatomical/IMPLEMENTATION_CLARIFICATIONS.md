@@ -1,0 +1,12 @@
+# Implementation clarifications (decisions made while implementing; each reviewable)
+- **A1** Plain plausibility failures (integrity_v05 non-cross-body reasons, e.g. LANDMARK_OUTSIDE_OWN_BOX) on an otherwise SINGLE_BODY_SUPPORTED skeleton → OWNERSHIP_UNCERTAIN (fail closed). Cross-body cues → MIXED_BODY_SUSPECTED even when no masks exist.
+- **A2** Appearance votes/parts are not available: `evaluate(…, votes={}, parts={"conflict": False})`; appearance vetoes disabled (disclosed in readiness V1 §3).
+- **A3** `others` for ownership metrics = other pose detections in the frame not flagged `duplicate_ignored` by integrity_v05.
+- **A4** Temporal anchor = previous MEASURED detection of the same tracklet within TEMPORAL_MAX_GAP (3 source frames); at stride 3 this is every consecutive pair; anchors are per tracklet (shot-bound), hence reset at cuts.
+- **A5** Detection match: tracklet box ↔ pose detection by IoU ≥ 0.95; otherwise pose_status NONE (NO_POSE_DETECTION).
+- **A6** Numeric failure at adapter level = non-finite/non-numeric g or q in a decision row → REJECT_NONTARGET + numeric_failure (consistent with locked rule C1/C2); a missing decision row → NO_IDENTITY_EVAL.
+- **A7** Merge guard (diagnostic only): input = all non-duplicate pose boxes per frame per shot; heuristics and constants in `merge_guard.py`; its output is attached to rows after classification and is never read by `classify`, ownership, carry, or metrics (proved by a with/without-guard equality test).
+- **A8** Carry from non-assigned anchors is not shown (non-assigned frames between pose frames are blank), accepting flicker over implied assignment.
+- **A9** M9 selection unit = frames (clustered within shots); reported without inferential claims.
+- **A10** Seg extraction option F vs W left to reviewer (see EXECUTION_SEQUENCE S1).
+- **A11** Test suite needs numpy, scipy, opencv (requirements.lock). If cv2/scipy are missing the suite is SKIPPED loudly, not passed.

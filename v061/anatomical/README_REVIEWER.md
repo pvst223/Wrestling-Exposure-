@@ -1,0 +1,3 @@
+# Reviewer quick start (self-contained; run from the ZIP root)
+`python -m unittest discover -s v061/anatomical_plan/tests -p "test_*.py" -v` (12 tests) · `python -m unittest discover -s v061/anatomical/tests -p "test_*.py" -v` (41 tests) · `python v061/anatomical/anat_manifest.py` · `python v061/tooling/impl_manifest.py` · `python v061/tests/run_all.py`.
+Needs: numpy, scipy, opencv-python-headless (see requirements.lock). Reused V0.5 sources are vendored byte-identically in `v061/anatomical/reused_v05/` (hashes in REUSED_V05_HASHES.json = REUSE_PROVENANCE.json); model weights are NOT included (hygiene denylist) — their sha256 are pinned in `impl/preflight.py`; the weight-hash test uses a negative case only.

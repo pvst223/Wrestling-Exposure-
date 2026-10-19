@@ -1,0 +1,209 @@
+{
+ "_doc": "ALL V0.5 behavioural constants. Inherited sections keep V0.4 values unless listed in docs/V0.5_CHANGELOG.md. New sections ('ownership', 'seg') were fixed a priori from stated principles before any V0.5 output existed; none is calibrated against ground truth; none is a probability.",
+ "pose": {
+  "DET_CONF_GATE": 0.3,
+  "MIN_BOX_H": 50,
+  "KP_CONF": 0.5,
+  "RAW_OTHER_CONF": 0.1
+ },
+ "appearance": {
+  "KP_CONF": 0.3,
+  "NBINS_H": 12,
+  "V_DARK": 60,
+  "S_GRAY": 40,
+  "V_GRAY_LIGHT": 170,
+  "V_SPLIT": 140,
+  "TORSO_SHRINK": 0.15,
+  "THIGH_HW": 0.3,
+  "SHANK_HW": 0.25,
+  "ARM_HW": 0.25,
+  "HEAD_R_FRAC": 0.5,
+  "HEAD_MIN_R": 5,
+  "REGION_MIN_PIX": 120,
+  "PIX_FULL": 600,
+  "MODEL_MIN_PIX": 300,
+  "D_SEP_MIN": 0.15,
+  "W_FULL": 0.3,
+  "WHOLE_COL_FRAC": 0.6,
+  "WHOLE_R_CAP": 0.5,
+  "VOTE_DELTA": 0.25
+ },
+ "denim_rule": {
+  "H_SPREAD_MIN": 8,
+  "H_SPREAD_MAX": 18,
+  "H_SPREAD_MAD_MULT": 3,
+  "S_FLOOR": 35,
+  "S_PCT": 10,
+  "S_SCALE": 0.7,
+  "V_PCT_LO": 2,
+  "V_SCALE_LO": 0.8,
+  "V_PCT_HI": 98,
+  "V_SCALE_HI": 1.15,
+  "THIGH_POLY_HALFWIDTH": 0.3,
+  "POLY_KP_CONF": 0.3,
+  "POLY_MIN_AREA_PX": 600,
+  "COV_LO": 0.2,
+  "COV_HI": 0.57,
+  "BG_DENIM_MAX": 0.15
+ },
+ "fusion": {
+  "CUE_PRESENT_R": 0.25,
+  "S_MIN": 0.3,
+  "S_HIGH": 0.5,
+  "R_HIGH": 2.0,
+  "N_HIGH": 3,
+  "CONTRA_S": -0.8,
+  "CONTRA_R": 0.5,
+  "POSE_R_CAP": 0.5,
+  "POSE_SCALE_RANGE": 1.67
+ },
+ "continuity": {
+  "CONT_MAX_GAP": 5,
+  "CONT_IOU_MIN": 0.3,
+  "CONT_IOU_SUPPORT": 0.5,
+  "CONT_SCALE_MIN": 0.6,
+  "CONT_SCALE_MAX": 1.67,
+  "JUMP_BASE_DIAGS": 0.75,
+  "JUMP_PER_GAP_DIAGS": 0.25,
+  "JUMP_CAP_DIAGS": 2.0,
+  "PROBATION_FRAMES": 3,
+  "LINEAGE_IOU_MIN": 0.5,
+  "MERGE_LOOKBACK": 10,
+  "MERGE_IOU": 0.3
+ },
+ "integrity": {
+  "SHARE_DIST_FRAC": 0.05,
+  "SHARE_MIN_JOINTS": 3,
+  "OVERLAP_IOU": 0.3,
+  "OVERLAP_COVER_OTHER": 0.5,
+  "OVERLAP_OTHER_JOINTS_INSIDE": 3,
+  "SCALE_SHOULDER_W_MULT": 1.15,
+  "SCALE_HIP_W_MULT": 1.5,
+  "LIMB_MAX_RATIO": {
+   "upper_arm": 1.4,
+   "forearm": 1.7,
+   "thigh": 1.8,
+   "shank": 1.8
+  },
+  "TORSO_SIDE_RATIO_MIN": 0.5,
+  "LM_OUTSIDE_BOX_MARGIN_FRAC": 0.1,
+  "TEMPORAL_SCALE_MIN": 0.6,
+  "TEMPORAL_SCALE_MAX": 1.67,
+  "TEMPORAL_MAX_GAP": 3,
+  "REL_JOINT_DISP_SCALES": 1.0,
+  "REL_FAIL_JOINTS": 2,
+  "REL_MIN_JOINTS": 6,
+  "REL_MIN_TORSO_JOINTS": 3,
+  "CONTAM_MASS_MAX": 0.15,
+  "VERIFY_OWN_MASS_MIN": 0.25,
+  "DUP_IOU": 0.5
+ },
+ "status": {
+  "MEASURED_MASS": 0.85,
+  "PARTIAL_MASS": 0.4
+ },
+ "prediction": {
+  "MAX_PRED_GAP": 6,
+  "DAMP": 0.5,
+  "VEL_SMOOTH": 0.5,
+  "BOX_MARGIN_DIAGS": 1.0,
+  "DECAY": 0.9,
+  "UNC_BASE_DIAGS": 0.1,
+  "UNC_PER_FRAME_DIAGS": 0.1,
+  "UNC_MAX_DIAGS": 0.5,
+  "ALLOWED_REASONS": [
+   "NO_CANDIDATE",
+   "IDENTITY_INSUFFICIENT_EVIDENCE",
+   "IDENTITY_LOW_SCORE",
+   "LOW_ANATOMY_MASS"
+  ]
+ },
+ "cuts": {
+  "BD_THR": 0.22,
+  "MD_THR": 25.0,
+  "INLIER_MAX": 60,
+  "CLUSTER_FRAMES": 4,
+  "ORB_FEATURES": 1500,
+  "ORB_RATIO": 0.75,
+  "RANSAC_PX": 4.0,
+  "POST_FRAMES": 8,
+  "RETURN_FRAMES": 12,
+  "POST_STABILITY_MAX_BD": 0.4,
+  "SCENE_RETURN_MIN_BD": 0.25,
+  "HIST_BINS_H": 16,
+  "HIST_BINS_S": 8,
+  "THUMB_W": 160,
+  "THUMB_H": 90
+ },
+ "output": {
+  "BANNER_FRAMES": 8,
+  "DISPLAY_KP_CONF": 0.7,
+  "MAX_BONE_FRAC_OF_BOX_DIAG": 0.75,
+  "CRF": 20,
+  "PANEL_W": 420,
+  "FONT": 0.42
+ },
+ "reid": {
+  "CROP_TYPES": [
+   "box",
+   "upper",
+   "lower",
+   "mbox"
+  ],
+  "REID_FULL_PX": 64,
+  "ACC_MIN": 0.5,
+  "SCALE_MIN": 0.02
+ },
+ "identity": {
+  "R_MIN_APP": 0.8,
+  "N_APP_MIN": 2,
+  "S_MIN": 0.3,
+  "JOINT_MARGIN": 0.25,
+  "S_HIGH": 0.5,
+  "R_HIGH": 1.5,
+  "N_HIGH": 3,
+  "CONTRA_S": -0.8,
+  "CONTRA_R": 0.5,
+  "RELAXED_R_FRAC": 0.5,
+  "CRED_DECAY": 0.85,
+  "CRED_MIN": 0.5,
+  "CONT_S_MIN": 0.3,
+  "CONT_R_MIN": 0.25,
+  "CONT_IND_FLOOR": -0.1,
+  "CONT_UNIQUE_MARGIN": 0.25,
+  "REACQ_MBOX_S_MIN": 0.3,
+  "REACQ_MBOX_R_MIN": 0.3
+ },
+ "anatomy": {
+  "PART_R_MIN": 0.3,
+  "PART_CONFLICT_S": -0.5,
+  "PART_COHERENT_S": 0.2,
+  "PART_MIN_N": 2
+ },
+ "collapse": {
+  "COM_DIST_DIAG_FRAC": 0.15
+ },
+ "seg": {
+  "SEG_CONF_MIN": 0.25
+ },
+ "ownership": {
+  "MASK_TOL_PX": 4,
+  "SEG_DUP_IOU": 0.8,
+  "OWNER_COVER_MIN": 0.6,
+  "MIN_LANDMARKS": 4,
+  "SINGLE_OWN_ONLY_MIN": 0.8,
+  "CONTESTED_MAX": 0.1,
+  "MIX_OTHER_MIN_N": 2,
+  "MIX_OTHER_MIN_FRAC": 0.2,
+  "OPP_MIN_N": 3,
+  "OPP_INSIDE_FRAC_MAX": 0.25,
+  "UNEXPL_DIST_S": 0.4,
+  "SKEL_KP_CONF": 0.2,
+  "UNEXPL_MAX": 0.25,
+  "BONE_SAMPLES": 7,
+  "BONE_INSIDE_MIN": 0.6,
+  "BONES_OUTSIDE_MAX": 1,
+  "MERGE_STRICT": 0.5,
+  "MERGE_PERSIST_MAX_FRAMES": 150
+ }
+}

@@ -27,6 +27,8 @@ jobs:
           python -m unittest discover -s v061/devrun/tests -p 'test_*.py'
           python -m unittest discover -s v061/devrun2/tests -p 'test_*.py'
           python -m unittest discover -s v061/anatomical_plan/tests -p 'test_*.py'
+          python -m unittest discover -s v061/anatomical/tests -p 'test_*.py'
+          python v061/anatomical/anat_manifest.py
       - name: Synthetic self-tests
         run: |
           cd v06/tools

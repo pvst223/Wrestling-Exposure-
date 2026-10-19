@@ -1,0 +1,18 @@
+{
+ "files": {
+  "reused_v05/config/config_v05.json": "7e511eecf165214f22242c60c37647ca0c66396436a5b2fb143d7a2c0565cf90",
+  "reused_v05/src/appearance.py": "70ee48719ef832dd76ea63f93af5f818b22a57f59471eb496cafc9151e1bab18",
+  "reused_v05/src/config.py": "e01e3f8c491a3d0acec0ab7c431102d2c64b60c52d6db4ffb2b6e60178066cad",
+  "reused_v05/src/cuts_events.py": "184a649b2548b9c1e2695a2d16068ffed563458f3c029da094972680c1be265f",
+  "reused_v05/src/integrity_v03.py": "843d64b2f92e056cc528dda1e64afc4e211eeb9964f7b046ef940933c6ed954d",
+  "reused_v05/src/integrity_v04.py": "8799cc3d6bb56fc3d62110d3c256428410ca4dd1ad669ac65fdb165efbc6b2bc",
+  "reused_v05/src/integrity_v05.py": "0702b5685efdeb8e353fc5751508306abefe1de47ec454f359d7f3f7248dec10",
+  "reused_v05/src/ownership_v05.py": "8cec4f1ac9f6b1e1bf609786675780383ebcc9c5220b566eaa15281c38a9fa68",
+  "reused_v05/src/seg_extract.py": "58f9862469354d72113be3540680e09e8cbc33f95a88f315ba89071221934093"
+ },
+ "models": {
+  "yolov8m-pose.pt": "dbe539ea268db2534390942cfdf206e521f376f19e5415967a57f6a2ddfa3c90",
+  "yolov8m-seg.pt": "51fa7e5ef385efa6d5b1d8e31b73399be6ed5d7ca71bda4bd4b2794bb445c4f4"
+ },
+ "note": "byte-identical copies of V0.5 sources; hashes equal REUSE_PROVENANCE.json (computed from the original V0.5 tree)"
+}
