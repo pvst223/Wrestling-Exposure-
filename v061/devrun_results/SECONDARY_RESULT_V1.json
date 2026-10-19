@@ -1,0 +1,8165 @@
+{
+ "ablation_A_old_rule_new_head_seed0": {
+  "cstar": 0.5,
+  "grid": [
+   {
+    "coverage": 0.7049750930492226,
+    "fa_units": 86,
+    "fold_coverages": [
+     0.7323764649984162,
+     0.7252943641498303,
+     0.6876188245177729
+    ],
+    "fta": 0.43,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.4
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 64,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 12,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 9,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6965284649688419,
+    "fa_units": 81,
+    "fold_coverages": [
+     0.7298512124731638,
+     0.7252943641498303,
+     0.6730315918345535
+    ],
+    "fta": 0.405,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 62,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 10,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 8,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6112668741072101,
+    "fa_units": 75,
+    "fold_coverages": [
+     0.6879346601907578,
+     0.6904073404184129,
+     0.5495707841931258
+    ],
+    "fta": 0.375,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 56,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 10,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 8,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.5480640924512344,
+    "fa_units": 62,
+    "fold_coverages": [
+     0.6160036778939219,
+     0.6423099026897586,
+     0.47918110713443335
+    ],
+    "fta": 0.31,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 47,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 7,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.47281787845879486,
+    "fa_units": 39,
+    "fold_coverages": [
+     0.5340702319360856,
+     0.5780728063625317,
+     0.3987609407967678
+    ],
+    "fta": 0.195,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.8
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 31,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 3,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 5,
+      "n": 20
+     }
+    }
+   }
+  ],
+  "selected": {
+   "accepted_as_wrong_target": 425,
+   "accepted_target_candidates": 2194,
+   "coverage": 0.6112668741072101,
+   "fa_units": 75,
+   "fold_coverages": [
+    0.6879346601907578,
+    0.6904073404184129,
+    0.5495707841931258
+   ],
+   "fta": 0.375,
+   "n_units": 200,
+   "nontarget_candidates_accepted": 69,
+   "param": [
+    0.6
+   ],
+   "strata": {
+    "OTHER_NAMED_WRESTLER": {
+     "fa": 56,
+     "n": 100
+    },
+    "REFEREE": {
+     "fa": 10,
+     "n": 55
+    },
+    "SPECTATOR": {
+     "fa": 1,
+     "n": 25
+    },
+    "STAFF": {
+     "fa": 8,
+     "n": 20
+    }
+   }
+  }
+ },
+ "ablation_B_new_rule_old_head": {
+  "episodes": [
+   "b2_videoplayback_2|brock_lesnar|daniel_bryan",
+   "b2_batch2_clip_condensed|andrade|rey_mysterio",
+   "b2_videoplayback_5|andrade|kenny_omega"
+  ],
+  "new_head_same_episodes": {
+   "cstar": 0.5,
+   "fixed_point": {
+    "ab_auroc": 0.8144707973501383,
+    "ab_ci95": [
+     0.7298937623407281,
+     0.886896835243561
+    ],
+    "abstained": 577,
+    "accepted_target": 1908,
+    "coverage": 0.5768679322775278,
+    "fa_units": 59,
+    "fta": 0.33146067415730335,
+    "fta_ci95_exact": [
+     0.2628401820498455,
+     0.405803115264243
+    ],
+    "gate_auroc": 0.9889350127253353,
+    "gate_ci95": [
+     0.9797884952093016,
+     0.9941612200137887
+    ],
+    "n_units": 178,
+    "nontarget_accepted": 42,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 45,
+      "n": 89
+     },
+     "REFEREE": {
+      "fa": 7,
+      "n": 49
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 20
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    },
+    "target_candidates": 2790,
+    "target_rejected": 305,
+    "wrong_wrestler": 353
+   },
+   "grid": [
+    {
+     "coverage": 0.6630427749366106,
+     "fa_units": 75,
+     "fold_coverages": [
+      0.7054010995197236,
+      0.6380816193787047
+     ],
+     "fta": 0.42134831460674155,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.5,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 53,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6274121507469097,
+     "fa_units": 73,
+     "fold_coverages": [
+      0.698835442954067,
+      0.5853234249819776
+     ],
+     "fta": 0.4101123595505618,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.5,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 51,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.570139678802799,
+     "fa_units": 61,
+     "fold_coverages": [
+      0.6566558796215479,
+      0.5191569176060363
+     ],
+     "fta": 0.34269662921348315,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.5,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 42,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.499224654768852,
+     "fa_units": 42,
+     "fold_coverages": [
+      0.5975744830115471,
+      0.4412685059829781
+     ],
+     "fta": 0.23595505617977527,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.5,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 28,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 6,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.652683452228424,
+     "fa_units": 73,
+     "fold_coverages": [
+      0.7032861282972008,
+      0.6228640181164663
+     ],
+     "fta": 0.4101123595505618,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.6,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 53,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6180654141085391,
+     "fa_units": 71,
+     "fold_coverages": [
+      0.6967204717315443,
+      0.5717151122949824
+     ],
+     "fta": 0.398876404494382,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.6,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 51,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5608245927420514,
+     "fa_units": 59,
+     "fold_coverages": [
+      0.6545409083990252,
+      0.5055989067299062
+     ],
+     "fta": 0.33146067415730335,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.6,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 42,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4899095687081045,
+     "fa_units": 41,
+     "fold_coverages": [
+      0.5954595117890246,
+      0.42771049510684794
+     ],
+     "fta": 0.2303370786516854,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.6,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 28,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 5,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.643858949263255,
+     "fa_units": 71,
+     "fold_coverages": [
+      0.7020235020345746,
+      0.6095834092372988
+     ],
+     "fta": 0.398876404494382,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.7,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 53,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6102153718005802,
+     "fa_units": 69,
+     "fold_coverages": [
+      0.695457845468918,
+      0.5599831998174525
+     ],
+     "fta": 0.38764044943820225,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.7,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 51,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5543760157124874,
+     "fa_units": 58,
+     "fold_coverages": [
+      0.653278282136399,
+      0.4960943229983966
+     ],
+     "fta": 0.3258426966292135,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.7,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 42,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.48425737093794163,
+     "fa_units": 39,
+     "fold_coverages": [
+      0.5954595117890246,
+      0.41872753793641065
+     ],
+     "fta": 0.21910112359550563,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.7,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 28,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 5,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6308125643668627,
+     "fa_units": 68,
+     "fold_coverages": [
+      0.6906363384734979,
+      0.5955592689111671
+     ],
+     "fta": 0.38202247191011235,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.8,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 52,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5981815729740039,
+     "fa_units": 65,
+     "fold_coverages": [
+      0.6840706819078415,
+      0.547568348066564
+     ],
+     "fta": 0.3651685393258427,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.8,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 49,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.543268677988046,
+     "fa_units": 57,
+     "fold_coverages": [
+      0.6418911185753223,
+      0.4851518826419724
+     ],
+     "fta": 0.3202247191011236,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.8,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 42,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4763919566643175,
+     "fa_units": 35,
+     "fold_coverages": [
+      0.584072348227948,
+      0.41293744020717815
+     ],
+     "fta": 0.19662921348314608,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.8,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 27,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 3,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6081454752939413,
+     "fa_units": 63,
+     "fold_coverages": [
+      0.667085507317662,
+      0.5734129564228201
+     ],
+     "fta": 0.3539325842696629,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.9,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 49,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 7,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5768679322775278,
+     "fa_units": 59,
+     "fold_coverages": [
+      0.6605198507520055,
+      0.5275730517479247
+     ],
+     "fta": 0.33146067415730335,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.9,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 45,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 7,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.525785118335728,
+     "fa_units": 51,
+     "fold_coverages": [
+      0.6183402874194864,
+      0.4712436794113704
+     ],
+     "fta": 0.28651685393258425,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.9,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 38,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 6,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4602409322003319,
+     "fa_units": 33,
+     "fold_coverages": [
+      0.5638592421489674,
+      0.39918014240917177
+     ],
+     "fta": 0.1853932584269663,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.9,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 26,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 2,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    }
+   ],
+   "reselected_point": {
+    "ab_auroc": 0.8144707973501383,
+    "ab_ci95": [
+     0.7298937623407281,
+     0.886896835243561
+    ],
+    "abstained": 577,
+    "accepted_target": 1908,
+    "coverage": 0.5768679322775278,
+    "fa_units": 59,
+    "fta": 0.33146067415730335,
+    "fta_ci95_exact": [
+     0.2628401820498455,
+     0.405803115264243
+    ],
+    "gate_auroc": 0.9889350127253353,
+    "gate_ci95": [
+     0.9797884952093016,
+     0.9941612200137887
+    ],
+    "n_units": 178,
+    "nontarget_accepted": 42,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 45,
+      "n": 89
+     },
+     "REFEREE": {
+      "fa": 7,
+      "n": 49
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 20
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    },
+    "target_candidates": 2790,
+    "target_rejected": 305,
+    "wrong_wrestler": 353
+   }
+  },
+  "note": "Old head was trained on the Orton/Rollins episode, so that episode is excluded; comparison head = seed-0 cross-fitted head on the same 3 episodes.",
+  "old_head": {
+   "cstar": 0.5,
+   "fixed_point": {
+    "ab_auroc": 0.714769138496661,
+    "ab_ci95": [
+     0.594721029244691,
+     0.8185746225478757
+    ],
+    "abstained": 1212,
+    "accepted_target": 1179,
+    "coverage": 0.4675283514120348,
+    "fa_units": 44,
+    "fta": 0.24719101123595505,
+    "fta_ci95_exact": [
+     0.18571644919177577,
+     0.3172861242340811
+    ],
+    "gate_auroc": 0.9792411913379655,
+    "gate_ci95": [
+     0.9601759337784072,
+     0.9906701578039209
+    ],
+    "n_units": 178,
+    "nontarget_accepted": 18,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 33,
+      "n": 89
+     },
+     "REFEREE": {
+      "fa": 6,
+      "n": 49
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 20
+     },
+     "STAFF": {
+      "fa": 4,
+      "n": 20
+     }
+    },
+    "target_candidates": 2790,
+    "target_rejected": 399,
+    "wrong_wrestler": 144
+   },
+   "grid": [
+    {
+     "coverage": 0.5975918888955919,
+     "fa_units": 68,
+     "fold_coverages": [
+      0.7253302783844601,
+      0.5223174808039375
+     ],
+     "fta": 0.38202247191011235,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.5,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 46,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5128002032989822,
+     "fa_units": 54,
+     "fold_coverages": [
+      0.7138286221459618,
+      0.39433702790701214
+     ],
+     "fta": 0.30337078651685395,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.5,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 35,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 6,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.3521395256975119,
+     "fa_units": 27,
+     "fold_coverages": [
+      0.6678411352455254,
+      0.16610107721386108
+     ],
+     "fta": 0.15168539325842698,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.5,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 14,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 7,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 4,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.2290618105819794,
+     "fa_units": 18,
+     "fold_coverages": [
+      0.5914019519197117,
+      0.015539941579387208
+     ],
+     "fta": 0.10112359550561797,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.5,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 10,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 3,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 3,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5930536057056234,
+     "fa_units": 68,
+     "fold_coverages": [
+      0.7192696723238541,
+      0.5186762807341659
+     ],
+     "fta": 0.38202247191011235,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.6,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 46,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5082619201090137,
+     "fa_units": 53,
+     "fold_coverages": [
+      0.7077680160853557,
+      0.39069582783724066
+     ],
+     "fta": 0.29775280898876405,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.6,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 35,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 6,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.34840381072584187,
+     "fa_units": 27,
+     "fold_coverages": [
+      0.6617805291849193,
+      0.16373538734817122
+     ],
+     "fta": 0.15168539325842698,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.6,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 14,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 7,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 4,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.22619039984540015,
+     "fa_units": 18,
+     "fold_coverages": [
+      0.5853413458591056,
+      0.014547878087323716
+     ],
+     "fta": 0.10112359550561797,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.6,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 10,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 3,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 3,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5885355055863564,
+     "fa_units": 66,
+     "fold_coverages": [
+      0.7192696723238541,
+      0.5114957287589024
+     ],
+     "fta": 0.3707865168539326,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.7,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 45,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5038071211449927,
+     "fa_units": 53,
+     "fold_coverages": [
+      0.7077680160853557,
+      0.3836158794837074
+     ],
+     "fta": 0.29775280898876405,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.7,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 35,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 6,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.3443730100658277,
+     "fa_units": 27,
+     "fold_coverages": [
+      0.6617805291849193,
+      0.15732929344207733
+     ],
+     "fta": 0.15168539325842698,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.7,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 14,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 7,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 4,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.22538783162710158,
+     "fa_units": 18,
+     "fold_coverages": [
+      0.5853413458591056,
+      0.013272367883242084
+     ],
+     "fta": 0.10112359550561797,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.7,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 10,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 3,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 3,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5815276826402052,
+     "fa_units": 64,
+     "fold_coverages": [
+      0.7136231449381962,
+      0.5036857137860319
+     ],
+     "fta": 0.3595505617977528,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.8,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 45,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.49888062882464435,
+     "fa_units": 50,
+     "fold_coverages": [
+      0.7021214886996978,
+      0.37911369354113056
+     ],
+     "fta": 0.2808988764044944,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.8,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 34,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.3405421862844392,
+     "fa_units": 25,
+     "fold_coverages": [
+      0.6561340017992614,
+      0.15456843785606184
+     ],
+     "fta": 0.1404494382022472,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.8,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 14,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 6,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 3,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.22266995568010986,
+     "fa_units": 17,
+     "fold_coverages": [
+      0.5796948184734477,
+      0.012280304391178592
+     ],
+     "fta": 0.09550561797752809,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.8,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 10,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 2,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 3,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5500652488054762,
+     "fa_units": 57,
+     "fold_coverages": [
+      0.6734396898337925,
+      0.47736245319950416
+     ],
+     "fta": 0.3202247191011236,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.9,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 43,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4675283514120348,
+     "fa_units": 44,
+     "fold_coverages": [
+      0.6619380335952941,
+      0.35296550298261403
+     ],
+     "fta": 0.24719101123595505,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.9,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 33,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 6,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 4,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.3135872799688558,
+     "fa_units": 19,
+     "fold_coverages": [
+      0.6187053676314969,
+      0.1337855497390852
+     ],
+     "fta": 0.10674157303370786,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.9,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 13,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 3,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 2,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.20854921375037916,
+     "fa_units": 12,
+     "fold_coverages": [
+      0.5476241114027407,
+      0.008737220490951835
+     ],
+     "fta": 0.06741573033707865,
+     "n_target_units": 89,
+     "n_units": 178,
+     "param": [
+      0.9,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 9,
+       "n": 89
+      },
+      "REFEREE": {
+       "fa": 0,
+       "n": 49
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 20
+      },
+      "STAFF": {
+       "fa": 2,
+       "n": 20
+      }
+     }
+    }
+   ],
+   "reselected_point": {
+    "ab_auroc": 0.714769138496661,
+    "ab_ci95": [
+     0.594721029244691,
+     0.8185746225478757
+    ],
+    "abstained": 732,
+    "accepted_target": 1769,
+    "coverage": 0.5815276826402052,
+    "fa_units": 64,
+    "fta": 0.3595505617977528,
+    "fta_ci95_exact": [
+     0.28912898112254476,
+     0.4347360564425932
+    ],
+    "gate_auroc": 0.9792411913379655,
+    "gate_ci95": [
+     0.9601759337784072,
+     0.9906701578039209
+    ],
+    "n_units": 178,
+    "nontarget_accepted": 50,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.05,
+     "tau_g": 0.8
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 45,
+      "n": 89
+     },
+     "REFEREE": {
+      "fa": 10,
+      "n": 49
+     },
+     "SPECTATOR": {
+      "fa": 2,
+      "n": 20
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    },
+    "target_candidates": 2790,
+    "target_rejected": 289,
+    "wrong_wrestler": 388
+   }
+  },
+  "old_head_sha256": "835c73ed2846afb103265416eb610b266aaa35a7d64d91cc9f63b54647c96098"
+ },
+ "ablation_C_drop_relaxed_episodes": {
+  "by_seed": {
+   "0": {
+    "cstar": 0.5,
+    "fixed_point": {
+     "ab_auroc": 0.7075391843761373,
+     "ab_ci95": [
+      0.6340202258081431,
+      0.7894288407048562
+     ],
+     "abstained": 496,
+     "accepted_target": 1824,
+     "coverage": 0.464616167722943,
+     "fa_units": 69,
+     "fta": 0.345,
+     "fta_ci95_exact": [
+      0.2793654759715659,
+      0.4153072390103893
+     ],
+     "gate_auroc": 0.9711821864405549,
+     "gate_ci95": [
+      0.9504053776013783,
+      0.9841050017394694
+     ],
+     "n_units": 200,
+     "nontarget_accepted": 21,
+     "numeric_failures": 0,
+     "param": {
+      "delta": 0.1,
+      "tau_g": 0.9
+     },
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 60,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 4,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 3,
+       "n": 20
+      }
+     },
+     "target_candidates": 3058,
+     "target_rejected": 738,
+     "wrong_wrestler": 471
+    },
+    "grid": [
+     {
+      "coverage": 0.5817426116401793,
+      "fa_units": 91,
+      "fold_coverages": [
+       0.6829435469679372,
+       0.6491097964394634,
+       0.5221653368726487
+      ],
+      "fta": 0.455,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 70,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 9,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5584310679543544,
+      "fa_units": 89,
+      "fold_coverages": [
+       0.6541319114489846,
+       0.6385821944432707,
+       0.4924007741583692
+      ],
+      "fta": 0.445,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 68,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 9,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5120326765612115,
+      "fa_units": 78,
+      "fold_coverages": [
+       0.5769836870446627,
+       0.5947757916231312,
+       0.45051510669761674
+      ],
+      "fta": 0.39,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 59,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 7,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.45812267227802755,
+      "fa_units": 69,
+      "fold_coverages": [
+       0.45901391968465144,
+       0.5494371366919466,
+       0.4041372964363813
+      ],
+      "fta": 0.345,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 52,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5728126936043977,
+      "fa_units": 86,
+      "fold_coverages": [
+       0.6829435469679372,
+       0.6398488960495309,
+       0.5116763709671062
+      ],
+      "fta": 0.43,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 66,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5512624098090171,
+      "fa_units": 83,
+      "fold_coverages": [
+       0.6541319114489846,
+       0.6302988111598875,
+       0.48448087833368925
+      ],
+      "fta": 0.415,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 64,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 7,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5048640184158742,
+      "fa_units": 75,
+      "fold_coverages": [
+       0.5769836870446627,
+       0.5864924083397479,
+       0.4425952108729368
+      ],
+      "fta": 0.375,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 56,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 7,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4509540141326903,
+      "fa_units": 66,
+      "fold_coverages": [
+       0.45901391968465144,
+       0.5411537534085633,
+       0.39621740061170135
+      ],
+      "fta": 0.33,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 49,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5493439783352829,
+      "fa_units": 84,
+      "fold_coverages": [
+       0.6829435469679372,
+       0.619581553589083,
+       0.48171120622216523
+      ],
+      "fta": 0.42,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 66,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 7,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5278700304177649,
+      "fa_units": 81,
+      "fold_coverages": [
+       0.6541319114489846,
+       0.6100314686994395,
+       0.45465202765636004
+      ],
+      "fta": 0.405,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 64,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4827689875094706,
+      "fa_units": 73,
+      "fold_coverages": [
+       0.5769836870446627,
+       0.5662250658792999,
+       0.4150830539185514
+      ],
+      "fta": 0.365,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 56,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4306865586359516,
+      "fa_units": 64,
+      "fold_coverages": [
+       0.45901391968465144,
+       0.5208864109481153,
+       0.3719687711745748
+      ],
+      "fta": 0.32,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 49,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5228989808300966,
+      "fa_units": 80,
+      "fold_coverages": [
+       0.6829435469679372,
+       0.5916821011472965,
+       0.4509287451518138
+      ],
+      "fta": 0.4,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 65,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 6,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.501953201926663,
+      "fa_units": 77,
+      "fold_coverages": [
+       0.6541319114489846,
+       0.582132016257653,
+       0.424812725539731
+      ],
+      "fta": 0.385,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 63,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 6,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.45785995616707903,
+      "fa_units": 67,
+      "fold_coverages": [
+       0.5769836870446627,
+       0.5383256134375134,
+       0.38704338956747625
+      ],
+      "fta": 0.335,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 55,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 3,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 6,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4075614639451437,
+      "fa_units": 59,
+      "fold_coverages": [
+       0.45901391968465144,
+       0.49733816285753313,
+       0.3445506054229394
+      ],
+      "fta": 0.295,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 48,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 2,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 3,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 6,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4852668768221251,
+      "fa_units": 72,
+      "fold_coverages": [
+       0.6829435469679372,
+       0.540648950018183,
+       0.41380166633866367
+      ],
+      "fta": 0.36,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 62,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 3,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.464616167722943,
+      "fa_units": 69,
+      "fold_coverages": [
+       0.6541319114489846,
+       0.5310988651285395,
+       0.38821255709131536
+      ],
+      "fta": 0.345,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 60,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 3,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.42427847394119,
+      "fa_units": 60,
+      "fold_coverages": [
+       0.5769836870446627,
+       0.49384011197998867,
+       0.3532911275230015
+      ],
+      "fta": 0.3,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 52,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 3,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 3,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.3781617783066097,
+      "fa_units": 50,
+      "fold_coverages": [
+       0.45901391968465144,
+       0.457514666062013,
+       0.31551858453720305
+      ],
+      "fta": 0.25,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 43,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 2,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 3,
+        "n": 20
+       }
+      }
+     }
+    ],
+    "reselected_point": {
+     "ab_auroc": 0.7075391843761373,
+     "ab_ci95": [
+      0.6340202258081431,
+      0.7894288407048562
+     ],
+     "abstained": 287,
+     "accepted_target": 2343,
+     "coverage": 0.5728126936043977,
+     "fa_units": 86,
+     "fta": 0.43,
+     "fta_ci95_exact": [
+      0.3603855918269887,
+      0.5017208471715779
+     ],
+     "gate_auroc": 0.9711821864405549,
+     "gate_ci95": [
+      0.9504053776013783,
+      0.9841050017394694
+     ],
+     "n_units": 200,
+     "nontarget_accepted": 61,
+     "numeric_failures": 0,
+     "param": {
+      "delta": 0.05,
+      "tau_g": 0.6
+     },
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 66,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     },
+     "target_candidates": 3058,
+     "target_rejected": 428,
+     "wrong_wrestler": 679
+    }
+   },
+   "1": {
+    "cstar": 0.5,
+    "fixed_point": {
+     "ab_auroc": 0.7391697460313565,
+     "ab_ci95": [
+      0.6759495291156377,
+      0.807513335142543
+     ],
+     "abstained": 516,
+     "accepted_target": 1791,
+     "coverage": 0.5153315662286608,
+     "fa_units": 61,
+     "fta": 0.305,
+     "fta_ci95_exact": [
+      0.24201943702359116,
+      0.3738678045337703
+     ],
+     "gate_auroc": 0.9657521024736032,
+     "gate_ci95": [
+      0.9388726617449025,
+      0.9824515591368613
+     ],
+     "n_units": 200,
+     "nontarget_accepted": 21,
+     "numeric_failures": 0,
+     "param": {
+      "delta": 0.1,
+      "tau_g": 0.9
+     },
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 53,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 3,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 3,
+       "n": 20
+      }
+     },
+     "target_candidates": 3058,
+     "target_rejected": 751,
+     "wrong_wrestler": 398
+    },
+    "grid": [
+     {
+      "coverage": 0.612447781359062,
+      "fa_units": 90,
+      "fold_coverages": [
+       0.6949648928307465,
+       0.7155105708493912,
+       0.5355056335131799
+      ],
+      "fta": 0.45,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 65,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 10,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 11,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5901214493635559,
+      "fa_units": 84,
+      "fold_coverages": [
+       0.6862540914370183,
+       0.6986261394912757,
+       0.5072979879881481
+      ],
+      "fta": 0.42,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 60,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 9,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 11,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.536867035960649,
+      "fa_units": 83,
+      "fold_coverages": [
+       0.630262555872312,
+       0.6405954823365253,
+       0.45739579579221656
+      ],
+      "fta": 0.415,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 59,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 9,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 11,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.48348317903505866,
+      "fa_units": 70,
+      "fold_coverages": [
+       0.5669909020518776,
+       0.5679315883769066,
+       0.41731563508030867
+      ],
+      "fta": 0.35,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 50,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.6058549426511872,
+      "fa_units": 85,
+      "fold_coverages": [
+       0.6949648928307465,
+       0.7134504964208958,
+       0.5249466796801955
+      ],
+      "fta": 0.425,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 62,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 9,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.584648854313892,
+      "fa_units": 79,
+      "fold_coverages": [
+       0.6862540914370183,
+       0.6965660650627803,
+       0.4987394692591117
+      ],
+      "fta": 0.395,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 57,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5319164702834818,
+      "fa_units": 77,
+      "fold_coverages": [
+       0.630262555872312,
+       0.6385354079080298,
+       0.44976947237121
+      ],
+      "fta": 0.385,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 55,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4790963388480875,
+      "fa_units": 65,
+      "fold_coverages": [
+       0.5669909020518776,
+       0.5671341402110375,
+       0.4099519167013189
+      ],
+      "fta": 0.325,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 47,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5940448916026473,
+      "fa_units": 79,
+      "fold_coverages": [
+       0.6949648928307465,
+       0.709475260187595,
+       0.5061998527309978
+      ],
+      "fta": 0.395,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 62,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 7,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5735812579937224,
+      "fa_units": 73,
+      "fold_coverages": [
+       0.6862540914370183,
+       0.6925908288294794,
+       0.4813184543248609
+      ],
+      "fta": 0.365,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 57,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.522147265493575,
+      "fa_units": 70,
+      "fold_coverages": [
+       0.630262555872312,
+       0.6375578908014804,
+       0.4329005006841647
+      ],
+      "fta": 0.35,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 55,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4707481602151225,
+      "fa_units": 58,
+      "fold_coverages": [
+       0.5669909020518776,
+       0.5661566231044881,
+       0.39562049172309793
+      ],
+      "fta": 0.29,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 47,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 2,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 7,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5718505323860623,
+      "fa_units": 72,
+      "fold_coverages": [
+       0.692439640305494,
+       0.6956497772545607,
+       0.4752102597472376
+      ],
+      "fta": 0.36,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 60,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5520187902105556,
+      "fa_units": 66,
+      "fold_coverages": [
+       0.6837288389117657,
+       0.6787653458964451,
+       0.45145723890077594
+      ],
+      "fta": 0.33,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 55,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5039889534025359,
+      "fa_units": 64,
+      "fold_coverages": [
+       0.6277373033470593,
+       0.628782912918951,
+       0.406141944234117
+      ],
+      "fta": 0.32,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 53,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.45360525835335364,
+      "fa_units": 52,
+      "fold_coverages": [
+       0.5644656495266251,
+       0.5573816452219588,
+       0.3706751678253188
+      ],
+      "fta": 0.26,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 45,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 1,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 4,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5336034560427885,
+      "fa_units": 67,
+      "fold_coverages": [
+       0.6867578221236758,
+       0.660768451276078,
+       0.428583047657283
+      ],
+      "fta": 0.335,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 58,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 3,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5153315662286608,
+      "fa_units": 61,
+      "fold_coverages": [
+       0.6780470207299476,
+       0.6462150222489648,
+       0.4062418510825147
+      ],
+      "fta": 0.305,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 53,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 3,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 3,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4684359625784939,
+      "fa_units": 59,
+      "fold_coverages": [
+       0.6220554851652412,
+       0.5972101063780201,
+       0.3623759359028048
+      ],
+      "fta": 0.295,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 51,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 3,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 3,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.42369372372159314,
+      "fa_units": 45,
+      "fold_coverages": [
+       0.5587838313448069,
+       0.5318464879004952,
+       0.3334252879758946
+      ],
+      "fta": 0.225,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 40,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 1,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 2,
+        "n": 20
+       }
+      }
+     }
+    ],
+    "reselected_point": {
+     "ab_auroc": 0.7391697460313565,
+     "ab_ci95": [
+      0.6759495291156377,
+      0.807513335142543
+     ],
+     "abstained": 282,
+     "accepted_target": 2248,
+     "coverage": 0.5940448916026473,
+     "fa_units": 79,
+     "fta": 0.395,
+     "fta_ci95_exact": [
+      0.32676499180506335,
+      0.4663964280265182
+     ],
+     "gate_auroc": 0.9657521024736032,
+     "gate_ci95": [
+      0.9388726617449025,
+      0.9824515591368613
+     ],
+     "n_units": 200,
+     "nontarget_accepted": 53,
+     "numeric_failures": 0,
+     "param": {
+      "delta": 0.05,
+      "tau_g": 0.7
+     },
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 62,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 7,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     },
+     "target_candidates": 3058,
+     "target_rejected": 528,
+     "wrong_wrestler": 580
+    }
+   },
+   "2": {
+    "cstar": 0.5,
+    "fixed_point": {
+     "ab_auroc": 0.6983553852647572,
+     "ab_ci95": [
+      0.6141645523299931,
+      0.7764699144347981
+     ],
+     "abstained": 480,
+     "accepted_target": 1948,
+     "coverage": 0.4809127715098175,
+     "fa_units": 71,
+     "fta": 0.355,
+     "fta_ci95_exact": [
+      0.2887837777135845,
+      0.42558616692657963
+     ],
+     "gate_auroc": 0.9776415634761249,
+     "gate_ci95": [
+      0.9611227344359471,
+      0.9880723807099806
+     ],
+     "n_units": 200,
+     "nontarget_accepted": 14,
+     "numeric_failures": 0,
+     "param": {
+      "delta": 0.1,
+      "tau_g": 0.9
+     },
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 61,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 4,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     },
+     "target_candidates": 3058,
+     "target_rejected": 630,
+     "wrong_wrestler": 481
+    },
+    "grid": [
+     {
+      "coverage": 0.6008591283574769,
+      "fa_units": 92,
+      "fold_coverages": [
+       0.7159442860662373,
+       0.6811488100574244,
+       0.5309395528057871
+      ],
+      "fta": 0.46,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 70,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.575397563500144,
+      "fa_units": 89,
+      "fold_coverages": [
+       0.6588485024460634,
+       0.6702851123516216,
+       0.5030895377768606
+      ],
+      "fta": 0.445,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 67,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5179506554300425,
+      "fa_units": 76,
+      "fold_coverages": [
+       0.5767109245767782,
+       0.6080627687471202,
+       0.45330667864294144
+      ],
+      "fta": 0.38,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 57,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.44957032009931114,
+      "fa_units": 62,
+      "fold_coverages": [
+       0.41680656741632355,
+       0.5455789906706581,
+       0.3994295192182114
+      ],
+      "fta": 0.31,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 45,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5877323077978892,
+      "fa_units": 90,
+      "fold_coverages": [
+       0.7134190335409848,
+       0.6678508838913356,
+       0.5158311114718573
+      ],
+      "fta": 0.45,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 70,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5622707429405562,
+      "fa_units": 87,
+      "fold_coverages": [
+       0.6563232499208108,
+       0.6569871861855328,
+       0.48798109644293086
+      ],
+      "fta": 0.435,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 67,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.505733208142572,
+      "fa_units": 74,
+      "fold_coverages": [
+       0.5741856720515257,
+       0.5960274688436575,
+       0.43907807053303083
+      ],
+      "fta": 0.37,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 57,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.43800646758308254,
+      "fa_units": 58,
+      "fold_coverages": [
+       0.414281314891071,
+       0.5335436907671954,
+       0.38636804462837543
+      ],
+      "fta": 0.29,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 45,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 3,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5692037287029286,
+      "fa_units": 87,
+      "fold_coverages": [
+       0.7108937810157322,
+       0.6533091532205727,
+       0.4918096289793019
+      ],
+      "fta": 0.435,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 69,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5437421638455957,
+      "fa_units": 84,
+      "fold_coverages": [
+       0.6537979973955583,
+       0.6424454555147697,
+       0.4639596139503754
+      ],
+      "fta": 0.42,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 66,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.48974289596728254,
+      "fa_units": 70,
+      "fold_coverages": [
+       0.5716604195262732,
+       0.5824632552794441,
+       0.41901317067352856
+      ],
+      "fta": 0.35,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 55,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.42442091731255494,
+      "fa_units": 54,
+      "fold_coverages": [
+       0.4117560623658185,
+       0.5270501842736889,
+       0.3664306957892814
+      ],
+      "fta": 0.27,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 43,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 1,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5468338754663247,
+      "fa_units": 83,
+      "fold_coverages": [
+       0.7108937810157322,
+       0.627929298214232,
+       0.4668194484712455
+      ],
+      "fta": 0.415,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 69,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 7,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5221415413782224,
+      "fa_units": 80,
+      "fold_coverages": [
+       0.6537979973955583,
+       0.6193966028394315,
+       0.438969433442319
+      ],
+      "fta": 0.4,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 66,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 7,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.47149187108542245,
+      "fa_units": 67,
+      "fold_coverages": [
+       0.5716604195262732,
+       0.5692628874525906,
+       0.39420084299674546
+      ],
+      "fta": 0.335,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 55,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 7,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.40616989243069485,
+      "fa_units": 48,
+      "fold_coverages": [
+       0.4117560623658185,
+       0.5138498164468356,
+       0.3416183681124983
+      ],
+      "fta": 0.24,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 41,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 1,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5046602699171685,
+      "fa_units": 73,
+      "fold_coverages": [
+       0.7083685284904797,
+       0.5657516089382923,
+       0.4286458943456771
+      ],
+      "fta": 0.365,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 63,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4809127715098175,
+      "fa_units": 71,
+      "fold_coverages": [
+       0.6512727448703058,
+       0.5592391155836938,
+       0.4012926096990444
+      ],
+      "fta": 0.355,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 61,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 4,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.43139405359796984,
+      "fa_units": 58,
+      "fold_coverages": [
+       0.5691351670010206,
+       0.5125325286239812,
+       0.35652401925347094
+      ],
+      "fta": 0.29,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 50,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 2,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.3683019237588296,
+      "fa_units": 42,
+      "fold_coverages": [
+       0.4092308098405659,
+       0.461712073076716,
+       0.3052170545733054
+      ],
+      "fta": 0.21,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 36,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 1,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 4,
+        "n": 20
+       }
+      }
+     }
+    ],
+    "reselected_point": {
+     "ab_auroc": 0.6983553852647572,
+     "ab_ci95": [
+      0.6141645523299931,
+      0.7764699144347981
+     ],
+     "abstained": 504,
+     "accepted_target": 2254,
+     "coverage": 0.575397563500144,
+     "fa_units": 89,
+     "fta": 0.445,
+     "fta_ci95_exact": [
+      0.37490109471850996,
+      0.5167536888074263
+     ],
+     "gate_auroc": 0.9776415634761249,
+     "gate_ci95": [
+      0.9611227344359471,
+      0.9880723807099806
+     ],
+     "n_units": 200,
+     "nontarget_accepted": 91,
+     "numeric_failures": 0,
+     "param": {
+      "delta": 0.1,
+      "tau_g": 0.5
+     },
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 67,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 4,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     },
+     "target_candidates": 3058,
+     "target_rejected": 300,
+     "wrong_wrestler": 641
+    }
+   },
+   "3": {
+    "cstar": 0.5,
+    "fixed_point": {
+     "ab_auroc": 0.7034613831084068,
+     "ab_ci95": [
+      0.6331873793263724,
+      0.7838544037989419
+     ],
+     "abstained": 748,
+     "accepted_target": 1720,
+     "coverage": 0.5176702989773936,
+     "fa_units": 68,
+     "fta": 0.34,
+     "fta_ci95_exact": [
+      0.27466827583075526,
+      0.41015593908871467
+     ],
+     "gate_auroc": 0.9717040513080775,
+     "gate_ci95": [
+      0.9483618928118691,
+      0.9859584777905975
+     ],
+     "n_units": 200,
+     "nontarget_accepted": 25,
+     "numeric_failures": 0,
+     "param": {
+      "delta": 0.1,
+      "tau_g": 0.9
+     },
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 57,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 5,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     },
+     "target_candidates": 3058,
+     "target_rejected": 590,
+     "wrong_wrestler": 421
+    },
+    "grid": [
+     {
+      "coverage": 0.6236946906768895,
+      "fa_units": 96,
+      "fold_coverages": [
+       0.717474395523176,
+       0.7224486337297291,
+       0.547079389354517
+      ],
+      "fta": 0.48,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 64,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 11,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 6,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 15,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.588301344769153,
+      "fa_units": 91,
+      "fold_coverages": [
+       0.6857032872276775,
+       0.6857780134778733,
+       0.511727212011447
+      ],
+      "fta": 0.455,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 60,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 10,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 6,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 15,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5226387360008713,
+      "fa_units": 80,
+      "fold_coverages": [
+       0.6275626473797206,
+       0.5998863301753241,
+       0.45650777827008054
+      ],
+      "fta": 0.4,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 53,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 7,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 6,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 14,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.46605468863009974,
+      "fa_units": 67,
+      "fold_coverages": [
+       0.5112826875021997,
+       0.5233993809617732,
+       0.4233782094419154
+      ],
+      "fta": 0.335,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.5,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 41,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 6,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 14,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.6198981472799625,
+      "fa_units": 91,
+      "fold_coverages": [
+       0.717474395523176,
+       0.7211311106730758,
+       0.5410762450898182
+      ],
+      "fta": 0.455,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 64,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 10,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 13,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5853661459100411,
+      "fa_units": 86,
+      "fold_coverages": [
+       0.6857032872276775,
+       0.6844604904212197,
+       0.5072621829928465
+      ],
+      "fta": 0.43,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 60,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 9,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 13,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5197035371417593,
+      "fa_units": 75,
+      "fold_coverages": [
+       0.6275626473797206,
+       0.5985688071186706,
+       0.4520427492514801
+      ],
+      "fta": 0.375,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 53,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 6,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 12,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4631194897709879,
+      "fa_units": 61,
+      "fold_coverages": [
+       0.5112826875021997,
+       0.5220818579051196,
+       0.41891318042331493
+      ],
+      "fta": 0.305,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.6,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 40,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 4,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 12,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.6056422174118079,
+      "fa_units": 84,
+      "fold_coverages": [
+       0.717474395523176,
+       0.7159824581560021,
+       0.5186532548442463
+      ],
+      "fta": 0.42,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 64,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5720518606042208,
+      "fa_units": 80,
+      "fold_coverages": [
+       0.6857032872276775,
+       0.6816428402351484,
+       0.4851470745206736
+      ],
+      "fta": 0.4,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 60,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 10,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5071735655614292,
+      "fa_units": 69,
+      "fold_coverages": [
+       0.6275626473797206,
+       0.5977713589528013,
+       0.4301377248129206
+      ],
+      "fta": 0.345,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 53,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4511014257563606,
+      "fa_units": 54,
+      "fold_coverages": [
+       0.5112826875021997,
+       0.5220818579051196,
+       0.3974523518257663
+      ],
+      "fta": 0.27,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.7,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 40,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 3,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 9,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5898410945051,
+      "fa_units": 79,
+      "fold_coverages": [
+       0.7149491429979234,
+       0.7138674869334793,
+       0.49217931801300036
+      ],
+      "fta": 0.395,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 61,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5565138955922496,
+      "fa_units": 75,
+      "fold_coverages": [
+       0.6831780347024249,
+       0.680325317178495,
+       0.4586731376894277
+      ],
+      "fta": 0.375,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 57,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 8,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 8,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.492137862992897,
+      "fa_units": 64,
+      "fold_coverages": [
+       0.625037394854468,
+       0.5964538358961478,
+       0.4045606852021013
+      ],
+      "fta": 0.32,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 50,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 7,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4360657231878284,
+      "fa_units": 51,
+      "fold_coverages": [
+       0.5087574349769471,
+       0.5207643348484662,
+       0.371875312214947
+      ],
+      "fta": 0.255,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.8,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 39,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 3,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 2,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 7,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5504666110300697,
+      "fa_units": 72,
+      "fold_coverages": [
+       0.7149491429979234,
+       0.6778193626702521,
+       0.4431103850341338
+      ],
+      "fta": 0.36,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.05
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 61,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.5176702989773936,
+      "fa_units": 68,
+      "fold_coverages": [
+       0.6831780347024249,
+       0.6442771929152677,
+       0.4105522169608724
+      ],
+      "fta": 0.34,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.1
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 57,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 5,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 5,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.4562707950397127,
+      "fa_units": 57,
+      "fold_coverages": [
+       0.625037394854468,
+       0.5644461156733247,
+       0.35937404184557875
+      ],
+      "fta": 0.285,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.2
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 49,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 3,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 4,
+        "n": 20
+       }
+      }
+     },
+     {
+      "coverage": 0.40817519718662576,
+      "fa_units": 45,
+      "fold_coverages": [
+       0.5087574349769471,
+       0.49512464273280155,
+       0.337179905780959
+      ],
+      "fta": 0.225,
+      "n_target_units": 100,
+      "n_units": 200,
+      "param": [
+       0.9,
+       0.3
+      ],
+      "strata": {
+       "OTHER_NAMED_WRESTLER": {
+        "fa": 38,
+        "n": 100
+       },
+       "REFEREE": {
+        "fa": 2,
+        "n": 55
+       },
+       "SPECTATOR": {
+        "fa": 1,
+        "n": 25
+       },
+       "STAFF": {
+        "fa": 4,
+        "n": 20
+       }
+      }
+     }
+    ],
+    "reselected_point": {
+     "ab_auroc": 0.7034613831084068,
+     "ab_ci95": [
+      0.6331873793263724,
+      0.7838544037989419
+     ],
+     "abstained": 418,
+     "accepted_target": 2251,
+     "coverage": 0.6056422174118079,
+     "fa_units": 84,
+     "fta": 0.42,
+     "fta_ci95_exact": [
+      0.350743857791056,
+      0.49166382512261975
+     ],
+     "gate_auroc": 0.9717040513080775,
+     "gate_ci95": [
+      0.9483618928118691,
+      0.9859584777905975
+     ],
+     "n_units": 200,
+     "nontarget_accepted": 60,
+     "numeric_failures": 0,
+     "param": {
+      "delta": 0.05,
+      "tau_g": 0.7
+     },
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 64,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     },
+     "target_candidates": 3058,
+     "target_rejected": 389,
+     "wrong_wrestler": 651
+    }
+   }
+  },
+  "dropped_clips": [
+   "b1_hbk_raw_20050502",
+   "b1_rock_hhh_judgmentday2000"
+  ]
+ },
+ "breakdown_seed0_fixed_point": {
+  "b1_orton_rollins_wm31|randy_orton|seth_rollins": {
+   "ab_auroc": 0.8358232676414494,
+   "ab_ci95": [
+    0.7596059113300493,
+    0.9145650048875855
+   ],
+   "confusion": {
+    "true_randy_orton->abstained": 12,
+    "true_randy_orton->accepted_as_randy_orton": 153,
+    "true_randy_orton->accepted_as_seth_rollins": 51,
+    "true_randy_orton->rejected_at_gate": 26,
+    "true_seth_rollins->abstained": 2,
+    "true_seth_rollins->accepted_as_randy_orton": 2,
+    "true_seth_rollins->accepted_as_seth_rollins": 22
+   },
+   "coverage": 0.6712679935240911,
+   "fta": 0.4090909090909091,
+   "gate_auroc": 0.9906452904966692,
+   "n_units": 22
+  },
+  "b2_batch2_clip_condensed|andrade|rey_mysterio": {
+   "ab_auroc": 0.8630298682665971,
+   "ab_ci95": [
+    0.757421184578855,
+    0.9555373870957993
+   ],
+   "confusion": {
+    "true_andrade->abstained": 52,
+    "true_andrade->accepted_as_andrade": 734,
+    "true_andrade->accepted_as_rey_mysterio": 49,
+    "true_andrade->rejected_at_gate": 67,
+    "true_rey_mysterio->abstained": 26,
+    "true_rey_mysterio->accepted_as_andrade": 43,
+    "true_rey_mysterio->accepted_as_rey_mysterio": 35,
+    "true_rey_mysterio->rejected_at_gate": 66
+   },
+   "coverage": 0.5985455876387932,
+   "fta": 0.32222222222222224,
+   "gate_auroc": 0.9782242632988901,
+   "n_units": 90
+  },
+  "b2_videoplayback_2|brock_lesnar|daniel_bryan": {
+   "ab_auroc": 0.8747184217390274,
+   "ab_ci95": [
+    0.7520958029652524,
+    0.959402249492763
+   ],
+   "confusion": {
+    "true_brock_lesnar->abstained": 20,
+    "true_brock_lesnar->accepted_as_brock_lesnar": 297,
+    "true_brock_lesnar->accepted_as_daniel_bryan": 39,
+    "true_brock_lesnar->rejected_at_gate": 6,
+    "true_daniel_bryan->abstained": 5,
+    "true_daniel_bryan->accepted_as_brock_lesnar": 57,
+    "true_daniel_bryan->accepted_as_daniel_bryan": 133,
+    "true_daniel_bryan->rejected_at_gate": 38
+   },
+   "coverage": 0.6605198507520055,
+   "fta": 0.26865671641791045,
+   "gate_auroc": 0.9983520444947986,
+   "n_units": 67
+  },
+  "b2_videoplayback_5|andrade|kenny_omega": {
+   "ab_auroc": 0.5297919063055526,
+   "ab_ci95": [
+    0.32925244966270784,
+    0.6662186341057655
+   ],
+   "confusion": {
+    "true_andrade->abstained": 189,
+    "true_andrade->accepted_as_andrade": 25,
+    "true_andrade->accepted_as_kenny_omega": 135,
+    "true_andrade->rejected_at_gate": 44,
+    "true_kenny_omega->abstained": 285,
+    "true_kenny_omega->accepted_as_andrade": 30,
+    "true_kenny_omega->accepted_as_kenny_omega": 331,
+    "true_kenny_omega->rejected_at_gate": 84
+   },
+   "coverage": 0.237230859467099,
+   "fta": 0.5714285714285714,
+   "gate_auroc": 0.9912735740994181,
+   "n_units": 21
+  }
+ },
+ "calibration_transfer_seed0_descriptive": {
+  "out_of_fold": {
+   "ab_auroc": 0.8082883639316093,
+   "abs_q_minus_half": {
+    "median": 0.29094476184666046,
+    "n": 3058,
+    "q10": 0.04374575264267153,
+    "q90": 0.49117613767222085
+   },
+   "g": {
+    "median": 0.9980777353048325,
+    "n": 3058,
+    "q10": 0.8849610950797796,
+    "q90": 0.9998932430753484
+   }
+  },
+  "training_episodes_in_sample": {
+   "ab_auroc": 0.9945400990920287,
+   "abs_q_minus_half": {
+    "median": 0.49824294424998966,
+    "n": 35414,
+    "q10": 0.3709920884057583,
+    "q90": 0.49999166480098167
+   },
+   "g": {
+    "median": 0.9999309033155441,
+    "n": 35414,
+    "q10": 0.9981475074077025,
+    "q90": 0.9999915509411949
+   }
+  }
+ },
+ "devrun2_code_manifest_sha256": "0c34fd477f71e0dacb99823ddfce9527fcb99698c78da602abcfac90c0733403",
+ "dr1_reproduction_check": {
+  "l1_grid_identical_to_dr1": true
+ },
+ "dr1_result_sha256": "98ebb67ed7553178778ca679db56fff49d10da6e075078375a8056cb0e3341c8",
+ "ep_seed": 1873979287,
+ "fixed_param": [
+  0.9,
+  0.1
+ ],
+ "input_sha256": {
+  "extraction_manifest": "d5e749dc8ec436fcfc3358faf19bc4df7bfc899a199f1da3fad8336033fa45ba",
+  "features": {
+   "feat_mobileclip_b_b1_hbk_raw_20050502_44eba718ea302afa.npz": "94406ad136bf7716d64584bf9c50ee7412e3a76fa0222768343e9312bef52852",
+   "feat_mobileclip_b_b1_orton_rollins_wm31_d53ce15c509caae5.npz": "e434f47ab47bc22eb4dfca9a75d287842432fc7f29e652fa1b594ffdf225f421",
+   "feat_mobileclip_b_b1_rock_hhh_judgmentday2000_4c88a173da431497.npz": "a63266193ab799d607997df749280fa9afbd9b45aa10a75fd8c0616c6d8f8f9c",
+   "feat_mobileclip_b_b2_batch2_clip_condensed_9de641fa25ac2be5.npz": "70450e1ae7ad66342d83320bdd14a9916e87ed8f1e9dc98ffa3542e58df1eb69",
+   "feat_mobileclip_b_b2_videoplayback_2_a8c2cd6ba7e3d853.npz": "f52006564cb1acaae282d574f51fe4a23cdc43cb68129c84e257492a5a1c889e",
+   "feat_mobileclip_b_b2_videoplayback_5_22b44095d0aa4006.npz": "57bc94e360969116d652468e04465a0f7e1af2c938a6659f3f12229cce7a3dd5"
+  },
+  "labels": "1bd3e8e294f67d33b0f16169b782b45995e161902769cc5645a36479719b02ec",
+  "seed_manifest": "9d6d1134ad80b604ff431e381c757fd83cb14f6cd76b4d6b7b0fc94e3a50b33b",
+  "splits": "05342bf8178646c70e8ccc64e269e1400da3db662acd38c077c56ab2a7d0adc4"
+ },
+ "label": "V0.6.1 SECONDARY DEVELOPMENT ANALYSIS (seed variance / descriptive ablations; development-exposed; exploratory; NOT validation)",
+ "locked_impl_manifest_sha256": "eb99beb359ee28dca883d7976ede4385f8dafb2e739d729f89a3358cd3ea073d",
+ "note": "Secondary, descriptive. No outcome class; no scientific change; final head not trained; old-TEST check not rerun; Holdout #2 untouched.",
+ "relaxed_clips": [
+  "b1_hbk_raw_20050502",
+  "b1_rock_hhh_judgmentday2000"
+ ],
+ "seed_variance": {
+  "0": {
+   "cstar": 0.5,
+   "fixed_point": {
+    "ab_auroc": 0.8082883639316093,
+    "ab_ci95": [
+     0.73292352516131,
+     0.8753534494892323
+    ],
+    "abstained": 591,
+    "accepted_target": 2136,
+    "coverage": 0.5872519390146497,
+    "fa_units": 68,
+    "fta": 0.34,
+    "fta_ci95_exact": [
+     0.27466827583075526,
+     0.41015593908871467
+    ],
+    "gate_auroc": 0.9888962236320474,
+    "gate_ci95": [
+     0.9807500032665132,
+     0.9944150410916287
+    ],
+    "n_units": 200,
+    "nontarget_accepted": 43,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 53,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 8,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    },
+    "target_candidates": 3058,
+    "target_rejected": 331,
+    "wrong_wrestler": 406
+   },
+   "grid": [
+    {
+     "coverage": 0.6695356248619924,
+     "fa_units": 84,
+     "fold_coverages": [
+      0.7220686833491712,
+      0.7054010995197236,
+      0.6380816193787047
+     ],
+     "fta": 0.42,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 61,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6346251823412885,
+     "fa_units": 82,
+     "fold_coverages": [
+      0.6929851652412627,
+      0.698835442954067,
+      0.5853234249819776
+     ],
+     "fta": 0.41,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 59,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5764624964806003,
+     "fa_units": 70,
+     "fold_coverages": [
+      0.6276198395100834,
+      0.6566558796215479,
+      0.5191569176060363
+     ],
+     "fta": 0.35,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 50,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5050695730191525,
+     "fa_units": 49,
+     "fold_coverages": [
+      0.5523602752261288,
+      0.5975744830115471,
+      0.4412685059829781
+     ],
+     "fta": 0.245,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 34,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 7,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6597602720961507,
+     "fa_units": 82,
+     "fold_coverages": [
+      0.7170181782986661,
+      0.7032861282972008,
+      0.6228640181164663
+     ],
+     "fta": 0.41,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 61,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6257510311775831,
+     "fa_units": 80,
+     "fold_coverages": [
+      0.6879346601907578,
+      0.6967204717315443,
+      0.5717151122949824
+     ],
+     "fta": 0.4,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 59,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5678942921087572,
+     "fa_units": 68,
+     "fold_coverages": [
+      0.6250945869848309,
+      0.6545409083990252,
+      0.5055989067299062
+     ],
+     "fta": 0.34,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 50,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.49650136864730937,
+     "fa_units": 48,
+     "fold_coverages": [
+      0.5498350227008764,
+      0.5954595117890246,
+      0.42771049510684794
+     ],
+     "fta": 0.24,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 34,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 6,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6509064644571503,
+     "fa_units": 80,
+     "fold_coverages": [
+      0.7079272692077571,
+      0.7020235020345746,
+      0.6095834092372988
+     ],
+     "fta": 0.4,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 61,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6177644935234997,
+     "fa_units": 78,
+     "fold_coverages": [
+      0.6788437510998487,
+      0.695457845468918,
+      0.5599831998174525
+     ],
+     "fta": 0.39,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 59,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5611550585524452,
+     "fa_units": 67,
+     "fold_coverages": [
+      0.6160036778939219,
+      0.653278282136399,
+      0.4960943229983966
+     ],
+     "fta": 0.335,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 50,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.49047091263186443,
+     "fa_units": 46,
+     "fold_coverages": [
+      0.5407441136099673,
+      0.5954595117890246,
+      0.41872753793641065
+     ],
+     "fta": 0.23,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 34,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 6,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6390174041215834,
+     "fa_units": 77,
+     "fold_coverages": [
+      0.7054020166825045,
+      0.6906363384734979,
+      0.5955592689111671
+     ],
+     "fta": 0.385,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 60,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.606776634790069,
+     "fa_units": 74,
+     "fold_coverages": [
+      0.6763184985745961,
+      0.6840706819078415,
+      0.547568348066564
+     ],
+     "fta": 0.37,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 57,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5509917501999145,
+     "fa_units": 66,
+     "fold_coverages": [
+      0.6134784253686693,
+      0.6418911185753223,
+      0.4851518826419724
+     ],
+     "fta": 0.33,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 50,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.48319291615056115,
+     "fa_units": 42,
+     "fold_coverages": [
+      0.5382188610847147,
+      0.584072348227948,
+      0.41293744020717815
+     ],
+     "fta": 0.21,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 33,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 4,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6181661880716155,
+     "fa_units": 72,
+     "fold_coverages": [
+      0.6992428641818886,
+      0.667085507317662,
+      0.5734129564228201
+     ],
+     "fta": 0.36,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 57,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5872519390146497,
+     "fa_units": 68,
+     "fold_coverages": [
+      0.6712679935240911,
+      0.6605198507520055,
+      0.5275730517479247
+     ],
+     "fta": 0.34,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 53,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.534875826553796,
+     "fa_units": 60,
+     "fold_coverages": [
+      0.6084279203181642,
+      0.6183402874194864,
+      0.4712436794113704
+     ],
+     "fta": 0.3,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 46,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 7,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4682629488220585,
+     "fa_units": 40,
+     "fold_coverages": [
+      0.5331683560342096,
+      0.5638592421489674,
+      0.39918014240917177
+     ],
+     "fta": 0.2,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 32,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 3,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    }
+   ],
+   "reselected_point": {
+    "ab_auroc": 0.8082883639316093,
+    "ab_ci95": [
+     0.73292352516131,
+     0.8753534494892323
+    ],
+    "abstained": 591,
+    "accepted_target": 2136,
+    "coverage": 0.5872519390146497,
+    "fa_units": 68,
+    "fta": 0.34,
+    "fta_ci95_exact": [
+     0.27466827583075526,
+     0.41015593908871467
+    ],
+    "gate_auroc": 0.9888962236320474,
+    "gate_ci95": [
+     0.9807500032665132,
+     0.9944150410916287
+    ],
+    "n_units": 200,
+    "nontarget_accepted": 43,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 53,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 8,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    },
+    "target_candidates": 3058,
+    "target_rejected": 331,
+    "wrong_wrestler": 406
+   }
+  },
+  "1": {
+   "cstar": 0.5,
+   "fixed_point": {
+    "ab_auroc": 0.769922955681229,
+    "ab_ci95": [
+     0.6977597747392722,
+     0.8530286688536238
+    ],
+    "abstained": 304,
+    "accepted_target": 2258,
+    "coverage": 0.5492562917092618,
+    "fa_units": 71,
+    "fta": 0.355,
+    "fta_ci95_exact": [
+     0.2887837777135845,
+     0.42558616692657963
+    ],
+    "gate_auroc": 0.984360718012142,
+    "gate_ci95": [
+     0.9745598431522612,
+     0.9911768795043322
+    ],
+    "n_units": 200,
+    "nontarget_accepted": 33,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 57,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 10,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 4,
+      "n": 20
+     }
+    },
+    "target_candidates": 3058,
+    "target_rejected": 496,
+    "wrong_wrestler": 586
+   },
+   "grid": [
+    {
+     "coverage": 0.6332064913050626,
+     "fa_units": 93,
+     "fold_coverages": [
+      0.7219978530954141,
+      0.677510302081492,
+      0.5896577281744192
+     ],
+     "fta": 0.465,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 64,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 16,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6186512661450536,
+     "fa_units": 90,
+     "fold_coverages": [
+      0.715207387463485,
+      0.6662434987094255,
+      0.5716394624106426
+     ],
+     "fta": 0.45,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 62,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 15,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5675194579290698,
+     "fa_units": 87,
+     "fold_coverages": [
+      0.6195931439833878,
+      0.6277681276364312,
+      0.5217870178051335
+     ],
+     "fta": 0.435,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 59,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 15,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5149093936909579,
+     "fa_units": 76,
+     "fold_coverages": [
+      0.5426657691901594,
+      0.5824804076384433,
+      0.4696386152845608
+     ],
+     "fta": 0.38,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 50,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6268123302379746,
+     "fa_units": 91,
+     "fold_coverages": [
+      0.7219978530954141,
+      0.6688112716433311,
+      0.5833657977771068
+     ],
+     "fta": 0.455,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 64,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6123505630218908,
+     "fa_units": 88,
+     "fold_coverages": [
+      0.715207387463485,
+      0.6575444682712646,
+      0.565514421198911
+     ],
+     "fta": 0.44,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 62,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5613449630356778,
+     "fa_units": 85,
+     "fold_coverages": [
+      0.6195931439833878,
+      0.6190690971982704,
+      0.5158873484322783
+     ],
+     "fta": 0.425,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 59,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5115069306872448,
+     "fa_units": 75,
+     "fold_coverages": [
+      0.5426657691901594,
+      0.5811628845817898,
+      0.46433918600774404
+     ],
+     "fta": 0.375,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 50,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 3,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.615311356798238,
+     "fa_units": 83,
+     "fold_coverages": [
+      0.7219978530954141,
+      0.6640117233655219,
+      0.565656650441286
+     ],
+     "fta": 0.415,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 63,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6018138752964399,
+     "fa_units": 80,
+     "fold_coverages": [
+      0.715207387463485,
+      0.6527449199934554,
+      0.5495272126386005
+     ],
+     "fta": 0.4,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 60,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5513082753102269,
+     "fa_units": 76,
+     "fold_coverages": [
+      0.6195931439833878,
+      0.6142695489204613,
+      0.5007929970148249
+     ],
+     "fta": 0.38,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 56,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5037440524856034,
+     "fa_units": 67,
+     "fold_coverages": [
+      0.5426657691901594,
+      0.5763633363039806,
+      0.4533052087399505
+     ],
+     "fta": 0.335,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 48,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 1,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5982714552882606,
+     "fa_units": 80,
+     "fold_coverages": [
+      0.7219978530954141,
+      0.6508531505996561,
+      0.542982413839069
+     ],
+     "fta": 0.4,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 63,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 6,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5847739737864626,
+     "fa_units": 77,
+     "fold_coverages": [
+      0.715207387463485,
+      0.6395863472275896,
+      0.5268529760363834
+     ],
+     "fta": 0.385,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 60,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 6,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5364293130291938,
+     "fa_units": 73,
+     "fold_coverages": [
+      0.6195931439833878,
+      0.6011109761545954,
+      0.48197758046429406
+     ],
+     "fta": 0.365,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 56,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 6,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.49063353469845467,
+     "fa_units": 63,
+     "fold_coverages": [
+      0.5426657691901594,
+      0.5681159151883969,
+      0.4347536572774396
+     ],
+     "fta": 0.315,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 47,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 6,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5625037732110598,
+     "fa_units": 75,
+     "fold_coverages": [
+      0.716947348044909,
+      0.6178908865733188,
+      0.4995278077802227
+     ],
+     "fta": 0.375,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 61,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 4,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5492562917092618,
+     "fa_units": 71,
+     "fold_coverages": [
+      0.71015688241298,
+      0.6066240832012522,
+      0.4838447985489657
+     ],
+     "fta": 0.355,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 57,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 4,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5045736619504069,
+     "fa_units": 68,
+     "fold_coverages": [
+      0.6170678914581353,
+      0.5742093181888641,
+      0.4414412837280121
+     ],
+     "fta": 0.34,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 54,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 10,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 4,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.46329775247903515,
+     "fa_units": 58,
+     "fold_coverages": [
+      0.5401405166649069,
+      0.5412142572226656,
+      0.40228855493288523
+     ],
+     "fta": 0.29,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 46,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 4,
+       "n": 20
+      }
+     }
+    }
+   ],
+   "reselected_point": {
+    "ab_auroc": 0.769922955681229,
+    "ab_ci95": [
+     0.6977597747392722,
+     0.8530286688536238
+    ],
+    "abstained": 694,
+    "accepted_target": 2077,
+    "coverage": 0.5513082753102269,
+    "fa_units": 76,
+    "fta": 0.38,
+    "fta_ci95_exact": [
+     0.31246543517767045,
+     0.4511487579165519
+    ],
+    "gate_auroc": 0.984360718012142,
+    "gate_ci95": [
+     0.9745598431522612,
+     0.9911768795043322
+    ],
+    "n_units": 200,
+    "nontarget_accepted": 72,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.2,
+     "tau_g": 0.7
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 56,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 12,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    },
+    "target_candidates": 3058,
+    "target_rejected": 287,
+    "wrong_wrestler": 508
+   }
+  },
+  "2": {
+   "cstar": 0.5,
+   "fixed_point": {
+    "ab_auroc": 0.7492277166902702,
+    "ab_ci95": [
+     0.6769151567069722,
+     0.8261059891254121
+    ],
+    "abstained": 346,
+    "accepted_target": 2391,
+    "coverage": 0.56441824334004,
+    "fa_units": 83,
+    "fta": 0.415,
+    "fta_ci95_exact": [
+     0.34593366818078025,
+     0.48662468561680267
+    ],
+    "gate_auroc": 0.984471426619827,
+    "gate_ci95": [
+     0.9751302496987642,
+     0.9912639123259369
+    ],
+    "n_units": 200,
+    "nontarget_accepted": 84,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 59,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 13,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 2,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 9,
+      "n": 20
+     }
+    },
+    "target_candidates": 3058,
+    "target_rejected": 321,
+    "wrong_wrestler": 689
+   },
+   "grid": [
+    {
+     "coverage": 0.6573009415003809,
+     "fa_units": 93,
+     "fold_coverages": [
+      0.7779920282969063,
+      0.6971110561825045,
+      0.6101342318705262
+     ],
+     "fta": 0.465,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 63,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 17,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 11,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6271096244535967,
+     "fa_units": 92,
+     "fold_coverages": [
+      0.7147621687255833,
+      0.6840758457788729,
+      0.5763227799763474
+     ],
+     "fta": 0.46,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 62,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 17,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 11,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5670612052148125,
+     "fa_units": 85,
+     "fold_coverages": [
+      0.6288257135818112,
+      0.6162893357867757,
+      0.5259194569842451
+     ],
+     "fta": 0.425,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 55,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 17,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 11,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5025298164491558,
+     "fa_units": 73,
+     "fold_coverages": [
+      0.47156055326787033,
+      0.5596642905639531,
+      0.47494453518497437
+     ],
+     "fta": 0.365,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 46,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 16,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6488588732059126,
+     "fa_units": 89,
+     "fold_coverages": [
+      0.7779920282969063,
+      0.6802689194964908,
+      0.6049839404632339
+     ],
+     "fta": 0.445,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 62,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 16,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6186675561591286,
+     "fa_units": 88,
+     "fold_coverages": [
+      0.7147621687255833,
+      0.6672337090928594,
+      0.571172488569055
+     ],
+     "fta": 0.44,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 61,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 16,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.559285803587011,
+     "fa_units": 80,
+     "fold_coverages": [
+      0.6288257135818112,
+      0.6014674011209642,
+      0.5207691655769527
+     ],
+     "fta": 0.4,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 54,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 15,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4950769954665157,
+     "fa_units": 70,
+     "fold_coverages": [
+      0.47156055326787033,
+      0.5458198730046908,
+      0.469794243777682
+     ],
+     "fta": 0.35,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 45,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6359244853592,
+     "fa_units": 89,
+     "fold_coverages": [
+      0.7779920282969063,
+      0.6629068207879686,
+      0.5921180560473405
+     ],
+     "fta": 0.445,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 62,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 16,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6057331683124159,
+     "fa_units": 88,
+     "fold_coverages": [
+      0.7147621687255833,
+      0.649871610384337,
+      0.5583066041531616
+     ],
+     "fta": 0.44,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 61,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 16,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5481891085639066,
+     "fa_units": 79,
+     "fold_coverages": [
+      0.6288257135818112,
+      0.5891558074629469,
+      0.5082086850127409
+     ],
+     "fta": 0.395,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 54,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4839803004434113,
+     "fa_units": 70,
+     "fold_coverages": [
+      0.47156055326787033,
+      0.5335082793466737,
+      0.4572337632134701
+     ],
+     "fta": 0.35,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 45,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6184405620611432,
+     "fa_units": 86,
+     "fold_coverages": [
+      0.7779920282969063,
+      0.6253125840057197,
+      0.5830505111189214
+     ],
+     "fta": 0.43,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 61,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.588249245014359,
+     "fa_units": 85,
+     "fold_coverages": [
+      0.7147621687255833,
+      0.6122773736020882,
+      0.5492390592247425
+     ],
+     "fta": 0.425,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 60,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5322751518489742,
+     "fa_units": 78,
+     "fold_coverages": [
+      0.6288257135818112,
+      0.5561025949585644,
+      0.4992686911047299
+     ],
+     "fta": 0.39,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 54,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4705425342046694,
+     "fa_units": 68,
+     "fold_coverages": [
+      0.47156055326787033,
+      0.5075257739129981,
+      0.4485488713462754
+     ],
+     "fta": 0.34,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 45,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5937150426907798,
+     "fa_units": 84,
+     "fold_coverages": [
+      0.7754667757716539,
+      0.5750184703039076,
+      0.5690314324207291
+     ],
+     "fta": 0.42,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 60,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.56441824334004,
+     "fa_units": 83,
+     "fold_coverages": [
+      0.7122369162003308,
+      0.5640034619204781,
+      0.5356268573647248
+     ],
+     "fta": 0.415,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 59,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5102667308198164,
+     "fa_units": 76,
+     "fold_coverages": [
+      0.6263004610565587,
+      0.5133516549289582,
+      0.4856564892447122
+     ],
+     "fta": 0.38,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 53,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4496491774808037,
+     "fa_units": 66,
+     "fold_coverages": [
+      0.47156055326787033,
+      0.4670149772525676,
+      0.43511173951426896
+     ],
+     "fta": 0.33,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 44,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    }
+   ],
+   "reselected_point": {
+    "ab_auroc": 0.7492277166902702,
+    "ab_ci95": [
+     0.6769151567069722,
+     0.8261059891254121
+    ],
+    "abstained": 701,
+    "accepted_target": 2153,
+    "coverage": 0.5481891085639066,
+    "fa_units": 79,
+    "fta": 0.395,
+    "fta_ci95_exact": [
+     0.32676499180506335,
+     0.4663964280265182
+    ],
+    "gate_auroc": 0.984471426619827,
+    "gate_ci95": [
+     0.9751302496987642,
+     0.9912639123259369
+    ],
+    "n_units": 200,
+    "nontarget_accepted": 108,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.2,
+     "tau_g": 0.7
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 54,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 14,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 2,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 9,
+      "n": 20
+     }
+    },
+    "target_candidates": 3058,
+    "target_rejected": 204,
+    "wrong_wrestler": 577
+   }
+  },
+  "3": {
+   "cstar": 0.5,
+   "fixed_point": {
+    "ab_auroc": 0.7223228609944564,
+    "ab_ci95": [
+     0.6366439052701031,
+     0.8189994339226653
+    ],
+    "abstained": 393,
+    "accepted_target": 2278,
+    "coverage": 0.5363385229777107,
+    "fa_units": 78,
+    "fta": 0.39,
+    "fta_ci95_exact": [
+     0.3219910621152407,
+     0.46132123254499846
+    ],
+    "gate_auroc": 0.9854354659561957,
+    "gate_ci95": [
+     0.975848068736256,
+     0.9923149085915417
+    ],
+    "n_units": 200,
+    "nontarget_accepted": 42,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 62,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 9,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    },
+    "target_candidates": 3058,
+    "target_rejected": 387,
+    "wrong_wrestler": 700
+   },
+   "grid": [
+    {
+     "coverage": 0.622442296504336,
+     "fa_units": 96,
+     "fold_coverages": [
+      0.636974272340126,
+      0.6827117191176325,
+      0.5840718914966133
+     ],
+     "fta": 0.48,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 67,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 17,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5955048067533805,
+     "fa_units": 94,
+     "fold_coverages": [
+      0.6141040192869461,
+      0.6532152063868244,
+      0.5578434759360078
+     ],
+     "fta": 0.47,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 65,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 17,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 10,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5447338441880316,
+     "fa_units": 86,
+     "fold_coverages": [
+      0.5693208214549679,
+      0.6125005307751237,
+      0.49997031905748984
+     ],
+     "fta": 0.43,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 59,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 16,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.47886914671189085,
+     "fa_units": 77,
+     "fold_coverages": [
+      0.4768393869003625,
+      0.5700681642186638,
+      0.42552557135837843
+     ],
+     "fta": 0.385,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.5,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 52,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6145967900289512,
+     "fa_units": 93,
+     "fold_coverages": [
+      0.636974272340126,
+      0.6767878184568897,
+      0.5735529285370781
+     ],
+     "fta": 0.465,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 67,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 15,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5876874692920802,
+     "fa_units": 91,
+     "fold_coverages": [
+      0.6141040192869461,
+      0.6472913057260816,
+      0.5473748147873378
+     ],
+     "fta": 0.455,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 65,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 15,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5369165067267312,
+     "fa_units": 83,
+     "fold_coverages": [
+      0.5693208214549679,
+      0.6065766301143808,
+      0.4895016579088198
+     ],
+     "fta": 0.415,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 58,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4712899044886858,
+     "fa_units": 73,
+     "fold_coverages": [
+      0.4768393869003625,
+      0.564144263557921,
+      0.41548208027773564
+     ],
+     "fta": 0.365,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.6,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 50,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.6059388149271479,
+     "fa_units": 91,
+     "fold_coverages": [
+      0.636974272340126,
+      0.6620833200567392,
+      0.5667574095553751
+     ],
+     "fta": 0.455,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 66,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 9,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5790294941902768,
+     "fa_units": 88,
+     "fold_coverages": [
+      0.6141040192869461,
+      0.632586807325931,
+      0.5405792958056349
+     ],
+     "fta": 0.44,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 64,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 14,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5282585316249279,
+     "fa_units": 80,
+     "fold_coverages": [
+      0.5693208214549679,
+      0.5918721317142303,
+      0.4827061389271168
+     ],
+     "fta": 0.4,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 57,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 13,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.462708265264745,
+     "fa_units": 69,
+     "fold_coverages": [
+      0.4768393869003625,
+      0.5494397651577705,
+      0.4088228753636444
+     ],
+     "fta": 0.345,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.7,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 48,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5889270499394292,
+     "fa_units": 88,
+     "fold_coverages": [
+      0.6344490198148734,
+      0.6366937415816067,
+      0.5518370054247552
+     ],
+     "fta": 0.44,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 66,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 8,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5643391577739867,
+     "fa_units": 85,
+     "fold_coverages": [
+      0.6115787667616936,
+      0.6135103601639299,
+      0.5260840617430421
+     ],
+     "fta": 0.425,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 64,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 12,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5149491475895901,
+     "fa_units": 77,
+     "fold_coverages": [
+      0.5667955689297153,
+      0.5748158865724311,
+      0.4694864150686057
+     ],
+     "fta": 0.385,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 57,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 11,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4495732563229562,
+     "fa_units": 65,
+     "fold_coverages": [
+      0.47431413437511,
+      0.5323835200159713,
+      0.39591453560075635
+     ],
+     "fta": 0.325,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.8,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 48,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 2,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.55732681755764,
+     "fa_units": 80,
+     "fold_coverages": [
+      0.6293985147643685,
+      0.5868652661275315,
+      0.5257632912704895
+     ],
+     "fta": 0.4,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.05
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 64,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.5363385229777107,
+     "fa_units": 78,
+     "fold_coverages": [
+      0.6065282617111886,
+      0.5737828948108648,
+      0.5004858194676688
+     ],
+     "fta": 0.39,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.1
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 62,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 9,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4906959592793582,
+     "fa_units": 70,
+     "fold_coverages": [
+      0.5642703164044627,
+      0.5420412446481621,
+      0.445986810251739
+     ],
+     "fta": 0.35,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.2
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 55,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 8,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 7,
+       "n": 20
+      }
+     }
+    },
+    {
+     "coverage": 0.4262975046301251,
+     "fa_units": 56,
+     "fold_coverages": [
+      0.47178888184985746,
+      0.5005863951982515,
+      0.3735843164486033
+     ],
+     "fta": 0.28,
+     "n_target_units": 100,
+     "n_units": 200,
+     "param": [
+      0.9,
+      0.3
+     ],
+     "strata": {
+      "OTHER_NAMED_WRESTLER": {
+       "fa": 45,
+       "n": 100
+      },
+      "REFEREE": {
+       "fa": 6,
+       "n": 55
+      },
+      "SPECTATOR": {
+       "fa": 0,
+       "n": 25
+      },
+      "STAFF": {
+       "fa": 5,
+       "n": 20
+      }
+     }
+    }
+   ],
+   "reselected_point": {
+    "ab_auroc": 0.7223228609944564,
+    "ab_ci95": [
+     0.6366439052701031,
+     0.8189994339226653
+    ],
+    "abstained": 393,
+    "accepted_target": 2278,
+    "coverage": 0.5363385229777107,
+    "fa_units": 78,
+    "fta": 0.39,
+    "fta_ci95_exact": [
+     0.3219910621152407,
+     0.46132123254499846
+    ],
+    "gate_auroc": 0.9854354659561957,
+    "gate_ci95": [
+     0.975848068736256,
+     0.9923149085915417
+    ],
+    "n_units": 200,
+    "nontarget_accepted": 42,
+    "numeric_failures": 0,
+    "param": {
+     "delta": 0.1,
+     "tau_g": 0.9
+    },
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 62,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 9,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    },
+    "target_candidates": 3058,
+    "target_rejected": 387,
+    "wrong_wrestler": 700
+   }
+  }
+ },
+ "seed_variance_note": "Heads differ only by training/initialisation seed; data and K=5 seed draws fixed. Fixed-point = DR1 point (0.9, 0.10); reselected = same deterministic procedure at the joint c* (V0.6 variance precedent)."
+}
