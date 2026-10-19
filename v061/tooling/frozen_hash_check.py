@@ -8,7 +8,7 @@ import hashlib, json, os, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.chdir(ROOT)
 TOOL = "v061/tooling"
-FROZEN_DIRS = ["v06/frozen","v06/posthoc_v1","v06/tools","v061/spec_v4","v061/exploratory_v1"]
+FROZEN_DIRS = ["v06/frozen","v06/posthoc_v1","v06/tools","v061/spec_v4","v061/exploratory_v1","v061/gemini_procedure_frozen_v1"]
 LEDGER = "v06/frozen/AUDIT_LEDGER.jsonl"
 SPEC4_MANIFEST_SHA = "efb2a797c358cdcad73bc933ccc5a80d95979610179240daf6229b4ba86c88af"
 def sha(p):
