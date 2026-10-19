@@ -36,9 +36,9 @@ class T(unittest.TestCase):
     def _own(self):
         try: import cv2, numpy as np  # noqa
         except Exception: self.skipTest("cv2/numpy unavailable")
-        p = os.path.join(REPO, "versions", "holdout1", "src", "ownership_v05.py"); import importlib.util
+        p = os.path.join(REPO, "v061", "anatomical", "reused_v05", "src", "ownership_v05.py"); import importlib.util
         sp = importlib.util.spec_from_file_location("own05", p); m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m)
-        cfg = json.load(open(os.path.join(REPO, "versions", "holdout1", "config", "config_v05.json")))["ownership"]
+        cfg = json.load(open(os.path.join(REPO, "v061", "anatomical", "reused_v05", "config", "config_v05.json")))["ownership"]
         return m, types.SimpleNamespace(**cfg)
     def _scene(self, m, masks, kp_sets):
         import numpy as np
@@ -66,5 +66,5 @@ class T(unittest.TestCase):
     def test_reused_files_unchanged(self):
         import hashlib
         h = lambda p: hashlib.sha256(open(os.path.join(REPO, p), "rb").read()).hexdigest()
-        self.assertTrue(h("versions/holdout1/src/ownership_v05.py").startswith("8cec4f1a")); self.assertTrue(h("versions/holdout1/config/config_v05.json").startswith("7e511eec"))
+        self.assertTrue(h("v061/anatomical/reused_v05/src/ownership_v05.py").startswith("8cec4f1a")); self.assertTrue(h("v061/anatomical/reused_v05/config/config_v05.json").startswith("7e511eec"))
 if __name__ == "__main__": unittest.main()
