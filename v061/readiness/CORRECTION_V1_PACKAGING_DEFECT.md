@@ -1,0 +1,12 @@
+# Defect-only correction V1 — readiness package reproducibility (reviewer audit of IMPL1)
+
+Defect: `test_parity_with_exploratory_check` imported the frozen `v061/exploratory_v1/exploratory_check_v061.py`, which was absent from the review ZIP (ERROR); `test_units_parity_v06` silently skipped (needs torch + frozen `v06/tools`). Classified by the reviewer as a packaging/reproducibility defect, not a rule defect.
+
+Correction (tests/packaging only; **no change** to decision_rule.py, selection.py, units.py, evaluate.py, render/, grids, metrics, diagnostics, C1–C8, or any frozen file):
+1. New self-contained REQUIRED parity tests (`v061/tests/test_parity_golden.py`) against `v061/tests/fixtures/parity_golden.json`: stored inputs (4000 probability triples; 300 candidate rows) and the stored outputs of the FROZEN code (exploratory two_stage_label at all 20 L1 points; frozen V0.6 `phase1_run.unit_table/table_metrics`). They need only numpy/scipy. Fixture generator `fixtures/make_parity_fixtures.py` (read-only import of the frozen code; run once in the full repo environment). Frozen-source hashes recorded in the fixture: exploratory_check_v061.py a38f86f9… (equals the EXR1 ledger script hash); phase1_run.py 6b663571….
+2. The two earlier parity tests are retained as LIVE cross-checks, renamed `test_live_parity*`. They now SKIP with an explicit message (instead of ERROR) when the frozen source is absent. They are NOT required for the development lock because the golden tests carry the same comparison.
+3. The corrected review ZIP additionally contains the exact read-only frozen sources (exploratory_check_v061.py and v06/tools/) so the live tests execute there when torch is installed.
+
+Result (full output in CORRECTION_V1_TEST_OUTPUT.txt): Run A (frozen sources present, torch present): 27 run, 27 PASS, 0 skip. Run B (frozen sources removed, torch unimportable): 27 run, 25 PASS, 2 SKIP (both are the LIVE cross-checks; skip reason printed), 0 error. Required-for-lock tests are the 25 non-live tests; the renderer video test needs OpenCV (installed in both runs; it would skip without it and is required for the renderer, not the rule).
+
+No real data loaded; no development performance generated or inspected; no old-TEST rerun; no Holdout #2 access. R3 PARKED/UNRESOLVED; R4 UNMET; ANNOTATION-PROVISIONAL unchanged. The implementation is NOT declared locked; it is a CORRECTED DEVELOPMENT-LOCK CANDIDATE for reviewer verification.

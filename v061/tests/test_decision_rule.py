@@ -27,9 +27,10 @@ class T(unittest.TestCase):
         acc = lambda tg, dl: (R.decide(p, tg, dl)[0] <= 1)
         for dl in (.05, .1, .2, .3): self.assertTrue(all((acc(.9, dl) <= acc(.5, dl))))
         for tg in (.5, .9): self.assertTrue(all((acc(tg, .3) <= acc(tg, .05))))
-    def test_parity_with_exploratory_check(self):
+    def test_live_parity_with_exploratory_check(self):
         """Rule parity with the frozen exploratory implementation (read-only import) on valid softmax outputs, all 20 grid points."""
         pth = os.path.join(_path.REPO, "v061", "exploratory_v1", "exploratory_check_v061.py")
+        if not os.path.exists(pth): self.skipTest("LIVE parity: frozen exploratory source absent from this package (golden parity in test_parity_golden is the required check)")
         spec = importlib.util.spec_from_file_location("expl", pth); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
         rng = np.random.default_rng(7); P = np.concatenate([rng.dirichlet([.5, .5, .5], 2000), rng.dirichlet([3, 3, 1], 2000)])
         names = {"A": R.ACCEPT_A, "B": R.ACCEPT_B, "REJECT": R.REJECT_NONTARGET, "ABSTAIN": R.ABSTAIN_AMBIGUOUS}

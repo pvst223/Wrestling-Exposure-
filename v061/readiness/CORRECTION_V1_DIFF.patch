@@ -1,0 +1,99 @@
+diff --git a/v061/impl/IMPLEMENTATION_MANIFEST.txt b/v061/impl/IMPLEMENTATION_MANIFEST.txt
+index cb83aac..9b07416 100644
+--- a/v061/impl/IMPLEMENTATION_MANIFEST.txt
++++ b/v061/impl/IMPLEMENTATION_MANIFEST.txt
+@@ -11,9 +11,12 @@ e2b32b531c255a6b1bebcceb2ee47b7bbf59ba2bcdda31a475c55f9ee2b70cc2  v061/impl/rend
+ eb3231d2643e10531e056f67117b9e81b3242780f39fa60253c8a4c96e5356a2  v061/impl/units.py
+ 7d124c7db288427afad2704ff8ab36d7bf7b20403566140023dce5f728910772  v061/requirements.lock
+ 52c28c158ddb33386634299a08465a931f7c3ced42d27b9f711b1803aead57de  v061/tests/_path.py
++f0cd082ddf5fa4ea32bd2fd728cfe59754dbc6ad47288b359eee82f0c12cc0c7  v061/tests/fixtures/make_parity_fixtures.py
++9c9274a94381ab402389fa27ea7189f8d1dda06f7116fc77fbae5bdf8df53574  v061/tests/fixtures/parity_golden.json
+ 07afd45bd0fdcf5da22b100d7ced5f36c67ea99a3af39c42b834bdfb55128a2e  v061/tests/run_all.py
+-b276b296bdf864f97785a7f83cef06ca0bf6906d2ecb09fc1ccca23ecfdd9436  v061/tests/test_decision_rule.py
++4e5d37e71fe13a91d30bde1e1b66d2044be827fa8428e534ffec60b86e1fddbc  v061/tests/test_decision_rule.py
+ da5c0417c3d42d895c75ac34ba7d4836e9370fe8ce2594df4edf743ce3ab49bc  v061/tests/test_hygiene_paths.py
++eed56f79759c7444968a6934f7038e5b1da4e33686793b321998ed86691f99cd  v061/tests/test_parity_golden.py
+ 1641aee6219d93dbbeab5402de23f0c72fe59af0bf79fc9f0f62e29d62d10ae7  v061/tests/test_renderer.py
+ a02da1dd38ad3c684f105bc69073c2a5bf665c7899464ede59e8a4f65216dea8  v061/tests/test_selection_and_eval.py
+-11c5b461f4b3d9563542822eca062bf01a180c24485017d2161859d27240d309  v061/tests/test_units_parity_v06.py
++f55704ac1ec7fcea3a4541228f8ad77b5d969dc3eb322c67403cc7509e46b092  v061/tests/test_units_parity_v06.py
+diff --git a/v061/tests/fixtures/make_parity_fixtures.py b/v061/tests/fixtures/make_parity_fixtures.py
+new file mode 100644
+index 0000000..4b95d61
+--- /dev/null
++++ b/v061/tests/fixtures/make_parity_fixtures.py
+@@ -0,0 +1,22 @@
++"""Generates golden parity fixtures from the FROZEN code (read-only import). Run once in the full repository environment (needs torch for the V0.6 unit code):
++python v061/tests/fixtures/make_parity_fixtures.py   -> writes parity_golden.json. Inputs and frozen outputs are stored so tests need neither torch nor the frozen sources."""
++import sys, os, json, hashlib, importlib.util
++import numpy as np
++HERE = os.path.dirname(os.path.abspath(__file__)); REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
++sys.path.insert(0, REPO); sys.path.insert(0, os.path.join(REPO, "v06", "tools"))
++from v061.impl import decision_rule as R
++def sha(p): return hashlib.sha256(open(p, "rb").read()).hexdigest()
++ex = os.path.join(REPO, "v061", "exploratory_v1", "exploratory_check_v061.py")
++spec = importlib.util.spec_from_file_location("expl", ex); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
++rng = np.random.default_rng(7); P = np.concatenate([rng.dirichlet([.5, .5, .5], 2000), rng.dirichlet([3, 3, 1], 2000)])
++names = {"A": 0, "B": 1, "REJECT": 2, "ABSTAIN": 3}
++rule = {f"{tg}|{dl}": [names[m.two_stage_label(a, b, c, tg, dl)] for a, b, c in P] for tg, dl in R.GRID_L1}
++import phase1_run as RUN
++rng = np.random.default_rng(3); truths = ["a", "b", "REFEREE", "SPECTATOR", "RINGSIDE_STAFF", "Other Guy"]; rows = []
++for i in range(300):
++    rows.append(dict(shot=int(rng.integers(0, 4)), truth=truths[rng.integers(0, 6)], accepted=["", "a", "b"][rng.integers(0, 3)]))
++old = [dict(clip_id="c", shot=r["shot"], truth_id=r["truth"], accepted_role=r["accepted"]) for r in rows]
++metrics = RUN.table_metrics(RUN.unit_table([(dict(A="a", B="b"), old)]))
++out = dict(provenance=dict(frozen_exploratory_check_v061_sha256=sha(ex), frozen_phase1_run_sha256=sha(os.path.join(REPO, "v06", "tools", "phase1_run.py")), note="golden outputs of FROZEN code on stored inputs; generated read-only"),
++           rule=dict(P=P.tolist(), codes=rule), units=dict(rows=rows, targets=["a", "b"], expected_table_metrics=metrics))
++json.dump(out, open(os.path.join(HERE, "parity_golden.json"), "w"), sort_keys=True); print("written; frozen hashes", out["provenance"])
+diff --git a/v061/tests/test_decision_rule.py b/v061/tests/test_decision_rule.py
+index a64ecf6..25b9ba4 100644
+--- a/v061/tests/test_decision_rule.py
++++ b/v061/tests/test_decision_rule.py
+@@ -27,9 +27,10 @@ class T(unittest.TestCase):
+         acc = lambda tg, dl: (R.decide(p, tg, dl)[0] <= 1)
+         for dl in (.05, .1, .2, .3): self.assertTrue(all((acc(.9, dl) <= acc(.5, dl))))
+         for tg in (.5, .9): self.assertTrue(all((acc(tg, .3) <= acc(tg, .05))))
+-    def test_parity_with_exploratory_check(self):
++    def test_live_parity_with_exploratory_check(self):
+         """Rule parity with the frozen exploratory implementation (read-only import) on valid softmax outputs, all 20 grid points."""
+         pth = os.path.join(_path.REPO, "v061", "exploratory_v1", "exploratory_check_v061.py")
++        if not os.path.exists(pth): self.skipTest("LIVE parity: frozen exploratory source absent from this package (golden parity in test_parity_golden is the required check)")
+         spec = importlib.util.spec_from_file_location("expl", pth); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+         rng = np.random.default_rng(7); P = np.concatenate([rng.dirichlet([.5, .5, .5], 2000), rng.dirichlet([3, 3, 1], 2000)])
+         names = {"A": R.ACCEPT_A, "B": R.ACCEPT_B, "REJECT": R.REJECT_NONTARGET, "ABSTAIN": R.ABSTAIN_AMBIGUOUS}
+diff --git a/v061/tests/test_parity_golden.py b/v061/tests/test_parity_golden.py
+new file mode 100644
+index 0000000..ddf737a
+--- /dev/null
++++ b/v061/tests/test_parity_golden.py
+@@ -0,0 +1,16 @@
++"""REQUIRED self-contained parity tests: compare the V0.6.1 code with stored outputs of the FROZEN code (fixtures/parity_golden.json, generated read-only by fixtures/make_parity_fixtures.py). Need only numpy/scipy; no frozen sources, no torch."""
++import unittest, json, os
++import numpy as np
++import _path
++from v061.impl import decision_rule as R, units as U
++G = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures", "parity_golden.json")))
++class T(unittest.TestCase):
++    def test_rule_matches_frozen_exploratory_on_all_20_points(self):
++        P = np.array(G["rule"]["P"]); self.assertEqual(len(P), 4000); self.assertEqual(len(G["rule"]["codes"]), 20)
++        for k, ref in G["rule"]["codes"].items():
++            tg, dl = (float(x) for x in k.split("|")); self.assertTrue((R.decide(P, tg, dl)[0] == np.array(ref)).all(), k)
++    def test_units_match_frozen_v06(self):
++        rows = [dict(clip="c", **r) for r in G["units"]["rows"]]; self.assertEqual(U.table_metrics(U.unit_table([(tuple(G["units"]["targets"]), rows)])), G["units"]["expected_table_metrics"])
++    def test_fixture_provenance_recorded(self):
++        for k in ("frozen_exploratory_check_v061_sha256", "frozen_phase1_run_sha256"): self.assertEqual(len(G["provenance"][k]), 64)
++if __name__ == "__main__": unittest.main()
+diff --git a/v061/tests/test_units_parity_v06.py b/v061/tests/test_units_parity_v06.py
+index 05bca06..37e6e2b 100644
+--- a/v061/tests/test_units_parity_v06.py
++++ b/v061/tests/test_units_parity_v06.py
+@@ -2,7 +2,8 @@
+ import unittest, sys, os, numpy as np
+ import _path
+ class T(unittest.TestCase):
+-    def test_parity(self):
++    def test_live_parity(self):
++        if not os.path.exists(os.path.join(_path.REPO, "v06", "tools", "phase1_run.py")): self.skipTest("LIVE parity: frozen v06/tools absent (golden parity in test_parity_golden is the required check)")
+         try: import torch  # noqa
+         except Exception: self.skipTest("torch unavailable")
+         sys.path.insert(0, os.path.join(_path.REPO, "v06", "tools"))
