@@ -1,0 +1,71 @@
+### RUN A: corrected package, frozen sources present, torch present
+### python Python 3.13.16; numpy 2.5.3
+test_basic (test_decision_rule.T.test_basic) ... ok
+test_delta_boundary (test_decision_rule.T.test_delta_boundary) ... ok
+test_fail_closed (test_decision_rule.T.test_fail_closed) ... ok
+test_gate_boundary_inclusive (test_decision_rule.T.test_gate_boundary_inclusive) ... ok
+test_grids_fixed (test_decision_rule.T.test_grids_fixed) ... ok
+test_live_parity_with_exploratory_check (test_decision_rule.T.test_live_parity_with_exploratory_check)
+Rule parity with the frozen exploratory implementation (read-only import) on valid softmax outputs, all 20 grid points. ... ok
+test_monotone_in_tau_and_delta (test_decision_rule.T.test_monotone_in_tau_and_delta) ... ok
+test_param_validation (test_decision_rule.T.test_param_validation) ... ok
+test_tie_always_abstains_with_delta_ge_005 (test_decision_rule.T.test_tie_always_abstains_with_delta_ge_005) ... ok
+test_no_absolute_paths_in_new_code (test_hygiene_paths.T.test_no_absolute_paths_in_new_code) ... ok
+test_no_private_data_in_impl (test_hygiene_paths.T.test_no_private_data_in_impl) ... ok
+test_fixture_provenance_recorded (test_parity_golden.T.test_fixture_provenance_recorded) ... ok
+test_rule_matches_frozen_exploratory_on_all_20_points (test_parity_golden.T.test_rule_matches_frozen_exploratory_on_all_20_points) ... ok
+test_units_match_frozen_v06 (test_parity_golden.T.test_units_match_frozen_v06) ... ok
+test_before_first_eval_is_noeval (test_renderer.T.test_before_first_eval_is_noeval) ... ok
+test_counts_and_unique_eval (test_renderer.T.test_counts_and_unique_eval) ... ok
+test_perturbed_decisions_change_hash (test_renderer.T.test_perturbed_decisions_change_hash) ... ok
+test_render_synthetic_video (test_renderer.T.test_render_synthetic_video) ... ok
+test_status_rules (test_renderer.T.test_status_rules) ... ok
+test_abstain_vs_reject_separated (test_selection_and_eval.T.test_abstain_vs_reject_separated) ... ok
+test_cp_and_paired (test_selection_and_eval.T.test_cp_and_paired) ... ok
+test_end_to_end_synthetic_deterministic (test_selection_and_eval.T.test_end_to_end_synthetic_deterministic) ... ok
+test_false_accept_and_swap_counted (test_selection_and_eval.T.test_false_accept_and_swap_counted) ... ok
+test_fold_constraint (test_selection_and_eval.T.test_fold_constraint) ... ok
+test_joint_cstar_none (test_selection_and_eval.T.test_joint_cstar_none) ... ok
+test_select_ties (test_selection_and_eval.T.test_select_ties) ... ok
+test_live_parity (test_units_parity_v06.T.test_live_parity) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 2.448s
+
+OK
+
+### RUN B: frozen sources removed, torch unimportable (reviewer-environment simulation)
+### python Python 3.13.16; numpy 2.5.3
+test_basic (test_decision_rule.T.test_basic) ... ok
+test_delta_boundary (test_decision_rule.T.test_delta_boundary) ... ok
+test_fail_closed (test_decision_rule.T.test_fail_closed) ... ok
+test_gate_boundary_inclusive (test_decision_rule.T.test_gate_boundary_inclusive) ... ok
+test_grids_fixed (test_decision_rule.T.test_grids_fixed) ... ok
+test_live_parity_with_exploratory_check (test_decision_rule.T.test_live_parity_with_exploratory_check)
+Rule parity with the frozen exploratory implementation (read-only import) on valid softmax outputs, all 20 grid points. ... skipped 'LIVE parity: frozen exploratory source absent from this package (golden parity in test_parity_golden is the required check)'
+test_monotone_in_tau_and_delta (test_decision_rule.T.test_monotone_in_tau_and_delta) ... ok
+test_param_validation (test_decision_rule.T.test_param_validation) ... ok
+test_tie_always_abstains_with_delta_ge_005 (test_decision_rule.T.test_tie_always_abstains_with_delta_ge_005) ... ok
+test_no_absolute_paths_in_new_code (test_hygiene_paths.T.test_no_absolute_paths_in_new_code) ... ok
+test_no_private_data_in_impl (test_hygiene_paths.T.test_no_private_data_in_impl) ... ok
+test_fixture_provenance_recorded (test_parity_golden.T.test_fixture_provenance_recorded) ... ok
+test_rule_matches_frozen_exploratory_on_all_20_points (test_parity_golden.T.test_rule_matches_frozen_exploratory_on_all_20_points) ... ok
+test_units_match_frozen_v06 (test_parity_golden.T.test_units_match_frozen_v06) ... ok
+test_before_first_eval_is_noeval (test_renderer.T.test_before_first_eval_is_noeval) ... ok
+test_counts_and_unique_eval (test_renderer.T.test_counts_and_unique_eval) ... ok
+test_perturbed_decisions_change_hash (test_renderer.T.test_perturbed_decisions_change_hash) ... ok
+test_render_synthetic_video (test_renderer.T.test_render_synthetic_video) ... ok
+test_status_rules (test_renderer.T.test_status_rules) ... ok
+test_abstain_vs_reject_separated (test_selection_and_eval.T.test_abstain_vs_reject_separated) ... ok
+test_cp_and_paired (test_selection_and_eval.T.test_cp_and_paired) ... ok
+test_end_to_end_synthetic_deterministic (test_selection_and_eval.T.test_end_to_end_synthetic_deterministic) ... ok
+test_false_accept_and_swap_counted (test_selection_and_eval.T.test_false_accept_and_swap_counted) ... ok
+test_fold_constraint (test_selection_and_eval.T.test_fold_constraint) ... ok
+test_joint_cstar_none (test_selection_and_eval.T.test_joint_cstar_none) ... ok
+test_select_ties (test_selection_and_eval.T.test_select_ties) ... ok
+test_live_parity (test_units_parity_v06.T.test_live_parity) ... skipped 'LIVE parity: frozen v06/tools absent (golden parity in test_parity_golden is the required check)'
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.354s
+
+OK (skipped=2)

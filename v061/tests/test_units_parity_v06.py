@@ -2,7 +2,8 @@
 import unittest, sys, os, numpy as np
 import _path
 class T(unittest.TestCase):
-    def test_parity(self):
+    def test_live_parity(self):
+        if not os.path.exists(os.path.join(_path.REPO, "v06", "tools", "phase1_run.py")): self.skipTest("LIVE parity: frozen v06/tools absent (golden parity in test_parity_golden is the required check)")
         try: import torch  # noqa
         except Exception: self.skipTest("torch unavailable")
         sys.path.insert(0, os.path.join(_path.REPO, "v06", "tools"))
