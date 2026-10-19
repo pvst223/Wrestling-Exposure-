@@ -1,3 +1,5 @@
+> SUPERSEDED for parameters by m9c/M9C_PROTOCOL_V1.md (±15 exclusion, spacing ladder 30->15->0, second reviewer). Kept unchanged below for history.
+
 # M9C proposed execution sequence (NOT executed; requires reviewer authorization and a ruling on the feasibility conflict)
 S0 Preflight: verify locked implementation manifest, anatomical manifest, readiness MANIFEST hashes, unchanged V0.5 hashes; run all test suites; re-run `parity_check.py` and require `recomputed_cls_sha256` = value in `PARITY_RESULT_V1.json`; verify Holdout #2 untouched, authorization ledger entry present. Any failure stops (no silent repair).
 S1 Register (ledger M9C0, pushed BEFORE any image is viewed): sampling rule, seed (derived from the frozen M9B verdict hash), exclusion parameters as ruled, strata sizes, protocol, scripts, blind sheet and image-set hashes.
