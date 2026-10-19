@@ -1,0 +1,9 @@
+{
+ "note": "H.264 delivery re-encodes (ffmpeg libx264 crf28) of the private mp4v renders; footage-derived; private; never committed",
+ "sha256": {
+  "RENDER_b1_orton_rollins_wm31_h264": "92c2d70512f24736e7e6b89089d7397891f9b17d9b93807929ecc5cb5cc63854",
+  "RENDER_b2_batch2_clip_condensed_h264": "accb970150dfb4b234abc5a0e4f442cc58da66155f2dd0b06675748fabe627c8",
+  "RENDER_b2_videoplayback_2_h264": "40407a1b53d06a4478a2d0f5acf351d67b7f35e1862950da07aa6432b2a0adf5",
+  "RENDER_b2_videoplayback_5_h264": "1b07ba7a4db36a93504af03ed2c369638146fffea8c0a2bb6a47577e50a2159d"
+ }
+}

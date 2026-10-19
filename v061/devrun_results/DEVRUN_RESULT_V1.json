@@ -1,0 +1,2123 @@
+{
+ "backbone": "mobileclip_b",
+ "cstar": 0.5,
+ "devrun_code_manifest_sha256": "a252717e0e457f865989c7501a0e1fe56df23cf08940d806e32ea33ee489bbc5",
+ "diagnostics_L1": {
+  "ab_assignment": {
+   "accepted_as_wrong_target": 406,
+   "accepted_target_candidates": 2136,
+   "auroc": 0.8082883639316093,
+   "ci95": [
+    0.73292352516131,
+    0.8753534494892323
+   ],
+   "target_candidates_abstained": 591
+  },
+  "coverage": 0.5872519390146497,
+  "decision_decomposition_candidates": {
+   "REFEREE": {
+    "ABSTAIN_AMBIGUOUS": 6,
+    "ACCEPT_A": 9,
+    "ACCEPT_B": 7,
+    "REJECT_NONTARGET": 1438
+   },
+   "SPECTATOR": {
+    "REJECT_NONTARGET": 2217
+   },
+   "STAFF": {
+    "ACCEPT_A": 24,
+    "ACCEPT_B": 3,
+    "REJECT_NONTARGET": 260
+   },
+   "TARGET": {
+    "ABSTAIN_AMBIGUOUS": 591,
+    "ACCEPT_A": 1341,
+    "ACCEPT_B": 795,
+    "REJECT_NONTARGET": 331
+   }
+  },
+  "false_target_acceptance": {
+   "by_stratum_units": {
+    "OTHER_NAMED_WRESTLER": {
+     "fa": 53,
+     "n": 100
+    },
+    "REFEREE": {
+     "fa": 8,
+     "n": 55
+    },
+    "SPECTATOR": {
+     "fa": 0,
+     "n": 25
+    },
+    "STAFF": {
+     "fa": 7,
+     "n": 20
+    }
+   },
+   "nontarget_candidates_accepted": 43
+  },
+  "flags_descriptive_only": {
+   "D_GATE_lower_ci_below_0_70": false,
+   "F_ASSIGN_interval_includes_0_5": false
+  },
+  "fta_ci95_exact": [
+   0.27466827583075526,
+   0.41015593908871467
+  ],
+  "label": "V0.6.1 DEVELOPMENT ONLY (cross-fitted, development-exposed data; exploratory; NOT validation)",
+  "n_numeric_failures": 0,
+  "param": {
+   "delta": 0.1,
+   "tau_g": 0.9
+  },
+  "seed": 1873979287,
+  "target_gate": {
+   "auroc": 0.9888962236320474,
+   "ci95": [
+    0.9807500032665132,
+    0.9944150410916287
+   ],
+   "target_candidates": 3058,
+   "target_candidates_rejected": 331
+  },
+  "unit_metrics": {
+   "coverage": 0.5872519390146497,
+   "fa_units": 68,
+   "fta": 0.34,
+   "n_target_units": 100,
+   "n_units": 200,
+   "strata": {
+    "OTHER_NAMED_WRESTLER": {
+     "fa": 53,
+     "n": 100
+    },
+    "REFEREE": {
+     "fa": 8,
+     "n": 55
+    },
+    "SPECTATOR": {
+     "fa": 0,
+     "n": 25
+    },
+    "STAFF": {
+     "fa": 7,
+     "n": 20
+    }
+   }
+  }
+ },
+ "ep_seed": 1873979287,
+ "grids": {
+  "B0": [
+   {
+    "coverage": 0.7360364603583647,
+    "fa_units": 103,
+    "fold_coverages": [
+     0.8180344397513197,
+     0.5930827974215642,
+     0.7474531904409953
+    ],
+    "fta": 0.515,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.3,
+     0.0
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 43,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 22,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 21,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 17,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6426954269627967,
+    "fa_units": 71,
+    "fold_coverages": [
+     0.7308462269521361,
+     0.4911285766881101,
+     0.64862826875022
+    ],
+    "fta": 0.355,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.3,
+     0.02
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 32,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 14,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 13,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 12,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.4177449519254101,
+    "fa_units": 26,
+    "fold_coverages": [
+     0.4797214254147018,
+     0.2844846706196418,
+     0.5020092035335938
+    ],
+    "fta": 0.13,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.3,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 14,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 6,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 4,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 2,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.12574027143173738,
+    "fa_units": 4,
+    "fold_coverages": [
+     0.127370966829003,
+     0.06219285187456604,
+     0.30808080808080807
+    ],
+    "fta": 0.02,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.3,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 3,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 1,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 0,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.7360364603583647,
+    "fa_units": 103,
+    "fold_coverages": [
+     0.8180344397513197,
+     0.5930827974215642,
+     0.7474531904409953
+    ],
+    "fta": 0.515,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.4,
+     0.0
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 43,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 22,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 21,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 17,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6426954269627967,
+    "fa_units": 71,
+    "fold_coverages": [
+     0.7308462269521361,
+     0.4911285766881101,
+     0.64862826875022
+    ],
+    "fta": 0.355,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.4,
+     0.02
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 32,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 14,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 13,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 12,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.4177449519254101,
+    "fa_units": 26,
+    "fold_coverages": [
+     0.4797214254147018,
+     0.2844846706196418,
+     0.5020092035335938
+    ],
+    "fta": 0.13,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.4,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 14,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 6,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 4,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 2,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.12574027143173738,
+    "fa_units": 4,
+    "fold_coverages": [
+     0.127370966829003,
+     0.06219285187456604,
+     0.30808080808080807
+    ],
+    "fta": 0.02,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.4,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 3,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 1,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 0,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.7360364603583647,
+    "fa_units": 102,
+    "fold_coverages": [
+     0.8180344397513197,
+     0.5930827974215642,
+     0.7474531904409953
+    ],
+    "fta": 0.51,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5,
+     0.0
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 43,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 22,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 21,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 16,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6426954269627967,
+    "fa_units": 70,
+    "fold_coverages": [
+     0.7308462269521361,
+     0.4911285766881101,
+     0.64862826875022
+    ],
+    "fta": 0.35,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5,
+     0.02
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 32,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 14,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 12,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 12,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.4177449519254101,
+    "fa_units": 26,
+    "fold_coverages": [
+     0.4797214254147018,
+     0.2844846706196418,
+     0.5020092035335938
+    ],
+    "fta": 0.13,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 14,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 6,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 4,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 2,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.12574027143173738,
+    "fa_units": 4,
+    "fold_coverages": [
+     0.127370966829003,
+     0.06219285187456604,
+     0.30808080808080807
+    ],
+    "fta": 0.02,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 3,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 1,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 0,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.7360364603583647,
+    "fa_units": 100,
+    "fold_coverages": [
+     0.8180344397513197,
+     0.5930827974215642,
+     0.7474531904409953
+    ],
+    "fta": 0.5,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6,
+     0.0
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 43,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 22,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 19,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 16,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6426954269627967,
+    "fa_units": 69,
+    "fold_coverages": [
+     0.7308462269521361,
+     0.4911285766881101,
+     0.64862826875022
+    ],
+    "fta": 0.345,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6,
+     0.02
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 32,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 14,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 11,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 12,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.4177449519254101,
+    "fa_units": 26,
+    "fold_coverages": [
+     0.4797214254147018,
+     0.2844846706196418,
+     0.5020092035335938
+    ],
+    "fta": 0.13,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 14,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 6,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 4,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 2,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.12574027143173738,
+    "fa_units": 4,
+    "fold_coverages": [
+     0.127370966829003,
+     0.06219285187456604,
+     0.30808080808080807
+    ],
+    "fta": 0.02,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 3,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 1,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 0,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.7321332383730531,
+    "fa_units": 91,
+    "fold_coverages": [
+     0.8139413846188189,
+     0.5890423933811602,
+     0.7449279379157427
+    ],
+    "fta": 0.455,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7,
+     0.0
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 42,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 21,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 16,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 12,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6412128398981202,
+    "fa_units": 63,
+    "fold_coverages": [
+     0.7305797024318802,
+     0.4870881726477061,
+     0.64862826875022
+    ],
+    "fta": 0.315,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7,
+     0.02
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 32,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 13,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 9,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 9,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.41759569819406683,
+    "fa_units": 24,
+    "fold_coverages": [
+     0.4794549008944459,
+     0.2844846706196418,
+     0.5020092035335938
+    ],
+    "fta": 0.12,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 14,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 6,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 3,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 1,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.12574027143173738,
+    "fa_units": 3,
+    "fold_coverages": [
+     0.127370966829003,
+     0.06219285187456604,
+     0.30808080808080807
+    ],
+    "fta": 0.015,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 2,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 1,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 0,
+      "n": 20
+     }
+    }
+   }
+  ],
+  "L1": [
+   {
+    "coverage": 0.6695356248619924,
+    "fa_units": 84,
+    "fold_coverages": [
+     0.6380816193787047,
+     0.7054010995197236,
+     0.7220686833491712
+    ],
+    "fta": 0.42,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 61,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 13,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 9,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6346251823412885,
+    "fa_units": 82,
+    "fold_coverages": [
+     0.5853234249819776,
+     0.698835442954067,
+     0.6929851652412627
+    ],
+    "fta": 0.41,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 59,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 13,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 9,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.5764624964806003,
+    "fa_units": 70,
+    "fold_coverages": [
+     0.5191569176060363,
+     0.6566558796215479,
+     0.6276198395100834
+    ],
+    "fta": 0.35,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5,
+     0.2
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 50,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 11,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 8,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.5050695730191525,
+    "fa_units": 49,
+    "fold_coverages": [
+     0.4412685059829781,
+     0.5975744830115471,
+     0.5523602752261288
+    ],
+    "fta": 0.245,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.5,
+     0.3
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 34,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 7,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6597602720961507,
+    "fa_units": 82,
+    "fold_coverages": [
+     0.6228640181164663,
+     0.7032861282972008,
+     0.7170181782986661
+    ],
+    "fta": 0.41,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 61,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 11,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 9,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6257510311775831,
+    "fa_units": 80,
+    "fold_coverages": [
+     0.5717151122949824,
+     0.6967204717315443,
+     0.6879346601907578
+    ],
+    "fta": 0.4,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 59,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 11,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 9,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.5678942921087572,
+    "fa_units": 68,
+    "fold_coverages": [
+     0.5055989067299062,
+     0.6545409083990252,
+     0.6250945869848309
+    ],
+    "fta": 0.34,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6,
+     0.2
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 50,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 9,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 8,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.49650136864730937,
+    "fa_units": 48,
+    "fold_coverages": [
+     0.42771049510684794,
+     0.5954595117890246,
+     0.5498350227008764
+    ],
+    "fta": 0.24,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.6,
+     0.3
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 34,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 6,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6509064644571503,
+    "fa_units": 80,
+    "fold_coverages": [
+     0.6095834092372988,
+     0.7020235020345746,
+     0.7079272692077571
+    ],
+    "fta": 0.4,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 61,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 10,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 8,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6177644935234997,
+    "fa_units": 78,
+    "fold_coverages": [
+     0.5599831998174525,
+     0.695457845468918,
+     0.6788437510998487
+    ],
+    "fta": 0.39,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 59,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 10,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 8,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.5611550585524452,
+    "fa_units": 67,
+    "fold_coverages": [
+     0.4960943229983966,
+     0.653278282136399,
+     0.6160036778939219
+    ],
+    "fta": 0.335,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7,
+     0.2
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 50,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 9,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.49047091263186443,
+    "fa_units": 46,
+    "fold_coverages": [
+     0.41872753793641065,
+     0.5954595117890246,
+     0.5407441136099673
+    ],
+    "fta": 0.23,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.7,
+     0.3
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 34,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 6,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 1,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 5,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6390174041215834,
+    "fa_units": 77,
+    "fold_coverages": [
+     0.5955592689111671,
+     0.6906363384734979,
+     0.7054020166825045
+    ],
+    "fta": 0.385,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.8,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 60,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 10,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.606776634790069,
+    "fa_units": 74,
+    "fold_coverages": [
+     0.547568348066564,
+     0.6840706819078415,
+     0.6763184985745961
+    ],
+    "fta": 0.37,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.8,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 57,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 10,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.5509917501999145,
+    "fa_units": 66,
+    "fold_coverages": [
+     0.4851518826419724,
+     0.6418911185753223,
+     0.6134784253686693
+    ],
+    "fta": 0.33,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.8,
+     0.2
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 50,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 9,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.48319291615056115,
+    "fa_units": 42,
+    "fold_coverages": [
+     0.41293744020717815,
+     0.584072348227948,
+     0.5382188610847147
+    ],
+    "fta": 0.21,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.8,
+     0.3
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 33,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 4,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 5,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.6181661880716155,
+    "fa_units": 72,
+    "fold_coverages": [
+     0.5734129564228201,
+     0.667085507317662,
+     0.6992428641818886
+    ],
+    "fta": 0.36,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.9,
+     0.05
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 57,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 8,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.5872519390146497,
+    "fa_units": 68,
+    "fold_coverages": [
+     0.5275730517479247,
+     0.6605198507520055,
+     0.6712679935240911
+    ],
+    "fta": 0.34,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.9,
+     0.1
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 53,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 8,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.534875826553796,
+    "fa_units": 60,
+    "fold_coverages": [
+     0.4712436794113704,
+     0.6183402874194864,
+     0.6084279203181642
+    ],
+    "fta": 0.3,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.9,
+     0.2
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 46,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 7,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 7,
+      "n": 20
+     }
+    }
+   },
+   {
+    "coverage": 0.4682629488220585,
+    "fa_units": 40,
+    "fold_coverages": [
+     0.39918014240917177,
+     0.5638592421489674,
+     0.5331683560342096
+    ],
+    "fta": 0.2,
+    "n_target_units": 100,
+    "n_units": 200,
+    "param": [
+     0.9,
+     0.3
+    ],
+    "strata": {
+     "OTHER_NAMED_WRESTLER": {
+      "fa": 32,
+      "n": 100
+     },
+     "REFEREE": {
+      "fa": 3,
+      "n": 55
+     },
+     "SPECTATOR": {
+      "fa": 0,
+      "n": 25
+     },
+     "STAFF": {
+      "fa": 5,
+      "n": 20
+     }
+    }
+   }
+  ]
+ },
+ "input_sha256": {
+  "extraction_manifest": "d5e749dc8ec436fcfc3358faf19bc4df7bfc899a199f1da3fad8336033fa45ba",
+  "features": {
+   "feat_mobileclip_b_b1_hbk_raw_20050502_44eba718ea302afa.npz": "94406ad136bf7716d64584bf9c50ee7412e3a76fa0222768343e9312bef52852",
+   "feat_mobileclip_b_b1_orton_rollins_wm31_d53ce15c509caae5.npz": "e434f47ab47bc22eb4dfca9a75d287842432fc7f29e652fa1b594ffdf225f421",
+   "feat_mobileclip_b_b1_rock_hhh_judgmentday2000_4c88a173da431497.npz": "a63266193ab799d607997df749280fa9afbd9b45aa10a75fd8c0616c6d8f8f9c",
+   "feat_mobileclip_b_b2_batch2_clip_condensed_9de641fa25ac2be5.npz": "70450e1ae7ad66342d83320bdd14a9916e87ed8f1e9dc98ffa3542e58df1eb69",
+   "feat_mobileclip_b_b2_videoplayback_2_a8c2cd6ba7e3d853.npz": "f52006564cb1acaae282d574f51fe4a23cdc43cb68129c84e257492a5a1c889e",
+   "feat_mobileclip_b_b2_videoplayback_5_22b44095d0aa4006.npz": "57bc94e360969116d652468e04465a0f7e1af2c938a6659f3f12229cce7a3dd5"
+  },
+  "labels": "1bd3e8e294f67d33b0f16169b782b45995e161902769cc5645a36479719b02ec",
+  "seed_manifest": "9d6d1134ad80b604ff431e381c757fd83cb14f6cd76b4d6b7b0fc94e3a50b33b",
+  "splits": "05342bf8178646c70e8ccc64e269e1400da3db662acd38c077c56ab2a7d0adc4"
+ },
+ "k_resamples": 5,
+ "label": "V0.6.1 DEVELOPMENT ONLY (cross-fitted, development-exposed data; exploratory; NOT validation)",
+ "locked_impl_manifest_sha256": "eb99beb359ee28dca883d7976ede4385f8dafb2e739d729f89a3358cd3ea073d",
+ "n_oof_candidate_rows": 7022,
+ "note": "No outcome class (KEEP/KILL/MODIFY) is assigned; all numbers are development-exposed and exploratory.",
+ "paired_sign_exploratory": {
+  "b_baseline_only": 44,
+  "both": 47,
+  "c_learned_only": 21,
+  "discordant": 65,
+  "n_units": 200,
+  "one_sided_p_b_gt_c": 0.002959216626309653
+ },
+ "pooled_oof_B0": {
+  "coverage": 0.7321332383730531,
+  "fa_units": 91,
+  "fta": 0.455,
+  "fta_ci95_exact": [
+   0.38461304203891705,
+   0.5267407524810115
+  ],
+  "n_target_units": 100,
+  "n_units": 200,
+  "strata": {
+   "OTHER_NAMED_WRESTLER": {
+    "fa": 42,
+    "n": 100
+   },
+   "REFEREE": {
+    "fa": 21,
+    "n": 55
+   },
+   "SPECTATOR": {
+    "fa": 16,
+    "n": 25
+   },
+   "STAFF": {
+    "fa": 12,
+    "n": 20
+   }
+  }
+ },
+ "pooled_oof_L1": {
+  "coverage": 0.5872519390146497,
+  "fa_units": 68,
+  "fta": 0.34,
+  "fta_ci95_exact": [
+   0.27466827583075526,
+   0.41015593908871467
+  ],
+  "n_target_units": 100,
+  "n_units": 200,
+  "strata": {
+   "OTHER_NAMED_WRESTLER": {
+    "fa": 53,
+    "n": 100
+   },
+   "REFEREE": {
+    "fa": 8,
+    "n": 55
+   },
+   "SPECTATOR": {
+    "fa": 0,
+    "n": 25
+   },
+   "STAFF": {
+    "fa": 7,
+    "n": 20
+   }
+  }
+ },
+ "private_oof_decisions_sha256": "8a64fcbb7f98991bae4598119a61e48c5fa05130c7c6f0e821f40f25cafc7394",
+ "selected_B0": {
+  "coverage": 0.7321332383730531,
+  "fa_units": 91,
+  "fold_coverages": [
+   0.8139413846188189,
+   0.5890423933811602,
+   0.7449279379157427
+  ],
+  "fta": 0.455,
+  "n_target_units": 100,
+  "n_units": 200,
+  "param": [
+   0.7,
+   0.0
+  ],
+  "strata": {
+   "OTHER_NAMED_WRESTLER": {
+    "fa": 42,
+    "n": 100
+   },
+   "REFEREE": {
+    "fa": 21,
+    "n": 55
+   },
+   "SPECTATOR": {
+    "fa": 16,
+    "n": 25
+   },
+   "STAFF": {
+    "fa": 12,
+    "n": 20
+   }
+  }
+ },
+ "selected_L1": {
+  "coverage": 0.5872519390146497,
+  "fa_units": 68,
+  "fold_coverages": [
+   0.5275730517479247,
+   0.6605198507520055,
+   0.6712679935240911
+  ],
+  "fta": 0.34,
+  "n_target_units": 100,
+  "n_units": 200,
+  "param": [
+   0.9,
+   0.1
+  ],
+  "strata": {
+   "OTHER_NAMED_WRESTLER": {
+    "fa": 53,
+    "n": 100
+   },
+   "REFEREE": {
+    "fa": 8,
+    "n": 55
+   },
+   "SPECTATOR": {
+    "fa": 0,
+    "n": 25
+   },
+   "STAFF": {
+    "fa": 7,
+    "n": 20
+   }
+  }
+ },
+ "spec_v4_manifest_sha256": "efb2a797c358cdcad73bc933ccc5a80d95979610179240daf6229b4ba86c88af",
+ "status": "OK",
+ "structure": {
+  "components": {
+   "b1_hbk_raw_20050502": "shawn_michaels",
+   "b1_orton_rollins_wm31": "randy_orton",
+   "b1_rock_hhh_judgmentday2000": "the_rock",
+   "b2_batch2_clip_condensed": "andrade",
+   "b2_videoplayback_2": "brock_lesnar",
+   "b2_videoplayback_5": "andrade"
+  },
+  "draw_log": [
+   {
+    "clip": "b1_hbk_raw_20050502",
+    "k": 0,
+    "shawn_michaels": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    },
+    "shelton_benjamin": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_hbk_raw_20050502",
+    "k": 1,
+    "shawn_michaels": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    },
+    "shelton_benjamin": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_hbk_raw_20050502",
+    "k": 2,
+    "shawn_michaels": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    },
+    "shelton_benjamin": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_hbk_raw_20050502",
+    "k": 3,
+    "shawn_michaels": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    },
+    "shelton_benjamin": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_hbk_raw_20050502",
+    "k": 4,
+    "shawn_michaels": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    },
+    "shelton_benjamin": {
+     "n_seeds": 3,
+     "rule": "RELAXED_3",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "k": 0,
+    "randy_orton": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "seth_rollins": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "k": 1,
+    "randy_orton": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "seth_rollins": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "k": 2,
+    "randy_orton": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "seth_rollins": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "k": 3,
+    "randy_orton": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "seth_rollins": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "k": 4,
+    "randy_orton": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "seth_rollins": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_rock_hhh_judgmentday2000",
+    "k": 0,
+    "the_rock": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    },
+    "triple_h": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_rock_hhh_judgmentday2000",
+    "k": 1,
+    "the_rock": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    },
+    "triple_h": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_rock_hhh_judgmentday2000",
+    "k": 2,
+    "the_rock": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    },
+    "triple_h": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_rock_hhh_judgmentday2000",
+    "k": 3,
+    "the_rock": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    },
+    "triple_h": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    }
+   },
+   {
+    "clip": "b1_rock_hhh_judgmentday2000",
+    "k": 4,
+    "the_rock": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    },
+    "triple_h": {
+     "n_seeds": 2,
+     "rule": "RELAXED_2",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_batch2_clip_condensed",
+    "k": 0,
+    "rey_mysterio": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_batch2_clip_condensed",
+    "k": 1,
+    "rey_mysterio": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_batch2_clip_condensed",
+    "k": 2,
+    "rey_mysterio": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_batch2_clip_condensed",
+    "k": 3,
+    "rey_mysterio": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_batch2_clip_condensed",
+    "k": 4,
+    "rey_mysterio": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "brock_lesnar": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_2",
+    "daniel_bryan": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "k": 0
+   },
+   {
+    "brock_lesnar": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_2",
+    "daniel_bryan": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "k": 1
+   },
+   {
+    "brock_lesnar": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_2",
+    "daniel_bryan": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "k": 2
+   },
+   {
+    "brock_lesnar": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_2",
+    "daniel_bryan": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "k": 3
+   },
+   {
+    "brock_lesnar": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_2",
+    "daniel_bryan": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "k": 4
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_5",
+    "k": 0,
+    "kenny_omega": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_5",
+    "k": 1,
+    "kenny_omega": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_5",
+    "k": 2,
+    "kenny_omega": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_5",
+    "k": 3,
+    "kenny_omega": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   },
+   {
+    "andrade": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    },
+    "clip": "b2_videoplayback_5",
+    "k": 4,
+    "kenny_omega": {
+     "n_seeds": 4,
+     "rule": "STRICT_4",
+     "status": "OK"
+    }
+   }
+  ],
+  "ep_seed": 1873979287,
+  "eval_episode_ids": [
+   "b1_orton_rollins_wm31|randy_orton|seth_rollins",
+   "b2_videoplayback_2|brock_lesnar|daniel_bryan",
+   "b2_batch2_clip_condensed|andrade|rey_mysterio",
+   "b2_videoplayback_5|andrade|kenny_omega"
+  ],
+  "label": "V0.6.1 DEVELOPMENT ONLY (cross-fitted, development-exposed data; exploratory; NOT validation)",
+  "n_eval_episodes": 4,
+  "n_training_episodes_per_clip": {
+   "b1_hbk_raw_20050502": 5,
+   "b1_orton_rollins_wm31": 5,
+   "b1_rock_hhh_judgmentday2000": 5,
+   "b2_batch2_clip_condensed": 5,
+   "b2_videoplayback_2": 5,
+   "b2_videoplayback_5": 5
+  }
+ },
+ "training": {
+  "andrade": {
+   "final_loss": 0.013423849153332413,
+   "first_loss": 0.18913651714101434,
+   "heldout_clips": [
+    "b2_batch2_clip_condensed",
+    "b2_videoplayback_5"
+   ],
+   "n_train_episodes": 20
+  },
+  "brock_lesnar": {
+   "final_loss": 0.04543908844701946,
+   "first_loss": 0.3020453054457903,
+   "heldout_clips": [
+    "b2_videoplayback_2"
+   ],
+   "n_train_episodes": 25
+  },
+  "randy_orton": {
+   "final_loss": 0.0372910672868602,
+   "first_loss": 0.3142211680114269,
+   "heldout_clips": [
+    "b1_orton_rollins_wm31"
+   ],
+   "n_train_episodes": 25
+  },
+  "shawn_michaels": {
+   "heldout_clips": [
+    "b1_hbk_raw_20050502"
+   ],
+   "n_train_episodes": 25,
+   "note": "no strictly evaluable episode; contributes training data only"
+  },
+  "the_rock": {
+   "heldout_clips": [
+    "b1_rock_hhh_judgmentday2000"
+   ],
+   "n_train_episodes": 25,
+   "note": "no strictly evaluable episode; contributes training data only"
+  }
+ }
+}
