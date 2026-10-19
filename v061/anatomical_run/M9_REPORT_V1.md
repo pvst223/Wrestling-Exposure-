@@ -5,7 +5,7 @@ Frozen 60-frame sample (30 ASSIGNED + 30 WITHHELD; 7-8 per clip per stratum); ve
 1. **Overall (60):** CORRECT 21 · PARTIAL_BUT_USABLE 31 · CONTAMINATED 6 · NOT_JUDGEABLE 2.
 2. **ASSIGNED stratum (30):** CORRECT 19 · PARTIAL_BUT_USABLE 10 · CONTAMINATED 1 · NOT_JUDGEABLE 0.
 3. **WITHHELD stratum (30):** CORRECT 2 · PARTIAL_BUT_USABLE 21 · CONTAMINATED 5 · NOT_JUDGEABLE 2.
-4. **Withheld by ownership state:** MIXED_BODY_SUSPECTED (9): CORRECT 1, PARTIAL 5, CONTAMINATED 3. OWNERSHIP_UNCERTAIN (21): CORRECT 1, PARTIAL 16, CONTAMINATED 2, NOT_JUDGEABLE 2. Reason x verdict table: `M9_POSTHOC_V1.json` (e.g. OPPONENT_LANDMARKS_IN_MASK 12 withheld items: 11 PARTIAL, 1 CONTAMINATED; LIMB_TOO_LONG:* items: 4 of 9 CONTAMINATED).
+4. **Withheld by ownership state:** MIXED_BODY_SUSPECTED (9): CORRECT 1, PARTIAL 5, CONTAMINATED 3. OWNERSHIP_UNCERTAIN (21): CORRECT 1, PARTIAL 16, CONTAMINATED 2, NOT_JUDGEABLE 2. Reason x verdict table: `M9_POSTHOC_V1.json` (e.g. OPPONENT_LANDMARKS_IN_MASK 12 withheld items: 11 PARTIAL, 1 CONTAMINATED; the four LIMB_TOO_LONG:* reasons are counted per reason, and the single CONTAMINATED item carrying all four is R014 - reason counts are not unique items).
 5. **CONTAMINATED ASSIGNED frame (1 of 30):** R049, b2_videoplayback_5 frame 1041, ASSIGNED_B, ownership SINGLE_BODY_SUPPORTED (no reasons), merge guard did NOT trigger: two entangled bodies in one box, skeleton segments run across both. (Other contaminated items were all withheld: R001, R014, R042 [MIXED_BODY_SUSPECTED]; R013, R019 [OWNERSHIP_UNCERTAIN].)
 6. **Withheld frames judged CORRECT or PARTIAL_BUT_USABLE:** 23/28 judgeable = 82.1% (exact 95% CI 63.1%-93.9%); 2 NOT_JUDGEABLE excluded.
 7. **Assigned frames judged CONTAMINATED:** 1/30 = 3.3% (exact 95% CI 0.08%-17.2%).
