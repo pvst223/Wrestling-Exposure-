@@ -1,0 +1,22 @@
+{
+ "status": "TEMPLATE - one record per source/grantor; fill after a reply; proposed determinations only; reviewer decides",
+ "source_pseudonym_id": "SRC-__",
+ "grantor_role": "e.g. independent promotion / producer (no real names in the public repo; real names stay private)",
+ "request_sent_date": "",
+ "reply_received_date": "",
+ "reply_and_documents_sha256": [],
+ "grantor_statement_summary": {
+  "rights_controlled": "",
+  "cannot_authorize": "",
+  "performers_and_staff_images_covered": "",
+  "audience_notice_or_ticket_terms": "",
+  "limitations_or_conditions": ""
+ },
+ "q1_obtain_and_use": {"items_1_to_4_authorized": "yes | no | with limits", "acquisition_method_permitted": "yes | no | unknown", "proposed_determination": "PASS | FAIL | UNRESOLVED", "reasons": ""},
+ "q2_gemini_transmission": {"item_5_authorized_with_disclosure_of_72h_retention_and_possible_human_review": "yes | no | with limits", "proposed_determination": "PASS | FAIL | UNRESOLVED", "reasons": ""},
+ "no_redistribution_and_aggregate_reporting_accepted": "yes | no",
+ "material_unresolved_issues_for_escalation": [],
+ "prospective_pool_contribution": {"events": null, "separate_matches": null, "named_performers_count": null, "multi_camera_produced": "yes | no | unknown", "notes": "from the grantor's own statements; no footage inspected"},
+ "reviewer_decision": "PENDING",
+ "holdout2_eligible": false
+}
