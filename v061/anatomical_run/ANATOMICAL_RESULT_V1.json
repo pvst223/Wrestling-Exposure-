@@ -1,0 +1,7685 @@
+{
+ "authorization_ledger_id": "OGR18",
+ "clips": [
+  "b1_orton_rollins_wm31",
+  "b2_batch2_clip_condensed",
+  "b2_videoplayback_2",
+  "b2_videoplayback_5"
+ ],
+ "defects": [],
+ "descriptive_post_registration": {
+  "identity_state_counts": {
+   "ABSTAIN_AMBIGUOUS": 597,
+   "ACCEPT_A": 1374,
+   "ACCEPT_B": 805,
+   "NO_IDENTITY_EVAL": 1685,
+   "REJECT_NONTARGET": 4246
+  },
+  "identity_x_ownership": {
+   "ABSTAIN_AMBIGUOUS|MIXED_BODY_SUSPECTED": 112,
+   "ABSTAIN_AMBIGUOUS|OWNERSHIP_UNCERTAIN": 288,
+   "ABSTAIN_AMBIGUOUS|SINGLE_BODY_SUPPORTED": 197,
+   "ACCEPT_A|MIXED_BODY_SUSPECTED": 226,
+   "ACCEPT_A|OWNERSHIP_UNCERTAIN": 646,
+   "ACCEPT_A|SINGLE_BODY_SUPPORTED": 502,
+   "ACCEPT_B|MIXED_BODY_SUSPECTED": 132,
+   "ACCEPT_B|OWNERSHIP_UNCERTAIN": 404,
+   "ACCEPT_B|SINGLE_BODY_SUPPORTED": 269,
+   "NO_IDENTITY_EVAL|MIXED_BODY_SUSPECTED": 205,
+   "NO_IDENTITY_EVAL|OWNERSHIP_UNCERTAIN": 804,
+   "NO_IDENTITY_EVAL|SINGLE_BODY_SUPPORTED": 676,
+   "REJECT_NONTARGET|MIXED_BODY_SUSPECTED": 628,
+   "REJECT_NONTARGET|OWNERSHIP_UNCERTAIN": 2140,
+   "REJECT_NONTARGET|SINGLE_BODY_SUPPORTED": 1478
+  },
+  "m2_shots_flagged_ge_20pct": 68,
+  "m2_shots_total": 75,
+  "measured_rows": 8707,
+  "merge_guard_flagged_by_ownership_state": {
+   "MIXED_BODY_SUSPECTED": 7,
+   "OWNERSHIP_UNCERTAIN": 84,
+   "SINGLE_BODY_SUPPORTED": 95
+  },
+  "note": "Tabulations computed by assemble_result.py from the registered stage outputs; descriptive, not pre-registered metrics.",
+  "ownership_reason_counts": {
+   "BONES_LEAVE_MASK": 375,
+   "BONE_SPANS_INSTANCES": 544,
+   "CONTESTED_LANDMARKS": 1249,
+   "FEW_LANDMARKS": 967,
+   "LANDMARKS_IN_OTHER_INSTANCE": 216,
+   "LANDMARK_OUTSIDE_OWN_BOX": 40,
+   "LIMB_TOO_LONG:forearm": 69,
+   "LIMB_TOO_LONG:shank": 78,
+   "LIMB_TOO_LONG:thigh": 79,
+   "LIMB_TOO_LONG:upper_arm": 108,
+   "MASK_NOT_EXPLAINED_BY_SKELETON": 496,
+   "NO_OWNER_MASK": 464,
+   "OPPONENT_LANDMARKS_IN_MASK": 1383,
+   "SHARED_JOINT_CONFLICT": 500,
+   "SOME_LANDMARK_IN_OTHER_INSTANCE": 154,
+   "TEMPORAL_JOINT_JUMP": 10,
+   "TEMPORAL_SCALE_JUMP": 38,
+   "TOO_FEW_OWN_ONLY_LANDMARKS": 1467,
+   "TORSO_SIDES_ASYMMETRIC": 24
+  },
+  "ownership_state_counts": {
+   "MIXED_BODY_SUSPECTED": 1303,
+   "OWNERSHIP_UNCERTAIN": 4282,
+   "SINGLE_BODY_SUPPORTED": 3122
+  },
+  "record_class_counts": {
+   "ASSIGNED_A": 502,
+   "ASSIGNED_B": 269,
+   "NONTARGET": 1478,
+   "NO_IDENTITY_EVAL": 676,
+   "UNASSIGNED_IDENTITY_AMBIGUOUS": 197,
+   "WITHHELD_MIXED_BODY": 1303,
+   "WITHHELD_OWNERSHIP_UNCERTAIN": 4282
+  }
+ },
+ "forbidden_outputs_present": false,
+ "gemini_transmitted": false,
+ "hashes": {
+  "anat_manifest_sha256": "f5936ce8bee667f15eaa55c2545a15ecf060afa06b1539abd3e824a8351b7dfb",
+  "assemble_result_sha256": "62e5ef6e389138ada148905466e04f5408efce38fa8d6b2a705ad6816766ee37",
+  "authorization_record_sha256": "8a9dd318e9c545721706dea2037f5021ff5e6227e116a884781c80b4705b7845",
+  "m9_key_sha256": "8292c4ff8266e0c6e11d804ccdf49bf6d8cf040ebe4c31da49828cd6b8c3754b",
+  "m9_sheet_sha256": "649e2cba0fdf82c1d6e592ac0ac2857002939a6e38dfbd2ab4daaacb1c3d45bc",
+  "oof_blinded_sha256": "f5fbb0f7a37015a4a9052f6a7ed97307d6e99dff6572cd2e364af15a6d93f163",
+  "oof_private_sha256": "8a64fcbb7f98991bae4598119a61e48c5fa05130c7c6f0e821f40f25cafc7394",
+  "per_clip_inputs": {
+   "b1_orton_rollins_wm31": {
+    "dets": "912cf163c9b970c81e88e54a7f22082feb73a77e0d8043c62e454bdeaeb9c0ae",
+    "tracklets": "1e1626c5966c571bc6b08f79e971f54e772607fa1dcdfa70e4a5bc67f1cf31b5",
+    "video": "f64eeaf11ff60facd193b328d1a6263184b60d58a455e95591387c2075250a5f"
+   },
+   "b2_batch2_clip_condensed": {
+    "dets": "0788814e2726d47e5669d7e7c60728d27a240af1b8aa7f3eb125765fb10858ce",
+    "tracklets": "806c174e0246e238fe98ff33fe0234826fd840b631a601e7d8e182344d81cebb",
+    "video": "c404c8e560fece5398cfe0c1408cd4dadd5e675e4676df8e8ca72472fc9e31d6"
+   },
+   "b2_videoplayback_2": {
+    "dets": "1e6648e5ca26352c817b883d89312834df6f55af0a663d1347a82ab7427a8893",
+    "tracklets": "1f004758ef0bcac6c56e7816550045519b7d8bdbe06501f96d9e61f7724715b3",
+    "video": "334546c6c5d32426de8a9f64102840e5aa807ae23f0fff4b872754338dfc723a"
+   },
+   "b2_videoplayback_5": {
+    "dets": "c1a4f83d96d2661a5dce2b4d50f061b8bc510a117f5a350b60f36846884006f5",
+    "tracklets": "7a2c7ca3693b350498987370fb5a74703c7702d67da9ea94cc077042fc8d6740",
+    "video": "d36e40cf8d26d7abf29f16d93660fe240a5fdd8cad4a29fa6ba7a825dbe7436c"
+   }
+  },
+  "pose_weights": "dbe539ea268db2534390942cfdf206e521f376f19e5415967a57f6a2ddfa3c90",
+  "renders": {
+   "b1_orton_rollins_wm31": {
+    "fps": 30.0,
+    "h264_sha256": "83bedca3bf64ac7766508f7c5943dc74666994eb25f913560adc424111da1897",
+    "mp4v_sha256": "d4dc36d992b320bfbde69ef4158b6c19b56177b621f448634bc00c6262613ca4",
+    "n_source_frames": 1110,
+    "record_class_counts": {
+     "ASSIGNED_A": 54,
+     "ASSIGNED_B": 28,
+     "CARRIED_ASSIGNED_A": 105,
+     "CARRIED_ASSIGNED_B": 59,
+     "NONTARGET": 187,
+     "NO_IDENTITY_EVAL": 117,
+     "UNASSIGNED_IDENTITY_AMBIGUOUS": 6,
+     "WITHHELD_MIXED_BODY": 147,
+     "WITHHELD_OWNERSHIP_UNCERTAIN": 722
+    },
+    "sidecar_sha256": "a8a1b2fb3b3e025cb4ee5e686c7da5158b5dc59383276c8a7014eb365419bfd7"
+   },
+   "b2_batch2_clip_condensed": {
+    "fps": 30.0,
+    "h264_sha256": "921f9c30e06f5509c0d625fe1fcd57df0d42cfc86247c8d62bd678b1c46adff4",
+    "mp4v_sha256": "6d714488fb7233ce1a38285dd20018c4702fa529a3dc2a81e6729e5f12eecb11",
+    "n_source_frames": 3600,
+    "record_class_counts": {
+     "ASSIGNED_A": 314,
+     "ASSIGNED_B": 34,
+     "CARRIED_ASSIGNED_A": 635,
+     "CARRIED_ASSIGNED_B": 67,
+     "NONTARGET": 466,
+     "NO_IDENTITY_EVAL": 101,
+     "UNASSIGNED_IDENTITY_AMBIGUOUS": 25,
+     "WITHHELD_MIXED_BODY": 324,
+     "WITHHELD_OWNERSHIP_UNCERTAIN": 1074
+    },
+    "sidecar_sha256": "63221ea0b1ba91ca56f61d43d82185e3298d07edb2f4ab15d78e523a4f8360dc"
+   },
+   "b2_videoplayback_2": {
+    "fps": 30.0,
+    "h264_sha256": "c47de1a7ca12b67978a5afbdaf7f947107a498a98430e30a9d6b3296e938f7b5",
+    "mp4v_sha256": "8d1a3c7abe7791b64cefc32720958f0081738294ac241e4dc509dff66c459437",
+    "n_source_frames": 2300,
+    "record_class_counts": {
+     "ASSIGNED_A": 113,
+     "ASSIGNED_B": 61,
+     "CARRIED_ASSIGNED_A": 226,
+     "CARRIED_ASSIGNED_B": 124,
+     "NONTARGET": 366,
+     "NO_IDENTITY_EVAL": 90,
+     "UNASSIGNED_IDENTITY_AMBIGUOUS": 4,
+     "WITHHELD_MIXED_BODY": 342,
+     "WITHHELD_OWNERSHIP_UNCERTAIN": 1296
+    },
+    "sidecar_sha256": "8f6d5b4352f2c3fb5fb67b61bbc682403384129e3212cb09476c213013c47a75"
+   },
+   "b2_videoplayback_5": {
+    "fps": 30.0,
+    "h264_sha256": "36a54588197ebe79964bea61bb66a80171156e46501b666dff39ca65da76b115",
+    "mp4v_sha256": "c70b1a70997bec9f2841aeb02c3723f66c0aada9d860b6cb08bc3717d3a47411",
+    "n_source_frames": 3587,
+    "record_class_counts": {
+     "ASSIGNED_A": 21,
+     "ASSIGNED_B": 146,
+     "CARRIED_ASSIGNED_A": 42,
+     "CARRIED_ASSIGNED_B": 299,
+     "NONTARGET": 459,
+     "NO_IDENTITY_EVAL": 368,
+     "UNASSIGNED_IDENTITY_AMBIGUOUS": 162,
+     "WITHHELD_MIXED_BODY": 490,
+     "WITHHELD_OWNERSHIP_UNCERTAIN": 1190
+    },
+    "sidecar_sha256": "66c8b878f93563e55fc4058501a1a236427901e73636b7940b1aac38d49f5271"
+   }
+  },
+  "rows_pickles": {
+   "b1_orton_rollins_wm31": "0c20c9026e4eedf06b3c05f13d0096025359021a795e544e36be8221e462015f",
+   "b2_batch2_clip_condensed": "b595ebd8edb9f98733a4e61bd42aab21ce4a33f352fe16ec87c024779abc2fba",
+   "b2_videoplayback_2": "6dec0ac46c7fd1066afe43b25e374832937480e79691aa0b116372d65e5b259e",
+   "b2_videoplayback_5": "f165e8e7a5fe25ac7305d37f700c1526f11ac46bbbf6f39a29fddd2cfc872185"
+  },
+  "runner_sha256": "0bb8459ff4f1ba7a5c2c7a3c25aad19088fa64c76afe602dce0d13b7578370a7",
+  "seg_caches": {
+   "b1_orton_rollins_wm31": "54692644b5997438b00756bbe72be055dca8aa6f5e697b0c68e124f240d194f3",
+   "b2_batch2_clip_condensed": "33d2759ee1a1fa685b24f015781832b1f3222f05fb7f78321e282ca94eb32adc",
+   "b2_videoplayback_2": "76aa959c461db0aee763741d2e0dcab6a20010583175f06db0fba032ae79a760",
+   "b2_videoplayback_5": "17714dfaac61524f211d4f5911df0b1738f2ec570803c78de2792c73905771bd"
+  },
+  "seg_weights": "51fa7e5ef385efa6d5b1d8e31b73399be6ed5d7ca71bda4bd4b2794bb445c4f4"
+ },
+ "holdout2_accessed": false,
+ "label": "V0.6.1 ANATOMICAL INTEGRATION EXECUTION V1 - DEVELOPMENT ONLY - NOT VALIDATION - IDENTITY UNVALIDATED (MODIFY)",
+ "metrics": {
+  "M1": [
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 37,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 9,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 11,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 30,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 9,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 95,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 70,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 0
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 1
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 12,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 9,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 1
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 2
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 5,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 2
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 2
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 27,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 2
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 12,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 22,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 3
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 9,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 14,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 26,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 10,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 4
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 5
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 5
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 5
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 6
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 6
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 13,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 35,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 23,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 35,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 48,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 280,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 90,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 7
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 15,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 26,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 16,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 8
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 9
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 9
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 11,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 9
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 9
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 9
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 9
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 9,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 9
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 9
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 10
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_A",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 10
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 10
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 10
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 29,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 10
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 10
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 22,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 10
+   },
+   {
+    "clip": "b1_orton_rollins_wm31",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 10
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 9,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 6,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 0
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 1
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 113,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 2
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 51,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 2
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 15,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 3
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 4
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 4
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 5
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 5
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 5
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 6,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 5
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 5
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 6
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 12,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 21,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 10,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 17,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 8
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 9
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 9
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 9
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 5,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 9
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 9
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 9
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 10
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 11,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 10
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 10
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 15,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 10
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 11
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 11
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 11
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 11
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 11
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 12
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 12
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 12
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 12
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 33,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 31,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 18,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 13
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 14
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 14
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 14
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 14
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 14
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 15
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 15
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 15
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 15
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 15
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 16
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 16
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 9,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 16
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 16
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 16
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 16
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 16
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 16
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 17
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 27,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 17
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 17
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 17
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 17
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 9,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 17
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 10,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 18
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 18
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 18
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 9,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 18
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 18
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 18,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 18
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 19
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 19
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 19
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 17,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 19
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 12,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 19
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 11,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 23,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 13,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 9,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 10,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 44,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 56,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 20
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 9,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 6,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 21
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 6,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 16,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 22
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 23,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 23
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 34,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 23
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 23
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 23
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 23
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 23
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 24
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 24
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 24
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 24
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 24
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 11,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 24
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 24
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 16,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 20,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 8,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 17,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 30,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 19,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 25
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 26
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 26
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 26
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 26
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 26
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 18,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 26
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 27
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 20,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 18,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 26,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 28
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 29
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 29
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 6,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 29
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 30
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 30
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 30
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 30
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 30
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 30
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 31
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 31
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 9,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 31
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 45,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 31
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 31
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 31
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 30,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 31
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 17,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 31
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 32
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 32
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 15,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 32
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 32
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 32
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 12,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 32
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 28,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 32
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 17,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 32
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 33
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 33
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 15,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 33
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 16,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 33
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 33
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 33
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 34
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 34
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 34
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 9,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 34
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 5,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 34
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 13,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 34
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 9,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 16,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 35
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 36
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 36
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 9,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 36
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 36
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 36
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 36
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 24,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 36
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 23,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 36
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 10,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 18,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 37
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 12,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 18,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 38
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 47,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 56,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_A",
+    "n": 25,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 71,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 39
+   },
+   {
+    "clip": "b2_batch2_clip_condensed",
+    "identity": "REJECT_NONTARGET",
+    "n": 66,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 39
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 8,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 19,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 25,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 9,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 15,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 9,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 30,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 22,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 16,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 24,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 13,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 20,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 21,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 15,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 22,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 24,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 10,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 17,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 12,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 6,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 24,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 29,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 9,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 9
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 10
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 10
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 10,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 10
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 10
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 10
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 10
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 10
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 17,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 10
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 11
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 8,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 21,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 22,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 12
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 8,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 13,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 60,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 13,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 13
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 10,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 14,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 18,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 89,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 16,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 14
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 15
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 17,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 91,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 16
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 21,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 17
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 81,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 17
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 18
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 6,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 18
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 18
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 18
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 18
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 55,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 18
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 27,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 18
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 8,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 19
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 14,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 19
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 9,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 19
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 24,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 19
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 17,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 22,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 24,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 92,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 47,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 20
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 21
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 26,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 21
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 49,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 21
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 129,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 21
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 21
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 12,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 22
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 12,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 22
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 10,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 22
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 26,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 22
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 110,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 22
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 40,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 22
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 23
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 35,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 23
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 23
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 23
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "ACCEPT_B",
+    "n": 32,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 23
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 22,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 23
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 56,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 23
+   },
+   {
+    "clip": "b2_videoplayback_2",
+    "identity": "REJECT_NONTARGET",
+    "n": 32,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 23
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 22,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 67,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 50,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 8,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 23,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 148,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 84,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 13,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 82,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 34,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 25,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 63,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 197,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 0
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 20,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 27,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 9,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 17,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 34,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 20,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 5,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 42,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 28,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 43,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 83,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 33,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 1
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 9,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 36,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 5,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 6,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 27,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 2
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 13,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 24,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 57,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 11,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 6,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 23,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 31,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 36,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 100,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 95,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 129,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 143,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 122,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 3
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 21,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 3,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 29,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 4
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 5,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 53,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 4,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 14,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 5
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 26,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 57,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 38,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 2,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_A",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 8,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 14,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 5,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 43,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 108,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 95,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 8,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 52,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 6
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 10,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ABSTAIN_AMBIGUOUS",
+    "n": 3,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "UNASSIGNED_IDENTITY_AMBIGUOUS",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_A",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 20,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 23,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "ACCEPT_B",
+    "n": 6,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "ASSIGNED_B",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 4,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 2,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 7,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "REJECT_NONTARGET",
+    "n": 1,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NONTARGET",
+    "shot": 7
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 1,
+    "ownership": "MIXED_BODY_SUSPECTED",
+    "record_class": "WITHHELD_MIXED_BODY",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 12,
+    "ownership": "OWNERSHIP_UNCERTAIN",
+    "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+    "shot": 8
+   },
+   {
+    "clip": "b2_videoplayback_5",
+    "identity": "NO_IDENTITY_EVAL",
+    "n": 38,
+    "ownership": "SINGLE_BODY_SUPPORTED",
+    "record_class": "NO_IDENTITY_EVAL",
+    "shot": 8
+   }
+  ],
+  "M2": [
+   {
+    "accept_measured": 2179,
+    "ci95": [
+     0.6256758235744082,
+     0.6662662160906163
+    ],
+    "clip": "ALL",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6461679669573198,
+    "of_which_not_evaluated": 0,
+    "shot": "ALL",
+    "withheld": 1408
+   },
+   {
+    "accept_measured": 53,
+    "ci95": [
+     0.0547901018531811,
+     0.25336823286373644
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": false,
+    "frac": 0.1320754716981132,
+    "of_which_not_evaluated": 0,
+    "shot": 0,
+    "withheld": 7
+   },
+   {
+    "accept_measured": 11,
+    "ci95": [
+     0.5872200830116173,
+     0.9977010277861857
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.9090909090909091,
+    "of_which_not_evaluated": 0,
+    "shot": 1,
+    "withheld": 10
+   },
+   {
+    "accept_measured": 21,
+    "ci95": [
+     0.8389023847809204,
+     1.0
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 10,
+    "withheld": 21
+   },
+   {
+    "accept_measured": 9,
+    "ci95": [
+     0.002809136746599214,
+     0.48249651491733697
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": false,
+    "frac": 0.1111111111111111,
+    "of_which_not_evaluated": 0,
+    "shot": 2,
+    "withheld": 1
+   },
+   {
+    "accept_measured": 13,
+    "ci95": [
+     0.31577760291406304,
+     0.8614206611098394
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6153846153846154,
+    "of_which_not_evaluated": 0,
+    "shot": 4,
+    "withheld": 8
+   },
+   {
+    "accept_measured": 13,
+    "ci95": [
+     0.19223244180128798,
+     0.7486545177296964
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.46153846153846156,
+    "of_which_not_evaluated": 0,
+    "shot": 5,
+    "withheld": 6
+   },
+   {
+    "accept_measured": 9,
+    "ci95": [
+     0.29929505620854036,
+     0.9251453685803082
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6666666666666666,
+    "of_which_not_evaluated": 0,
+    "shot": 6,
+    "withheld": 6
+   },
+   {
+    "accept_measured": 77,
+    "ci95": [
+     0.8549333427417326,
+     0.9785813316405674
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.935064935064935,
+    "of_which_not_evaluated": 0,
+    "shot": 7,
+    "withheld": 72
+   },
+   {
+    "accept_measured": 7,
+    "ci95": [
+     0.09898827844250786,
+     0.8159484323599169
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.42857142857142855,
+    "of_which_not_evaluated": 0,
+    "shot": 8,
+    "withheld": 3
+   },
+   {
+    "accept_measured": 16,
+    "ci95": [
+     0.5435434537683883,
+     0.9595262660940541
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8125,
+    "of_which_not_evaluated": 0,
+    "shot": 9,
+    "withheld": 13
+   },
+   {
+    "accept_measured": 229,
+    "ci95": [
+     0.5761179008482282,
+     0.7039973406437698
+    ],
+    "clip": "b1_orton_rollins_wm31",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6419213973799127,
+    "of_which_not_evaluated": 0,
+    "shot": "ALL",
+    "withheld": 147
+   },
+   {
+    "accept_measured": 11,
+    "ci95": [
+     0.7150858470818455,
+     1.0
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 11,
+    "withheld": 11
+   },
+   {
+    "accept_measured": 69,
+    "ci95": [
+     0.41204732865737503,
+     0.6572074714983553
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.5362318840579711,
+    "of_which_not_evaluated": 0,
+    "shot": 13,
+    "withheld": 37
+   },
+   {
+    "accept_measured": 11,
+    "ci95": [
+     0.30790471501167715,
+     0.8907365561809019
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6363636363636364,
+    "of_which_not_evaluated": 0,
+    "shot": 14,
+    "withheld": 7
+   },
+   {
+    "accept_measured": 10,
+    "ci95": [
+     0.06673951117773447,
+     0.6524528500599973
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.3,
+    "of_which_not_evaluated": 0,
+    "shot": 15,
+    "withheld": 3
+   },
+   {
+    "accept_measured": 13,
+    "ci95": [
+     0.461868460765959,
+     0.9496189265088485
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.7692307692307693,
+    "of_which_not_evaluated": 0,
+    "shot": 16,
+    "withheld": 10
+   },
+   {
+    "accept_measured": 37,
+    "ci95": [
+     0.6484476216307459,
+     0.9203788791471231
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8108108108108109,
+    "of_which_not_evaluated": 0,
+    "shot": 17,
+    "withheld": 30
+   },
+   {
+    "accept_measured": 10,
+    "ci95": [
+     0.0,
+     0.3084971078187607
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": false,
+    "frac": 0.0,
+    "of_which_not_evaluated": 0,
+    "shot": 18,
+    "withheld": 0
+   },
+   {
+    "accept_measured": 1,
+    "ci95": [
+     0.0,
+     0.975
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": false,
+    "frac": 0.0,
+    "of_which_not_evaluated": 0,
+    "shot": 19,
+    "withheld": 0
+   },
+   {
+    "accept_measured": 58,
+    "ci95": [
+     0.04992661602348073,
+     0.2329836377079936
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": false,
+    "frac": 0.1206896551724138,
+    "of_which_not_evaluated": 0,
+    "shot": 2,
+    "withheld": 7
+   },
+   {
+    "accept_measured": 55,
+    "ci95": [
+     0.22237487784283297,
+     0.48581495093931865
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.34545454545454546,
+    "of_which_not_evaluated": 0,
+    "shot": 20,
+    "withheld": 19
+   },
+   {
+    "accept_measured": 17,
+    "ci95": [
+     0.10313551437032002,
+     0.5595827187543372
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.29411764705882354,
+    "of_which_not_evaluated": 0,
+    "shot": 21,
+    "withheld": 5
+   },
+   {
+    "accept_measured": 12,
+    "ci95": [
+     0.21094463823929666,
+     0.7890553617607033
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.5,
+    "of_which_not_evaluated": 0,
+    "shot": 22,
+    "withheld": 6
+   },
+   {
+    "accept_measured": 59,
+    "ci95": [
+     0.8828515361116068,
+     0.9958680670276348
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.9661016949152542,
+    "of_which_not_evaluated": 0,
+    "shot": 23,
+    "withheld": 57
+   },
+   {
+    "accept_measured": 4,
+    "ci95": [
+     0.006309463209709866,
+     0.8058795503167565
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.25,
+    "of_which_not_evaluated": 0,
+    "shot": 24,
+    "withheld": 1
+   },
+   {
+    "accept_measured": 49,
+    "ci95": [
+     0.6797787855711315,
+     0.9124096646871527
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8163265306122449,
+    "of_which_not_evaluated": 0,
+    "shot": 25,
+    "withheld": 40
+   },
+   {
+    "accept_measured": 18,
+    "ci95": [
+     0.3574512058930626,
+     0.8270141452102482
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6111111111111112,
+    "of_which_not_evaluated": 0,
+    "shot": 26,
+    "withheld": 11
+   },
+   {
+    "accept_measured": 35,
+    "ci95": [
+     0.6306211554775547,
+     0.9155939838394355
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8,
+    "of_which_not_evaluated": 0,
+    "shot": 28,
+    "withheld": 28
+   },
+   {
+    "accept_measured": 18,
+    "ci95": [
+     0.40992523817207444,
+     0.8665725974938765
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6666666666666666,
+    "of_which_not_evaluated": 0,
+    "shot": 29,
+    "withheld": 12
+   },
+   {
+    "accept_measured": 12,
+    "ci95": [
+     0.34887550641881554,
+     0.9007539088504167
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6666666666666666,
+    "of_which_not_evaluated": 0,
+    "shot": 3,
+    "withheld": 8
+   },
+   {
+    "accept_measured": 10,
+    "ci95": [
+     0.6915028921812392,
+     1.0
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 30,
+    "withheld": 10
+   },
+   {
+    "accept_measured": 63,
+    "ci95": [
+     0.12715074325312642,
+     0.3446441537043617
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.2222222222222222,
+    "of_which_not_evaluated": 0,
+    "shot": 31,
+    "withheld": 14
+   },
+   {
+    "accept_measured": 25,
+    "ci95": [
+     0.4649992825026277,
+     0.8505045773864304
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.68,
+    "of_which_not_evaluated": 0,
+    "shot": 32,
+    "withheld": 17
+   },
+   {
+    "accept_measured": 34,
+    "ci95": [
+     0.351292837051412,
+     0.7022133335818035
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.5294117647058824,
+    "of_which_not_evaluated": 0,
+    "shot": 33,
+    "withheld": 18
+   },
+   {
+    "accept_measured": 17,
+    "ci95": [
+     0.037985068070626,
+     0.43431787284428397
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": false,
+    "frac": 0.17647058823529413,
+    "of_which_not_evaluated": 0,
+    "shot": 34,
+    "withheld": 3
+   },
+   {
+    "accept_measured": 27,
+    "ci95": [
+     0.6626891359757556,
+     0.9581126035262327
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8518518518518519,
+    "of_which_not_evaluated": 0,
+    "shot": 35,
+    "withheld": 23
+   },
+   {
+    "accept_measured": 21,
+    "ci95": [
+     0.25713062640640744,
+     0.7021931612163559
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.47619047619047616,
+    "of_which_not_evaluated": 0,
+    "shot": 36,
+    "withheld": 10
+   },
+   {
+    "accept_measured": 6,
+    "ci95": [
+     0.22277809550351213,
+     0.9567281317072583
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6666666666666666,
+    "of_which_not_evaluated": 0,
+    "shot": 37,
+    "withheld": 4
+   },
+   {
+    "accept_measured": 16,
+    "ci95": [
+     0.5435434537683883,
+     0.9595262660940541
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8125,
+    "of_which_not_evaluated": 0,
+    "shot": 38,
+    "withheld": 13
+   },
+   {
+    "accept_measured": 134,
+    "ci95": [
+     0.7287708386854582,
+     0.8691644429897388
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8059701492537313,
+    "of_which_not_evaluated": 0,
+    "shot": 39,
+    "withheld": 108
+   },
+   {
+    "accept_measured": 8,
+    "ci95": [
+     0.47349032912479344,
+     0.9968402764687481
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.875,
+    "of_which_not_evaluated": 0,
+    "shot": 4,
+    "withheld": 7
+   },
+   {
+    "accept_measured": 3,
+    "ci95": [
+     0.2924017738212866,
+     1.0
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 5,
+    "withheld": 3
+   },
+   {
+    "accept_measured": 3,
+    "ci95": [
+     0.2924017738212866,
+     1.0
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 6,
+    "withheld": 3
+   },
+   {
+    "accept_measured": 2,
+    "ci95": [
+     0.15811388300841897,
+     1.0
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 7,
+    "withheld": 2
+   },
+   {
+    "accept_measured": 19,
+    "ci95": [
+     0.668623335543234,
+     0.9869878356282226
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8947368421052632,
+    "of_which_not_evaluated": 0,
+    "shot": 8,
+    "withheld": 17
+   },
+   {
+    "accept_measured": 9,
+    "ci95": [
+     0.1369956622651665,
+     0.787991493221132
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.4444444444444444,
+    "of_which_not_evaluated": 0,
+    "shot": 9,
+    "withheld": 4
+   },
+   {
+    "accept_measured": 896,
+    "ci95": [
+     0.5788116823368907,
+     0.6436661850835823
+    ],
+    "clip": "b2_batch2_clip_condensed",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6116071428571429,
+    "of_which_not_evaluated": 0,
+    "shot": "ALL",
+    "withheld": 548
+   },
+   {
+    "accept_measured": 13,
+    "ci95": [
+     0.6397025647321225,
+     0.9980543715026533
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.9230769230769231,
+    "of_which_not_evaluated": 0,
+    "shot": 0,
+    "withheld": 12
+   },
+   {
+    "accept_measured": 11,
+    "ci95": [
+     0.5872200830116173,
+     0.9977010277861857
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.9090909090909091,
+    "of_which_not_evaluated": 0,
+    "shot": 1,
+    "withheld": 10
+   },
+   {
+    "accept_measured": 23,
+    "ci95": [
+     0.23191419953823145,
+     0.6550533925476254
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.43478260869565216,
+    "of_which_not_evaluated": 0,
+    "shot": 10,
+    "withheld": 10
+   },
+   {
+    "accept_measured": 8,
+    "ci95": [
+     0.3491442055871758,
+     0.9681459737500557
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.75,
+    "of_which_not_evaluated": 0,
+    "shot": 11,
+    "withheld": 6
+   },
+   {
+    "accept_measured": 12,
+    "ci95": [
+     0.6152038348490559,
+     0.9978924067681397
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.9166666666666666,
+    "of_which_not_evaluated": 0,
+    "shot": 12,
+    "withheld": 11
+   },
+   {
+    "accept_measured": 11,
+    "ci95": [
+     0.4822441476398273,
+     0.9771688017000404
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8181818181818182,
+    "of_which_not_evaluated": 0,
+    "shot": 13,
+    "withheld": 9
+   },
+   {
+    "accept_measured": 22,
+    "ci95": [
+     0.3221047545531717,
+     0.7561381340769835
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.5454545454545454,
+    "of_which_not_evaluated": 0,
+    "shot": 14,
+    "withheld": 12
+   },
+   {
+    "accept_measured": 14,
+    "ci95": [
+     0.5718708390903011,
+     0.9822054845168084
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8571428571428571,
+    "of_which_not_evaluated": 0,
+    "shot": 15,
+    "withheld": 12
+   },
+   {
+    "accept_measured": 12,
+    "ci95": [
+     0.7353515306029488,
+     1.0
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 16,
+    "withheld": 12
+   },
+   {
+    "accept_measured": 22,
+    "ci95": [
+     0.3221047545531717,
+     0.7561381340769835
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.5454545454545454,
+    "of_which_not_evaluated": 0,
+    "shot": 18,
+    "withheld": 12
+   },
+   {
+    "accept_measured": 22,
+    "ci95": [
+     0.8456274871844254,
+     1.0
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 19,
+    "withheld": 22
+   },
+   {
+    "accept_measured": 26,
+    "ci95": [
+     0.4433280739576097,
+     0.8278558619943335
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6538461538461539,
+    "of_which_not_evaluated": 0,
+    "shot": 2,
+    "withheld": 17
+   },
+   {
+    "accept_measured": 28,
+    "ci95": [
+     0.1322365125711251,
+     0.4866683154489406
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.2857142857142857,
+    "of_which_not_evaluated": 0,
+    "shot": 20,
+    "withheld": 8
+   },
+   {
+    "accept_measured": 30,
+    "ci95": [
+     0.8842966917779722,
+     1.0
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 21,
+    "withheld": 30
+   },
+   {
+    "accept_measured": 24,
+    "ci95": [
+     0.29124177983621197,
+     0.708758220163788
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.5,
+    "of_which_not_evaluated": 0,
+    "shot": 22,
+    "withheld": 12
+   },
+   {
+    "accept_measured": 71,
+    "ci95": [
+     0.41287215435691205,
+     0.6545208230009258
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.5352112676056338,
+    "of_which_not_evaluated": 0,
+    "shot": 23,
+    "withheld": 38
+   },
+   {
+    "accept_measured": 31,
+    "ci95": [
+     0.7016641709922027,
+     0.963698338020791
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8709677419354839,
+    "of_which_not_evaluated": 0,
+    "shot": 3,
+    "withheld": 27
+   },
+   {
+    "accept_measured": 6,
+    "ci95": [
+     0.5407418735600995,
+     1.0
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 4,
+    "withheld": 6
+   },
+   {
+    "accept_measured": 40,
+    "ci95": [
+     0.45801475223261096,
+     0.772737277518174
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.625,
+    "of_which_not_evaluated": 0,
+    "shot": 5,
+    "withheld": 25
+   },
+   {
+    "accept_measured": 42,
+    "ci95": [
+     0.6588155863958433,
+     0.9139944055440679
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8095238095238095,
+    "of_which_not_evaluated": 0,
+    "shot": 6,
+    "withheld": 34
+   },
+   {
+    "accept_measured": 19,
+    "ci95": [
+     0.668623335543234,
+     0.9869878356282226
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8947368421052632,
+    "of_which_not_evaluated": 0,
+    "shot": 7,
+    "withheld": 17
+   },
+   {
+    "accept_measured": 30,
+    "ci95": [
+     0.056421696468071485,
+     0.34721169883414377
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": false,
+    "frac": 0.16666666666666666,
+    "of_which_not_evaluated": 0,
+    "shot": 8,
+    "withheld": 5
+   },
+   {
+    "accept_measured": 10,
+    "ci95": [
+     0.26237807660694507,
+     0.8784477418801728
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6,
+    "of_which_not_evaluated": 0,
+    "shot": 9,
+    "withheld": 6
+   },
+   {
+    "accept_measured": 527,
+    "ci95": [
+     0.6278615959836281,
+     0.7098790078887709
+    ],
+    "clip": "b2_videoplayback_2",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6698292220113852,
+    "of_which_not_evaluated": 0,
+    "shot": "ALL",
+    "withheld": 353
+   },
+   {
+    "accept_measured": 273,
+    "ci95": [
+     0.6073335828690096,
+     0.7223347707984255
+    ],
+    "clip": "b2_videoplayback_5",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.6666666666666666,
+    "of_which_not_evaluated": 0,
+    "shot": 0,
+    "withheld": 182
+   },
+   {
+    "accept_measured": 76,
+    "ci95": [
+     0.623239947410814,
+     0.8312605531782771
+    ],
+    "clip": "b2_videoplayback_5",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.7368421052631579,
+    "of_which_not_evaluated": 0,
+    "shot": 1,
+    "withheld": 56
+   },
+   {
+    "accept_measured": 13,
+    "ci95": [
+     0.6397025647321225,
+     0.9980543715026533
+    ],
+    "clip": "b2_videoplayback_5",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.9230769230769231,
+    "of_which_not_evaluated": 0,
+    "shot": 2,
+    "withheld": 12
+   },
+   {
+    "accept_measured": 77,
+    "ci95": [
+     0.3405984102766026,
+     0.5720950709934152
+    ],
+    "clip": "b2_videoplayback_5",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.45454545454545453,
+    "of_which_not_evaluated": 0,
+    "shot": 3,
+    "withheld": 35
+   },
+   {
+    "accept_measured": 1,
+    "ci95": [
+     0.025,
+     1.0
+    ],
+    "clip": "b2_videoplayback_5",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 1.0,
+    "of_which_not_evaluated": 0,
+    "shot": 4,
+    "withheld": 1
+   },
+   {
+    "accept_measured": 37,
+    "ci95": [
+     0.6484476216307459,
+     0.9203788791471231
+    ],
+    "clip": "b2_videoplayback_5",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.8108108108108109,
+    "of_which_not_evaluated": 0,
+    "shot": 6,
+    "withheld": 30
+   },
+   {
+    "accept_measured": 50,
+    "ci95": [
+     0.7568986832944374,
+     0.9546646792263361
+    ],
+    "clip": "b2_videoplayback_5",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.88,
+    "of_which_not_evaluated": 0,
+    "shot": 7,
+    "withheld": 44
+   },
+   {
+    "accept_measured": 527,
+    "ci95": [
+     0.641494726188639,
+     0.7226606872873105
+    ],
+    "clip": "b2_videoplayback_5",
+    "diagnostic_flag_ge_20pct": true,
+    "frac": 0.683111954459203,
+    "of_which_not_evaluated": 0,
+    "shot": "ALL",
+    "withheld": 360
+   }
+  ],
+  "M3": {
+   "ABSTAIN_with_single_body": 197,
+   "ACCEPT_but_ownership_not_single": 1408,
+   "NONTARGET_with_single_body": 1478
+  },
+  "M4": {
+   "flips": [
+    {
+     "frm": "B",
+     "from_frame": 159,
+     "to": "A",
+     "to_frame": 174,
+     "tracklet": "b1_orton_rollins_wm31:s0:t1"
+    },
+    {
+     "frm": "A",
+     "from_frame": 180,
+     "to": "B",
+     "to_frame": 183,
+     "tracklet": "b1_orton_rollins_wm31:s0:t1"
+    },
+    {
+     "frm": "B",
+     "from_frame": 183,
+     "to": "A",
+     "to_frame": 189,
+     "tracklet": "b1_orton_rollins_wm31:s0:t1"
+    },
+    {
+     "frm": "A",
+     "from_frame": 189,
+     "to": "B",
+     "to_frame": 192,
+     "tracklet": "b1_orton_rollins_wm31:s0:t1"
+    },
+    {
+     "frm": "B",
+     "from_frame": 192,
+     "to": "A",
+     "to_frame": 195,
+     "tracklet": "b1_orton_rollins_wm31:s0:t1"
+    },
+    {
+     "frm": "B",
+     "from_frame": 39,
+     "to": "A",
+     "to_frame": 42,
+     "tracklet": "b1_orton_rollins_wm31:s0:t7"
+    },
+    {
+     "frm": "A",
+     "from_frame": 117,
+     "to": "B",
+     "to_frame": 120,
+     "tracklet": "b1_orton_rollins_wm31:s0:t7"
+    },
+    {
+     "frm": "B",
+     "from_frame": 126,
+     "to": "A",
+     "to_frame": 129,
+     "tracklet": "b1_orton_rollins_wm31:s0:t7"
+    },
+    {
+     "frm": "A",
+     "from_frame": 408,
+     "to": "B",
+     "to_frame": 423,
+     "tracklet": "b1_orton_rollins_wm31:s4:t26"
+    },
+    {
+     "frm": "B",
+     "from_frame": 429,
+     "to": "A",
+     "to_frame": 435,
+     "tracklet": "b1_orton_rollins_wm31:s4:t26"
+    },
+    {
+     "frm": "A",
+     "from_frame": 435,
+     "to": "B",
+     "to_frame": 438,
+     "tracklet": "b1_orton_rollins_wm31:s4:t26"
+    },
+    {
+     "frm": "A",
+     "from_frame": 480,
+     "to": "B",
+     "to_frame": 486,
+     "tracklet": "b1_orton_rollins_wm31:s5:t34"
+    },
+    {
+     "frm": "B",
+     "from_frame": 492,
+     "to": "A",
+     "to_frame": 495,
+     "tracklet": "b1_orton_rollins_wm31:s5:t34"
+    },
+    {
+     "frm": "B",
+     "from_frame": 558,
+     "to": "A",
+     "to_frame": 663,
+     "tracklet": "b1_orton_rollins_wm31:s7:t38"
+    },
+    {
+     "frm": "B",
+     "from_frame": 855,
+     "to": "A",
+     "to_frame": 858,
+     "tracklet": "b1_orton_rollins_wm31:s8:t60"
+    },
+    {
+     "frm": "B",
+     "from_frame": 882,
+     "to": "A",
+     "to_frame": 885,
+     "tracklet": "b1_orton_rollins_wm31:s9:t62"
+    },
+    {
+     "frm": "A",
+     "from_frame": 690,
+     "to": "B",
+     "to_frame": 696,
+     "tracklet": "b2_batch2_clip_condensed:s13:t38"
+    },
+    {
+     "frm": "B",
+     "from_frame": 696,
+     "to": "A",
+     "to_frame": 708,
+     "tracklet": "b2_batch2_clip_condensed:s13:t38"
+    },
+    {
+     "frm": "A",
+     "from_frame": 1086,
+     "to": "B",
+     "to_frame": 1095,
+     "tracklet": "b2_batch2_clip_condensed:s16:t45"
+    },
+    {
+     "frm": "A",
+     "from_frame": 1581,
+     "to": "B",
+     "to_frame": 1599,
+     "tracklet": "b2_batch2_clip_condensed:s20:t57"
+    },
+    {
+     "frm": "B",
+     "from_frame": 1395,
+     "to": "A",
+     "to_frame": 1398,
+     "tracklet": "b2_batch2_clip_condensed:s20:t66"
+    },
+    {
+     "frm": "A",
+     "from_frame": 1410,
+     "to": "B",
+     "to_frame": 1413,
+     "tracklet": "b2_batch2_clip_condensed:s20:t66"
+    },
+    {
+     "frm": "B",
+     "from_frame": 1437,
+     "to": "A",
+     "to_frame": 1455,
+     "tracklet": "b2_batch2_clip_condensed:s20:t66"
+    },
+    {
+     "frm": "A",
+     "from_frame": 1476,
+     "to": "B",
+     "to_frame": 1503,
+     "tracklet": "b2_batch2_clip_condensed:s20:t66"
+    },
+    {
+     "frm": "B",
+     "from_frame": 1503,
+     "to": "A",
+     "to_frame": 1515,
+     "tracklet": "b2_batch2_clip_condensed:s20:t66"
+    },
+    {
+     "frm": "A",
+     "from_frame": 1515,
+     "to": "B",
+     "to_frame": 1521,
+     "tracklet": "b2_batch2_clip_condensed:s20:t66"
+    },
+    {
+     "frm": "B",
+     "from_frame": 1527,
+     "to": "A",
+     "to_frame": 1530,
+     "tracklet": "b2_batch2_clip_condensed:s20:t66"
+    },
+    {
+     "frm": "A",
+     "from_frame": 1641,
+     "to": "B",
+     "to_frame": 1647,
+     "tracklet": "b2_batch2_clip_condensed:s21:t70"
+    },
+    {
+     "frm": "B",
+     "from_frame": 1647,
+     "to": "A",
+     "to_frame": 1650,
+     "tracklet": "b2_batch2_clip_condensed:s21:t70"
+    },
+    {
+     "frm": "A",
+     "from_frame": 2004,
+     "to": "B",
+     "to_frame": 2013,
+     "tracklet": "b2_batch2_clip_condensed:s24:t83"
+    },
+    {
+     "frm": "A",
+     "from_frame": 2088,
+     "to": "B",
+     "to_frame": 2094,
+     "tracklet": "b2_batch2_clip_condensed:s25:t90"
+    },
+    {
+     "frm": "B",
+     "from_frame": 2097,
+     "to": "A",
+     "to_frame": 2109,
+     "tracklet": "b2_batch2_clip_condensed:s25:t90"
+    },
+    {
+     "frm": "B",
+     "from_frame": 2463,
+     "to": "A",
+     "to_frame": 2466,
+     "tracklet": "b2_batch2_clip_condensed:s31:t114"
+    },
+    {
+     "frm": "A",
+     "from_frame": 2481,
+     "to": "B",
+     "to_frame": 2484,
+     "tracklet": "b2_batch2_clip_condensed:s31:t114"
+    },
+    {
+     "frm": "B",
+     "from_frame": 2484,
+     "to": "A",
+     "to_frame": 2496,
+     "tracklet": "b2_batch2_clip_condensed:s31:t114"
+    },
+    {
+     "frm": "A",
+     "from_frame": 2496,
+     "to": "B",
+     "to_frame": 2499,
+     "tracklet": "b2_batch2_clip_condensed:s31:t114"
+    },
+    {
+     "frm": "B",
+     "from_frame": 2502,
+     "to": "A",
+     "to_frame": 2505,
+     "tracklet": "b2_batch2_clip_condensed:s31:t114"
+    },
+    {
+     "frm": "A",
+     "from_frame": 3201,
+     "to": "B",
+     "to_frame": 3216,
+     "tracklet": "b2_batch2_clip_condensed:s38:t144"
+    },
+    {
+     "frm": "A",
+     "from_frame": 3300,
+     "to": "B",
+     "to_frame": 3303,
+     "tracklet": "b2_batch2_clip_condensed:s39:t150"
+    },
+    {
+     "frm": "B",
+     "from_frame": 3303,
+     "to": "A",
+     "to_frame": 3327,
+     "tracklet": "b2_batch2_clip_condensed:s39:t150"
+    },
+    {
+     "frm": "B",
+     "from_frame": 1212,
+     "to": "A",
+     "to_frame": 1215,
+     "tracklet": "b2_videoplayback_2:s14:t66"
+    },
+    {
+     "frm": "A",
+     "from_frame": 1215,
+     "to": "B",
+     "to_frame": 1218,
+     "tracklet": "b2_videoplayback_2:s14:t66"
+    },
+    {
+     "frm": "B",
+     "from_frame": 726,
+     "to": "A",
+     "to_frame": 735,
+     "tracklet": "b2_videoplayback_2:s8:t32"
+    },
+    {
+     "frm": "B",
+     "from_frame": 174,
+     "to": "A",
+     "to_frame": 180,
+     "tracklet": "b2_videoplayback_5:s0:t12"
+    },
+    {
+     "frm": "A",
+     "from_frame": 204,
+     "to": "B",
+     "to_frame": 222,
+     "tracklet": "b2_videoplayback_5:s0:t21"
+    },
+    {
+     "frm": "B",
+     "from_frame": 255,
+     "to": "A",
+     "to_frame": 264,
+     "tracklet": "b2_videoplayback_5:s0:t21"
+    },
+    {
+     "frm": "A",
+     "from_frame": 264,
+     "to": "B",
+     "to_frame": 267,
+     "tracklet": "b2_videoplayback_5:s0:t21"
+    },
+    {
+     "frm": "A",
+     "from_frame": 507,
+     "to": "B",
+     "to_frame": 513,
+     "tracklet": "b2_videoplayback_5:s0:t24"
+    },
+    {
+     "frm": "B",
+     "from_frame": 513,
+     "to": "A",
+     "to_frame": 522,
+     "tracklet": "b2_videoplayback_5:s0:t24"
+    },
+    {
+     "frm": "B",
+     "from_frame": 2526,
+     "to": "A",
+     "to_frame": 2589,
+     "tracklet": "b2_videoplayback_5:s3:t66"
+    },
+    {
+     "frm": "B",
+     "from_frame": 1803,
+     "to": "A",
+     "to_frame": 1815,
+     "tracklet": "b2_videoplayback_5:s3:t75"
+    },
+    {
+     "frm": "B",
+     "from_frame": 3186,
+     "to": "A",
+     "to_frame": 3222,
+     "tracklet": "b2_videoplayback_5:s6:t121"
+    }
+   ],
+   "n_flips": 52,
+   "same_label_on_two_detections": [
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 2466,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 2469,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 2472,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 2478,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 2481,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 3402,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 3435,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 3480,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 3513,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_batch2_clip_condensed",
+     "frame": 540,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_videoplayback_2",
+     "frame": 507,
+     "label": "ASSIGNED_A"
+    },
+    {
+     "clip": "b2_videoplayback_2",
+     "frame": 720,
+     "label": "ASSIGNED_B"
+    },
+    {
+     "clip": "b2_videoplayback_5",
+     "frame": 102,
+     "label": "ASSIGNED_B"
+    },
+    {
+     "clip": "b2_videoplayback_5",
+     "frame": 1062,
+     "label": "ASSIGNED_B"
+    },
+    {
+     "clip": "b2_videoplayback_5",
+     "frame": 1965,
+     "label": "ASSIGNED_B"
+    }
+   ]
+  },
+  "M5": {
+   "max_median_rel": 3.0519351959228516,
+   "median_of_median_rel": 0.06939052045345306,
+   "n_joint_jump_rows": 10,
+   "n_pairs": 5929
+  },
+  "M6": {
+   "ci95": [
+    0.8728530201157345,
+    0.8866252203255568
+   ],
+   "frac": 0.8798667738601126,
+   "measured": 8707,
+   "with_min_landmarks": 7661
+  },
+  "M7": {
+   "b1_orton_rollins_wm31": {
+    "agree": 7,
+    "classifier_events": [
+     [
+      211,
+      "CUT"
+     ],
+     [
+      257,
+      "CUT"
+     ],
+     [
+      294,
+      "CUT"
+     ],
+     [
+      391,
+      "CUT"
+     ],
+     [
+      444,
+      "SAME_SCENE_RETURNS"
+     ],
+     [
+      554,
+      "CUT"
+     ],
+     [
+      731,
+      "CUT"
+     ],
+     [
+      919,
+      "CUT"
+     ]
+    ],
+    "classifier_only": [],
+    "frozen_only": [
+     444,
+     503,
+     866
+    ],
+    "note": "disagreements are reported, not reconciled"
+   },
+   "b2_batch2_clip_condensed": {
+    "agree": 0,
+    "classifier_events": [
+     [
+      22,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      138,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      313,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      365,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      390,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      418,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      448,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      478,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      540,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      564,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      607,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      632,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      665,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      988,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1024,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1055,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1111,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1241,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1302,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1342,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1626,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1768,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1793,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1848,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1980,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2017,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2126,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2216,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2254,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2270,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2373,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2425,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2459,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2495,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2586,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2645,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2681,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2731,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2820,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2847,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      2884,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      3019,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      3077,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      3201,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      3250,
+      "PHOTOMETRIC_REGISTERED"
+     ]
+    ],
+    "classifier_only": [],
+    "frozen_only": [
+     22,
+     138,
+     313,
+     365,
+     390,
+     418,
+     448,
+     478,
+     540,
+     564,
+     607,
+     632,
+     665,
+     988,
+     1024,
+     1055,
+     1111,
+     1241,
+     1302,
+     1342,
+     1626,
+     1768,
+     1848,
+     1980,
+     2017,
+     2216,
+     2254,
+     2270,
+     2373,
+     2425,
+     2459,
+     2645,
+     2731,
+     2847,
+     2884,
+     3019,
+     3077,
+     3201,
+     3250
+    ],
+    "note": "disagreements are reported, not reconciled"
+   },
+   "b2_videoplayback_2": {
+    "agree": 0,
+    "classifier_events": [
+     [
+      111,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      177,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      221,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      344,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      405,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      502,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      570,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      682,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      724,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      816,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      904,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      948,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1040,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1131,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1179,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1230,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1299,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1365,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1413,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1491,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1524,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1612,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1678,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1746,
+      "PHOTOMETRIC_REGISTERED"
+     ],
+     [
+      1821,
+      "PHOTOMETRIC_REGISTERED"
+     ]
+    ],
+    "classifier_only": [],
+    "frozen_only": [
+     111,
+     177,
+     221,
+     405,
+     502,
+     570,
+     682,
+     724,
+     816,
+     904,
+     948,
+     1040,
+     1131,
+     1179,
+     1299,
+     1365,
+     1413,
+     1491,
+     1524,
+     1612,
+     1678,
+     1746,
+     1821
+    ],
+    "note": "disagreements are reported, not reconciled"
+   },
+   "b2_videoplayback_5": {
+    "agree": 7,
+    "classifier_events": [
+     [
+      845,
+      "TRANSIENT_UNSTABLE_AFTER"
+     ],
+     [
+      1181,
+      "CUT"
+     ],
+     [
+      1531,
+      "CUT"
+     ],
+     [
+      1706,
+      "CUT"
+     ],
+     [
+      1903,
+      "TRANSIENT_UNSTABLE_AFTER"
+     ],
+     [
+      2418,
+      "TRANSIENT_UNSTABLE_AFTER"
+     ],
+     [
+      2594,
+      "CUT"
+     ],
+     [
+      2666,
+      "CUT"
+     ],
+     [
+      2752,
+      "CUT"
+     ],
+     [
+      3079,
+      "TRANSIENT_UNSTABLE_AFTER"
+     ],
+     [
+      3529,
+      "CUT"
+     ]
+    ],
+    "classifier_only": [],
+    "frozen_only": [
+     3330
+    ],
+    "note": "disagreements are reported, not reconciled"
+   }
+  },
+  "M8": {
+   "carried_share": 0.15169524551831645,
+   "counts": {
+    "CARRIED": 1557,
+    "MEASURED": 8707
+   },
+   "note": "visualization only; excluded from all metrics"
+  },
+  "M9": {
+   "n_sheet": 60,
+   "shortfall": {}
+  }
+ },
+ "outcome_class_assigned": false,
+ "per_clip": {
+  "b1_orton_rollins_wm31": {
+   "H": 360,
+   "W": 640,
+   "classes": {
+    "ASSIGNED_A": 54,
+    "ASSIGNED_B": 28,
+    "NONTARGET": 187,
+    "NO_IDENTITY_EVAL": 117,
+    "UNASSIGNED_IDENTITY_AMBIGUOUS": 6,
+    "WITHHELD_MIXED_BODY": 147,
+    "WITHHELD_OWNERSHIP_UNCERTAIN": 722
+   },
+   "cuts": [
+    211,
+    257,
+    294,
+    391,
+    444,
+    503,
+    554,
+    731,
+    866,
+    919
+   ],
+   "merge_guard_flagged_rows": 10,
+   "n_rows": 1261,
+   "n_source_rows": 1425
+  },
+  "b2_batch2_clip_condensed": {
+   "H": 360,
+   "W": 640,
+   "classes": {
+    "ASSIGNED_A": 314,
+    "ASSIGNED_B": 34,
+    "NONTARGET": 466,
+    "NO_IDENTITY_EVAL": 101,
+    "UNASSIGNED_IDENTITY_AMBIGUOUS": 25,
+    "WITHHELD_MIXED_BODY": 324,
+    "WITHHELD_OWNERSHIP_UNCERTAIN": 1074
+   },
+   "cuts": [
+    22,
+    138,
+    313,
+    365,
+    390,
+    418,
+    448,
+    478,
+    540,
+    564,
+    607,
+    632,
+    665,
+    988,
+    1024,
+    1055,
+    1111,
+    1241,
+    1302,
+    1342,
+    1626,
+    1768,
+    1848,
+    1980,
+    2017,
+    2216,
+    2254,
+    2270,
+    2373,
+    2425,
+    2459,
+    2645,
+    2731,
+    2847,
+    2884,
+    3019,
+    3077,
+    3201,
+    3250
+   ],
+   "merge_guard_flagged_rows": 76,
+   "n_rows": 2338,
+   "n_source_rows": 3040
+  },
+  "b2_videoplayback_2": {
+   "H": 360,
+   "W": 640,
+   "classes": {
+    "ASSIGNED_A": 113,
+    "ASSIGNED_B": 61,
+    "NONTARGET": 366,
+    "NO_IDENTITY_EVAL": 90,
+    "UNASSIGNED_IDENTITY_AMBIGUOUS": 4,
+    "WITHHELD_MIXED_BODY": 342,
+    "WITHHELD_OWNERSHIP_UNCERTAIN": 1296
+   },
+   "cuts": [
+    111,
+    177,
+    221,
+    405,
+    502,
+    570,
+    682,
+    724,
+    816,
+    904,
+    948,
+    1040,
+    1131,
+    1179,
+    1299,
+    1365,
+    1413,
+    1491,
+    1524,
+    1612,
+    1678,
+    1746,
+    1821
+   ],
+   "merge_guard_flagged_rows": 53,
+   "n_rows": 2272,
+   "n_source_rows": 2622
+  },
+  "b2_videoplayback_5": {
+   "H": 360,
+   "W": 640,
+   "classes": {
+    "ASSIGNED_A": 21,
+    "ASSIGNED_B": 146,
+    "NONTARGET": 459,
+    "NO_IDENTITY_EVAL": 368,
+    "UNASSIGNED_IDENTITY_AMBIGUOUS": 162,
+    "WITHHELD_MIXED_BODY": 490,
+    "WITHHELD_OWNERSHIP_UNCERTAIN": 1190
+   },
+   "cuts": [
+    1181,
+    1531,
+    1706,
+    2594,
+    2666,
+    2752,
+    3330,
+    3529
+   ],
+   "merge_guard_flagged_rows": 47,
+   "n_rows": 2836,
+   "n_source_rows": 3177
+  }
+ },
+ "registration_ledger_id": "REG1",
+ "s1": {
+  "missing": {
+   "b1_orton_rollins_wm31": [],
+   "b2_batch2_clip_condensed": [],
+   "b2_videoplayback_2": [],
+   "b2_videoplayback_5": []
+  },
+  "n_seg_frames": {
+   "b1_orton_rollins_wm31": 370,
+   "b2_batch2_clip_condensed": 1200,
+   "b2_videoplayback_2": 645,
+   "b2_videoplayback_5": 1196
+  },
+  "option": "W",
+  "seconds": {
+   "b1_orton_rollins_wm31": 490,
+   "b2_batch2_clip_condensed": 1562,
+   "b2_videoplayback_2": 872,
+   "b2_videoplayback_5": 1568
+  }
+ }
+}
