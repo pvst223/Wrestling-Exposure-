@@ -1,0 +1,242 @@
+{
+ "R000": {
+  "note": "skeleton well aligned to localized standing wrestler",
+  "verdict": "CORRECT"
+ },
+ "R001": {
+  "note": "degenerate skeleton spanning overlapping spectators; materially incorrect body",
+  "verdict": "CONTAMINATED"
+ },
+ "R002": {
+  "note": "motion-blurred airborne body; torso/leg lines follow the person, arms missing",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R003": {
+  "note": "standing wrestler, landmarks on the person",
+  "verdict": "CORRECT"
+ },
+ "R004": {
+  "note": "spectator torso only (shoulder line + sides); lies on localized person",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R005": {
+  "note": "sparse L-shaped segments along spectator collar/chest; borders a wrestler's head but mostly on localized person",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R006": {
+  "note": "bent wrestler in overlap with partner; skeleton follows the localized person",
+  "verdict": "CORRECT"
+ },
+ "R007": {
+  "note": "heavy overlap of two bodies; skeleton plausible for bent-over person but one chain ambiguous",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R008": {
+  "note": "motion blur, only leg lines following the visible legs",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R009": {
+  "note": "edge-cropped standing wrestler; visible landmarks on him",
+  "verdict": "CORRECT"
+ },
+ "R010": {
+  "note": "side-on standing wrestler; narrow torso/leg chain on him, arms absent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R011": {
+  "note": "full skeleton well aligned",
+  "verdict": "CORRECT"
+ },
+ "R012": {
+  "note": "seated wrestler, plausible arm/torso/legs",
+  "verdict": "CORRECT"
+ },
+ "R013": {
+  "note": "spectator detection behind foreground wrestler; skeleton degenerate and a segment runs out of the localized person into the foreground body",
+  "verdict": "CONTAMINATED"
+ },
+ "R014": {
+  "note": "entangled airborne bodies; leg/torso chain crosses from one wrestler into the other",
+  "verdict": "CONTAMINATED"
+ },
+ "R015": {
+  "note": "prone wrestler, sparse shoulder/arm segments on him",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R016": {
+  "note": "bent-over wrestler, hip line and legs only, on his yellow trunks/legs",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R017": {
+  "note": "bent standing wrestler, skeleton on him",
+  "verdict": "CORRECT"
+ },
+ "R018": {
+  "note": "distant spectator, torso-region quadrilateral on his shirt only",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R019": {
+  "note": "carried/entangled pair; shoulders and legs plausibly belong to different bodies",
+  "verdict": "CONTAMINATED"
+ },
+ "R020": {
+  "note": "supine wrestler; arm/torso/leg chain on him but one spurious long horizontal segment along box bottom",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R021": {
+  "note": "back view, skeleton on the localized wrestler despite adjacent partner",
+  "verdict": "CORRECT"
+ },
+ "R022": {
+  "note": "referee side-on; narrow torso/leg chain on him, arms mostly absent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R023": {
+  "note": "distant spectator; shoulder line and one arm segment on him",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R024": {
+  "note": "spectator; shoulder line and long side segment on his torso",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R025": {
+  "note": "crouched wrestler; landmarks on his back/arms",
+  "verdict": "CORRECT"
+ },
+ "R026": {
+  "note": "supine wrestler; torso/arm and one leg match, second leg segment does not follow the raised bent leg",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R027": {
+  "note": "spectator torso trapezoid on his shirt",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R028": {
+  "note": "spectator; sparse C-shaped segments on his torso",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R029": {
+  "note": "referee; boxy torso/arm segments on him",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R030": {
+  "note": "curled/prone wrestler; leg/torso chain on him",
+  "verdict": "CORRECT"
+ },
+ "R031": {
+  "note": "spectator torso trapezoid with extra diagonal, on him",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R032": {
+  "note": "supine wrestler; bent knee, hip, shoulder/arm plausible",
+  "verdict": "CORRECT"
+ },
+ "R033": {
+  "note": "bent wrestler seen from behind; skeleton on the localized body despite partner",
+  "verdict": "CORRECT"
+ },
+ "R034": {
+  "note": "side-on standing wrestler; narrow torso/leg chain, arms absent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R035": {
+  "note": "supine wrestler; bent knee/hip/arm plausible",
+  "verdict": "CORRECT"
+ },
+ "R036": {
+  "note": "walking wrestler; full skeleton aligned",
+  "verdict": "CORRECT"
+ },
+ "R037": {
+  "note": "supine wrestler; torso/arm match, leg segments do not follow bent raised leg",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R038": {
+  "note": "bent wrestler from behind; skeleton on localized body",
+  "verdict": "CORRECT"
+ },
+ "R039": {
+  "note": "overlapped bodies, upper torso partly hidden; skeleton plausible for front body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R040": {
+  "note": "close foreground wrestler; single shoulder-to-arm segment on his arm",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R041": {
+  "note": "extreme close-up of trunks; only a hip-level segment, on the localized person",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R042": {
+  "note": "kneeling/standing wrestler over prone partner; lower-limb landmarks land on the prone body",
+  "verdict": "CONTAMINATED"
+ },
+ "R043": {
+  "note": "prone wrestler in corner; chain follows his body",
+  "verdict": "CORRECT"
+ },
+ "R044": {
+  "note": "back view leaning on ropes; shoulders/arm/torso/hips aligned",
+  "verdict": "CORRECT"
+ },
+ "R045": {
+  "note": "spectator; L-shaped shoulder/side segments on her",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R046": {
+  "note": "extreme close-up; no landmarks visible to judge",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "R047": {
+  "note": "supine wrestler; bent knee/hip/arm plausible",
+  "verdict": "CORRECT"
+ },
+ "R048": {
+  "note": "airborne/falling wrestler; arms, torso, legs follow his body",
+  "verdict": "CORRECT"
+ },
+ "R049": {
+  "note": "two entangled bodies in one box; segments run across both",
+  "verdict": "CONTAMINATED"
+ },
+ "R050": {
+  "note": "spectator behind barrier; single short segment, no defensible judgment",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "R051": {
+  "note": "supine wrestler with raised leg; chain plausible for one body, second leg segment uncertain",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R052": {
+  "note": "supine wrestler; bent knee/hip/arm plausible",
+  "verdict": "CORRECT"
+ },
+ "R053": {
+  "note": "woman seen from behind; torso trapezoid and one arm segment on her",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R054": {
+  "note": "back view leaning on ropes; skeleton aligned",
+  "verdict": "CORRECT"
+ },
+ "R055": {
+  "note": "woman from behind; torso quadrilateral and arm segment on her",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R056": {
+  "note": "extreme close-up; shoulder-elbow-wrist segments on his arm only",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R057": {
+  "note": "prone wrestler beneath partner; legs/torso chain on him, arms absent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R058": {
+  "note": "spectator; torso trapezoid and arm segment on her",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "R059": {
+  "note": "crawling referee; shoulder/arm/leg segments on him, edge-cropped",
+  "verdict": "PARTIAL_BUT_USABLE"
+ }
+}
