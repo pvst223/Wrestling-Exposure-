@@ -1,0 +1,36 @@
+{
+ "candidate_anat_manifest_sha256": "f5936ce8bee667f15eaa55c2545a15ecf060afa06b1539abd3e824a8351b7dfb",
+ "candidate_zip_sha256": "a72bafaaf67546ba13549774808677e746614e226748c14a5f62f9ddc265bb5d",
+ "clips": [
+  "b1_orton_rollins_wm31",
+  "b2_batch2_clip_condensed",
+  "b2_videoplayback_2",
+  "b2_videoplayback_5"
+ ],
+ "defect_policy": "record, stop affected sequence, return for reviewer ruling; no silent repair",
+ "forbidden": [
+  "COM",
+  "distance",
+  "speed",
+  "impacts",
+  "workload",
+  "exposure",
+  "intensity",
+  "fatigue",
+  "injury inference",
+  "new identity training",
+  "final head",
+  "new pose extraction",
+  "HBK/Benjamin",
+  "Rock/HHH",
+  "Holdout #2",
+  "Gemini",
+  "outreach"
+ ],
+ "kind": "REVIEWER_AUTHORIZATION_V061_ANATOMICAL_INTEGRATION_EXECUTION_V1",
+ "ledger_id": "OGR18",
+ "merge_guard": "diagnostic-only",
+ "option": "W",
+ "reviewer_authorization_text_sha256": "38bdc8f9f82a514e8501784393a97b28517a43b35b8cee298f619bb0f3a34278",
+ "scope": "S0-S6 exactly once on exactly the four approved OOF clips; Option W segmentation (v061/anatomical/impl/seg_posegrid.py) on frozen stride-3 pose frames only"
+}
