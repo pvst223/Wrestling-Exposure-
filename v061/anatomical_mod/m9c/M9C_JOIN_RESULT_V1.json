@@ -1,0 +1,3885 @@
+{
+ "all_items": [
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1650",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "standing masked wrestler, full skeleton aligned",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O039",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M000",
+   "shot": "21",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s21:t70",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 8, 9, 10, 11, 12]",
+   "frame": "336",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "bent wrestler over turnbuckle, back and arm segments on body; masked opponent adjacent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O028",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M001",
+   "shot": "3",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s3:t13",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "693",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "standing wrestler, torso and legs aligned, bent opponent and referee adjacent",
+   "own_state": "MIXED_BODY_SUSPECTED",
+   "owner_id": "",
+   "reasons": [
+    "BONE_SPANS_INSTANCES",
+    "LANDMARKS_IN_OTHER_INSTANCE"
+   ],
+   "record_class": "WITHHELD_MIXED_BODY",
+   "review_id": "M002",
+   "shot": "7",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_2:s7:t28",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 10, 11, 12]",
+   "frame": "1134",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "crouched wrestler, torso and arm lines on body, sparse",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M003",
+   "shot": "13",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s13:t49",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1140",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "crouched wrestler, boxy torso arm and leg lines on body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M004",
+   "shot": "13",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_2:s13:t49",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+   "frame": "789",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "inverted wrestler in yellow, torso and legs on his body, masked opponent beneath",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M005",
+   "shot": "13",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s13:t41",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1788",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "non-wrestler standing woman, torso skeleton aligned",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M006",
+   "shot": "22",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s22:t76",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "2886",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "torso on the yellow wrestler but lower lines run along the masked opponent's legs",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O022",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M007",
+   "shot": "35",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s35:t130",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[7, 9, 11, 12, 13, 14, 15, 16]",
+   "frame": "1560",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "small distant wrestler, leg lines on one body, overlapping wrestler adjacent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M008",
+   "shot": "2",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s2:t63",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[14, 16]",
+   "frame": "771",
+   "gap_level": "15",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single short vertical segment at the boot running toward the opponent, too sparse to judge",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O020",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M009",
+   "shot": "13",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s13:t41",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1062",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "pin scene, zigzag lines span the top wrestler and the supine wrestler",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M010",
+   "shot": "0",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_5:s0:t38",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[11, 12]",
+   "frame": "3117",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "only two tiny dashes at the waist, too sparse to judge",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O017",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M011",
+   "shot": "6",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s6:t132",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 8, 11, 12, 14, 15, 16]",
+   "frame": "660",
+   "gap_level": "15",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "bald wrestler bending over, arm/torso parallelogram and a leg segment on his body, opponent adjacent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O025",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M012",
+   "shot": "6",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s6:t21",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[13, 14, 15, 16]",
+   "frame": "2907",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler, two leg segments on his own legs, sparse",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O023",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M013",
+   "shot": "6",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s6:t125",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1200",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "wrestler leaning on ropes, arms and torso aligned",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M014",
+   "shot": "14",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_2:s14:t66",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1428",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "supine wrestler, torso arms and legs on his body, opponent hand at face not captured",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M015",
+   "shot": "1",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_5:s1:t62",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "351",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "bent wrestler, torso arm and legs on body, reaching toward the lying opponent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M016",
+   "shot": "3",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_2:s3:t13",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 9, 11, 12, 13, 15, 16]",
+   "frame": "699",
+   "gap_level": "15",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "pin with stacked bodies, torso on the top wrestler, one segment ambiguous toward the raised leg",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M017",
+   "shot": "7",
+   "stratum": "RELEASED",
+   "tracklet": "b1_orton_rollins_wm31:s7:t38",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[13, 15, 16]",
+   "frame": "480",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single shin segment on the yellow wrestler's leg on the turnbuckle, sparse; masked opponent adjacent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M018",
+   "shot": "8",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s8:t25",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "1449",
+   "gap_level": "15",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "supine wrestler, torso line on body, short zigzag near the hips lies against the inverted opponent, ambiguous",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O004",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M019",
+   "shot": "20",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s20:t66",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "486",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "seated wrestler with legs spread, skeleton aligned",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O048",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M020",
+   "shot": "0",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_5:s0:t21",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "[0, 5, 6, 8]",
+   "frame": "1917",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "prone wrestler, shoulder and arm line on body, sparse",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M021",
+   "shot": "23",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s23:t153",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16]",
+   "frame": "1290",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "supine wrestler, leg and torso lines on his body, sparse",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M022",
+   "shot": "1",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s1:t59",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "963",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "blurred standing wrestler at the ropes, full skeleton aligned",
+   "own_state": "MIXED_BODY_SUSPECTED",
+   "owner_id": "O008",
+   "reasons": [
+    "SHARED_JOINT_CONFLICT"
+   ],
+   "record_class": "WITHHELD_MIXED_BODY",
+   "review_id": "M023",
+   "shot": "0",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_5:s0:t35",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "357",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "yellow wrestler over turnbuckle, torso arm and legs on his body, masked opponent adjacent",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M024",
+   "shot": "3",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s3:t13",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1389",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "supine wrestler, torso arm and legs on his body, standing opponent not captured",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M025",
+   "shot": "1",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_5:s1:t62",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "684",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "pin with stacked bodies, lines span the top wrestler, the supine wrestler's torso and raised boot",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M026",
+   "shot": "7",
+   "stratum": "RELEASED",
+   "tracklet": "b1_orton_rollins_wm31:s7:t38",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "1020",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "yellow wrestler with referee overlapping, skeleton mostly on his body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M027",
+   "shot": "14",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s14:t42",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[11, 12, 13, 14]",
+   "frame": "2796",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "close-up, hip and leg lines on the dark trousers of one person next to the yellow wrestler, sparse",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O030",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M028",
+   "shot": "33",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s33:t126",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[6, 7, 8, 12, 14, 15, 16]",
+   "frame": "1755",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "walking wrestler, torso and leg lines on body, second wrestler's arm touching",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O010",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M029",
+   "shot": "3",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s3:t74",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[11, 12]",
+   "frame": "2592",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "only a tiny dash on crouched wrestler, too few segments",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "MASK_NOT_EXPLAINED_BY_SKELETON",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M030",
+   "shot": "3",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s3:t68",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 7, 8, 9, 10, 11, 12, 14]",
+   "frame": "3369",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "back/torso and leg lines on foreground wrestler, second wrestler adjacent not overlapped",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M031",
+   "shot": "7",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s7:t140",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 7, 8, 11, 12, 13, 14, 16]",
+   "frame": "204",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "supine wrestler, leg torso arm lines on her body, standing man not touching",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M032",
+   "shot": "2",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s2:t9",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+   "frame": "1077",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "pin entanglement, lines cross from top wrestler's leg/hip into bottom wrestler's torso/arm",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O047",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M033",
+   "shot": "0",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s0:t40",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 7, 8, 9, 10]",
+   "frame": "888",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single arm line on lone wrestler",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O049",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M034",
+   "shot": "9",
+   "stratum": "RELEASED",
+   "tracklet": "b1_orton_rollins_wm31:s9:t62",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "2127",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "tangled bodies, lines span both wrestlers",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M035",
+   "shot": "25",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s25:t86",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1545",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "full skeleton on lone standing wrestler",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "BONES_LEAVE_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M036",
+   "shot": "20",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_batch2_clip_condensed:s20:t66",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 10, 11, 12, 14, 16]",
+   "frame": "1152",
+   "gap_level": "15",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "crouched wrestler, lines on his body, others separate",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O018",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M037",
+   "shot": "13",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s13:t49",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "2400",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "True",
+   "note": "yellow-trouser wrestler, lines on his body, opponent arm overlapping shoulder region",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O013",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M038",
+   "shot": "29",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s29:t107",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "2529",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "supine wrestler, hip and leg lines on his body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O019",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M039",
+   "shot": "3",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s3:t112",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[9, 11, 12, 13, 14, 16]",
+   "frame": "228",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "sparse thigh line on bent wrestler held by another",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M040",
+   "shot": "0",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s0:t12",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 8, 11, 12]",
+   "frame": "1155",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "shoulder line on top wrestler's back, descending lines run into the lower wrestler's back",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M041",
+   "shot": "0",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s0:t1",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 7, 9]",
+   "frame": "3432",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single short line, too few segments",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M042",
+   "shot": "39",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s39:t158",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+   "frame": "732",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler carrying another, lines in torso and arm region, ambiguous but no clear cross-body line",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O031",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M043",
+   "shot": "8",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s8:t32",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "2757",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single shoulder line",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "FEW_LANDMARKS"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M044",
+   "shot": "6",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_5:s6:t125",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1032",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single line, too few segments",
+   "own_state": "MIXED_BODY_SUSPECTED",
+   "owner_id": "",
+   "reasons": [
+    "SHARED_JOINT_CONFLICT"
+   ],
+   "record_class": "WITHHELD_MIXED_BODY",
+   "review_id": "M045",
+   "shot": "10",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b1_orton_rollins_wm31:s10:t70",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "459",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "neck-to-hand arm line on left wrestler, opponent overlapping",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M046",
+   "shot": "5",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b1_orton_rollins_wm31:s5:t35",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1155",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "crouched wrestler lines on own body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O024",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK",
+    "TOO_FEW_OWN_ONLY_LANDMARKS",
+    "BONES_LEAVE_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M047",
+   "shot": "13",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_2:s13:t49",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 8, 10, 11, 12, 13]",
+   "frame": "183",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler, lines on own body, opponent separate",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O002",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M048",
+   "shot": "0",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s0:t10",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "[6, 7, 8, 9, 10, 11, 12, 13, 14]",
+   "frame": "1584",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "rear view, torso and leg lines on one wrestler, partial",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O043",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M049",
+   "shot": "20",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s20:t57",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[7, 11, 13, 14, 15, 16]",
+   "frame": "3468",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "crossed leg lines on yellow-trouser wrestler's leg/boot, pinning opponent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M050",
+   "shot": "39",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s39:t158",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "243",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "lines mostly on rear wrestler's torso/leg, short ticks end near front wrestler's arm",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "NO_OWNER_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M051",
+   "shot": "1",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b1_orton_rollins_wm31:s1:t16",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "2697",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "yellow wrestler bent over downed opponent, lines on his body",
+   "own_state": "MIXED_BODY_SUSPECTED",
+   "owner_id": "",
+   "reasons": [
+    "TORSO_SIDES_ASYMMETRIC"
+   ],
+   "record_class": "WITHHELD_MIXED_BODY",
+   "review_id": "M052",
+   "shot": "32",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_batch2_clip_condensed:s32:t116",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 11, 12, 13, 14, 15, 16]",
+   "frame": "2868",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "yellow wrestler lunging, lines on his body, hands on opponent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M053",
+   "shot": "34",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s34:t127",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 11, 12, 14, 16]",
+   "frame": "1374",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "standing wrestler full skeleton, downed opponent separate",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M054",
+   "shot": "1",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s1:t61",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1068",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "wrestler draped on ropes, lines on his torso and legs, second wrestler overlaps lower region",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M055",
+   "shot": "12",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_2:s12:t47",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "690",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "pile of bodies, lines span the top wrestler's legs and the underlying wrestler's torso",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O006",
+   "reasons": [
+    "BONES_LEAVE_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M056",
+   "shot": "7",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b1_orton_rollins_wm31:s7:t38",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[13, 14, 16]",
+   "frame": "2565",
+   "gap_level": "15",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "single short boot line",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M057",
+   "shot": "3",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s3:t68",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "345",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "bent wrestler, lines on own body, downed opponent adjacent not touching",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O032",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M058",
+   "shot": "3",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_2:s3:t13",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 10, 11, 12, 14]",
+   "frame": "873",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "True",
+   "note": "yellow wrestler leaping, lines on own body, arms reaching opponent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O001",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M059",
+   "shot": "13",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s13:t41",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1257",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "full skeleton on lone standing person",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M060",
+   "shot": "18",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s18:t51",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 7, 9, 11, 12, 13, 14, 15, 16]",
+   "frame": "1791",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler, lines on own body, other wrestler separate",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O021",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M061",
+   "shot": "3",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s3:t74",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "723",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "pile, lines on top wrestler's back run onto underlying wrestler's head/torso and extended leg",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O007",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M062",
+   "shot": "7",
+   "stratum": "RELEASED",
+   "tracklet": "b1_orton_rollins_wm31:s7:t38",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 11, 12, 13, 14]",
+   "frame": "2997",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "lines lie on the referee's striped shirt and trousers, not the wrestlers",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O014",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M063",
+   "shot": "35",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s35:t131",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 10, 11, 12]",
+   "frame": "1425",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "torso lines on one wrestler, lower lines run onto the other's striped legs",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M064",
+   "shot": "20",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s20:t66",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 8, 10, 11, 12, 13, 14]",
+   "frame": "1014",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "True",
+   "note": "lines cross from top wrestler's torso/arm onto the underlying wrestler's back and the raised leg",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O037",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M065",
+   "shot": "0",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s0:t37",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1935",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler carrying another, torso and leg lines on carrier, minor ambiguity",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O012",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK",
+    "TOO_FEW_OWN_ONLY_LANDMARKS",
+    "BONES_LEAVE_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M066",
+   "shot": "3",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_5:s3:t81",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1704",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "overlapping prone wrestlers, lines span both bodies",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "OPPONENT_LANDMARKS_IN_MASK",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M067",
+   "shot": "21",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_2:s21:t130",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 10, 11, 12, 13, 14]",
+   "frame": "642",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "standing wrestler lines on own body, hand clasp with downed opponent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M068",
+   "shot": "6",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s6:t21",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "3366",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "wrestler lines on own back, opponent separate",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M069",
+   "shot": "7",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_5:s7:t140",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1266",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "supine wrestler's leg line peaks on the opponent's raised leg",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O027",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "OPPONENT_LANDMARKS_IN_MASK",
+    "MASK_NOT_EXPLAINED_BY_SKELETON",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M070",
+   "shot": "14",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_2:s14:t72",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "3396",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "yellow wrestler's torso lines, lower lines run onto masked opponent's body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O015",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS",
+    "BONES_LEAVE_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M071",
+   "shot": "39",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_batch2_clip_condensed:s39:t150",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "378",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "crouching wrestler, lines on his torso and legs, one line near downed opponent's thigh",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M072",
+   "shot": "3",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s3:t13",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "1104",
+   "gap_level": "15",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "few sparse segments, ownership of arm vs white trousers ambiguous between entangled wrestlers",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O038",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M073",
+   "shot": "0",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s0:t40",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+   "frame": "567",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "standing wrestler full skeleton, downed opponent separate",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M074",
+   "shot": "5",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s5:t18",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1875",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "prone wrestler, sparse arm/shoulder lines on own body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M075",
+   "shot": "23",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_2:s23:t153",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "3183",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "True",
+   "note": "masked wrestler bent over, lines on own body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M076",
+   "shot": "37",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s37:t136",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "720",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "pile, lines span top wrestler's torso and extend onto underlying wrestler's body/arm",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O009",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK",
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M077",
+   "shot": "7",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b1_orton_rollins_wm31:s7:t42",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "261",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler lines on own body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O005",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M078",
+   "shot": "2",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b1_orton_rollins_wm31:s2:t21",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "2175",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "tangle of yellow-trouser and masked wrestler, lines span both",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M079",
+   "shot": "25",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s25:t86",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 7, 8, 11, 13, 16]",
+   "frame": "1827",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "motion-blurred wrestler, hip and leg lines on his body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O003",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M080",
+   "shot": "3",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s3:t77",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1005",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "hunched wrestler, short back/hip lines on own body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M081",
+   "shot": "11",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_2:s11:t45",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 7, 8, 12, 13, 14, 15, 16]",
+   "frame": "186",
+   "gap_level": "15",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "supine wrestler leg torso arm lines on own body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O045",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M082",
+   "shot": "2",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s2:t9",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "576",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single shoulder line",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "FEW_LANDMARKS"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M083",
+   "shot": "6",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_2:s6:t21",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1326",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "supine wrestler, leg torso arm lines on own body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M084",
+   "shot": "1",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_5:s1:t59",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "966",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "full skeleton on yellow-trouser wrestler",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M085",
+   "shot": "13",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s13:t37",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "519",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "yellow wrestler on turnbuckle entangled, lines extend onto adjacent wrestler's dark clothing/legs",
+   "own_state": "MIXED_BODY_SUSPECTED",
+   "owner_id": "O041",
+   "reasons": [
+    "TORSO_SIDES_ASYMMETRIC"
+   ],
+   "record_class": "WITHHELD_MIXED_BODY",
+   "review_id": "M086",
+   "shot": "8",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_batch2_clip_condensed:s8:t25",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1695",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "distant clinch, leg and arm lines on one wrestler, arm legitimately around opponent's neck",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "SOME_LANDMARK_IN_OTHER_INSTANCE",
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M087",
+   "shot": "2",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_5:s2:t64",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "2022",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "yellow wrestler bent, lines on own body, masked opponent adjacent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M088",
+   "shot": "25",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_batch2_clip_condensed:s25:t90",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "885",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "arm and shoulder lines on lone wrestler",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O029",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M089",
+   "shot": "9",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b1_orton_rollins_wm31:s9:t62",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 8, 11, 12, 13, 14, 15]",
+   "frame": "1503",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "fallen yellow-trouser wrestler, zigzag lines on his body, masked opponent adjacent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M090",
+   "shot": "20",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s20:t63",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1806",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "two overlapping wrestlers, lines span both torsos/legs",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "NO_OWNER_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M091",
+   "shot": "22",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_2:s22:t146",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 8, 10, 11, 12]",
+   "frame": "1224",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "torso box on smaller wrestler partly behind large opponent, lines on his body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O011",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M092",
+   "shot": "14",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s14:t66",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1992",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "seated wrestler lines on own body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M093",
+   "shot": "3",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_5:s3:t86",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "717",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "pile, lines span top wrestler and underlying wrestler",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M094",
+   "shot": "7",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b1_orton_rollins_wm31:s7:t42",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "549",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single short line",
+   "own_state": "MIXED_BODY_SUSPECTED",
+   "owner_id": "O042",
+   "reasons": [
+    "SHARED_JOINT_CONFLICT"
+   ],
+   "record_class": "WITHHELD_MIXED_BODY",
+   "review_id": "M095",
+   "shot": "6",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b1_orton_rollins_wm31:s6:t36",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "846",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "wrestler lines on own body, referee adjacent",
+   "own_state": "MIXED_BODY_SUSPECTED",
+   "owner_id": "",
+   "reasons": [
+    "BONE_SPANS_INSTANCES"
+   ],
+   "record_class": "WITHHELD_MIXED_BODY",
+   "review_id": "M096",
+   "shot": "8",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b1_orton_rollins_wm31:s8:t60",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 8, 11, 12, 13, 14, 15, 16]",
+   "frame": "3141",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "dark-clothed person, sparse lines on torso/leg, heavy occlusion but on one body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O035",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M097",
+   "shot": "37",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s37:t140",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "1983",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "arm line on dark-sleeved person",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O033",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "OPPONENT_LANDMARKS_IN_MASK",
+    "MASK_NOT_EXPLAINED_BY_SKELETON",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M098",
+   "shot": "24",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_batch2_clip_condensed:s24:t83",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "3201",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "lifted wrestler over carrier's shoulder, lines run from lifted wrestler's torso down onto carrier's body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK",
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M099",
+   "shot": "6",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_5:s6:t121",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 11, 12, 13, 14, 15, 16]",
+   "frame": "1314",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "pile, lines span multiple bodies including dark-trunk wrestler",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O044",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M100",
+   "shot": "15",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s15:t75",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "[5, 6, 7, 9, 11, 12, 13]",
+   "frame": "273",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "True",
+   "note": "yellow-trouser wrestler on apron, lines on own body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M101",
+   "shot": "2",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s2:t11",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 10]",
+   "frame": "1044",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "single short line, close crop",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O026",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M102",
+   "shot": "10",
+   "stratum": "RELEASED",
+   "tracklet": "b1_orton_rollins_wm31:s10:t70",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 8, 11, 12, 13, 14]",
+   "frame": "699",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler held by opponent, back/hip lines on his body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O016",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M103",
+   "shot": "7",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s7:t27",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "777",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "carrier skeleton, upper lines run onto the lifted wrestler's body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O034",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M104",
+   "shot": "8",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_2:s8:t32",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 11, 12, 13, 14, 15, 16]",
+   "frame": "1119",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "True",
+   "note": "lines run from underlying wrestler's back across hip into white trousers of other wrestler",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M105",
+   "shot": "0",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s0:t0",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1308",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "lines span the top wrestler's torso and the kneeling leg of the other",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O000",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M106",
+   "shot": "15",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_2:s15:t75",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "frame": "1863",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "entangled pin, lines span yellow wrestler, masked wrestler and underlying body",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M107",
+   "shot": "23",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s23:t82",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "414",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler lines on own body, kicking opponent separate",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "TOO_FEW_OWN_ONLY_LANDMARKS",
+    "BONES_LEAVE_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M108",
+   "shot": "4",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b1_orton_rollins_wm31:s4:t26",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "423",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "bent wrestler lines on own body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M109",
+   "shot": "4",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b1_orton_rollins_wm31:s4:t26",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 8, 11, 12, 14]",
+   "frame": "675",
+   "gap_level": "15",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "standing wrestler arm/leg lines on own body, hand-hold with downed opponent",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M110",
+   "shot": "6",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_2:s6:t21",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "3186",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "carrier skeleton with arm line running onto lifted wrestler's leg",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_B",
+   "review_id": "M111",
+   "shot": "6",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_5:s6:t121",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "2415",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "yellow wrestler's torso lines, upper lines run onto masked opponent's head/neck",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK",
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M112",
+   "shot": "29",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_batch2_clip_condensed:s29:t107",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "1704",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "distant clinch, lines on one wrestler's body, arm around opponent",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O046",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M113",
+   "shot": "2",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_videoplayback_5:s2:t63",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "45",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "supine wrestler lines on own body",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M114",
+   "shot": "0",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b1_orton_rollins_wm31:s0:t7",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "",
+   "frame": "3426",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "pile, lines on the head/shoulder region run across two bodies",
+   "own_state": "MIXED_BODY_SUSPECTED",
+   "owner_id": "",
+   "reasons": [
+    "LIMB_TOO_LONG:forearm"
+   ],
+   "record_class": "WITHHELD_MIXED_BODY",
+   "review_id": "M115",
+   "shot": "7",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_videoplayback_5:s7:t143",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "YES",
+   "draw_landmarks": "[0, 5, 6, 13, 15]",
+   "frame": "2076",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "two disjoint short segments, clinch, ownership unclear",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "O036",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_A",
+   "review_id": "M116",
+   "shot": "25",
+   "stratum": "RELEASED",
+   "tracklet": "b2_batch2_clip_condensed:s25:t90",
+   "verdict": "NOT_JUDGEABLE"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "2775",
+   "gap_level": "30",
+   "identity": "ACCEPT_A",
+   "merge_guard": "False",
+   "note": "yellow trouser hip/leg lines on own body, partial",
+   "own_state": "SINGLE_BODY_SUPPORTED",
+   "owner_id": "O040",
+   "reasons": [],
+   "record_class": "ASSIGNED_A",
+   "review_id": "M117",
+   "shot": "33",
+   "stratum": "CONTROL_ASSIGNED",
+   "tracklet": "b2_batch2_clip_condensed:s33:t126",
+   "verdict": "CORRECT"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "contact": "YES",
+   "draw_landmarks": "[6, 8, 10, 11, 12, 13, 14, 16]",
+   "frame": "117",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "clinch, skeleton lines mix rear wrestler's arm with the front wrestler's torso/legs",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "record_class": "RELEASED_PARTIAL_ANATOMY_B",
+   "review_id": "M118",
+   "shot": "0",
+   "stratum": "RELEASED",
+   "tracklet": "b2_videoplayback_5:s0:t8",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "contact": "NO",
+   "draw_landmarks": "",
+   "frame": "2250",
+   "gap_level": "30",
+   "identity": "ACCEPT_B",
+   "merge_guard": "False",
+   "note": "full skeleton on masked wrestler",
+   "own_state": "OWNERSHIP_UNCERTAIN",
+   "owner_id": "",
+   "reasons": [
+    "OPPONENT_LANDMARKS_IN_MASK"
+   ],
+   "record_class": "WITHHELD_OWNERSHIP_UNCERTAIN",
+   "review_id": "M119",
+   "shot": "26",
+   "stratum": "CONTROL_HARDVETO",
+   "tracklet": "b2_batch2_clip_condensed:s26:t96",
+   "verdict": "CORRECT"
+  }
+ ],
+ "by_clip": {
+  "b1_orton_rollins_wm31": {
+   "contaminated": 2,
+   "contaminated_ci95": [
+    0.06758598648854294,
+    0.932414013511457
+   ],
+   "contaminated_frac": 0.5,
+   "counts": {
+    "CONTAMINATED": 2,
+    "NOT_JUDGEABLE": 1,
+    "PARTIAL_BUT_USABLE": 2
+   },
+   "judgeable": 4,
+   "n": 5,
+   "not_judgeable": 1,
+   "not_judgeable_frac": 0.2,
+   "usable": 2,
+   "usable_ci95": [
+    0.06758598648854294,
+    0.932414013511457
+   ],
+   "usable_frac": 0.5
+  },
+  "b2_batch2_clip_condensed": {
+   "contaminated": 4,
+   "contaminated_ci95": [
+    0.0640920477176665,
+    0.4763727657364801
+   ],
+   "contaminated_frac": 0.2222222222222222,
+   "counts": {
+    "CONTAMINATED": 4,
+    "CORRECT": 3,
+    "NOT_JUDGEABLE": 3,
+    "PARTIAL_BUT_USABLE": 11
+   },
+   "judgeable": 18,
+   "n": 21,
+   "not_judgeable": 3,
+   "not_judgeable_frac": 0.14285714285714285,
+   "usable": 14,
+   "usable_ci95": [
+    0.5236272342635198,
+    0.9359079522823335
+   ],
+   "usable_frac": 0.7777777777777778
+  },
+  "b2_videoplayback_2": {
+   "contaminated": 1,
+   "contaminated_ci95": [
+    0.0018067806591253865,
+    0.3386844899318212
+   ],
+   "contaminated_frac": 0.07142857142857142,
+   "counts": {
+    "CONTAMINATED": 1,
+    "CORRECT": 3,
+    "PARTIAL_BUT_USABLE": 10
+   },
+   "judgeable": 14,
+   "n": 14,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 13,
+   "usable_ci95": [
+    0.6613155100681788,
+    0.9981932193408746
+   ],
+   "usable_frac": 0.9285714285714286
+  },
+  "b2_videoplayback_5": {
+   "contaminated": 5,
+   "contaminated_ci95": [
+    0.11016995471711757,
+    0.5866206364513586
+   ],
+   "contaminated_frac": 0.3125,
+   "counts": {
+    "CONTAMINATED": 5,
+    "CORRECT": 3,
+    "NOT_JUDGEABLE": 4,
+    "PARTIAL_BUT_USABLE": 8
+   },
+   "judgeable": 16,
+   "n": 20,
+   "not_judgeable": 4,
+   "not_judgeable_frac": 0.2,
+   "usable": 11,
+   "usable_ci95": [
+    0.41337936354864135,
+    0.8898300452828825
+   ],
+   "usable_frac": 0.6875
+  }
+ },
+ "by_contact": {
+  "": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    null,
+    null
+   ],
+   "contaminated_frac": null,
+   "counts": {},
+   "judgeable": 0,
+   "n": 0,
+   "not_judgeable": 0,
+   "not_judgeable_frac": null,
+   "usable": 0,
+   "usable_ci95": [
+    null,
+    null
+   ],
+   "usable_frac": null
+  },
+  "NO": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.19506432296909318
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 6,
+    "NOT_JUDGEABLE": 3,
+    "PARTIAL_BUT_USABLE": 11
+   },
+   "judgeable": 17,
+   "n": 20,
+   "not_judgeable": 3,
+   "not_judgeable_frac": 0.15,
+   "usable": 17,
+   "usable_ci95": [
+    0.8049356770309067,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "YES": {
+   "contaminated": 12,
+   "contaminated_ci95": [
+    0.19132410218826573,
+    0.5221099833935212
+   ],
+   "contaminated_frac": 0.34285714285714286,
+   "counts": {
+    "CONTAMINATED": 12,
+    "CORRECT": 3,
+    "NOT_JUDGEABLE": 5,
+    "PARTIAL_BUT_USABLE": 20
+   },
+   "judgeable": 35,
+   "n": 40,
+   "not_judgeable": 5,
+   "not_judgeable_frac": 0.125,
+   "usable": 23,
+   "usable_ci95": [
+    0.47789001660647873,
+    0.8086758978117342
+   ],
+   "usable_frac": 0.6571428571428571
+  }
+ },
+ "by_identity": {
+  "ACCEPT_A": {
+   "contaminated": 4,
+   "contaminated_ci95": [
+    0.03889483129543887,
+    0.3166406094391376
+   ],
+   "contaminated_frac": 0.13793103448275862,
+   "counts": {
+    "CONTAMINATED": 4,
+    "CORRECT": 6,
+    "NOT_JUDGEABLE": 4,
+    "PARTIAL_BUT_USABLE": 19
+   },
+   "judgeable": 29,
+   "n": 33,
+   "not_judgeable": 4,
+   "not_judgeable_frac": 0.12121212121212122,
+   "usable": 25,
+   "usable_ci95": [
+    0.6833593905608624,
+    0.9611051687045611
+   ],
+   "usable_frac": 0.8620689655172413
+  },
+  "ACCEPT_B": {
+   "contaminated": 8,
+   "contaminated_ci95": [
+    0.1637635983749499,
+    0.5726560369635056
+   ],
+   "contaminated_frac": 0.34782608695652173,
+   "counts": {
+    "CONTAMINATED": 8,
+    "CORRECT": 3,
+    "NOT_JUDGEABLE": 4,
+    "PARTIAL_BUT_USABLE": 12
+   },
+   "judgeable": 23,
+   "n": 27,
+   "not_judgeable": 4,
+   "not_judgeable_frac": 0.14814814814814814,
+   "usable": 15,
+   "usable_ci95": [
+    0.42734396303649436,
+    0.8362364016250501
+   ],
+   "usable_frac": 0.6521739130434783
+  }
+ },
+ "by_n_released": null,
+ "by_shot": {
+  "b1_orton_rollins_wm31|10": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    null,
+    null
+   ],
+   "contaminated_frac": null,
+   "counts": {
+    "NOT_JUDGEABLE": 1
+   },
+   "judgeable": 0,
+   "n": 1,
+   "not_judgeable": 1,
+   "not_judgeable_frac": 1.0,
+   "usable": 0,
+   "usable_ci95": [
+    null,
+    null
+   ],
+   "usable_frac": null
+  },
+  "b1_orton_rollins_wm31|7": {
+   "contaminated": 2,
+   "contaminated_ci95": [
+    0.09429932405024609,
+    0.9915962413403874
+   ],
+   "contaminated_frac": 0.6666666666666666,
+   "counts": {
+    "CONTAMINATED": 2,
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 3,
+   "n": 3,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.008403758659612636,
+    0.9057006759497539
+   ],
+   "usable_frac": 0.3333333333333333
+  },
+  "b1_orton_rollins_wm31|9": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|13": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.841886116991581
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 1,
+    "NOT_JUDGEABLE": 1,
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 2,
+   "n": 3,
+   "not_judgeable": 1,
+   "not_judgeable_frac": 0.3333333333333333,
+   "usable": 2,
+   "usable_ci95": [
+    0.15811388300841897,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|14": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|2": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|20": {
+   "contaminated": 1,
+   "contaminated_ci95": [
+    0.006309463209709866,
+    0.8058795503167565
+   ],
+   "contaminated_frac": 0.25,
+   "counts": {
+    "CONTAMINATED": 1,
+    "PARTIAL_BUT_USABLE": 3
+   },
+   "judgeable": 4,
+   "n": 4,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 3,
+   "usable_ci95": [
+    0.19412044968324338,
+    0.9936905367902902
+   ],
+   "usable_frac": 0.75
+  },
+  "b2_batch2_clip_condensed|23": {
+   "contaminated": 1,
+   "contaminated_ci95": [
+    0.025,
+    1.0
+   ],
+   "contaminated_frac": 1.0,
+   "counts": {
+    "CONTAMINATED": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 0,
+   "usable_ci95": [
+    0.0,
+    0.975
+   ],
+   "usable_frac": 0.0
+  },
+  "b2_batch2_clip_condensed|25": {
+   "contaminated": 1,
+   "contaminated_ci95": [
+    0.025,
+    1.0
+   ],
+   "contaminated_frac": 1.0,
+   "counts": {
+    "CONTAMINATED": 1,
+    "NOT_JUDGEABLE": 1
+   },
+   "judgeable": 1,
+   "n": 2,
+   "not_judgeable": 1,
+   "not_judgeable_frac": 0.5,
+   "usable": 0,
+   "usable_ci95": [
+    0.0,
+    0.975
+   ],
+   "usable_frac": 0.0
+  },
+  "b2_batch2_clip_condensed|29": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|3": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|33": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|34": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|35": {
+   "contaminated": 1,
+   "contaminated_ci95": [
+    0.025,
+    1.0
+   ],
+   "contaminated_frac": 1.0,
+   "counts": {
+    "CONTAMINATED": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 0,
+   "usable_ci95": [
+    0.0,
+    0.975
+   ],
+   "usable_frac": 0.0
+  },
+  "b2_batch2_clip_condensed|37": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|39": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "NOT_JUDGEABLE": 1,
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 2,
+   "not_judgeable": 1,
+   "not_judgeable_frac": 0.5,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_batch2_clip_condensed|8": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|13": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.841886116991581
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 1,
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 2,
+   "n": 2,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 2,
+   "usable_ci95": [
+    0.15811388300841897,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|14": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|15": {
+   "contaminated": 1,
+   "contaminated_ci95": [
+    0.025,
+    1.0
+   ],
+   "contaminated_frac": 1.0,
+   "counts": {
+    "CONTAMINATED": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 0,
+   "usable_ci95": [
+    0.0,
+    0.975
+   ],
+   "usable_frac": 0.0
+  },
+  "b2_videoplayback_2|2": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.841886116991581
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 2
+   },
+   "judgeable": 2,
+   "n": 2,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 2,
+   "usable_ci95": [
+    0.15811388300841897,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|23": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|3": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|5": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|6": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.7075982261787133
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 1,
+    "PARTIAL_BUT_USABLE": 2
+   },
+   "judgeable": 3,
+   "n": 3,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 3,
+   "usable_ci95": [
+    0.2924017738212866,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|7": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_2|8": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_5|0": {
+   "contaminated": 5,
+   "contaminated_ci95": [
+    0.2904208637373427,
+    0.9633074338239145
+   ],
+   "contaminated_frac": 0.7142857142857143,
+   "counts": {
+    "CONTAMINATED": 5,
+    "CORRECT": 1,
+    "NOT_JUDGEABLE": 1,
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 7,
+   "n": 8,
+   "not_judgeable": 1,
+   "not_judgeable_frac": 0.125,
+   "usable": 2,
+   "usable_ci95": [
+    0.03669256617608555,
+    0.7095791362626572
+   ],
+   "usable_frac": 0.2857142857142857
+  },
+  "b2_videoplayback_5|1": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.841886116991581
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 1,
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 2,
+   "n": 2,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 2,
+   "usable_ci95": [
+    0.15811388300841897,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_5|2": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_5|3": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.6023646356164746
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "CORRECT": 1,
+    "NOT_JUDGEABLE": 2,
+    "PARTIAL_BUT_USABLE": 3
+   },
+   "judgeable": 4,
+   "n": 6,
+   "not_judgeable": 2,
+   "not_judgeable_frac": 0.3333333333333333,
+   "usable": 4,
+   "usable_ci95": [
+    0.3976353643835253,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_5|6": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "NOT_JUDGEABLE": 1,
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 2,
+   "not_judgeable": 1,
+   "not_judgeable_frac": 0.5,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  },
+  "b2_videoplayback_5|7": {
+   "contaminated": 0,
+   "contaminated_ci95": [
+    0.0,
+    0.975
+   ],
+   "contaminated_frac": 0.0,
+   "counts": {
+    "PARTIAL_BUT_USABLE": 1
+   },
+   "judgeable": 1,
+   "n": 1,
+   "not_judgeable": 0,
+   "not_judgeable_frac": 0.0,
+   "usable": 1,
+   "usable_ci95": [
+    0.025,
+    1.0
+   ],
+   "usable_frac": 1.0
+  }
+ },
+ "contaminated_released": [
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "frame": "684",
+   "identity": "ACCEPT_A",
+   "note": "pin with stacked bodies, lines span the top wrestler, the supine wrestler's torso and raised boot",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "review_id": "M026",
+   "shot": "7"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "frame": "1077",
+   "identity": "ACCEPT_B",
+   "note": "pin entanglement, lines cross from top wrestler's leg/hip into bottom wrestler's torso/arm",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "review_id": "M033",
+   "shot": "0"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "frame": "2127",
+   "identity": "ACCEPT_A",
+   "note": "tangled bodies, lines span both wrestlers",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "review_id": "M035",
+   "shot": "25"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "frame": "1155",
+   "identity": "ACCEPT_B",
+   "note": "shoulder line on top wrestler's back, descending lines run into the lower wrestler's back",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "review_id": "M041",
+   "shot": "0"
+  },
+  {
+   "clip": "b1_orton_rollins_wm31",
+   "frame": "723",
+   "identity": "ACCEPT_B",
+   "note": "pile, lines on top wrestler's back run onto underlying wrestler's head/torso and extended leg",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "review_id": "M062",
+   "shot": "7"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "frame": "2997",
+   "identity": "ACCEPT_B",
+   "note": "lines lie on the referee's striped shirt and trousers, not the wrestlers",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "review_id": "M063",
+   "shot": "35"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "frame": "1425",
+   "identity": "ACCEPT_A",
+   "note": "torso lines on one wrestler, lower lines run onto the other's striped legs",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "review_id": "M064",
+   "shot": "20"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "frame": "1014",
+   "identity": "ACCEPT_B",
+   "note": "lines cross from top wrestler's torso/arm onto the underlying wrestler's back and the raised leg",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "review_id": "M065",
+   "shot": "0"
+  },
+  {
+   "clip": "b2_videoplayback_2",
+   "frame": "1314",
+   "identity": "ACCEPT_B",
+   "note": "pile, lines span multiple bodies including dark-trunk wrestler",
+   "reasons": [
+    "CONTESTED_LANDMARKS"
+   ],
+   "review_id": "M100",
+   "shot": "15"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "frame": "1119",
+   "identity": "ACCEPT_B",
+   "note": "lines run from underlying wrestler's back across hip into white trousers of other wrestler",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "review_id": "M105",
+   "shot": "0"
+  },
+  {
+   "clip": "b2_batch2_clip_condensed",
+   "frame": "1863",
+   "identity": "ACCEPT_A",
+   "note": "entangled pin, lines span yellow wrestler, masked wrestler and underlying body",
+   "reasons": [
+    "MASK_NOT_EXPLAINED_BY_SKELETON"
+   ],
+   "review_id": "M107",
+   "shot": "23"
+  },
+  {
+   "clip": "b2_videoplayback_5",
+   "frame": "117",
+   "identity": "ACCEPT_B",
+   "note": "clinch, skeleton lines mix rear wrestler's arm with the front wrestler's torso/legs",
+   "reasons": [
+    "CONTESTED_LANDMARKS",
+    "TOO_FEW_OWN_ONLY_LANDMARKS"
+   ],
+   "review_id": "M118",
+   "shot": "0"
+  }
+ ],
+ "control_assigned": {
+  "contaminated": 7,
+  "contaminated_ci95": [
+   0.09933786495801974,
+   0.4228365229782195
+  ],
+  "contaminated_frac": 0.23333333333333334,
+  "counts": {
+   "CONTAMINATED": 7,
+   "CORRECT": 16,
+   "PARTIAL_BUT_USABLE": 7
+  },
+  "judgeable": 30,
+  "n": 30,
+  "not_judgeable": 0,
+  "not_judgeable_frac": 0.0,
+  "usable": 23,
+  "usable_ci95": [
+   0.5771634770217805,
+   0.9006621350419802
+  ],
+  "usable_frac": 0.7666666666666667
+ },
+ "control_hardveto": {
+  "contaminated": 10,
+  "contaminated_ci95": [
+   0.20226024365502038,
+   0.5942924647014085
+  ],
+  "contaminated_frac": 0.38461538461538464,
+  "counts": {
+   "CONTAMINATED": 10,
+   "CORRECT": 9,
+   "NOT_JUDGEABLE": 4,
+   "PARTIAL_BUT_USABLE": 7
+  },
+  "judgeable": 26,
+  "n": 30,
+  "not_judgeable": 4,
+  "not_judgeable_frac": 0.13333333333333333,
+  "usable": 16,
+  "usable_ci95": [
+   0.40570753529859144,
+   0.7977397563449796
+  ],
+  "usable_frac": 0.6153846153846154
+ },
+ "decision": {
+  "control_uninformative": false,
+  "gates": {
+   "contamination_le_5pct": false,
+   "coverage_ge_5pts": true,
+   "hardveto_ge_2x_released": false,
+   "judgeable_ge_50": true,
+   "no_clip_ge_3_contaminated": false,
+   "not_judgeable_le_25pct": true
+  },
+  "outcome": "KILL",
+  "structural_clause": {
+   "distinct_shots_with_established_wrong_body_released_landmark": 5,
+   "kill_triggered": true,
+   "pending_determinations": false,
+   "rule": "KILL only if localized inspection establishes an emitted OWN_ONLY landmark or released bone belongs to the wrong body in >=2 distinct shots; a CONTAMINATED label alone does not count; independent of the 5% gate"
+  },
+  "unmet_gates": [
+   "contamination_le_5pct",
+   "no_clip_ge_3_contaminated",
+   "hardveto_ge_2x_released"
+  ]
+ },
+ "label": "M9C primary reviewer Claude (non-independent), development-only, ANNOTATION-PROVISIONAL; no validation claim",
+ "merge_guard_flagged": [
+  {
+   "review_id": "M038",
+   "stratum": "RELEASED",
+   "verdict": "PARTIAL_BUT_USABLE"
+  },
+  {
+   "review_id": "M059",
+   "stratum": "RELEASED",
+   "verdict": "CORRECT"
+  },
+  {
+   "review_id": "M065",
+   "stratum": "RELEASED",
+   "verdict": "CONTAMINATED"
+  },
+  {
+   "review_id": "M076",
+   "stratum": "CONTROL_ASSIGNED",
+   "verdict": "CORRECT"
+  },
+  {
+   "review_id": "M101",
+   "stratum": "RELEASED",
+   "verdict": "CORRECT"
+  },
+  {
+   "review_id": "M105",
+   "stratum": "RELEASED",
+   "verdict": "CONTAMINATED"
+  }
+ ],
+ "recovered": {
+  "coverage_gain_points_of_identity_accept_measured": 8.214777420835246,
+  "net_contaminated_per_100_identity_accept": 1.8957178663465952,
+  "structural_released_total": 179
+ },
+ "released": {
+  "contaminated": 12,
+  "contaminated_ci95": [
+   0.12531610761523274,
+   0.36840277164213336
+  ],
+  "contaminated_frac": 0.23076923076923078,
+  "counts": {
+   "CONTAMINATED": 12,
+   "CORRECT": 9,
+   "NOT_JUDGEABLE": 8,
+   "PARTIAL_BUT_USABLE": 31
+  },
+  "judgeable": 52,
+  "n": 60,
+  "not_judgeable": 8,
+  "not_judgeable_frac": 0.13333333333333333,
+  "usable": 40,
+  "usable_ci95": [
+   0.6315972283578668,
+   0.8746838923847673
+  ],
+  "usable_frac": 0.7692307692307693
+ },
+ "second_reviewer": {
+  "all_overlap": {
+   "cohen_kappa": 0.3567251461988305,
+   "n": 50,
+   "raw_agreement": 0.56,
+   "table": {
+    "CONTAMINATED": {
+     "CONTAMINATED": 4,
+     "CORRECT": 1,
+     "NOT_JUDGEABLE": 0,
+     "PARTIAL_BUT_USABLE": 8
+    },
+    "CORRECT": {
+     "CONTAMINATED": 1,
+     "CORRECT": 5,
+     "NOT_JUDGEABLE": 0,
+     "PARTIAL_BUT_USABLE": 5
+    },
+    "NOT_JUDGEABLE": {
+     "CONTAMINATED": 0,
+     "CORRECT": 0,
+     "NOT_JUDGEABLE": 5,
+     "PARTIAL_BUT_USABLE": 1
+    },
+    "PARTIAL_BUT_USABLE": {
+     "CONTAMINATED": 4,
+     "CORRECT": 1,
+     "NOT_JUDGEABLE": 1,
+     "PARTIAL_BUT_USABLE": 14
+    }
+   }
+  },
+  "decision_under_owner_substitution": "KILL (structural determinations not re-made for owner-only contaminations)",
+  "label": "independent reproducibility/sensitivity analysis; reported separately; does not decide KEEP/MODIFY/KILL",
+  "main_released_with_owner_substituted_on_overlap": {
+   "contaminated": 13,
+   "contaminated_ci95": [
+    0.14034860358819093,
+    0.3894638899311605
+   ],
+   "contaminated_frac": 0.25,
+   "counts": {
+    "CONTAMINATED": 13,
+    "CORRECT": 5,
+    "NOT_JUDGEABLE": 8,
+    "PARTIAL_BUT_USABLE": 34
+   },
+   "judgeable": 52,
+   "n": 60,
+   "not_judgeable": 8,
+   "not_judgeable_frac": 0.13333333333333333,
+   "usable": 39,
+   "usable_ci95": [
+    0.6105361100688396,
+    0.8596513964118091
+   ],
+   "usable_frac": 0.75
+  },
+  "overlap_released_claude": {
+   "contaminated": 5,
+   "contaminated_ci95": [
+    0.06831146401248402,
+    0.4070374322786773
+   ],
+   "contaminated_frac": 0.2,
+   "counts": {
+    "CONTAMINATED": 5,
+    "CORRECT": 4,
+    "NOT_JUDGEABLE": 5,
+    "PARTIAL_BUT_USABLE": 16
+   },
+   "judgeable": 25,
+   "n": 30,
+   "not_judgeable": 5,
+   "not_judgeable_frac": 0.16666666666666666,
+   "usable": 20,
+   "usable_ci95": [
+    0.5929625677213226,
+    0.931688535987516
+   ],
+   "usable_frac": 0.8
+  },
+  "overlap_released_owner": {
+   "contaminated": 6,
+   "contaminated_ci95": [
+    0.09356443933174285,
+    0.4512880178166864
+   ],
+   "contaminated_frac": 0.24,
+   "counts": {
+    "CONTAMINATED": 6,
+    "NOT_JUDGEABLE": 5,
+    "PARTIAL_BUT_USABLE": 19
+   },
+   "judgeable": 25,
+   "n": 30,
+   "not_judgeable": 5,
+   "not_judgeable_frac": 0.16666666666666666,
+   "usable": 19,
+   "usable_ci95": [
+    0.5487119821833135,
+    0.9064355606682571
+   ],
+   "usable_frac": 0.76
+  },
+  "released_overlap": {
+   "cohen_kappa": 0.3900184842883548,
+   "n": 30,
+   "raw_agreement": 0.6333333333333333,
+   "table": {
+    "CONTAMINATED": {
+     "CONTAMINATED": 3,
+     "CORRECT": 0,
+     "NOT_JUDGEABLE": 0,
+     "PARTIAL_BUT_USABLE": 2
+    },
+    "CORRECT": {
+     "CONTAMINATED": 0,
+     "CORRECT": 0,
+     "NOT_JUDGEABLE": 0,
+     "PARTIAL_BUT_USABLE": 4
+    },
+    "NOT_JUDGEABLE": {
+     "CONTAMINATED": 0,
+     "CORRECT": 0,
+     "NOT_JUDGEABLE": 4,
+     "PARTIAL_BUT_USABLE": 1
+    },
+    "PARTIAL_BUT_USABLE": {
+     "CONTAMINATED": 3,
+     "CORRECT": 0,
+     "NOT_JUDGEABLE": 1,
+     "PARTIAL_BUT_USABLE": 12
+    }
+   }
+  }
+ },
+ "wrong_body_determinations": {
+  "M026": {
+   "note": "long bone from top wrestler's hip runs onto underlying wrestler's head/hand region",
+   "wrong_body_landmark": "YES"
+  },
+  "M033": {
+   "note": "entangled pin; cannot tell which wrestler's body each released landmark lies on",
+   "wrong_body_landmark": "UNDETERMINED"
+  },
+  "M035": {
+   "note": "tangle of masked and yellow wrestlers; ownership of released landmarks not resolvable in 2D",
+   "wrong_body_landmark": "UNDETERMINED"
+  },
+  "M041": {
+   "note": "hip landmarks and descending bones lie on the lower wrestler's back, shoulders on the top wrestler",
+   "wrong_body_landmark": "YES"
+  },
+  "M062": {
+   "note": "left lower corner of released torso box lies on the underlying wrestler's head/neck",
+   "wrong_body_landmark": "YES"
+  },
+  "M063": {
+   "note": "released landmarks lie on the referee's shirt and trousers",
+   "wrong_body_landmark": "YES"
+  },
+  "M064": {
+   "note": "hip/knee bones lie on the other wrestler's striped trousers",
+   "wrong_body_landmark": "YES"
+  },
+  "M065": {
+   "note": "hip landmark lies on the underlying wrestler's back",
+   "wrong_body_landmark": "YES"
+  },
+  "M100": {
+   "note": "pile; multiple bodies, ownership not resolvable",
+   "wrong_body_landmark": "UNDETERMINED"
+  },
+  "M105": {
+   "note": "shoulder-hip-knee-foot chain is consistent with the single white-trousered wrestler; frame label CONTAMINATED stands but no wrong-body landmark established",
+   "wrong_body_landmark": "NO"
+  },
+  "M107": {
+   "note": "bones span yellow-trouser leg, gold-masked wrestler's chest and underlying body",
+   "wrong_body_landmark": "YES"
+  },
+  "M118": {
+   "note": "clinch; waist landmarks may lie on the front wrestler, not resolvable",
+   "wrong_body_landmark": "UNDETERMINED"
+  }
+ }
+}
