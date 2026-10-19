@@ -63,19 +63,36 @@ class TJoin(unittest.TestCase):
         json.dump(ver, open(os.path.join(tmp, "v.json"), "w")); json.dump(dict(per_clip={c: dict(released=dict(RELEASED_PARTIAL_ANATOMY_A=45)) for c in C}), open(os.path.join(tmp, "p.json"), "w")); return tmp, r, ver
     def test_mechanical_outcomes(self):
         tmp, r, ver = self.mk({}); out = os.path.join(tmp, "o.json"); J.main(tmp, os.path.join(tmp, "v.json"), None, out, os.path.join(tmp, "p.json")); o = json.load(open(out))
-        self.assertEqual(o["released"]["contaminated"], 0); self.assertEqual(o["decision"]["outcome"], "KEEP"); self.assertIn("uninformative", o["decision"]["control_note"])   # all-zero case: 2x clause vacuous, flagged for the reviewer
+        self.assertEqual(o["released"]["contaminated"], 0); self.assertEqual(o["decision"]["outcome"], "NOT_KEEP_CRITERION_UNINFORMATIVE_CONTROL_NEEDS_REVIEWER_INTERPRETATION"); self.assertTrue(o["decision"]["control_uninformative"])   # 5b: 0% control is NOT vacuously satisfied
     def test_keep_modify_kill(self):
-        base = dict(n=60, judgeable=60, contaminated_frac=0.0, not_judgeable_frac=0.0)
-        ctrl = dict(contaminated_frac=0.2)
+        base = dict(n=60, judgeable=60, contaminated_frac=0.0, not_judgeable_frac=0.0); ctrl = dict(contaminated_frac=0.2); UN = "NOT_KEEP_CRITERION_UNMET_NEEDS_REVIEWER_INTERPRETATION"
         self.assertEqual(J.decide(dict(base), {"a": 0}, ctrl, 8.2, 0)["outcome"], "KEEP")
-        self.assertEqual(J.decide(dict(base, contaminated_frac=0.05), {"a": 2}, ctrl, 8.2, 2)["outcome"], "KEEP")
+        self.assertEqual(J.decide(dict(base, contaminated_frac=0.05), {"a": 2}, ctrl, 8.2, 0)["outcome"], "KEEP")
         self.assertEqual(J.decide(dict(base, contaminated_frac=0.067), {"a": 2}, ctrl, 8.2, 1)["outcome"], "MODIFY")
         self.assertEqual(J.decide(dict(base, contaminated_frac=0.10), {"a": 2}, ctrl, 8.2, 1)["outcome"], "KILL")
         self.assertEqual(J.decide(dict(base), {"a": 3}, ctrl, 8.2, 1)["outcome"], "MODIFY"); self.assertEqual(J.decide(dict(base), {"a": 0}, ctrl, 4.9, 0)["outcome"], "MODIFY")
         self.assertEqual(J.decide(dict(base, not_judgeable_frac=0.26), {"a": 0}, ctrl, 8.2, 0)["outcome"], "MODIFY")
-        self.assertEqual(J.decide(dict(base, judgeable=49), {"a": 0}, ctrl, 8.2, 0)["outcome"], "NOT_KEEP_CRITERION_UNMET_NEEDS_REVIEWER_INTERPRETATION")
-        self.assertEqual(J.decide(dict(base, contaminated_frac=0.03), {"a": 1}, dict(contaminated_frac=0.04), 8.2, 1)["outcome"], "NOT_KEEP_CRITERION_UNMET_NEEDS_REVIEWER_INTERPRETATION")   # hard-veto control < 2x released
-        d = J.decide(dict(base, contaminated_frac=0.033), {"a": 2}, ctrl, 8.2, 2)["literal_per_landmark_clause"]; self.assertTrue(d["literal_kill_triggered"]); self.assertIn("OPEN INTERPRETATION", d["note"])
+        self.assertEqual(J.decide(dict(base, judgeable=49), {"a": 0}, ctrl, 8.2, 0)["outcome"], UN)                                                    # 5c
+        self.assertEqual(J.decide(dict(base, contaminated_frac=0.03), {"a": 1}, dict(contaminated_frac=0.04), 8.2, 0)["outcome"], UN)                   # control < 2x released, informative
+    def test_5a_structural_clause_needs_established_wrong_body_in_2_shots(self):
+        base = dict(n=60, judgeable=60, contaminated_frac=0.033, not_judgeable_frac=0.0); ctrl = dict(contaminated_frac=0.2)
+        d = J.decide(dict(base), {"a": 2}, ctrl, 8.2, 2); self.assertEqual(d["outcome"], "KILL"); self.assertTrue(d["structural_clause"]["kill_triggered"])         # independent of the 5% gate
+        self.assertEqual(J.decide(dict(base), {"a": 2}, ctrl, 8.2, 1)["outcome"], "KEEP")                                                               # one established shot is not enough
+        self.assertEqual(J.decide(dict(base), {"a": 2}, ctrl, 8.2, 0, pending=True)["outcome"], "PENDING_STRUCTURAL_DETERMINATION")
+        self.assertEqual(J.decide(dict(base, contaminated_frac=0.0), {"a": 0}, dict(contaminated_frac=0.0), 8.2, 0)["outcome"], "NOT_KEEP_CRITERION_UNINFORMATIVE_CONTROL_NEEDS_REVIEWER_INTERPRETATION")
+        self.assertEqual(J.decide(dict(base, contaminated_frac=0.0, judgeable=45), {"a": 0}, dict(contaminated_frac=0.0), 8.2, 0)["outcome"], "NOT_KEEP_CRITERION_UNMET_NEEDS_REVIEWER_INTERPRETATION")   # more than the control unmet
+        self.assertEqual(J.decide(dict(base, contaminated_frac=0.07), {"a": 0}, dict(contaminated_frac=0.0), 8.2, 0)["outcome"], "MODIFY")               # another MODIFY trigger decides
+    def test_wrongbody_file_drives_structural_count(self):
+        tmp, r, ver = self.mk({0: "CONTAMINATED", 1: "CONTAMINATED"}); out = os.path.join(tmp, "o.json"); J.main(tmp, os.path.join(tmp, "v.json"), None, out, os.path.join(tmp, "p.json")); o = json.load(open(out))
+        self.assertEqual(o["decision"]["outcome"], "PENDING_STRUCTURAL_DETERMINATION"); ids = [c["review_id"] for c in o["contaminated_released"]]; self.assertEqual(len(ids), 2)
+        shots = {a["review_id"]: a["shot"] for a in o["contaminated_released"]}
+        wb = {i: dict(wrong_body_landmark="YES", note="x") for i in ids}; json.dump(wb, open(os.path.join(tmp, "wb.json"), "w")); J.main(tmp, os.path.join(tmp, "v.json"), None, out, os.path.join(tmp, "p.json"), os.path.join(tmp, "wb.json")); o2 = json.load(open(out))
+        want = len({(a["clip"], a["shot"]) for a in o2["contaminated_released"]}); self.assertEqual(o2["decision"]["structural_clause"]["distinct_shots_with_established_wrong_body_released_landmark"], want)
+        self.assertEqual(o2["decision"]["outcome"], "KILL" if want >= 2 else o2["decision"]["outcome"])
+        wb2 = {i: dict(wrong_body_landmark="NO", note="label only") for i in ids}; json.dump(wb2, open(os.path.join(tmp, "wb2.json"), "w")); J.main(tmp, os.path.join(tmp, "v.json"), None, out, os.path.join(tmp, "p.json"), os.path.join(tmp, "wb2.json")); o3 = json.load(open(out))
+        self.assertEqual(o3["decision"]["structural_clause"]["distinct_shots_with_established_wrong_body_released_landmark"], 0); self.assertNotEqual(o3["decision"]["outcome"], "KILL")
+        json.dump({"nonexistent": dict(wrong_body_landmark="YES")}, open(os.path.join(tmp, "bad.json"), "w"))
+        with self.assertRaises(AssertionError): J.main(tmp, os.path.join(tmp, "v.json"), None, out, os.path.join(tmp, "p.json"), os.path.join(tmp, "bad.json"))
     def test_kappa_and_second_reviewer(self):
         pairs = [("CORRECT", "CORRECT")] * 10 + [("CONTAMINATED", "CONTAMINATED")] * 5 + [("PARTIAL_BUT_USABLE", "CONTAMINATED")] * 5; k = J.kappa(pairs)
         self.assertAlmostEqual(k["raw_agreement"], 0.75); po, pe = 0.75, (10 * 10 + 10 * 0 + 5 * 10 + 0) / 400 if False else None
