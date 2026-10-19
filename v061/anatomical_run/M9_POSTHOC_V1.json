@@ -1,0 +1,112 @@
+{
+ "assigned_by_class_verdict": {
+  "ASSIGNED_A|CORRECT": 13,
+  "ASSIGNED_A|PARTIAL_BUT_USABLE": 6,
+  "ASSIGNED_B|CONTAMINATED": 1,
+  "ASSIGNED_B|CORRECT": 6,
+  "ASSIGNED_B|PARTIAL_BUT_USABLE": 4
+ },
+ "label": "POST-HOC descriptive; not pre-registered; single non-independent reviewer; ANNOTATION-PROVISIONAL",
+ "non_wrestler_by_reviewer_note": {
+  "assigned": 2,
+  "total": 18,
+  "withheld": 16
+ },
+ "per_clip_stratum": {
+  "b1_orton_rollins_wm31|ASSIGNED": 8,
+  "b1_orton_rollins_wm31|WITHHELD": 8,
+  "b2_batch2_clip_condensed|ASSIGNED": 8,
+  "b2_batch2_clip_condensed|WITHHELD": 8,
+  "b2_videoplayback_2|ASSIGNED": 7,
+  "b2_videoplayback_2|WITHHELD": 7,
+  "b2_videoplayback_5|ASSIGNED": 7,
+  "b2_videoplayback_5|WITHHELD": 7
+ },
+ "reason_x_verdict": {
+  "BONES_LEAVE_MASK": {
+   "CORRECT": 1,
+   "PARTIAL_BUT_USABLE": 2
+  },
+  "BONE_SPANS_INSTANCES": {
+   "CONTAMINATED": 2,
+   "CORRECT": 1,
+   "PARTIAL_BUT_USABLE": 2
+  },
+  "CONTESTED_LANDMARKS": {
+   "PARTIAL_BUT_USABLE": 3
+  },
+  "FEW_LANDMARKS": {
+   "NOT_JUDGEABLE": 2
+  },
+  "LANDMARKS_IN_OTHER_INSTANCE": {
+   "CONTAMINATED": 1
+  },
+  "LANDMARK_OUTSIDE_OWN_BOX": {
+   "PARTIAL_BUT_USABLE": 2
+  },
+  "LIMB_TOO_LONG:forearm": {
+   "CONTAMINATED": 1,
+   "PARTIAL_BUT_USABLE": 1
+  },
+  "LIMB_TOO_LONG:shank": {
+   "CONTAMINATED": 1,
+   "PARTIAL_BUT_USABLE": 2
+  },
+  "LIMB_TOO_LONG:thigh": {
+   "CONTAMINATED": 1
+  },
+  "LIMB_TOO_LONG:upper_arm": {
+   "CONTAMINATED": 1,
+   "PARTIAL_BUT_USABLE": 2
+  },
+  "MASK_NOT_EXPLAINED_BY_SKELETON": {
+   "PARTIAL_BUT_USABLE": 1
+  },
+  "NO_OWNER_MASK": {
+   "CONTAMINATED": 1,
+   "PARTIAL_BUT_USABLE": 1
+  },
+  "OPPONENT_LANDMARKS_IN_MASK": {
+   "CONTAMINATED": 1,
+   "PARTIAL_BUT_USABLE": 11
+  },
+  "SOME_LANDMARK_IN_OTHER_INSTANCE": {
+   "PARTIAL_BUT_USABLE": 1
+  },
+  "TOO_FEW_OWN_ONLY_LANDMARKS": {
+   "PARTIAL_BUT_USABLE": 5
+  }
+ },
+ "withheld_by_identity_state": {
+  "ABSTAIN_AMBIGUOUS": {
+   "CONTAMINATED": 2,
+   "CORRECT": 1
+  },
+  "ACCEPT_A": {
+   "PARTIAL_BUT_USABLE": 4
+  },
+  "ACCEPT_B": {
+   "CORRECT": 1,
+   "PARTIAL_BUT_USABLE": 1
+  },
+  "NO_IDENTITY_EVAL": {
+   "NOT_JUDGEABLE": 1,
+   "PARTIAL_BUT_USABLE": 2
+  },
+  "REJECT_NONTARGET": {
+   "CONTAMINATED": 3,
+   "NOT_JUDGEABLE": 1,
+   "PARTIAL_BUT_USABLE": 14
+  }
+ },
+ "withheld_identity_ACCEPT": {
+  "ci95": [
+   0.5407418735600995,
+   1.0
+  ],
+  "contaminated": 0,
+  "n": 6,
+  "n_judgeable": 6,
+  "usable": 6
+ }
+}
