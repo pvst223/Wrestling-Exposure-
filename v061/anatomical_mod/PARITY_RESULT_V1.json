@@ -1,0 +1,60 @@
+{
+ "label": "RECOMPUTATION PARITY / DETERMINISM ONLY. No verdicts viewed. Counts of eligible/released frames are the structural ceiling, not performance.",
+ "per_clip": {
+  "b1_orton_rollins_wm31": {
+   "decide_parity_ok": 1096,
+   "eligible_but_stays_withheld(min_bone_rule)": 4,
+   "no_own_summary(cross_body_or_no_seg)": 52,
+   "recomputed": 1209,
+   "released": {
+    "RELEASED_PARTIAL_ANATOMY_A": 15,
+    "RELEASED_PARTIAL_ANATOMY_B": 7
+   },
+   "summary_parity_ok": 1209
+  },
+  "b2_batch2_clip_condensed": {
+   "decide_parity_ok": 1987,
+   "eligible_but_stays_withheld(min_bone_rule)": 19,
+   "no_own_summary(cross_body_or_no_seg)": 220,
+   "recomputed": 2118,
+   "released": {
+    "RELEASED_PARTIAL_ANATOMY_A": 52,
+    "RELEASED_PARTIAL_ANATOMY_B": 9
+   },
+   "summary_parity_ok": 2118
+  },
+  "b2_videoplayback_2": {
+   "decide_parity_ok": 1912,
+   "eligible_but_stays_withheld(min_bone_rule)": 14,
+   "no_own_summary(cross_body_or_no_seg)": 158,
+   "recomputed": 2114,
+   "released": {
+    "RELEASED_PARTIAL_ANATOMY_A": 25,
+    "RELEASED_PARTIAL_ANATOMY_B": 18
+   },
+   "summary_parity_ok": 2114
+  },
+  "b2_videoplayback_5": {
+   "decide_parity_ok": 2331,
+   "eligible_but_stays_withheld(min_bone_rule)": 7,
+   "no_own_summary(cross_body_or_no_seg)": 293,
+   "recomputed": 2543,
+   "released": {
+    "RELEASED_PARTIAL_ANATOMY_A": 5,
+    "RELEASED_PARTIAL_ANATOMY_B": 48
+   },
+   "summary_parity_ok": 2543
+  }
+ },
+ "recomputed_cls_sha256": "942c0520112b8f6f20841a0c8eb12b724f1d20bbe7263c9376e96a01f0ce53f0",
+ "second_run_cls_sha256": "942c0520112b8f6f20841a0c8eb12b724f1d20bbe7263c9376e96a01f0ce53f0",
+ "second_run_identical": true,
+ "totals": {
+  "decide_parity_ok": 7326,
+  "eligible_but_stays_withheld(min_bone_rule)": 44,
+  "no_own_summary(cross_body_or_no_seg)": 723,
+  "recomputed": 7984,
+  "summary_parity_ok": 7984
+ },
+ "unexpected_changes": 0
+}
