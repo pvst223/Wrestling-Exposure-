@@ -1,0 +1,15 @@
+{
+ "population_rows": 1383,
+ "population_cells": {
+  "b1_orton_rollins_wm31|MIXED_BODY_SUSPECTED": 40,
+  "b1_orton_rollins_wm31|OWNERSHIP_UNCERTAIN": 100,
+  "b2_batch2_clip_condensed|MIXED_BODY_SUSPECTED": 166,
+  "b2_batch2_clip_condensed|OWNERSHIP_UNCERTAIN": 376,
+  "b2_videoplayback_2|MIXED_BODY_SUSPECTED": 64,
+  "b2_videoplayback_2|OWNERSHIP_UNCERTAIN": 280,
+  "b2_videoplayback_5|MIXED_BODY_SUSPECTED": 82,
+  "b2_videoplayback_5|OWNERSHIP_UNCERTAIN": 275
+ },
+ "relaxations": [],
+ "seed": 2066754454
+}
