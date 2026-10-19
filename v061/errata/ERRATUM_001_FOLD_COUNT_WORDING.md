@@ -1,0 +1,3 @@
+# Erratum 001 — evaluable-fold wording (non-performance-based record correction)
+Recorded after reviewer ruling 5b (ledger OGR15). spec_v4 `02_DATA_PLAN.md` §2.3 says "Strictly evaluable episodes exist only in 4 of the 5 folds". The frozen SEED_EPISODE_MANIFEST_V2 shows the operative structure is **3 evaluable folds containing 4 evaluable episodes** ({Orton/Rollins}, {Lesnar/Bryan}, {Andrade/Mysterio + Andrade/Omega}); the HBK/Benjamin and Rock/HHH folds have no strictly evaluable episode (training data only).
+This erratum corrects the sentence by record only. spec_v4 (frozen), the folds, episodes, results and frozen manifests are NOT altered; the frozen sentence stays as written and this file is the authoritative reading. No result or decision depended on the wording.
