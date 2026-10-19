@@ -1,0 +1,50 @@
+{
+ "M026": {
+  "note": "long bone from top wrestler's hip runs onto underlying wrestler's head/hand region",
+  "wrong_body_landmark": "YES"
+ },
+ "M033": {
+  "note": "entangled pin; cannot tell which wrestler's body each released landmark lies on",
+  "wrong_body_landmark": "UNDETERMINED"
+ },
+ "M035": {
+  "note": "tangle of masked and yellow wrestlers; ownership of released landmarks not resolvable in 2D",
+  "wrong_body_landmark": "UNDETERMINED"
+ },
+ "M041": {
+  "note": "hip landmarks and descending bones lie on the lower wrestler's back, shoulders on the top wrestler",
+  "wrong_body_landmark": "YES"
+ },
+ "M062": {
+  "note": "left lower corner of released torso box lies on the underlying wrestler's head/neck",
+  "wrong_body_landmark": "YES"
+ },
+ "M063": {
+  "note": "released landmarks lie on the referee's shirt and trousers",
+  "wrong_body_landmark": "YES"
+ },
+ "M064": {
+  "note": "hip/knee bones lie on the other wrestler's striped trousers",
+  "wrong_body_landmark": "YES"
+ },
+ "M065": {
+  "note": "hip landmark lies on the underlying wrestler's back",
+  "wrong_body_landmark": "YES"
+ },
+ "M100": {
+  "note": "pile; multiple bodies, ownership not resolvable",
+  "wrong_body_landmark": "UNDETERMINED"
+ },
+ "M105": {
+  "note": "shoulder-hip-knee-foot chain is consistent with the single white-trousered wrestler; frame label CONTAMINATED stands but no wrong-body landmark established",
+  "wrong_body_landmark": "NO"
+ },
+ "M107": {
+  "note": "bones span yellow-trouser leg, gold-masked wrestler's chest and underlying body",
+  "wrong_body_landmark": "YES"
+ },
+ "M118": {
+  "note": "clinch; waist landmarks may lie on the front wrestler, not resolvable",
+  "wrong_body_landmark": "UNDETERMINED"
+ }
+}
