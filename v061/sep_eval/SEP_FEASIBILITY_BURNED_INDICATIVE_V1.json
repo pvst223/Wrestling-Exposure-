@@ -1,0 +1,156 @@
+{
+ "dryrun_sampling_by_spacing": {
+  "spacing_0": {
+   "contrast_picked": 49,
+   "eligible_clips": 4,
+   "eligible_picked": 74,
+   "eligible_shots": 17,
+   "max_clip_share": 0.5945945945945946,
+   "max_per_shot": 10,
+   "per_clip_available_eligible": {
+    "b1_orton_rollins_wm31": 11,
+    "b2_batch2_clip_condensed": 44,
+    "b2_videoplayback_2": 2,
+    "b2_videoplayback_5": 17
+   }
+  },
+  "spacing_15": {
+   "contrast_picked": 50,
+   "eligible_clips": 4,
+   "eligible_picked": 45,
+   "eligible_shots": 17,
+   "max_clip_share": 0.6222222222222222,
+   "max_per_shot": 8,
+   "per_clip_available_eligible": {
+    "b1_orton_rollins_wm31": 8,
+    "b2_batch2_clip_condensed": 28,
+    "b2_videoplayback_2": 1,
+    "b2_videoplayback_5": 8
+   }
+  },
+  "spacing_30": {
+   "contrast_picked": 49,
+   "eligible_clips": 4,
+   "eligible_picked": 34,
+   "eligible_shots": 17,
+   "max_clip_share": 0.6176470588235294,
+   "max_per_shot": 4,
+   "per_clip_available_eligible": {
+    "b1_orton_rollins_wm31": 5,
+    "b2_batch2_clip_condensed": 21,
+    "b2_videoplayback_2": 1,
+    "b2_videoplayback_5": 7
+   }
+  }
+ },
+ "feasibility_counts": {
+  "clips": {
+   "b1_orton_rollins_wm31": {
+    "counts": {
+     "DESCRIPTIVE_VARIANT_ignore_boxes_80pct_inside_target_NOT_ADOPTED": 31,
+     "assigned_measured": 82,
+     "eligible": 31,
+     "eligible_margin10": 31,
+     "eligible_margin25": 2
+    },
+    "n_shots_with_assigned": 9,
+    "n_shots_with_eligible": 2,
+    "reasons": {
+     "CUT_WITHIN_WINDOW": 2,
+     "NEIGHBOUR_NO_TARGET_BOX": 7,
+     "NEIGHBOUR_OTHER_PERSON_WITHIN_MARGIN": 25,
+     "NEIGHBOUR_TARGET_NEAR_BORDER": 11,
+     "OK": 31,
+     "OTHER_PERSON_WITHIN_MARGIN": 4,
+     "TARGET_NEAR_BORDER": 2
+    }
+   },
+   "b2_batch2_clip_condensed": {
+    "counts": {
+     "DESCRIPTIVE_VARIANT_ignore_boxes_80pct_inside_target_NOT_ADOPTED": 111,
+     "assigned_measured": 348,
+     "eligible": 95,
+     "eligible_margin10": 101,
+     "eligible_margin25": 87
+    },
+    "n_shots_with_assigned": 30,
+    "n_shots_with_eligible": 11,
+    "reasons": {
+     "CUT_WITHIN_WINDOW": 17,
+     "NEIGHBOUR_NO_TARGET_BOX": 17,
+     "NEIGHBOUR_OTHER_PERSON_WITHIN_MARGIN": 128,
+     "NEIGHBOUR_TARGET_NEAR_BORDER": 66,
+     "OK": 95,
+     "OTHER_PERSON_WITHIN_MARGIN": 21,
+     "TARGET_NEAR_BORDER": 4
+    }
+   },
+   "b2_videoplayback_2": {
+    "counts": {
+     "DESCRIPTIVE_VARIANT_ignore_boxes_80pct_inside_target_NOT_ADOPTED": 2,
+     "assigned_measured": 174,
+     "eligible": 2,
+     "eligible_margin10": 3,
+     "eligible_margin25": 2
+    },
+    "n_shots_with_assigned": 19,
+    "n_shots_with_eligible": 1,
+    "reasons": {
+     "CUT_WITHIN_WINDOW": 6,
+     "NEIGHBOUR_NO_TARGET_BOX": 3,
+     "NEIGHBOUR_OTHER_PERSON_WITHIN_MARGIN": 108,
+     "NEIGHBOUR_TARGET_NEAR_BORDER": 44,
+     "NEIGHBOUR_TARGET_TOO_SMALL": 4,
+     "OK": 2,
+     "OTHER_PERSON_WITHIN_MARGIN": 6,
+     "TARGET_NEAR_BORDER": 1
+    }
+   },
+   "b2_videoplayback_5": {
+    "counts": {
+     "DESCRIPTIVE_VARIANT_ignore_boxes_80pct_inside_target_NOT_ADOPTED": 26,
+     "assigned_measured": 167,
+     "eligible": 17,
+     "eligible_margin10": 17,
+     "eligible_margin25": 11
+    },
+    "n_shots_with_assigned": 6,
+    "n_shots_with_eligible": 3,
+    "reasons": {
+     "CUT_WITHIN_WINDOW": 1,
+     "NEIGHBOUR_NO_TARGET_BOX": 16,
+     "NEIGHBOUR_OTHER_PERSON_WITHIN_MARGIN": 46,
+     "NEIGHBOUR_TARGET_NEAR_BORDER": 79,
+     "OK": 17,
+     "OTHER_PERSON_WITHIN_MARGIN": 7,
+     "TARGET_NEAR_BORDER": 1
+    }
+   }
+  },
+  "label": "FEASIBILITY COUNT ONLY (counts; no verdicts, images or skeletons viewed). Burned clips => indicative yield only, cannot support KEEP.",
+  "params": {
+   "border_frac": 0.02,
+   "conf_floor": 0.1,
+   "cut_window": 3,
+   "margin": 0.15,
+   "other_min_height_frac": 0.25,
+   "stability_stride": 3,
+   "target_min_height_frac": 0.15
+  },
+  "totals": {
+   "DESCRIPTIVE_VARIANT_ignore_boxes_80pct_inside_target_NOT_ADOPTED": 170,
+   "assigned_measured": 771,
+   "eligible": 145,
+   "eligible_margin10": 152,
+   "eligible_margin25": 102
+  }
+ },
+ "label": "INDICATIVE ONLY: counts from the four BURNED clips (M9/M9B/M9C data). No verdicts, images or skeletons viewed. Cannot support KEEP; not fresh data.",
+ "source_frames_per_clip": {
+  "b1_orton_rollins_wm31": 1110,
+  "b2_batch2_clip_condensed": 3600,
+  "b2_videoplayback_2": 1935,
+  "b2_videoplayback_5": 3588
+ },
+ "total_source_frames": 10233
+}
