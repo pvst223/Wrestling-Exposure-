@@ -24,6 +24,7 @@ jobs:
         run: |
           python v061/tooling/impl_manifest.py
           python v061/tests/run_all.py
+          python -m unittest discover -s v061/devrun/tests -p 'test_*.py'
       - name: Synthetic self-tests
         run: |
           cd v06/tools
