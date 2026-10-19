@@ -1,0 +1,61 @@
+{
+ "label": "V0.6.1 DEVELOPMENT ONLY - visualization",
+ "per_clip": {
+  "b1_orton_rollins_wm31": {
+   "decisions_sha256": "7c1b8be38a5ece24aa73e5509119de7b679a2ff29687df5609946be2b377ddb1",
+   "fps": 30.0,
+   "n_decision_rows": 976,
+   "n_source_frames": 1110,
+   "output_video_sha256": "355a652990806a69074c729b807a22a1c002f350de6be3dd4f384614fdfba2ca",
+   "sidecar_sha256": "964ac4bbde994cdccc0f880c9ba2ff5d5e5a65926254008864d7f68c9db4e6b1",
+   "source_video_sha256": "f64eeaf11ff60facd193b328d1a6263184b60d58a455e95591387c2075250a5f",
+   "status_counts": {
+    "CARRIED-FORWARD": 2056,
+    "EVALUATED": 976,
+    "NO-EVAL": 140
+   }
+  },
+  "b2_batch2_clip_condensed": {
+   "decisions_sha256": "5e8bd5bdc8239d9934e4a298a9524dd01345445febc36f45694bf145443c5758",
+   "fps": 30.0,
+   "n_decision_rows": 2047,
+   "n_source_frames": 3600,
+   "output_video_sha256": "99e5a972565d3524261195cb8b464c3ab3893c3ddbf31af8b6976b4658705bde",
+   "sidecar_sha256": "8ae6de88e184573896e3e662319668460031a0f39ec26edf99a60e4ac6419f56",
+   "source_video_sha256": "c404c8e560fece5398cfe0c1408cd4dadd5e675e4676df8e8ca72472fc9e31d6",
+   "status_counts": {
+    "CARRIED-FORWARD": 4306,
+    "EVALUATED": 2047,
+    "NO-EVAL": 206
+   }
+  },
+  "b2_videoplayback_2": {
+   "decisions_sha256": "0192732a637e0f58b362781e3e55374b58dcc1ca27f4b3b03adbda355271fa16",
+   "fps": 30.0,
+   "n_decision_rows": 1982,
+   "n_source_frames": 2300,
+   "output_video_sha256": "93457754b966db95ad74f8283669b61856dca0ad28bd8d67b70fbe08ea5a6e50",
+   "sidecar_sha256": "4a76ff191198b95484c19fd442d633d0cfcb77d4d9351635035b80ad61e3c181",
+   "source_video_sha256": "334546c6c5d32426de8a9f64102840e5aa807ae23f0fff4b872754338dfc723a",
+   "status_counts": {
+    "CARRIED-FORWARD": 4177,
+    "EVALUATED": 1982,
+    "NO-EVAL": 200
+   }
+  },
+  "b2_videoplayback_5": {
+   "decisions_sha256": "26f5f04d6a736df13ec93bbd666eb828a3af3e34a29571c6d26ee36b6d51f9e4",
+   "fps": 30.0,
+   "n_decision_rows": 2017,
+   "n_source_frames": 3587,
+   "output_video_sha256": "eab73b406aafa9c3a736b8d3837919db5411cb4e56fee8649e252a909046c7fe",
+   "sidecar_sha256": "e60a42c17295927012069b9943e7bd451c320969bf9d2305c4ecd94e1b2a1ccb",
+   "source_video_sha256": "d36e40cf8d26d7abf29f16d93660fe240a5fdd8cad4a29fa6ba7a825dbe7436c",
+   "status_counts": {
+    "CARRIED-FORWARD": 4234,
+    "EVALUATED": 2017,
+    "NO-EVAL": 234
+   }
+  }
+ }
+}
