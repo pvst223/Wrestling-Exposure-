@@ -1,0 +1,126 @@
+{
+ "diagnostics": {
+  "ab_assignment": {
+   "accepted_as_wrong_target": "int",
+   "accepted_target_candidates": "int",
+   "auroc": "float",
+   "ci95": [
+    "float"
+   ],
+   "target_candidates_abstained": "int"
+  },
+  "coverage": "float",
+  "decision_decomposition_candidates": {
+   "REFEREE": {
+    "REJECT_NONTARGET": "int"
+   },
+   "SPECTATOR": {
+    "REJECT_NONTARGET": "int"
+   },
+   "TARGET": {
+    "ACCEPT_A": "int",
+    "ACCEPT_B": "int"
+   }
+  },
+  "false_target_acceptance": {
+   "by_stratum_units": {
+    "OTHER_NAMED_WRESTLER": {
+     "fa": "int",
+     "n": "int"
+    },
+    "REFEREE": {
+     "fa": "int",
+     "n": "int"
+    },
+    "SPECTATOR": {
+     "fa": "int",
+     "n": "int"
+    }
+   },
+   "nontarget_candidates_accepted": "int"
+  },
+  "flags_descriptive_only": {
+   "D_GATE_lower_ci_below_0_70": "bool",
+   "F_ASSIGN_interval_includes_0_5": "bool"
+  },
+  "fta_ci95_exact": [
+   "float"
+  ],
+  "label": "str",
+  "n_numeric_failures": "int",
+  "param": {
+   "delta": "float",
+   "tau_g": "float"
+  },
+  "seed": "int",
+  "target_gate": {
+   "auroc": "float",
+   "ci95": [
+    "float"
+   ],
+   "target_candidates": "int",
+   "target_candidates_rejected": "int"
+  },
+  "unit_metrics": {
+   "coverage": "float",
+   "fa_units": "int",
+   "fta": "float",
+   "n_target_units": "int",
+   "n_units": "int",
+   "strata": {
+    "OTHER_NAMED_WRESTLER": {
+     "fa": "int",
+     "n": "int"
+    },
+    "REFEREE": {
+     "fa": "int",
+     "n": "int"
+    },
+    "SPECTATOR": {
+     "fa": "int",
+     "n": "int"
+    }
+   }
+  }
+ },
+ "grid_point": {
+  "coverage": "float",
+  "fa_units": "int",
+  "fold_coverages": [],
+  "fta": "float",
+  "n_target_units": "int",
+  "n_units": "int",
+  "param": [
+   "float"
+  ],
+  "strata": {
+   "OTHER_NAMED_WRESTLER": {
+    "fa": "int",
+    "n": "int"
+   },
+   "REFEREE": {
+    "fa": "int",
+    "n": "int"
+   },
+   "SPECTATOR": {
+    "fa": "int",
+    "n": "int"
+   }
+  }
+ },
+ "label": "V0.6.1 DEVELOPMENT / HYPOTHESIS CHECK ONLY",
+ "note": "keys/types of aggregate outputs on SYNTHETIC fixtures only; real runs write aggregate JSON only (no candidate/person-level tables, no imagery)",
+ "required_provenance_fields_in_any_result_file": [
+  "code_manifest_sha256",
+  "config_sha256",
+  "input_sha256s",
+  "seed",
+  "spec_v4_manifest_sha256",
+  "label"
+ ],
+ "selection_output": {
+  "cstar": "float|null",
+  "selected": "grid_point|null",
+  "status": "OK|no feasible operating point"
+ }
+}

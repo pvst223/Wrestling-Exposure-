@@ -20,6 +20,10 @@ jobs:
           pip install torch --index-url https://download.pytorch.org/whl/cpu
       - name: Repo hygiene scan (media/weights/secrets, 30 MB cap)
         run: python v061/tooling/hygiene_scan.py
+      - name: V0.6.1 implementation manifest and synthetic suite
+        run: |
+          python v061/tooling/impl_manifest.py
+          python v061/tests/run_all.py
       - name: Synthetic self-tests
         run: |
           cd v06/tools
