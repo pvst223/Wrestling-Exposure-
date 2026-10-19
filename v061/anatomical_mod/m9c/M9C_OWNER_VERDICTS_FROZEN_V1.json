@@ -1,0 +1,252 @@
+{
+ "O000": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "CORRECT"
+ },
+ "O001": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O002": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O003": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O004": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "CONTAMINATED"
+ },
+ "O005": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "CORRECT"
+ },
+ "O006": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O007": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O008": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "CORRECT"
+ },
+ "O009": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O010": {
+  "contact": "YES",
+  "note": "Hand on shoulder.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O011": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O012": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O013": {
+  "contact": "YES",
+  "note": "Head hold; tracker did not capture head.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O014": {
+  "contact": "YES",
+  "note": "Referee/cyan-box contamination.",
+  "verdict": "CONTAMINATED"
+ },
+ "O015": {
+  "contact": "YES",
+  "note": "Partial tracking extends toward Rey Mysterio.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O016": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O017": {
+  "contact": "YES",
+  "note": "No anatomical tracking; very dampened cyan box.",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "O018": {
+  "contact": "YES",
+  "note": "Incomplete arm and head tracking.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O019": {
+  "contact": "YES",
+  "note": "Only groin-area anatomy.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O020": {
+  "contact": "YES",
+  "note": "Unclear whose anatomy is being measured.",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "O021": {
+  "contact": "NO",
+  "note": "Nearly everything except head and other arm.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O022": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O023": {
+  "contact": "NO",
+  "note": "Legs only.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O024": {
+  "contact": "NO",
+  "note": "Everything except head.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O025": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O026": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "O027": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O028": {
+  "contact": "NO",
+  "note": "Tracking almost unnoticeable.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O029": {
+  "contact": "NO",
+  "note": "Head not tracked.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O030": {
+  "contact": "YES",
+  "note": "Referee contamination; bodies somewhat overlap.",
+  "verdict": "CONTAMINATED"
+ },
+ "O031": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "CONTAMINATED"
+ },
+ "O032": {
+  "contact": "YES",
+  "note": "Brock trying to grasp Daniel's head.",
+  "verdict": "CORRECT"
+ },
+ "O033": {
+  "contact": "NO",
+  "note": "Spectator tracked.",
+  "verdict": "CONTAMINATED"
+ },
+ "O034": {
+  "contact": "YES",
+  "note": "Brock covered well, but tracking bleeds onto Daniel.",
+  "verdict": "CONTAMINATED"
+ },
+ "O035": {
+  "contact": "NO",
+  "note": "Unclear tracking.",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "O036": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "O037": {
+  "contact": "YES",
+  "note": "Tracking decent overall, but some overlap contamination.",
+  "verdict": "CONTAMINATED"
+ },
+ "O038": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O039": {
+  "contact": "YES",
+  "note": "Mostly correct, but some contamination due to angle.",
+  "verdict": "CONTAMINATED"
+ },
+ "O040": {
+  "contact": "YES",
+  "note": "Legs picked up well given angle.",
+  "verdict": "CORRECT"
+ },
+ "O041": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O042": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "O043": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O044": {
+  "contact": "YES",
+  "note": "Missing head.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O045": {
+  "contact": "NO",
+  "note": "",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "O046": {
+  "contact": "YES",
+  "note": "One of the strongest examples; nearly complete except head.",
+  "verdict": "CORRECT"
+ },
+ "O047": {
+  "contact": "YES",
+  "note": "",
+  "verdict": "CONTAMINATED"
+ },
+ "O048": {
+  "contact": "NO",
+  "note": "Strong tracking; missing head.",
+  "verdict": "CORRECT"
+ },
+ "O049": {
+  "contact": "NO",
+  "note": "Arm only.",
+  "verdict": "PARTIAL_BUT_USABLE"
+ }
+}

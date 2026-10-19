@@ -1,0 +1,51 @@
+owner_id,verdict,contact,note
+O000,CORRECT,YES,
+O001,PARTIAL_BUT_USABLE,NO,
+O002,PARTIAL_BUT_USABLE,NO,
+O003,PARTIAL_BUT_USABLE,NO,
+O004,CONTAMINATED,NO,
+O005,CORRECT,NO,
+O006,PARTIAL_BUT_USABLE,YES,
+O007,PARTIAL_BUT_USABLE,YES,
+O008,CORRECT,NO,
+O009,PARTIAL_BUT_USABLE,YES,
+O010,PARTIAL_BUT_USABLE,YES,Hand on shoulder.
+O011,PARTIAL_BUT_USABLE,NO,
+O012,PARTIAL_BUT_USABLE,YES,
+O013,PARTIAL_BUT_USABLE,YES,Head hold; tracker did not capture head.
+O014,CONTAMINATED,YES,Referee/cyan-box contamination.
+O015,PARTIAL_BUT_USABLE,YES,Partial tracking extends toward Rey Mysterio.
+O016,PARTIAL_BUT_USABLE,YES,
+O017,NOT_JUDGEABLE,YES,No anatomical tracking; very dampened cyan box.
+O018,PARTIAL_BUT_USABLE,YES,Incomplete arm and head tracking.
+O019,PARTIAL_BUT_USABLE,YES,Only groin-area anatomy.
+O020,NOT_JUDGEABLE,YES,Unclear whose anatomy is being measured.
+O021,PARTIAL_BUT_USABLE,NO,Nearly everything except head and other arm.
+O022,PARTIAL_BUT_USABLE,YES,
+O023,PARTIAL_BUT_USABLE,NO,Legs only.
+O024,PARTIAL_BUT_USABLE,NO,Everything except head.
+O025,PARTIAL_BUT_USABLE,YES,
+O026,NOT_JUDGEABLE,NO,
+O027,PARTIAL_BUT_USABLE,NO,
+O028,PARTIAL_BUT_USABLE,NO,Tracking almost unnoticeable.
+O029,PARTIAL_BUT_USABLE,NO,Head not tracked.
+O030,CONTAMINATED,YES,Referee contamination; bodies somewhat overlap.
+O031,CONTAMINATED,YES,
+O032,CORRECT,YES,Brock trying to grasp Daniel's head.
+O033,CONTAMINATED,NO,Spectator tracked.
+O034,CONTAMINATED,YES,"Brock covered well, but tracking bleeds onto Daniel."
+O035,NOT_JUDGEABLE,NO,Unclear tracking.
+O036,NOT_JUDGEABLE,YES,
+O037,CONTAMINATED,YES,"Tracking decent overall, but some overlap contamination."
+O038,PARTIAL_BUT_USABLE,YES,
+O039,CONTAMINATED,YES,"Mostly correct, but some contamination due to angle."
+O040,CORRECT,YES,Legs picked up well given angle.
+O041,PARTIAL_BUT_USABLE,NO,
+O042,NOT_JUDGEABLE,NO,
+O043,PARTIAL_BUT_USABLE,YES,
+O044,PARTIAL_BUT_USABLE,YES,Missing head.
+O045,PARTIAL_BUT_USABLE,NO,
+O046,CORRECT,YES,One of the strongest examples; nearly complete except head.
+O047,CONTAMINATED,YES,
+O048,CORRECT,NO,Strong tracking; missing head.
+O049,PARTIAL_BUT_USABLE,NO,Arm only.
