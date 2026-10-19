@@ -1,0 +1,602 @@
+{
+ "M000": {
+  "contact": "NO",
+  "note": "standing masked wrestler, full skeleton aligned",
+  "verdict": "CORRECT"
+ },
+ "M001": {
+  "contact": "YES",
+  "note": "bent wrestler over turnbuckle, back and arm segments on body; masked opponent adjacent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M002": {
+  "contact": "YES",
+  "note": "standing wrestler, torso and legs aligned, bent opponent and referee adjacent",
+  "verdict": "CORRECT"
+ },
+ "M003": {
+  "contact": "NO",
+  "note": "crouched wrestler, torso and arm lines on body, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M004": {
+  "contact": "NO",
+  "note": "crouched wrestler, boxy torso arm and leg lines on body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M005": {
+  "contact": "YES",
+  "note": "inverted wrestler in yellow, torso and legs on his body, masked opponent beneath",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M006": {
+  "contact": "NO",
+  "note": "non-wrestler standing woman, torso skeleton aligned",
+  "verdict": "CORRECT"
+ },
+ "M007": {
+  "contact": "YES",
+  "note": "torso on the yellow wrestler but lower lines run along the masked opponent's legs",
+  "verdict": "CONTAMINATED"
+ },
+ "M008": {
+  "contact": "YES",
+  "note": "small distant wrestler, leg lines on one body, overlapping wrestler adjacent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M009": {
+  "contact": "YES",
+  "note": "single short vertical segment at the boot running toward the opponent, too sparse to judge",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M010": {
+  "contact": "YES",
+  "note": "pin scene, zigzag lines span the top wrestler and the supine wrestler",
+  "verdict": "CONTAMINATED"
+ },
+ "M011": {
+  "contact": "NO",
+  "note": "only two tiny dashes at the waist, too sparse to judge",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M012": {
+  "contact": "YES",
+  "note": "bald wrestler bending over, arm/torso parallelogram and a leg segment on his body, opponent adjacent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M013": {
+  "contact": "NO",
+  "note": "bent wrestler, two leg segments on his own legs, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M014": {
+  "contact": "NO",
+  "note": "wrestler leaning on ropes, arms and torso aligned",
+  "verdict": "CORRECT"
+ },
+ "M015": {
+  "contact": "YES",
+  "note": "supine wrestler, torso arms and legs on his body, opponent hand at face not captured",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M016": {
+  "contact": "YES",
+  "note": "bent wrestler, torso arm and legs on body, reaching toward the lying opponent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M017": {
+  "contact": "YES",
+  "note": "pin with stacked bodies, torso on the top wrestler, one segment ambiguous toward the raised leg",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M018": {
+  "contact": "YES",
+  "note": "single shin segment on the yellow wrestler's leg on the turnbuckle, sparse; masked opponent adjacent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M019": {
+  "contact": "YES",
+  "note": "supine wrestler, torso line on body, short zigzag near the hips lies against the inverted opponent, ambiguous",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M020": {
+  "contact": "NO",
+  "note": "seated wrestler with legs spread, skeleton aligned",
+  "verdict": "CORRECT"
+ },
+ "M021": {
+  "contact": "NO",
+  "note": "prone wrestler, shoulder and arm line on body, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M022": {
+  "contact": "NO",
+  "note": "supine wrestler, leg and torso lines on his body, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M023": {
+  "contact": "NO",
+  "note": "blurred standing wrestler at the ropes, full skeleton aligned",
+  "verdict": "CORRECT"
+ },
+ "M024": {
+  "contact": "YES",
+  "note": "yellow wrestler over turnbuckle, torso arm and legs on his body, masked opponent adjacent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M025": {
+  "contact": "NO",
+  "note": "supine wrestler, torso arm and legs on his body, standing opponent not captured",
+  "verdict": "CORRECT"
+ },
+ "M026": {
+  "contact": "YES",
+  "note": "pin with stacked bodies, lines span the top wrestler, the supine wrestler's torso and raised boot",
+  "verdict": "CONTAMINATED"
+ },
+ "M027": {
+  "contact": "YES",
+  "note": "yellow wrestler with referee overlapping, skeleton mostly on his body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M028": {
+  "contact": "YES",
+  "note": "close-up, hip and leg lines on the dark trousers of one person next to the yellow wrestler, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M029": {
+  "contact": "YES",
+  "note": "walking wrestler, torso and leg lines on body, second wrestler's arm touching",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M030": {
+  "contact": "NO",
+  "note": "only a tiny dash on crouched wrestler, too few segments",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M031": {
+  "contact": "NO",
+  "note": "back/torso and leg lines on foreground wrestler, second wrestler adjacent not overlapped",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M032": {
+  "contact": "NO",
+  "note": "supine wrestler, leg torso arm lines on her body, standing man not touching",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M033": {
+  "contact": "YES",
+  "note": "pin entanglement, lines cross from top wrestler's leg/hip into bottom wrestler's torso/arm",
+  "verdict": "CONTAMINATED"
+ },
+ "M034": {
+  "contact": "NO",
+  "note": "single arm line on lone wrestler",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M035": {
+  "contact": "YES",
+  "note": "tangled bodies, lines span both wrestlers",
+  "verdict": "CONTAMINATED"
+ },
+ "M036": {
+  "contact": "NO",
+  "note": "full skeleton on lone standing wrestler",
+  "verdict": "CORRECT"
+ },
+ "M037": {
+  "contact": "NO",
+  "note": "crouched wrestler, lines on his body, others separate",
+  "verdict": "CORRECT"
+ },
+ "M038": {
+  "contact": "YES",
+  "note": "yellow-trouser wrestler, lines on his body, opponent arm overlapping shoulder region",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M039": {
+  "contact": "NO",
+  "note": "supine wrestler, hip and leg lines on his body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M040": {
+  "contact": "YES",
+  "note": "sparse thigh line on bent wrestler held by another",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M041": {
+  "contact": "YES",
+  "note": "shoulder line on top wrestler's back, descending lines run into the lower wrestler's back",
+  "verdict": "CONTAMINATED"
+ },
+ "M042": {
+  "contact": "YES",
+  "note": "single short line, too few segments",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M043": {
+  "contact": "YES",
+  "note": "bent wrestler carrying another, lines in torso and arm region, ambiguous but no clear cross-body line",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M044": {
+  "contact": "NO",
+  "note": "single shoulder line",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M045": {
+  "contact": "YES",
+  "note": "single line, too few segments",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M046": {
+  "contact": "YES",
+  "note": "neck-to-hand arm line on left wrestler, opponent overlapping",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M047": {
+  "contact": "NO",
+  "note": "crouched wrestler lines on own body",
+  "verdict": "CORRECT"
+ },
+ "M048": {
+  "contact": "NO",
+  "note": "bent wrestler, lines on own body, opponent separate",
+  "verdict": "CORRECT"
+ },
+ "M049": {
+  "contact": "NO",
+  "note": "rear view, torso and leg lines on one wrestler, partial",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M050": {
+  "contact": "YES",
+  "note": "crossed leg lines on yellow-trouser wrestler's leg/boot, pinning opponent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M051": {
+  "contact": "YES",
+  "note": "lines mostly on rear wrestler's torso/leg, short ticks end near front wrestler's arm",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M052": {
+  "contact": "YES",
+  "note": "yellow wrestler bent over downed opponent, lines on his body",
+  "verdict": "CORRECT"
+ },
+ "M053": {
+  "contact": "YES",
+  "note": "yellow wrestler lunging, lines on his body, hands on opponent",
+  "verdict": "CORRECT"
+ },
+ "M054": {
+  "contact": "NO",
+  "note": "standing wrestler full skeleton, downed opponent separate",
+  "verdict": "CORRECT"
+ },
+ "M055": {
+  "contact": "YES",
+  "note": "wrestler draped on ropes, lines on his torso and legs, second wrestler overlaps lower region",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M056": {
+  "contact": "YES",
+  "note": "pile of bodies, lines span the top wrestler's legs and the underlying wrestler's torso",
+  "verdict": "CONTAMINATED"
+ },
+ "M057": {
+  "contact": "NO",
+  "note": "single short boot line",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M058": {
+  "contact": "NO",
+  "note": "bent wrestler, lines on own body, downed opponent adjacent not touching",
+  "verdict": "CORRECT"
+ },
+ "M059": {
+  "contact": "YES",
+  "note": "yellow wrestler leaping, lines on own body, arms reaching opponent",
+  "verdict": "CORRECT"
+ },
+ "M060": {
+  "contact": "NO",
+  "note": "full skeleton on lone standing person",
+  "verdict": "CORRECT"
+ },
+ "M061": {
+  "contact": "NO",
+  "note": "bent wrestler, lines on own body, other wrestler separate",
+  "verdict": "CORRECT"
+ },
+ "M062": {
+  "contact": "YES",
+  "note": "pile, lines on top wrestler's back run onto underlying wrestler's head/torso and extended leg",
+  "verdict": "CONTAMINATED"
+ },
+ "M063": {
+  "contact": "YES",
+  "note": "lines lie on the referee's striped shirt and trousers, not the wrestlers",
+  "verdict": "CONTAMINATED"
+ },
+ "M064": {
+  "contact": "YES",
+  "note": "torso lines on one wrestler, lower lines run onto the other's striped legs",
+  "verdict": "CONTAMINATED"
+ },
+ "M065": {
+  "contact": "YES",
+  "note": "lines cross from top wrestler's torso/arm onto the underlying wrestler's back and the raised leg",
+  "verdict": "CONTAMINATED"
+ },
+ "M066": {
+  "contact": "YES",
+  "note": "bent wrestler carrying another, torso and leg lines on carrier, minor ambiguity",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M067": {
+  "contact": "YES",
+  "note": "overlapping prone wrestlers, lines span both bodies",
+  "verdict": "CONTAMINATED"
+ },
+ "M068": {
+  "contact": "YES",
+  "note": "standing wrestler lines on own body, hand clasp with downed opponent",
+  "verdict": "CORRECT"
+ },
+ "M069": {
+  "contact": "NO",
+  "note": "wrestler lines on own back, opponent separate",
+  "verdict": "CORRECT"
+ },
+ "M070": {
+  "contact": "YES",
+  "note": "supine wrestler's leg line peaks on the opponent's raised leg",
+  "verdict": "CONTAMINATED"
+ },
+ "M071": {
+  "contact": "YES",
+  "note": "yellow wrestler's torso lines, lower lines run onto masked opponent's body",
+  "verdict": "CONTAMINATED"
+ },
+ "M072": {
+  "contact": "YES",
+  "note": "crouching wrestler, lines on his torso and legs, one line near downed opponent's thigh",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M073": {
+  "contact": "YES",
+  "note": "few sparse segments, ownership of arm vs white trousers ambiguous between entangled wrestlers",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M074": {
+  "contact": "NO",
+  "note": "standing wrestler full skeleton, downed opponent separate",
+  "verdict": "CORRECT"
+ },
+ "M075": {
+  "contact": "NO",
+  "note": "prone wrestler, sparse arm/shoulder lines on own body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M076": {
+  "contact": "NO",
+  "note": "masked wrestler bent over, lines on own body",
+  "verdict": "CORRECT"
+ },
+ "M077": {
+  "contact": "YES",
+  "note": "pile, lines span top wrestler's torso and extend onto underlying wrestler's body/arm",
+  "verdict": "CONTAMINATED"
+ },
+ "M078": {
+  "contact": "NO",
+  "note": "bent wrestler lines on own body",
+  "verdict": "CORRECT"
+ },
+ "M079": {
+  "contact": "YES",
+  "note": "tangle of yellow-trouser and masked wrestler, lines span both",
+  "verdict": "CONTAMINATED"
+ },
+ "M080": {
+  "contact": "NO",
+  "note": "motion-blurred wrestler, hip and leg lines on his body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M081": {
+  "contact": "NO",
+  "note": "hunched wrestler, short back/hip lines on own body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M082": {
+  "contact": "NO",
+  "note": "supine wrestler leg torso arm lines on own body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M083": {
+  "contact": "NO",
+  "note": "single shoulder line",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M084": {
+  "contact": "NO",
+  "note": "supine wrestler, leg torso arm lines on own body",
+  "verdict": "CORRECT"
+ },
+ "M085": {
+  "contact": "NO",
+  "note": "full skeleton on yellow-trouser wrestler",
+  "verdict": "CORRECT"
+ },
+ "M086": {
+  "contact": "YES",
+  "note": "yellow wrestler on turnbuckle entangled, lines extend onto adjacent wrestler's dark clothing/legs",
+  "verdict": "CONTAMINATED"
+ },
+ "M087": {
+  "contact": "YES",
+  "note": "distant clinch, leg and arm lines on one wrestler, arm legitimately around opponent's neck",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M088": {
+  "contact": "YES",
+  "note": "yellow wrestler bent, lines on own body, masked opponent adjacent",
+  "verdict": "CORRECT"
+ },
+ "M089": {
+  "contact": "NO",
+  "note": "arm and shoulder lines on lone wrestler",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M090": {
+  "contact": "YES",
+  "note": "fallen yellow-trouser wrestler, zigzag lines on his body, masked opponent adjacent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M091": {
+  "contact": "YES",
+  "note": "two overlapping wrestlers, lines span both torsos/legs",
+  "verdict": "CONTAMINATED"
+ },
+ "M092": {
+  "contact": "YES",
+  "note": "torso box on smaller wrestler partly behind large opponent, lines on his body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M093": {
+  "contact": "NO",
+  "note": "seated wrestler lines on own body",
+  "verdict": "CORRECT"
+ },
+ "M094": {
+  "contact": "YES",
+  "note": "pile, lines span top wrestler and underlying wrestler",
+  "verdict": "CONTAMINATED"
+ },
+ "M095": {
+  "contact": "NO",
+  "note": "single short line",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M096": {
+  "contact": "NO",
+  "note": "wrestler lines on own body, referee adjacent",
+  "verdict": "CORRECT"
+ },
+ "M097": {
+  "contact": "YES",
+  "note": "dark-clothed person, sparse lines on torso/leg, heavy occlusion but on one body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M098": {
+  "contact": "NO",
+  "note": "arm line on dark-sleeved person",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M099": {
+  "contact": "YES",
+  "note": "lifted wrestler over carrier's shoulder, lines run from lifted wrestler's torso down onto carrier's body",
+  "verdict": "CONTAMINATED"
+ },
+ "M100": {
+  "contact": "YES",
+  "note": "pile, lines span multiple bodies including dark-trunk wrestler",
+  "verdict": "CONTAMINATED"
+ },
+ "M101": {
+  "contact": "NO",
+  "note": "yellow-trouser wrestler on apron, lines on own body",
+  "verdict": "CORRECT"
+ },
+ "M102": {
+  "contact": "YES",
+  "note": "single short line, close crop",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M103": {
+  "contact": "YES",
+  "note": "bent wrestler held by opponent, back/hip lines on his body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M104": {
+  "contact": "YES",
+  "note": "carrier skeleton, upper lines run onto the lifted wrestler's body",
+  "verdict": "CONTAMINATED"
+ },
+ "M105": {
+  "contact": "YES",
+  "note": "lines run from underlying wrestler's back across hip into white trousers of other wrestler",
+  "verdict": "CONTAMINATED"
+ },
+ "M106": {
+  "contact": "YES",
+  "note": "lines span the top wrestler's torso and the kneeling leg of the other",
+  "verdict": "CONTAMINATED"
+ },
+ "M107": {
+  "contact": "YES",
+  "note": "entangled pin, lines span yellow wrestler, masked wrestler and underlying body",
+  "verdict": "CONTAMINATED"
+ },
+ "M108": {
+  "contact": "NO",
+  "note": "bent wrestler lines on own body, kicking opponent separate",
+  "verdict": "CORRECT"
+ },
+ "M109": {
+  "contact": "NO",
+  "note": "bent wrestler lines on own body",
+  "verdict": "CORRECT"
+ },
+ "M110": {
+  "contact": "YES",
+  "note": "standing wrestler arm/leg lines on own body, hand-hold with downed opponent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M111": {
+  "contact": "YES",
+  "note": "carrier skeleton with arm line running onto lifted wrestler's leg",
+  "verdict": "CONTAMINATED"
+ },
+ "M112": {
+  "contact": "YES",
+  "note": "yellow wrestler's torso lines, upper lines run onto masked opponent's head/neck",
+  "verdict": "CONTAMINATED"
+ },
+ "M113": {
+  "contact": "YES",
+  "note": "distant clinch, lines on one wrestler's body, arm around opponent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "M114": {
+  "contact": "NO",
+  "note": "supine wrestler lines on own body",
+  "verdict": "CORRECT"
+ },
+ "M115": {
+  "contact": "YES",
+  "note": "pile, lines on the head/shoulder region run across two bodies",
+  "verdict": "CONTAMINATED"
+ },
+ "M116": {
+  "contact": "YES",
+  "note": "two disjoint short segments, clinch, ownership unclear",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "M117": {
+  "contact": "NO",
+  "note": "yellow trouser hip/leg lines on own body, partial",
+  "verdict": "CORRECT"
+ },
+ "M118": {
+  "contact": "YES",
+  "note": "clinch, skeleton lines mix rear wrestler's arm with the front wrestler's torso/legs",
+  "verdict": "CONTAMINATED"
+ },
+ "M119": {
+  "contact": "NO",
+  "note": "full skeleton on masked wrestler",
+  "verdict": "CORRECT"
+ }
+}

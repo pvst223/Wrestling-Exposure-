@@ -1,0 +1,76 @@
+{
+ "gaps": [
+  30,
+  15,
+  0
+ ],
+ "n_items": 120,
+ "n_owner_items": 50,
+ "owner_released_n": 30,
+ "radius": 15,
+ "seed": 1170046057,
+ "strata": {
+  "CONTROL_ASSIGNED": {
+   "adjacent_gap_hist": {
+    ">=30": 26
+   },
+   "adjacent_gap_min": 60,
+   "clip_imbalance": 4,
+   "eligible_unique_frames_after_exclusion": 415,
+   "n": 30,
+   "per_clip": {
+    "b1_orton_rollins_wm31": 5,
+    "b2_batch2_clip_condensed": 9,
+    "b2_videoplayback_2": 8,
+    "b2_videoplayback_5": 8
+   },
+   "picked_at_gap": {
+    "30": 30
+   },
+   "shots": 28,
+   "target": 30
+  },
+  "CONTROL_HARDVETO": {
+   "adjacent_gap_hist": {
+    ">=30": 26
+   },
+   "adjacent_gap_min": 30,
+   "clip_imbalance": 1,
+   "eligible_unique_frames_after_exclusion": 586,
+   "n": 30,
+   "per_clip": {
+    "b1_orton_rollins_wm31": 8,
+    "b2_batch2_clip_condensed": 8,
+    "b2_videoplayback_2": 7,
+    "b2_videoplayback_5": 7
+   },
+   "picked_at_gap": {
+    "30": 30
+   },
+   "shots": 28,
+   "target": 30
+  },
+  "RELEASED": {
+   "adjacent_gap_hist": {
+    ">=15": 12,
+    ">=30": 44
+   },
+   "adjacent_gap_min": 15,
+   "clip_imbalance": 16,
+   "eligible_unique_frames_after_exclusion": 89,
+   "n": 60,
+   "per_clip": {
+    "b1_orton_rollins_wm31": 5,
+    "b2_batch2_clip_condensed": 21,
+    "b2_videoplayback_2": 14,
+    "b2_videoplayback_5": 20
+   },
+   "picked_at_gap": {
+    "15": 9,
+    "30": 51
+   },
+   "shots": 33,
+   "target": 60
+  }
+ }
+}
