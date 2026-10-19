@@ -1,0 +1,242 @@
+{
+ "B000": {
+  "note": "crouched floor wrestler; arm, torso, leg lines follow the body, head and far limbs missing",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B001": {
+  "note": "raised arm and torso on the front wrestler; one limb line drifts toward the overlapping body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B002": {
+  "note": "supine foreshortened body, crossed lines but all on the one wrestler",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B003": {
+  "note": "crouched wrestler in dark trunks; torso and extended leg on body, sparse arms",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B004": {
+  "note": "zig-zag skeleton spans two overlapping prone bodies, joints not attributable to one person",
+  "verdict": "CONTAMINATED"
+ },
+ "B005": {
+  "note": "standing wrestler in yellow trunks, skeleton aligned, referee adjacent but not captured",
+  "verdict": "CORRECT"
+ },
+ "B006": {
+  "note": "supine wrestler, collapsed lines along torso and legs on the correct body; standing opponent partly overlaps chest but not captured",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B007": {
+  "note": "bent-over wrestler, torso/arm/leg lines on body, leg line near the lying opponent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B008": {
+  "note": "folded body overlapping a second wrestler; mostly on one body, some limb lines ambiguous",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B009": {
+  "note": "bent-over wrestler, torso, arms and legs aligned",
+  "verdict": "CORRECT"
+ },
+ "B010": {
+  "note": "one leg line lies on the opponent's overlapping leg; limbs mixed between two bodies",
+  "verdict": "CONTAMINATED"
+ },
+ "B011": {
+  "note": "standing wrestler, skeleton aligned; lying opponent not captured",
+  "verdict": "CORRECT"
+ },
+ "B012": {
+  "note": "extreme close-up, no skeleton visible in frame",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "B013": {
+  "note": "carrying wrestler in yellow; one leg line runs along the carried opponent's leg",
+  "verdict": "CONTAMINATED"
+ },
+ "B014": {
+  "note": "close-up; shoulder line and one arm on the body, very sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B015": {
+  "note": "close-up from behind; shoulder and arm line on body, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B016": {
+  "note": "prone wrestler, single back/shoulder segment on body, very sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B017": {
+  "note": "masked wrestler torso and arm on his own body despite overlap with yellow-trunks wrestler",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B018": {
+  "note": "supine wrestler, collapsed torso/leg/arm lines on the correct body; standing opponent boot overlaps but not captured",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B019": {
+  "note": "prone wrestler, lines on body, sparse limbs; opponent not captured",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B020": {
+  "note": "torso and arm on the left wrestler; extended arm segment runs into the contact zone with the other body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B021": {
+  "note": "tangled grappling; lines span silver-pants body, leg of a second wrestler and background boot",
+  "verdict": "CONTAMINATED"
+ },
+ "B022": {
+  "note": "close-up shirtless wrestler, shoulders and both arms aligned",
+  "verdict": "CORRECT"
+ },
+ "B023": {
+  "note": "arm, torso and leg on the right wrestler; one short stray segment on the fallen opponent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B024": {
+  "note": "pinned grappling pair; hip and leg lines on the silver-pants body, upper point near the top wrestler's torso",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B025": {
+  "note": "carrying wrestler in yellow, torso and legs on his body, arm segment near carried opponent",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B026": {
+  "note": "standing wrestler in red trunks, full skeleton aligned",
+  "verdict": "CORRECT"
+ },
+ "B027": {
+  "note": "bent wrestler, back and shoulder lines on body, one branch near the second wrestler, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B028": {
+  "note": "rear view, shoulders torso and arms aligned",
+  "verdict": "CORRECT"
+ },
+ "B029": {
+  "note": "close-up, single shoulder line on chest, very sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B030": {
+  "note": "crouched wrestler on all fours, boxy skeleton but on the one body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B031": {
+  "note": "bent-over wrestler in yellow, torso and both legs aligned",
+  "verdict": "CORRECT"
+ },
+ "B032": {
+  "note": "two grappling bodies overlap on the mat; four leg-like lines and torso lines not attributable to one wrestler",
+  "verdict": "CONTAMINATED"
+ },
+ "B033": {
+  "note": "bent-over wrestler in red, arm torso and legs aligned",
+  "verdict": "CORRECT"
+ },
+ "B034": {
+  "note": "pin with stacked bodies and referee; lines span top wrestler, bottom wrestler and extended limbs",
+  "verdict": "CONTAMINATED"
+ },
+ "B035": {
+  "note": "shirtless wrestler on all fours, torso and arm on body, overlap with a second wrestler",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B036": {
+  "note": "supine wrestler, shoulder and arm line on body, sparse; overlapping wrestlers nearby",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B037": {
+  "note": "clinch; upper cluster on the yellow-trunks wrestler, lower cluster on the masked opponent",
+  "verdict": "CONTAMINATED"
+ },
+ "B038": {
+  "note": "no skeleton drawn in this frame, two bodies pressed together",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "B039": {
+  "note": "arm and torso on the yellow wrestler, long leg line runs across the lying opponent",
+  "verdict": "CONTAMINATED"
+ },
+ "B040": {
+  "note": "clinch; one leg line lands on the red-trunks wrestler's knee, arm segment on his arm",
+  "verdict": "CONTAMINATED"
+ },
+ "B041": {
+  "note": "supine wrestler, line along arm and shoulder on body, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B042": {
+  "note": "bent wrestler in yellow over the turnbuckle, hips legs and arm on body, extreme pose",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B043": {
+  "note": "standing rear view, full skeleton aligned, second wrestler behind only overlaps an arm",
+  "verdict": "CORRECT"
+ },
+ "B044": {
+  "note": "no skeleton drawn in this frame",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "B045": {
+  "note": "bent masked wrestler, arm torso and leg on his body, adjacent opponent legs not captured",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B046": {
+  "note": "yellow wrestler on turnbuckle, skeleton on his body, extreme pose",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B047": {
+  "note": "supine wrestler in red, leg and torso lines on body, one spur plausibly a raised arm",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B048": {
+  "note": "supine wrestler, line along arm and torso on body, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B049": {
+  "note": "motion-blurred crouching wrestler, torso arms and one leg line on body",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B050": {
+  "note": "motion blur with only a short shoulder segment and a tiny dash, too sparse to judge",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "B051": {
+  "note": "rear view of wrestler in white pants, skeleton on his body, second wrestler overlapping behind",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B052": {
+  "note": "supine wrestler, torso arms and legs on his body, opponent hand at face not captured",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B053": {
+  "note": "standing wrestler full skeleton aligned, referee and lying wrestler not captured",
+  "verdict": "CORRECT"
+ },
+ "B054": {
+  "note": "supine wrestler, line along arm and torso on body, sparse",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B055": {
+  "note": "no skeleton drawn in this frame",
+  "verdict": "NOT_JUDGEABLE"
+ },
+ "B056": {
+  "note": "small distant walking wrestler, skeleton on his body, adjacent wrestler overlapping",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B057": {
+  "note": "wrestler beside red-trunks opponent, skeleton on his own torso arms and legs",
+  "verdict": "CORRECT"
+ },
+ "B058": {
+  "note": "prone wrestler, messy hip and leg lines but all on his body; opponent and referee not captured",
+  "verdict": "PARTIAL_BUT_USABLE"
+ },
+ "B059": {
+  "note": "extreme close-up, no skeleton visible",
+  "verdict": "NOT_JUDGEABLE"
+ }
+}
