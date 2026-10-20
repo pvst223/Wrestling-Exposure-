@@ -1,0 +1,79 @@
+{
+ "contaminated_all": {
+  "clean_anchor_exists": 15,
+  "clean_anchor_within_30_src_frames": 13,
+  "clean_anchor_within_90_src_frames": 15,
+  "max_box_iou_ge_0_1": 7,
+  "max_box_iou_ge_0_3": 4,
+  "merge_guard_diagnostic_flag": 2,
+  "n": 29,
+  "other_person_box_in_frame": 22
+ },
+ "contaminated_by_stratum": {
+  "CONTROL_ASSIGNED": {
+   "clean_anchor_exists": 4,
+   "clean_anchor_within_30_src_frames": 4,
+   "clean_anchor_within_90_src_frames": 4,
+   "max_box_iou_ge_0_1": 1,
+   "max_box_iou_ge_0_3": 1,
+   "merge_guard_diagnostic_flag": 0,
+   "n": 7,
+   "other_person_box_in_frame": 7
+  },
+  "CONTROL_HARDVETO": {
+   "clean_anchor_exists": 6,
+   "clean_anchor_within_30_src_frames": 4,
+   "clean_anchor_within_90_src_frames": 6,
+   "max_box_iou_ge_0_1": 3,
+   "max_box_iou_ge_0_3": 1,
+   "merge_guard_diagnostic_flag": 0,
+   "n": 10,
+   "other_person_box_in_frame": 9
+  },
+  "RELEASED": {
+   "clean_anchor_exists": 5,
+   "clean_anchor_within_30_src_frames": 5,
+   "clean_anchor_within_90_src_frames": 5,
+   "max_box_iou_ge_0_1": 3,
+   "max_box_iou_ge_0_3": 2,
+   "merge_guard_diagnostic_flag": 2,
+   "n": 12,
+   "other_person_box_in_frame": 6
+  }
+ },
+ "correct_or_partial_all": {
+  "clean_anchor_exists": 56,
+  "clean_anchor_within_30_src_frames": 50,
+  "clean_anchor_within_90_src_frames": 55,
+  "max_box_iou_ge_0_1": 20,
+  "max_box_iou_ge_0_3": 4,
+  "merge_guard_diagnostic_flag": 4,
+  "n": 79,
+  "other_person_box_in_frame": 64
+ },
+ "correct_or_partial_contact_no": {
+  "clean_anchor_exists": 33,
+  "clean_anchor_within_30_src_frames": 32,
+  "clean_anchor_within_90_src_frames": 33,
+  "max_box_iou_ge_0_1": 8,
+  "max_box_iou_ge_0_3": 0,
+  "merge_guard_diagnostic_flag": 2,
+  "n": 44,
+  "other_person_box_in_frame": 36
+ },
+ "correct_or_partial_contact_yes": {
+  "clean_anchor_exists": 23,
+  "clean_anchor_within_30_src_frames": 18,
+  "clean_anchor_within_90_src_frames": 22,
+  "max_box_iou_ge_0_1": 12,
+  "max_box_iou_ge_0_3": 4,
+  "merge_guard_diagnostic_flag": 2,
+  "n": 35,
+  "other_person_box_in_frame": 28
+ },
+ "definitions": {
+  "caveat": "rows only contain tracklets of the frozen pipeline (>=5 detections); other persons not tracked are invisible here, so n_other undercounts; 'contact' is Claude's subjective flag",
+  "clean_anchor": "an earlier stride-3 row of the SAME tracklet with ownership SINGLE_BODY_SUPPORTED and no other tracklet box with IoU>0.05 in that frame; gap in source frames"
+ },
+ "label": "burned M9C frames, descriptive counts only, development diagnosis; NOT confirmatory; no rule derived"
+}
