@@ -1,0 +1,41 @@
+{
+ "label": "post-run counts-only diagnostic on burned clips; ASSIGNED in-interval rows by interval-level failure sub-cause; no correctness labels; no rule/constant changed",
+ "per_clip": {
+  "b1_orton_rollins_wm31": {
+   "CANNOT_EVALUATE": 14,
+   "NO_INDEPENDENT_ANCHOR_VIEWS": 8,
+   "unanchored:both": 2,
+   "unanchored:colocated_detection_without_tracklet_row": 8
+  },
+  "b2_batch2_clip_condensed": {
+   "CANNOT_EVALUATE": 32,
+   "NO_INDEPENDENT_ANCHOR_VIEWS": 14,
+   "unanchored:both": 18,
+   "unanchored:colocated_detection_without_tracklet_row": 77,
+   "unanchored:mask_without_detection": 49
+  },
+  "b2_videoplayback_2": {
+   "CANNOT_EVALUATE": 20,
+   "NO_INDEPENDENT_ANCHOR_VIEWS": 56,
+   "unanchored:both": 25,
+   "unanchored:colocated_detection_without_tracklet_row": 30,
+   "unanchored:mask_without_detection": 20
+  },
+  "b2_videoplayback_5": {
+   "CANNOT_EVALUATE": 1,
+   "NO_INDEPENDENT_ANCHOR_VIEWS": 23,
+   "NO_RIVAL_ANCHOR": 1,
+   "unanchored:both": 1,
+   "unanchored:colocated_detection_without_tracklet_row": 58,
+   "unanchored:mask_without_detection": 33
+  }
+ },
+ "pooled": {
+  "CANNOT_EVALUATE": 67,
+  "NO_INDEPENDENT_ANCHOR_VIEWS": 101,
+  "NO_RIVAL_ANCHOR": 1,
+  "unanchored:both": 46,
+  "unanchored:colocated_detection_without_tracklet_row": 173,
+  "unanchored:mask_without_detection": 102
+ }
+}

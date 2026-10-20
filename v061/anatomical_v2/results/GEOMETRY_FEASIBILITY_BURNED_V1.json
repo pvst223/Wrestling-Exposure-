@@ -1,0 +1,288 @@
+{
+ "inputs_sha256": {
+  "b1_orton_rollins_wm31": {
+   "dets": "912cf163c9b970c81e88e54a7f22082feb73a77e0d8043c62e454bdeaeb9c0ae",
+   "rows": "0c20c9026e4eedf06b3c05f13d0096025359021a795e544e36be8221e462015f",
+   "seg": "54692644b5997438b00756bbe72be055dca8aa6f5e697b0c68e124f240d194f3",
+   "video": "f64eeaf11ff60facd193b328d1a6263184b60d58a455e95591387c2075250a5f"
+  },
+  "b2_batch2_clip_condensed": {
+   "dets": "0788814e2726d47e5669d7e7c60728d27a240af1b8aa7f3eb125765fb10858ce",
+   "rows": "b595ebd8edb9f98733a4e61bd42aab21ce4a33f352fe16ec87c024779abc2fba",
+   "seg": "33d2759ee1a1fa685b24f015781832b1f3222f05fb7f78321e282ca94eb32adc",
+   "video": "c404c8e560fece5398cfe0c1408cd4dadd5e675e4676df8e8ca72472fc9e31d6"
+  },
+  "b2_videoplayback_2": {
+   "dets": "1e6648e5ca26352c817b883d89312834df6f55af0a663d1347a82ab7427a8893",
+   "rows": "6dec0ac46c7fd1066afe43b25e374832937480e79691aa0b116372d65e5b259e",
+   "seg": "76aa959c461db0aee763741d2e0dcab6a20010583175f06db0fba032ae79a760",
+   "video": "334546c6c5d32426de8a9f64102840e5aa807ae23f0fff4b872754338dfc723a"
+  },
+  "b2_videoplayback_5": {
+   "dets": "c1a4f83d96d2661a5dce2b4d50f061b8bc510a117f5a350b60f36846884006f5",
+   "rows": "f165e8e7a5fe25ac7305d37f700c1526f11ac46bbbf6f39a29fddd2cfc872185",
+   "seg": "17714dfaac61524f211d4f5911df0b1738f2ec570803c78de2792c73905771bd",
+   "video": "d36e40cf8d26d7abf29f16d93660fe240a5fdd8cad4a29fa6ba7a825dbe7436c"
+  }
+ },
+ "label": "GEOMETRY-ONLY FEASIBILITY COUNTS, burned development clips, counts only; no correctness labels/review keys/owner notes/contact flags read; cannot change any rule or constant; NOT an evaluation",
+ "per_clip": [
+  {
+   "anchor_age_source_frames_target": null,
+   "anchor_detail_per_body": {
+    "NO_CLEAN_VIEW": 4,
+    "OK": 2,
+    "ONE_CLEAN_VIEW": 1,
+    "SAME_STATE": 1
+   },
+   "appearance_gate_any_usable_type_for_every_rival": 0,
+   "appearance_gate_intervals_evaluated": 0,
+   "appearance_types_usable_counts": {},
+   "assigned_contact_components": {
+    "cannot_eval": 0,
+    "contact_any": 20,
+    "contested": 1,
+    "mask_touch": 13,
+    "opp_inside": 13,
+    "other_only": 0,
+    "overlap_a": 4,
+    "shared": 0
+   },
+   "c0_withheld_assigned_rows": 4,
+   "c3_retained": 0,
+   "c3_withheld": 32,
+   "carried_rows_v1": 164,
+   "carried_rows_v2": 101,
+   "cast_size_when_formed": {
+    "2": 4
+   },
+   "clip": "b1_orton_rollins_wm31",
+   "in_interval_assigned_rows": 32,
+   "interval_outcome": {
+    "CANNOT_EVALUATE": 2,
+    "NO_INDEPENDENT_ANCHOR_VIEWS": 4,
+    "UNANCHORED_PARTICIPANT": 7
+   },
+   "intervals_pooled_minimum_pair_reported_only": 0,
+   "intervals_with_assigned_rows": 13,
+   "intervals_with_full_per_body_anchors": 0,
+   "margin_distribution": {},
+   "n_assigned_v1": 82,
+   "n_rows": 1261,
+   "partition": {
+    "R1": 4,
+    "R2": 0,
+    "R3": 28,
+    "R4c": 0,
+    "R5": 50
+   },
+   "pass_through_assigned_rows": 50,
+   "tracklets_with_assigned": 13,
+   "withhold_reasons": {
+    "CANNOT_EVALUATE": 14,
+    "NO_INDEPENDENT_ANCHOR_VIEWS": 8,
+    "UNANCHORED_PARTICIPANT": 10
+   },
+   "yield_Y": 0.0
+  },
+  {
+   "anchor_age_source_frames_target": null,
+   "anchor_detail_per_body": {
+    "NO_CLEAN_VIEW": 7,
+    "OK": 2,
+    "SAME_STATE": 3
+   },
+   "appearance_gate_any_usable_type_for_every_rival": 0,
+   "appearance_gate_intervals_evaluated": 0,
+   "appearance_types_usable_counts": {},
+   "assigned_contact_components": {
+    "cannot_eval": 0,
+    "contact_any": 87,
+    "contested": 6,
+    "mask_touch": 62,
+    "opp_inside": 29,
+    "other_only": 0,
+    "overlap_a": 48,
+    "shared": 0
+   },
+   "c0_withheld_assigned_rows": 48,
+   "c3_retained": 0,
+   "c3_withheld": 190,
+   "carried_rows_v1": 702,
+   "carried_rows_v2": 321,
+   "cast_size_when_formed": {
+    "2": 6
+   },
+   "clip": "b2_batch2_clip_condensed",
+   "in_interval_assigned_rows": 190,
+   "interval_outcome": {
+    "CANNOT_EVALUATE": 14,
+    "NO_INDEPENDENT_ANCHOR_VIEWS": 6,
+    "UNANCHORED_PARTICIPANT": 50
+   },
+   "intervals_pooled_minimum_pair_reported_only": 2,
+   "intervals_with_assigned_rows": 70,
+   "intervals_with_full_per_body_anchors": 0,
+   "margin_distribution": {},
+   "n_assigned_v1": 348,
+   "n_rows": 2338,
+   "partition": {
+    "R1": 48,
+    "R2": 0,
+    "R3": 142,
+    "R4c": 0,
+    "R5": 158
+   },
+   "pass_through_assigned_rows": 158,
+   "tracklets_with_assigned": 50,
+   "withhold_reasons": {
+    "CANNOT_EVALUATE": 32,
+    "NO_INDEPENDENT_ANCHOR_VIEWS": 14,
+    "UNANCHORED_PARTICIPANT": 144
+   },
+   "yield_Y": 0.0
+  },
+  {
+   "anchor_age_source_frames_target": null,
+   "anchor_detail_per_body": {
+    "NO_CLEAN_VIEW": 20,
+    "OK": 1
+   },
+   "appearance_gate_any_usable_type_for_every_rival": 0,
+   "appearance_gate_intervals_evaluated": 0,
+   "appearance_types_usable_counts": {},
+   "assigned_contact_components": {
+    "cannot_eval": 0,
+    "contact_any": 129,
+    "contested": 15,
+    "mask_touch": 107,
+    "opp_inside": 32,
+    "other_only": 0,
+    "overlap_a": 43,
+    "shared": 0
+   },
+   "c0_withheld_assigned_rows": 43,
+   "c3_retained": 0,
+   "c3_withheld": 151,
+   "carried_rows_v1": 350,
+   "carried_rows_v2": 46,
+   "cast_size_when_formed": {
+    "2": 6,
+    "3": 3
+   },
+   "clip": "b2_videoplayback_2",
+   "in_interval_assigned_rows": 151,
+   "interval_outcome": {
+    "CANNOT_EVALUATE": 6,
+    "NO_INDEPENDENT_ANCHOR_VIEWS": 9,
+    "UNANCHORED_PARTICIPANT": 18
+   },
+   "intervals_pooled_minimum_pair_reported_only": 0,
+   "intervals_with_assigned_rows": 33,
+   "intervals_with_full_per_body_anchors": 0,
+   "margin_distribution": {},
+   "n_assigned_v1": 174,
+   "n_rows": 2272,
+   "partition": {
+    "R1": 43,
+    "R2": 0,
+    "R3": 108,
+    "R4c": 0,
+    "R5": 23
+   },
+   "pass_through_assigned_rows": 23,
+   "tracklets_with_assigned": 28,
+   "withhold_reasons": {
+    "CANNOT_EVALUATE": 20,
+    "NO_INDEPENDENT_ANCHOR_VIEWS": 56,
+    "UNANCHORED_PARTICIPANT": 75
+   },
+   "yield_Y": 0.0
+  },
+  {
+   "anchor_age_source_frames_target": null,
+   "anchor_detail_per_body": {
+    "NO_CLEAN_VIEW": 6,
+    "OK": 2,
+    "ONE_CLEAN_VIEW": 4,
+    "SAME_STATE": 2
+   },
+   "appearance_gate_any_usable_type_for_every_rival": 0,
+   "appearance_gate_intervals_evaluated": 0,
+   "appearance_types_usable_counts": {},
+   "assigned_contact_components": {
+    "cannot_eval": 0,
+    "contact_any": 74,
+    "contested": 9,
+    "mask_touch": 55,
+    "opp_inside": 28,
+    "other_only": 0,
+    "overlap_a": 41,
+    "shared": 0
+   },
+   "c0_withheld_assigned_rows": 41,
+   "c3_retained": 0,
+   "c3_withheld": 117,
+   "carried_rows_v1": 341,
+   "carried_rows_v2": 102,
+   "cast_size_when_formed": {
+    "2": 7
+   },
+   "clip": "b2_videoplayback_5",
+   "in_interval_assigned_rows": 117,
+   "interval_outcome": {
+    "CANNOT_EVALUATE": 1,
+    "NO_INDEPENDENT_ANCHOR_VIEWS": 7,
+    "NO_RIVAL_ANCHOR": 1,
+    "UNANCHORED_PARTICIPANT": 30
+   },
+   "intervals_pooled_minimum_pair_reported_only": 0,
+   "intervals_with_assigned_rows": 39,
+   "intervals_with_full_per_body_anchors": 0,
+   "margin_distribution": {},
+   "n_assigned_v1": 167,
+   "n_rows": 2836,
+   "partition": {
+    "R1": 41,
+    "R2": 0,
+    "R3": 76,
+    "R4c": 0,
+    "R5": 50
+   },
+   "pass_through_assigned_rows": 50,
+   "tracklets_with_assigned": 31,
+   "withhold_reasons": {
+    "CANNOT_EVALUATE": 1,
+    "NO_INDEPENDENT_ANCHOR_VIEWS": 23,
+    "NO_RIVAL_ANCHOR": 1,
+    "UNANCHORED_PARTICIPANT": 92
+   },
+   "yield_Y": 0.0
+  }
+ ],
+ "pooled": {
+  "c0_withheld_assigned_rows": 136,
+  "c3_retained": 0,
+  "c3_withheld": 490,
+  "in_interval_assigned_rows": 490,
+  "intervals_pooled_minimum_pair_reported_only": 2,
+  "intervals_with_assigned_rows": 155,
+  "intervals_with_full_per_body_anchors": 0,
+  "n_assigned_v1": 771,
+  "partition": {
+   "R1": 136,
+   "R2": 0,
+   "R3": 354,
+   "R4c": 0,
+   "R5": 281
+  },
+  "pass_through_assigned_rows": 281,
+  "withhold_reasons": {
+   "CANNOT_EVALUATE": 67,
+   "NO_INDEPENDENT_ANCHOR_VIEWS": 101,
+   "NO_RIVAL_ANCHOR": 1,
+   "UNANCHORED_PARTICIPANT": 321
+  },
+  "yield_Y": 0.0
+ }
+}
