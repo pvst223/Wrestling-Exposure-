@@ -1,0 +1,157 @@
+{
+ "chain_events": 8,
+ "event_types": [
+  "SET_OPEN",
+  "SET_OPEN",
+  "SET_COMPLETE",
+  "SET_HASH_UPDATED",
+  "SET_COMPLETE",
+  "CHECK_SEALED",
+  "RULE_FROZEN",
+  "CHECK_UNSEALED"
+ ],
+ "label_file_columns": [
+  "shot_id",
+  "source_id",
+  "t_start_s",
+  "t_end_s",
+  "label",
+  "unknown_reason",
+  "confidence",
+  "flags",
+  "note",
+  "labelled_at_utc",
+  "protocol_version"
+ ],
+ "protocol_sha256": "0b6c87405aa5c32d1dffd60bc54634835fb4afe710217b506ad508a1a8c3dad9",
+ "rejections": {
+  "OTHER_without_note": "ValidationError: reason OTHER requires a free-text note",
+  "UNKNOWN_without_reason": "ValidationError: UNKNOWN requires reason in ('PIP_AMBIGUOUS', 'CLOSEUP_BORDERLINE', 'REPLAY_AMBIGUOUS', 'UNREADABLE', 'MIXED_SHOT', 'OUT_OF_WINDOW_AMBIGUOUS', 'OTHER')",
+  "build_correction_after_freeze": "SealedError: rule frozen: build labels can no longer be corrected by the tool",
+  "check_export_before_unseal": "StateError: set check not complete",
+  "check_export_while_sealed": "SealedError: check labels are sealed; only their hash is available",
+  "invalid_category": "ValidationError: label must be one of ('LIVE_ACTION', 'REPLAY', 'CLOSE_UP', 'NON_MATCH', 'UNKNOWN')",
+  "resubmit_final": "FinalOnSubmit: shot B000 already submitted; labels are final on submission",
+  "unseal_before_rule_frozen": "SealedError: check labels stay sealed until the frozen rule hash is recorded"
+ },
+ "relabel_opens_utc": "2026-10-29T10:00:00Z",
+ "reliability_sample_build": [
+  "B004"
+ ],
+ "steps": [
+  {
+   "open_build": {
+    "manifest_sha256": "59955409cc595d76e86309671a5f672fada1084592655863524c0d181494130e",
+    "n_shots": 5,
+    "protocol_sha256": "0b6c87405aa5c32d1dffd60bc54634835fb4afe710217b506ad508a1a8c3dad9"
+   }
+  },
+  {
+   "open_check": {
+    "manifest_sha256": "58054e6db49b408ef3bce429f3691c0d8febc9391ea7edfd34c83cdb138f9ed0",
+    "n_shots": 4,
+    "protocol_sha256": "0b6c87405aa5c32d1dffd60bc54634835fb4afe710217b506ad508a1a8c3dad9"
+   }
+  },
+  {
+   "context_clips": {
+    "B000": {
+     "clip_duration_s": 12.5,
+     "expected_s": 12.5,
+     "view": {
+      "context_end_s": 17.5,
+      "context_start_s": 5.0,
+      "index": 1,
+      "protocol_version": "0b6c87405aa5c32d1dffd60bc54634835fb4afe710217b506ad508a1a8c3dad9",
+      "shot_id": "B000",
+      "source_id": "SYN_SRC_A",
+      "t_end_s": "12.500",
+      "t_start_s": "10.000",
+      "total": 5
+     }
+    },
+    "C001": {
+     "clip_duration_s": 12.5,
+     "expected_s": 12.5,
+     "view": {
+      "context_end_s": 20.5,
+      "context_start_s": 8.0,
+      "index": 2,
+      "protocol_version": "0b6c87405aa5c32d1dffd60bc54634835fb4afe710217b506ad508a1a8c3dad9",
+      "shot_id": "C001",
+      "source_id": "SYN_SRC_B",
+      "t_end_s": "15.500",
+      "t_start_s": "13.000",
+      "total": 4
+     }
+    }
+   }
+  },
+  {
+   "complete_build": {
+    "set_sha256": "781e62e3cb42626995911aa67264fae63520928a320e2155a5fc1725f1ae06bf"
+   }
+  },
+  {
+   "correction": "TOOL_ERROR"
+  },
+  {
+   "seal_check": {
+    "set_sha256": "8ebfcd98c45bc723a1aef94d293c98ea958557e233def5dd970bcee4b5200ab1"
+   }
+  },
+  {
+   "freeze_rule": {
+    "build_set_sha256": "f04798db98db649af5431e6388fe52732740df8fdf34c01cd3c8d848010d1ce7",
+    "rule_sha256": "0000000000000000000000000000000000000000000000000000000000000001"
+   }
+  },
+  {
+   "unseal_check": {
+    "set_sha256": "8ebfcd98c45bc723a1aef94d293c98ea958557e233def5dd970bcee4b5200ab1"
+   }
+  },
+  {
+   "reference_summary_check": {
+    "REFERENCE_INCONCLUSIVE": true,
+    "U_ref_fraction": 0.25,
+    "count_by_label": {
+     "CLOSE_UP": 0,
+     "LIVE_ACTION": 3,
+     "NON_MATCH": 0,
+     "REPLAY": 0,
+     "UNKNOWN": 1
+    },
+    "duration_by_label_s": {
+     "CLOSE_UP": 0.0,
+     "LIVE_ACTION": 7.5,
+     "NON_MATCH": 0.0,
+     "REPLAY": 0.0,
+     "UNKNOWN": 2.5
+    },
+    "n_shots": 4,
+    "set": "check",
+    "set_sha256": "8ebfcd98c45bc723a1aef94d293c98ea958557e233def5dd970bcee4b5200ab1",
+    "total_duration_s": 10.0,
+    "unknown_count_by_reason": {
+     "CLOSEUP_BORDERLINE": 0,
+     "MIXED_SHOT": 0,
+     "OTHER": 0,
+     "OUT_OF_WINDOW_AMBIGUOUS": 0,
+     "PIP_AMBIGUOUS": 0,
+     "REPLAY_AMBIGUOUS": 1,
+     "UNREADABLE": 0
+    },
+    "unknown_duration_by_reason_s": {
+     "CLOSEUP_BORDERLINE": 0.0,
+     "MIXED_SHOT": 0.0,
+     "OTHER": 0.0,
+     "OUT_OF_WINDOW_AMBIGUOUS": 0.0,
+     "PIP_AMBIGUOUS": 0.0,
+     "REPLAY_AMBIGUOUS": 2.5,
+     "UNREADABLE": 0.0
+    }
+   }
+  }
+ ]
+}

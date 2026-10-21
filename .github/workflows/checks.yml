@@ -31,6 +31,7 @@ jobs:
           python v061/anatomical/anat_manifest.py
           python -m unittest discover -s v061/anatomical_v2/tests -p 'test_*.py'
           python v061/anatomical_v2/c3_manifest.py
+          python -m unittest discover -s v061/exposure_stage_d/tests -p 'test_*.py'
       - name: Synthetic self-tests
         run: |
           cd v06/tools
