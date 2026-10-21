@@ -265,3 +265,25 @@ class T07_HTTPEndToEnd(Base):
 
 
 if __name__ == "__main__": unittest.main()
+
+
+class T08_CLI(Base):
+    def test_cli_flow_and_refusals(self):
+        import stage_d_cli as K, io, contextlib
+        root = os.path.join(self.tmp, "cli")
+        def run(*a):
+            b = io.StringIO()
+            with contextlib.redirect_stdout(b): K.main(["--root", root, *a])
+            return json.loads(b.getvalue())
+        run("open-set", "build", self.mb); self.assertEqual(run("status")["build"]["labels_submitted"], 0)
+        ws = C.Workspace(root)
+        for r in ws.manifest("build"): ws.submit_label("build", r["shot_id"], "REPLAY", "HIGH")
+        with self.assertRaises(C.StateError): run("complete", "build")                      # marks missing
+        run("set-marks", "build", "SYN_SRC_A", "--flags", "NO_D", "--evidence", "partial segment")
+        run("complete", "build"); self.assertTrue(run("status")["build"]["complete"])
+        run("correct", "build", "B001", "--reason", "TOOL_ERROR", "--explanation", "mis-click", "--label", "CLOSE_UP", "--confidence", "LOW")
+        run("open-set", "check", self.mc)
+        with self.assertRaises(C.StateError): run("export", "check", os.path.join(self.tmp, "e"))   # check not complete
+        with self.assertRaises(C.StateError): run("seal-check")
+        with self.assertRaises(C.StateError): run("freeze-rule", "a" * 64) if False else run("unseal-check")
+        self.assertGreaterEqual(run("verify-chain")["events"], 3)
