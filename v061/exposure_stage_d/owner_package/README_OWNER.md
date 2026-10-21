@@ -7,7 +7,7 @@ Choose the **broadcast-production reference category** under Protocol V1.1 (`v06
 `LIVE_ACTION` · `REPLAY` · `CLOSE_UP` · `NON_MATCH` · `UNKNOWN`
 plus **confidence** (HIGH / MEDIUM / LOW), a **reason if UNKNOWN** (required; `OTHER` also needs a note), and any **flags** that apply. You are not judging wrestlers, effort, contact, identity or anything else. Labels are final when you press Submit.
 
-> **Before the first label — one open point.** The approved page plays each shot's clip **without sound** (the tool cuts clips with audio removed), while Protocol §5 lists "picture and sound". Ask the reviewer to rule on this before you start labelling, so that no labels need redoing. If they approve a change, you will get an updated package; the steps below stay the same.
+> The labelling clip for each shot contains the available source picture **and sound** for the authorized context window (the shot ± 5 s), as Protocol §5 allows. If a source has no audio track, the clip is simply silent; no sound is ever added.
 
 ## What you need on the Mac
 - **Python 3** (check: Terminal → `python3 --version`; if it asks to install developer tools, accept, or run `xcode-select --install`).
@@ -25,7 +25,7 @@ plus **confidence** (HIGH / MEDIUM / LOW), a **reason if UNKNOWN** (required; `O
 To check a file yourself: `shasum -a 256 "/path/to/file.mp4"` must print the SHA-256 above.
 
 ## Steps
-1. **Unzip.** Double-click `STAGE_D_OWNER_PACKAGE_V1.zip`. Open Terminal and go there: `cd ~/Downloads/STAGE_D_OWNER_PACKAGE_V1`
+1. **Unzip.** Double-click `STAGE_D_OWNER_PACKAGE_V1_1.zip`. Open Terminal and go there: `cd ~/Downloads/STAGE_D_OWNER_PACKAGE_V1_1`
 2. **Source videos.** Make sure the five files above exist somewhere under your home folder (do not rename or edit them).
 3. **Setup (once).** `python3 setup_owner.py`
    It checks Python/ffmpeg, the frozen protocol and the frozen BUILD manifest (169 shots, sha256 `d0c73ca1…99aaf`), finds your five videos, writes `~/stage_d_private/sources.json`, and opens the BUILD set. If a video is "MISSING", re-run with `--search /folder/where/it/is` or `--path source_id=/full/path/file.mp4`.
@@ -34,7 +34,7 @@ To check a file yourself: `shasum -a 256 "/path/to/file.mp4"` must print the SHA
 5. **Start the labelling page.** `python3 v061/exposure_stage_d/labeller_ui.py --root ~/stage_d_private --set build --sources ~/stage_d_private/sources.json --port 8765`
    Leave this Terminal window open.
 6. **Open in your browser:** `http://127.0.0.1:8765/`
-7. **For each shot** (shown one at a time, in time order; "Shot n / 169"): play the clip (the highlighted part of the bar is the shot; the rest is the allowed ±5 s context); choose one **category**; choose **confidence**; if UNKNOWN pick the **reason** (and write a **note** if OTHER); tick any **flags**; optionally a short note (≤ 200 chars); press **Submit label**. It is final. The next shot appears automatically.
+7. **For each shot** (shown one at a time, in time order; "Shot n / 169"): play the clip (with sound; the highlighted part of the bar is the shot; the rest is the allowed ±5 s context); choose one **category**; choose **confidence**; if UNKNOWN pick the **reason** (and write a **note** if OTHER); tick any **flags**; optionally a short note (≤ 200 chars); press **Submit label**. It is final. The next shot appears automatically.
 8. **Stop and resume safely.** Every submitted label is saved to disk immediately. To stop, go to the Terminal window that is running Step 5 and press `Control` + `C`. To resume, run the Step 5 command again; it continues at the next unlabelled shot. Never delete `~/stage_d_private`, never re-run Step 3 or 4, and never edit its files.
 9. **Check progress / completion.** `python3 v061/exposure_stage_d/stage_d_cli.py --root ~/stage_d_private status`
    Done when it shows `"labels_submitted": 169` and `"total_shots": 169` for `build` (the page also says "All shots in this set have been submitted").

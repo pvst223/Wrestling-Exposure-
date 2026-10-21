@@ -299,3 +299,28 @@ class T09_BuildReturnReport(Base):
         self.assertEqual(r["confidence_distribution"], {"HIGH": 4, "LOW": 1}); self.assertEqual(r["flag_distribution"], {"NOTE": 1})
         self.assertEqual(r["reference_summary"]["count_by_label"]["UNKNOWN"], 1)
         self.assertAlmostEqual(r["reference_summary"]["U_ref_fraction"], 0.2)
+
+
+@unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "ffmpeg missing")
+class T10_AudioInContextClips(Base):
+    def _streams(self, p):
+        o = subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type", "-of", "csv=p=0", p]).decode().split()
+        return sorted(o)
+    def _dur(self, p, kind=None):
+        return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]))
+    def test_audio_kept_and_video_only_ok(self):
+        va = os.path.join(self.tmp, "av.mp4"); vo = os.path.join(self.tmp, "vo.mp4")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "testsrc2=size=160x90:rate=10:duration=40", "-f", "lavfi", "-i",
+                        "sine=frequency=440:duration=40", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", "-shortest", va], check=True)
+        MS.make_test_video(vo, 40)
+        self.assertEqual(self._streams(va), ["audio", "video"]); self.assertEqual(self._streams(vo), ["video"])
+        json.dump({"SYN_SRC_A": va, "SYN_SRC_B": vo}, open(os.path.join(self.tmp, "src.json"), "w"))
+        ws = C.Workspace(os.path.join(self.tmp, "wa")); ws.open_set("build", MS.write_manifest(os.path.join(self.tmp, "m.csv"), "build", "K", 4, t0=10.0))
+        prov = UI.ffmpeg_clip_provider(ws.root, os.path.join(self.tmp, "src.json"))
+        v = ws.view("build", "K001"); exp = v["context_end_s"] - v["context_start_s"]
+        a = prov(v); self.assertEqual(self._streams(a), ["audio", "video"]); self.assertAlmostEqual(self._dur(a), exp, delta=0.6)
+        ws2 = C.Workspace(os.path.join(self.tmp, "wb")); ws2.open_set("build", MS.write_manifest(os.path.join(self.tmp, "m2.csv"), "build", "K", 4, t0=10.0, source="SYN_SRC_B"))
+        prov2 = UI.ffmpeg_clip_provider(ws2.root, os.path.join(self.tmp, "src.json"))
+        b = prov2(ws2.view("build", "K001")); self.assertEqual(self._streams(b), ["video"]); self.assertAlmostEqual(self._dur(b), exp, delta=0.6)
+        self.assertEqual((v["context_start_s"], v["context_end_s"], v["t_start_s"], v["t_end_s"]), (v["context_start_s"], v["context_end_s"], "13.000", "15.500"))
+        self.assertEqual(v["context_start_s"], 8.0); self.assertEqual(v["context_end_s"], 20.5)

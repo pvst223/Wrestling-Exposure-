@@ -2,7 +2,7 @@
 """Assemble the owner package zip from repo files + the private BUILD manifest. Usage: build_owner_package.py <manifest_build.csv> <out.zip>"""
 import os, sys, zipfile, hashlib
 HERE = os.path.dirname(os.path.abspath(__file__)); REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
-TOP = "STAGE_D_OWNER_PACKAGE_V1"
+TOP = "STAGE_D_OWNER_PACKAGE_V1_1"
 TOOL = ["labeller_core.py", "labeller_ui.py", "stage_d_cli.py", "build_return_report.py"]
 OWNER = ["setup_owner.py", "step3_set_marks.sh", "README_OWNER.md"]
 MANIFEST_SHA = "d0c73ca106c9cef5e34766aaabfdceaf039e2735e58c76a52362c0a7d3a99aaf"
