@@ -9,14 +9,15 @@ import labeller_core as C
 
 
 def ffmpeg_clip_provider(root, sources_json):
-    """Cut the context window of a shot from a private source video. sources_json maps source_id -> video path."""
+    """Cut the context window of a shot from a private source video, keeping the source audio for exactly the same window when the
+    source has any (no audio is synthesised when it has none). sources_json maps source_id -> video path."""
     src = json.load(open(sources_json))
     def provide(v):
         out = os.path.join(root, "clips", f"{v['shot_id']}.mp4"); os.makedirs(os.path.dirname(out), exist_ok=True)
         if not os.path.exists(out):
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(v["context_start_s"]), "-to",
-                            str(v["context_end_s"]), "-i", src[v["source_id"]], "-an", "-c:v", "libx264",
-                            "-preset", "veryfast", "-crf", "23", out], check=True)
+                            str(v["context_end_s"]), "-i", src[v["source_id"]], "-map", "0:v:0", "-map", "0:a:0?",
+                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-c:a", "aac", "-b:a", "128k", out], check=True)
         return out
     return provide
 

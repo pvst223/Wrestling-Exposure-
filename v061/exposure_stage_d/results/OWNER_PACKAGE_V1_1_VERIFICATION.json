@@ -1,0 +1,85 @@
+{
+ "files": [
+  "README_OWNER.md",
+  "manifest_build.csv",
+  "setup_owner.py",
+  "step3_set_marks.sh",
+  "v061/exposure_design/EXPOSURE_V1_STAGE_D_LABELLING_PROTOCOL_V1_1.md",
+  "v061/exposure_stage_d/build_return_report.py",
+  "v061/exposure_stage_d/labeller_core.py",
+  "v061/exposure_stage_d/labeller_ui.py",
+  "v061/exposure_stage_d/stage_d_cli.py"
+ ],
+ "files_changed_vs_V1": [
+  "README_OWNER.md",
+  "v061/exposure_stage_d/labeller_ui.py"
+ ],
+ "files_unchanged_vs_V1": [
+  "manifest_build.csv",
+  "setup_owner.py",
+  "step3_set_marks.sh",
+  "v061/exposure_design/EXPOSURE_V1_STAGE_D_LABELLING_PROTOCOL_V1_1.md",
+  "v061/exposure_stage_d/build_return_report.py",
+  "v061/exposure_stage_d/labeller_core.py",
+  "v061/exposure_stage_d/stage_d_cli.py"
+ ],
+ "labeller_ui_diff": [
+  "--- V1",
+  "+++ V1_1",
+  "-    \"\"\"Cut the context window of a shot from a private source video. sources_json maps source_id -> video path.\"\"\"",
+  "+    \"\"\"Cut the context window of a shot from a private source video, keeping the source audio for exactly the same window when the",
+  "+    source has any (no audio is synthesised when it has none). sources_json maps source_id -> video path.\"\"\"",
+  "-                            str(v[\"context_end_s\"]), \"-i\", src[v[\"source_id\"]], \"-an\", \"-c:v\", \"libx264\",",
+  "-                            \"-preset\", \"veryfast\", \"-crf\", \"23\", out], check=True)",
+  "+                            str(v[\"context_end_s\"]), \"-i\", src[v[\"source_id\"]], \"-map\", \"0:v:0\", \"-map\", \"0:a:0?\",",
+  "+                            \"-c:v\", \"libx264\", \"-preset\", \"veryfast\", \"-crf\", \"23\", \"-c:a\", \"aac\", \"-b:a\", \"128k\", out], check=True)"
+ ],
+ "labels_submitted_build": 0,
+ "labels_submitted_check": 0,
+ "manifest_build_sha256": "d0c73ca106c9cef5e34766aaabfdceaf039e2735e58c76a52362c0a7d3a99aaf",
+ "manifest_in_workspace_verified": true,
+ "manifest_matches_frozen": true,
+ "marks_set": 5,
+ "new_zip_sha256": "1d84a2eddb8e7c5df751827256c3c386d36becc138981e1e6bccb45822127777",
+ "no_check_or_classifier_material": true,
+ "protocol_matches_frozen": true,
+ "protocol_sha256": "0b6c87405aa5c32d1dffd60bc54634835fb4afe710217b506ad508a1a8c3dad9",
+ "real_source_context_clips": {
+  "b1_orton_rollins_wm31": {
+   "clip_duration_s": 12.0,
+   "clip_streams": [
+    "audio",
+    "video"
+   ],
+   "context_end_s": 21.767,
+   "context_start_s": 9.8,
+   "expected_context_s": 11.97,
+   "shot_id_index_only": 5,
+   "t_end_s": "16.7667",
+   "t_start_s": "14.8000"
+  },
+  "rr_balor_full": {
+   "clip_duration_s": 12.2,
+   "clip_streams": [
+    "audio",
+    "video"
+   ],
+   "context_end_s": 301.833,
+   "context_start_s": 289.667,
+   "expected_context_s": 12.17,
+   "shot_id_index_only": 42,
+   "t_end_s": "296.8333",
+   "t_start_s": "294.6667"
+  }
+ },
+ "scratch_deleted": true,
+ "setup_owner_exit": 0,
+ "setup_owner_found_all_five": true,
+ "source_audio_streams": {
+  "b1_orton_rollins_wm31": 1,
+  "b2_batch2_clip_condensed": 0,
+  "b2_videoplayback_2": 1,
+  "b2_videoplayback_5": 1,
+  "rr_balor_full": 1
+ }
+}
