@@ -287,3 +287,15 @@ class T08_CLI(Base):
         with self.assertRaises(C.StateError): run("seal-check")
         with self.assertRaises(C.StateError): run("freeze-rule", "a" * 64) if False else run("unseal-check")
         self.assertGreaterEqual(run("verify-chain")["events"], 3)
+
+
+class T09_BuildReturnReport(Base):
+    def test_report(self):
+        import build_return_report as BR
+        self.full("build")
+        self.ws.apply_correction("build", "B001", "TOOL_ERROR", "mis-click", "UNKNOWN", "LOW", "UNREADABLE", ["NOTE"], "n")
+        r = BR.build_report(self.ws.root)
+        self.assertEqual(r["n_shots"], 5); self.assertEqual(r["n_corrections"], 1); self.assertTrue(r["corrections_chain_ok"])
+        self.assertEqual(r["confidence_distribution"], {"HIGH": 4, "LOW": 1}); self.assertEqual(r["flag_distribution"], {"NOTE": 1})
+        self.assertEqual(r["reference_summary"]["count_by_label"]["UNKNOWN"], 1)
+        self.assertAlmostEqual(r["reference_summary"]["U_ref_fraction"], 0.2)
