@@ -1,0 +1,19 @@
+{
+ "rule_id": "STAGE_D_RULE_V1_1",
+ "supersedes_failed_rule": "STAGE_D_RULE_V1 sha256 4dc574dfd71f3bc86b6d2a1ab22d6fb4778b9fbc4966d380fa4cd257e691bb1b (preserved unchanged)",
+ "target": "broadcast scene/time class of a shot (LIVE vs NOT_LIVE vs UNKNOWN); nothing per wrestler",
+ "input_gate_frozen": {"conf_min": 0.3, "box_height_min_px_at_360p": 50, "frame_stride": 3, "reference_height_px": 360},
+ "features": {"F1_frac_ge2": "fraction of the shot's sampled frames having >= 2 gated person boxes"},
+ "thresholds": {"T1": 0.2, "T2": 0.5},
+ "replay_indicator": {"implemented": false, "value_always": 0, "thresholds_spent": 0},
+ "hierarchy": [
+  "if no sampled frame in the shot -> UNKNOWN (NO_FEATURES)",
+  "if replay_indicator == 1 -> REPLAY_SUSPECT (never reachable in V1.1)",
+  "if F1 < T1 -> NOT_LIVE",
+  "if F1 >= T2 -> LIVE",
+  "otherwise -> UNKNOWN"
+ ],
+ "p1_calculation": "duration-weighted LIVE vs not-LIVE disagreement on reference-decidable duration; classifier UNKNOWN and REPLAY_SUSPECT count as not-LIVE; reference UNKNOWN excluded from numerator and denominator",
+ "counts": {"features": 1, "replay_indicator": 1, "thresholds": 2},
+ "revision_budget": "SPENT"
+}
