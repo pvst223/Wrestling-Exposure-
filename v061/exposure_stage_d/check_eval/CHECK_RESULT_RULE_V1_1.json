@@ -1,0 +1,139 @@
+{
+ "P1": {
+  "denominator_s": 319.666,
+  "error_contribution_s": {
+   "ref CLOSE_UP -> rule LIVE": 2.167,
+   "ref LIVE_ACTION -> rule NOT_LIVE": 6.834,
+   "ref LIVE_ACTION -> rule UNKNOWN": 9.767,
+   "ref NON_MATCH -> rule LIVE": 99.698,
+   "ref REPLAY -> rule LIVE": 35.1
+  },
+  "exceeds_20pct": true,
+  "fraction": 0.48039516245080804,
+  "numerator_s": 153.566
+ },
+ "P2_descriptive_single_segment": {
+  "T_live_hi_s": 320.198,
+  "T_live_lo_s": 281.264,
+  "T_live_ref_s": 152.967,
+  "denominator": 1,
+  "inside_interval": false,
+  "note": "design P2 is match-level (>=90% of evaluable matches); CHECK is one partial segment so match-level P2 is NOT_EVALUABLE; interval inclusion on the CHECK set is reported descriptively",
+  "numerator": 0
+ },
+ "P3": {
+  "denominator_s": 320.198,
+  "exceeds_15pct": false,
+  "fraction": 0.10961967282743802,
+  "numerator_s": 35.1
+ },
+ "P4_descriptive_single_segment": {
+  "check_total_s": 327.599,
+  "classifier_unknown_s": 38.934,
+  "fraction": 0.11884651662550863,
+  "note": "design P4 is match-level (>=80% of matches); CHECK is one partial segment; classifier UNKNOWN is distinct from reference UNKNOWN",
+  "within_15pct": true
+ },
+ "U_ref_CHECK": 0.02421558063364052,
+ "all_LIVE_comparator": {
+  "denominator_s": 319.666,
+  "fraction": 0.5214786683601008,
+  "numerator_s": 166.699
+ },
+ "classifier": {
+  "count_by_class": {
+   "LIVE": 83,
+   "NOT_LIVE": 4,
+   "UNKNOWN": 5
+  },
+  "duration_s_by_class": {
+   "LIVE": 281.264,
+   "NOT_LIVE": 7.401,
+   "UNKNOWN": 38.934
+  },
+  "no_features_cases": 0
+ },
+ "confusion_ref_by_rule": {
+  "CLOSE_UP|LIVE": {
+   "n": 1,
+   "s": 2.167
+  },
+  "LIVE_ACTION|LIVE": {
+   "n": 50,
+   "s": 136.366
+  },
+  "LIVE_ACTION|NOT_LIVE": {
+   "n": 3,
+   "s": 6.834
+  },
+  "LIVE_ACTION|UNKNOWN": {
+   "n": 3,
+   "s": 9.767
+  },
+  "NON_MATCH|LIVE": {
+   "n": 29,
+   "s": 99.698
+  },
+  "NON_MATCH|UNKNOWN": {
+   "n": 2,
+   "s": 29.167
+  },
+  "REPLAY|LIVE": {
+   "n": 2,
+   "s": 35.1
+  },
+  "REPLAY|NOT_LIVE": {
+   "n": 1,
+   "s": 0.567
+  },
+  "UNKNOWN|LIVE": {
+   "n": 1,
+   "s": 7.933
+  }
+ },
+ "decision": "STOP",
+ "decision_reason": "P1>20%",
+ "input_sha256": {
+  "labels": "2ef78dbfb74337745669b55ad58217bfc727d1582b609f045a20f4c891f1a48e",
+  "manifest": "f1b8664e0238a87c2e8a0eee34f50be5f0ebdb62e78852b5f1c9bf8d43a5517e",
+  "marks": "d8f361edcd92c67e59f985912bdde5758a71b6cd1eae1717aacbc2ce2c3026f1",
+  "predictions": "cf33c79d132c411d1f14da0d1e81fb3bde664f5238521ddffe6e624f7c626012"
+ },
+ "n_shots": 92,
+ "reference": {
+  "count_by_label": {
+   "CLOSE_UP": 1,
+   "LIVE_ACTION": 56,
+   "NON_MATCH": 31,
+   "REPLAY": 3,
+   "UNKNOWN": 1
+  },
+  "duration_s_by_label": {
+   "CLOSE_UP": 2.167,
+   "LIVE_ACTION": 152.967,
+   "NON_MATCH": 128.865,
+   "REPLAY": 35.667,
+   "UNKNOWN": 7.933
+  },
+  "flags": {},
+  "match_marks": [
+   {
+    "end_s": "",
+    "evidence_note": "start/end not identifiable",
+    "flags": "NO_D",
+    "marked_at_utc": "2026-10-22T18:55:23Z",
+    "protocol_version": "0b6c87405aa5c32d1dffd60bc54634835fb4afe710217b506ad508a1a8c3dad9",
+    "source_id": "rr_balor_full",
+    "start_s": ""
+   }
+  ],
+  "unknown_by_reason_count": {
+   "PIP_AMBIGUOUS": 1
+  },
+  "unknown_by_reason_s": {
+   "PIP_AMBIGUOUS": 7.933
+  }
+ },
+ "reference_unknown_fraction_exact": "7933/327599 ms",
+ "total_s": 327.599
+}
