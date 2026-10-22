@@ -1,0 +1,74 @@
+{
+ "build_input_sha256": {
+  "det_match_build.py": "16ce2131709e696b939396cd887b55582940df64f94e4ed740ea924934497202",
+  "detector_weights": "dbe539ea268db2534390942cfdf206e521f376f19e5415967a57f6a2ddfa3c90",
+  "dets_b1_orton_rollins_wm31": "912cf163c9b970c81e88e54a7f22082feb73a77e0d8043c62e454bdeaeb9c0ae",
+  "dets_b2_batch2_clip_condensed": "0788814e2726d47e5669d7e7c60728d27a240af1b8aa7f3eb125765fb10858ce",
+  "dets_b2_videoplayback_2": "1e6648e5ca26352c817b883d89312834df6f55af0a663d1347a82ab7427a8893",
+  "dets_b2_videoplayback_5": "c1a4f83d96d2661a5dce2b4d50f061b8bc510a117f5a350b60f36846884006f5",
+  "dets_match_build.pkl": "00dd5cf3d8c64248ad2fb0367c6f01f5352b3f5b447809b07ffd6f8b1b09b6d3",
+  "labels_effective_set": "4a002f5dbd31328a7e4dfacd8e43b2a88cecc8157a5f35875dacc8ad03930e85",
+  "manifest_build": "d0c73ca106c9cef5e34766aaabfdceaf039e2735e58c76a52362c0a7d3a99aaf",
+  "match_build_norm.mp4": "e44ce49004940d950dc1f40ae79646732e7d19215f75ae796152ee8e89a1bc27",
+  "protocol_v1_1": "0b6c87405aa5c32d1dffd60bc54634835fb4afe710217b506ad508a1a8c3dad9"
+ },
+ "check_status": {
+  "check_evaluation_performed": false,
+  "check_features_computed": false,
+  "check_frames_decoded": false,
+  "check_labels_submitted": 0,
+  "check_opened": false,
+  "check_range_first_frame": 13546,
+  "max_frame_decoded_in_rule_construction": 13457,
+  "shot_frame_rows_read": "BUILD ids only (169)"
+ },
+ "code_sha256": {
+  "PROSPECTIVE_SPEC_PRE_BUILD_NUMBERS.md": "85fb9f8a0eaeaed1773ae0bab94bafa3e1892d728fc91c2f78c27c27f3a8cd56",
+  "build_diagnostics.py": "772d11af2df5be2ba7305567cfdcbc2717b88485c98753181a2ac9157bdae33e",
+  "rule_v1.py": "1d5d643214bc1ec180a33f00ea20746e1e99fe3401ba1d70732e0cb66e4e7378",
+  "rule_v1_config.json": "fbf5609fea40f794ff73dde93d0aba361f9d76b74c75e6861c692622c69567b4",
+  "tests/test_rule_v1.py": "2778b641dc2641a48c830c4b0782d550bab8fad2724a1c3ce3d65b789bd1993c"
+ },
+ "config": {
+  "counts": {
+   "features": 2,
+   "replay_indicator": 1,
+   "thresholds": 3
+  },
+  "features": {
+   "F1_frac_ge2": "fraction of the shot's sampled frames having >= 2 gated person boxes",
+   "F2_h_max_med": "median over sampled frames of (tallest gated box height / frame height); 0 for a sampled frame with no gated box"
+  },
+  "hierarchy": [
+   "if no sampled frame in the shot -> UNKNOWN (NO_FEATURES)",
+   "if replay_indicator == 1 -> REPLAY_SUSPECT (never reachable in V1)",
+   "if F1 < T1 -> NOT_LIVE",
+   "if F1 >= T2 and F2 <= T3 -> LIVE",
+   "otherwise -> UNKNOWN"
+  ],
+  "input_gate_frozen": {
+   "box_height_min_px_at_360p": 50,
+   "conf_min": 0.3,
+   "frame_stride": 3,
+   "reference_height_px": 360
+  },
+  "p1_calculation": "duration-weighted LIVE vs not-LIVE disagreement on reference-decidable duration; classifier UNKNOWN and REPLAY_SUSPECT count as not-LIVE; reference UNKNOWN excluded from numerator and denominator",
+  "replay_indicator": {
+   "implemented": false,
+   "reason": "zero REPLAY examples in BUILD; no untestable cue invented",
+   "thresholds_spent": 0,
+   "value_always": 0
+  },
+  "rule_id": "STAGE_D_RULE_V1",
+  "target": "broadcast scene/time class of a shot (LIVE vs NOT_LIVE vs UNKNOWN); nothing per wrestler",
+  "thresholds": {
+   "T1": 0.2,
+   "T2": 0.5,
+   "T3": 0.8
+  }
+ },
+ "rule_id": "STAGE_D_RULE_V1",
+ "rule_v1_sha256": "4dc574dfd71f3bc86b6d2a1ab22d6fb4778b9fbc4966d380fa4cd257e691bb1b",
+ "sha256_definition": "sha256(json.dumps({rule_id,config,code_sha256},sort_keys=True))",
+ "status": "FROZEN_AWAITING_INDEPENDENT_REVIEW; NOT_RUN_ON_CHECK"
+}
