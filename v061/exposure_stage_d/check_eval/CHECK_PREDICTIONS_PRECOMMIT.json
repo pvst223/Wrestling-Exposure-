@@ -1,0 +1,29 @@
+{
+ "check_detection": {
+  "dets_sha256": "5e06caf310f5535e2842e4ec58a464b07c5ef008ccefd574d989e6e99beb7cbd",
+  "frame_range_decoded": [
+   13546,
+   23373
+  ],
+  "n_detections": 3276,
+  "script_sha256": "0884c92ef692158bed8976e68890925adba14f8886bdb87e56f6cd80637a1645",
+  "start_utc": "2026-10-22T17:37:38Z",
+  "stores": "boxes, confidences, frame size only"
+ },
+ "check_manifest_sha256": "f1b8664e0238a87c2e8a0eee34f50be5f0ebdb62e78852b5f1c9bf8d43a5517e",
+ "check_shots": 92,
+ "check_total_s": 327.6,
+ "evaluate_script_sha256": "9588efa2b0302a750b53a3ff9b3ed22c8ddbdcd772c32f9392f975c21a2375cf",
+ "predict_script_sha256": "b43adf781372ef9ca2d46665b9e140c22ae586fe239f8a78915097848564ad2b",
+ "predictions_private_csv_sha256": "cf33c79d132c411d1f14da0d1e81fb3bde664f5238521ddffe6e624f7c626012",
+ "predictions_rows": 92,
+ "rule_hash_reproduced_from_repo": true,
+ "rule_v1_1_sha256": "b2e47698cd391faf86119525cc4dd9c939a0c807bd644069e02f964ba5df5111",
+ "statements": [
+  "Predictions were produced by the frozen Rule V1.1 code without reading any reference annotation.",
+  "CHECK reference labels: 0 submitted at the time of this record; the owner has not seen predictions.",
+  "Predictions were not inspected, aggregated or summarised; only their hash and row count were printed.",
+  "No modification of Rule V1.1 has occurred."
+ ],
+ "status": "CHECK_PREDICTIONS_PRECOMMITTED_BEFORE_ANY_CHECK_LABEL_EXISTS"
+}
