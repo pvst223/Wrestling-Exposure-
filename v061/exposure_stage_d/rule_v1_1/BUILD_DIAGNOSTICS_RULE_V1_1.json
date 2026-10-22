@@ -1,0 +1,78 @@
+{
+ "P1_all_LIVE_baseline": {
+  "decidable_s": 584.534,
+  "disagree_s": 26.133,
+  "fraction": 0.04470795942405353
+ },
+ "P1_by_source_rule_V1_1": {
+  "b1_orton_rollins_wm31": {
+   "decidable_s": 32.5,
+   "disagree_s": 11.367
+  },
+  "b2_batch2_clip_condensed": {
+   "decidable_s": 120.0,
+   "disagree_s": 43.0
+  },
+  "b2_videoplayback_2": {
+   "decidable_s": 64.467,
+   "disagree_s": 14.9
+  },
+  "b2_videoplayback_5": {
+   "decidable_s": 119.567,
+   "disagree_s": 6.633
+  },
+  "rr_balor_full": {
+   "decidable_s": 248.0,
+   "disagree_s": 12.867
+  }
+ },
+ "P1_rule_V1_1": {
+  "decidable_s": 584.534,
+  "disagree_s": 88.766,
+  "fraction": 0.1518583622666621
+ },
+ "confusion_ref_by_rule": {
+  "CLOSE_UP|LIVE": {
+   "n": 7,
+   "s": 23.567
+  },
+  "CLOSE_UP|UNKNOWN": {
+   "n": 1,
+   "s": 0.533
+  },
+  "LIVE_ACTION|LIVE": {
+   "n": 137,
+   "s": 495.234
+  },
+  "LIVE_ACTION|NOT_LIVE": {
+   "n": 4,
+   "s": 10.333
+  },
+  "LIVE_ACTION|UNKNOWN": {
+   "n": 14,
+   "s": 52.833
+  },
+  "NON_MATCH|LIVE": {
+   "n": 1,
+   "s": 2.033
+  },
+  "UNKNOWN|LIVE": {
+   "n": 5,
+   "s": 53.7
+  }
+ },
+ "n_shots": 169,
+ "no_feature_shots": 0,
+ "rule_class_counts": {
+  "LIVE": 150,
+  "NOT_LIVE": 4,
+  "UNKNOWN": 15
+ },
+ "rule_class_duration_s": {
+  "LIVE": 574.534,
+  "NOT_LIVE": 10.333,
+  "UNKNOWN": 53.366
+ },
+ "rule_config_sha256": "d4c076eed99f7c27061dade6cd91ff219c99ad6bd7346983856cf78f4e1d7c14",
+ "set": "build"
+}
