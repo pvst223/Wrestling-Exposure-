@@ -1,0 +1,28 @@
+{
+ "table_id": "EXPOSURE_CONSTRUCT_AUDIT_V1_1_SOURCE_TABLE",
+ "design_sha256": "c82971641c0a5c618604455e454d982716670966059958a807e6e86c7f8599a0",
+ "note": "Frozen from existing provenance records BEFORE any coding. wrestlers = fixed human-attribution identities (A, B); no CV/identity output was used. Sources with status UNRESOLVED_PROVENANCE are flagged for reviewer resolution (not guessed); the tool refuses to start a pass while any source is unresolved.",
+ "performer_codes": ["A", "B", "UNCLEAR"],
+ "sources": [
+  {"order": 1, "source_id": "b1_orton_rollins_wm31", "status": "RESOLVED", "t_max_s": 37.0, "fps": 30,
+   "bytes": 19786272, "file_sha256": "eb9625d30eef49670fdb6d469f77d549ec364005f95e73c207150320c16b3723",
+   "wrestlers": {"A": "Randy Orton", "B": "Seth Rollins"},
+   "provenance": "batch1 provenance.json meta.wrestler_A/B (user-supplied WWE highlight clip, WrestleMania 31); range = whole clip (1110 frames at 30 fps)"},
+  {"order": 2, "source_id": "b2_batch2_clip_condensed", "status": "UNRESOLVED_PROVENANCE", "t_max_s": 120.0, "fps": 30,
+   "bytes": 20652610, "file_sha256": "e89e92c71690d2e7285ebce6e0877d74b9c685cb3ca504e83644fc2814bb5486",
+   "wrestlers": null,
+   "provenance": "batch2 provenance.json: wrestler_A/B = 'UNSPECIFIED (pending user)'; on-screen WWE Raw graphics only. Wrestler identities not established -> flagged for reviewer resolution."},
+  {"order": 3, "source_id": "b2_videoplayback_2", "status": "UNRESOLVED_PROVENANCE", "t_max_s": 64.4667, "fps": 30,
+   "bytes": 5156110, "file_sha256": "d6728cb914fd0bbd2e4efdb14a4e1a08a8c8dfbaa387db3b6535417008136319",
+   "wrestlers": null, "frame_limit_exclusive": 1934,
+   "provenance": "batch2 provenance.json: wrestler_A/B = 'UNSPECIFIED (pending user)'; Survivor Series graphic only. Allowed range frames < 1934 only (t < 64.4667 s). Flagged for reviewer resolution."},
+  {"order": 4, "source_id": "b2_videoplayback_5", "status": "UNRESOLVED_PROVENANCE", "t_max_s": 119.5667, "fps": 30,
+   "bytes": 11023849, "file_sha256": "e72c5561b15de92fc5c34f24ad54097111c753ce49c12603cbaccc5265fcb575",
+   "wrestlers": null,
+   "provenance": "batch2 provenance.json: wrestler_A/B = 'UNSPECIFIED (pending user)'; AEW Dynamite graphics only. Flagged for reviewer resolution."},
+  {"order": 5, "source_id": "rr_balor_full", "status": "RESOLVED", "t_max_s": 779.133, "fps": 30,
+   "bytes": 385742414, "file_sha256": "7d718d6c82fd893c62634a5b62ec48178543bfec95164d80c344614057ee26ee",
+   "wrestlers": {"A": "Roman Reigns", "B": "Finn Balor"},
+   "provenance": "owner-supplied file titled 'FULL MATCH - Roman Reigns vs. Finn Balor, Raw, July 25, 2016' (WWE); the project's fresh-qualification records use the same two wrestlers (plus a referee, not a competitor); range 0-779.133 s"}
+ ]
+}

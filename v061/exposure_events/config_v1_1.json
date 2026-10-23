@@ -1,0 +1,15 @@
+{
+ "experiment": "EXPOSURE_CONSTRUCT_OBSERVABILITY_RELIABILITY_AUDIT_V1_1",
+ "design_sha256": "c82971641c0a5c618604455e454d982716670966059958a807e6e86c7f8599a0",
+ "design_file": "EXPOSURE_CONSTRUCT_AUDIT_EXPERIMENT_V1_1_DESIGN.md",
+ "event_class": "LANDING",
+ "pass2_lock_days": 7,
+ "coverage_required_fraction": 0.95,
+ "coverage_max_gap_s": 1.0,
+ "coverage_max_playback_rate": 2.0,
+ "event_time_resolution_s": 0.1,
+ "note_max_chars": 200,
+ "evidence_max_chars": 500,
+ "correction_reasons": ["TOOL_ERROR", "TRANSCRIPTION_ERROR"],
+ "tool_version": "EVENT_TOOL_V1_1"
+}

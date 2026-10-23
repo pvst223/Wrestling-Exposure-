@@ -1,0 +1,64 @@
+SYNTHETIC TEST RESULTS - Experiment V1.1 LANDING tooling (synthetic fixtures only; no real footage, events or labels)
+test_append_only_and_tamper_detection (test_exposure_events.T.test_append_only_and_tamper_detection) ... /home/claude/Wrestling-Exposure-/v061/exposure_stage_d/tests/test_exposure_events.py:101: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmps_mmk1zq/w/audit.jsonl' mode='r' encoding='utf-8'>
+test_clock_going_backwards_refused (test_exposure_events.T.test_clock_going_backwards_refused) ... ok
+test_correction_audit_chain (test_exposure_events.T.test_correction_audit_chain) ... /home/claude/Wrestling-Exposure-/v061/exposure_stage_d/tests/test_exposure_events.py:127: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpw291u18f/w/audit.jsonl' mode='r' encoding='utf-8'>
+test_correction_cannot_violate_rules_or_touch_finished_source (test_exposure_events.T.test_correction_cannot_violate_rules_or_touch_finished_source) ... ok
+test_deleted_record_detected (test_exposure_events.T.test_deleted_record_detected) ... /home/claude/Wrestling-Exposure-/v061/exposure_stage_d/tests/test_exposure_events.py:111: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpjbfyi_5x/w/audit.jsonl' mode='r' encoding='utf-8'>
+test_deterministic_export_and_pass_hash (test_exposure_events.T.test_deterministic_export_and_pass_hash) ... /home/claude/Wrestling-Exposure-/v061/exposure_stage_d/tests/test_exposure_events.py:206: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmp2l5r1dc_/a/o2/landing_events_pass1.csv'>
+test_evidence_mandatory (test_exposure_events.T.test_evidence_mandatory) ... ok
+test_forbidden_source_and_performer_rejected (test_exposure_events.T.test_forbidden_source_and_performer_rejected) ... ok
+test_manual_is_verbatim_from_design (test_exposure_events.T.test_manual_is_verbatim_from_design) ... /home/claude/Wrestling-Exposure-/v061/exposure_stage_d/tests/../../exposure_events/event_ui.py:51: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/claude/Wrestling-Exposure-/v061/exposure_events/../exposure_design/EXPOSURE_CONSTRUCT_AUDIT_EXPERIMENT_V1_1_DESIGN.md' mode='r' encoding='utf-8'>
+test_note_limits_and_duplicates (test_exposure_events.T.test_note_limits_and_duplicates) ... ok
+test_pass2_blindness (test_exposure_events.T.test_pass2_blindness) ... ok
+test_pass2_lock_7_days (test_exposure_events.T.test_pass2_lock_7_days) ... ok
+test_pass2_lock_survives_new_process_and_cli (test_exposure_events.T.test_pass2_lock_survives_new_process_and_cli) ... ok
+test_pass_completion_freeze_and_hash (test_exposure_events.T.test_pass_completion_freeze_and_hash) ... ok
+test_real_source_table_contents (test_exposure_events.T.test_real_source_table_contents) ... ok
+test_records_carry_design_hash_and_source_provenance (test_exposure_events.T.test_records_carry_design_hash_and_source_provenance) ... /home/claude/Wrestling-Exposure-/v061/exposure_stage_d/tests/test_exposure_events.py:119: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5_3kvz4m/w/audit.jsonl' mode='r' encoding='utf-8'>
+test_setup_refuses_unresolved_real_table (test_exposure_events.T.test_setup_refuses_unresolved_real_table) ... ok
+test_setup_requires_design_hash (test_exposure_events.T.test_setup_requires_design_hash) ... ok
+test_source_order_and_coverage_enforced (test_exposure_events.T.test_source_order_and_coverage_enforced) ... ok
+test_source_range_enforcement (test_exposure_events.T.test_source_range_enforcement) ... ok
+test_status_never_contains_counts_or_events (test_exposure_events.T.test_status_never_contains_counts_or_events) ... ok
+test_timestamp_precision (test_exposure_events.T.test_timestamp_precision) ... ok
+test_valid_events_all_observabilities_and_unclear (test_exposure_events.T.test_valid_events_all_observabilities_and_unclear) ... ok
+test_heartbeat_coverage_and_source_done (test_exposure_events.UI.test_heartbeat_coverage_and_source_done) ... ok
+test_manual_endpoint_and_no_event_list_endpoints (test_exposure_events.UI.test_manual_endpoint_and_no_event_list_endpoints) ... /home/claude/Wrestling-Exposure-/v061/exposure_stage_d/tests/../../exposure_events/event_ui.py:51: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/claude/Wrestling-Exposure-/v061/exposure_events/../exposure_design/EXPOSURE_CONSTRUCT_AUDIT_EXPERIMENT_V1_1_DESIGN.md' mode='r' encoding='utf-8'>
+test_page_state_and_no_counts (test_exposure_events.UI.test_page_state_and_no_counts) ... ok
+test_rejections_via_api (test_exposure_events.UI.test_rejections_via_api) ... ok
+test_video_range_and_only_current_source (test_exposure_events.UI.test_video_range_and_only_current_source) ... ok
+Ran 28 tests in 3.688s
+OK
+test_filter_builder_merges_and_rounds_outward (test_landing_metrics.Filter.test_filter_builder_merges_and_rounds_outward) ... /home/claude/Wrestling-Exposure-/v061/exposure_stage_d/tests/../../exposure_events/build_nonlive_filter.py:11: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpw2evbqsu/l.csv' mode='r' encoding='utf-8'>
+test_replay_non_match_filter (test_landing_metrics.Filter.test_replay_non_match_filter) ... ok
+test_unfiltered_material_kept_and_filter_applied_to_both_passes (test_landing_metrics.Filter.test_unfiltered_material_kept_and_filter_applied_to_both_passes) ... ok
+test_boundary_inclusive_at_0_5_exclusive_at_0_6 (test_landing_metrics.Matching.test_boundary_inclusive_at_0_5_exclusive_at_0_6) ... ok
+test_deterministic_input_order_independent (test_landing_metrics.Matching.test_deterministic_input_order_independent) ... ok
+test_larger_component_exact (test_landing_metrics.Matching.test_larger_component_exact) ... ok
+test_matching_is_within_source_only (test_landing_metrics.Matching.test_matching_is_within_source_only) ... ok
+test_max_cardinality_beats_min_cost (test_landing_metrics.Matching.test_max_cardinality_beats_min_cost) ... ok
+test_min_total_abs_dt_among_max_cardinality (test_landing_metrics.Matching.test_min_total_abs_dt_among_max_cardinality) ... ok
+test_one_to_one (test_landing_metrics.Matching.test_one_to_one) ... ok
+test_tie_break_earliest_pass1_then_pass2 (test_landing_metrics.Matching.test_tie_break_earliest_pass1_then_pass2) ... ok
+test_unmatched_and_empty (test_landing_metrics.Matching.test_unmatched_and_empty) ... ok
+test_O_is_min_and_I_is_min (test_landing_metrics.Metrics.test_O_is_min_and_I_is_min) ... ok
+test_constants_frozen (test_landing_metrics.Metrics.test_constants_frozen) ... ok
+test_formulas (test_landing_metrics.Metrics.test_formulas) ... ok
+test_observability_disagreement_counted (test_landing_metrics.Metrics.test_observability_disagreement_counted) ... ok
+test_performer_disagreement_and_unclear_excluded_from_PA (test_landing_metrics.Metrics.test_performer_disagreement_and_unclear_excluded_from_PA) ... ok
+test_unmatched_events_in_A (test_landing_metrics.Metrics.test_unmatched_events_in_A) ... ok
+test_wilson_values (test_landing_metrics.Metrics.test_wilson_values) ... ok
+test_boundary_values_exact (test_landing_metrics.Outcomes.test_boundary_values_exact) ... ok
+test_denominator_edges (test_landing_metrics.Outcomes.test_denominator_edges) ... ok
+test_inconclusive_denominator (test_landing_metrics.Outcomes.test_inconclusive_denominator) ... ok
+test_kill_beats_other_failures_of_denominators (test_landing_metrics.Outcomes.test_kill_beats_other_failures_of_denominators) ... ok
+test_kill_requires_failzone_and_wilson (test_landing_metrics.Outcomes.test_kill_requires_failzone_and_wilson) ... ok
+test_modify (test_landing_metrics.Outcomes.test_modify) ... ok
+test_n_lt_20_inconclusive_prevalence_never_kill (test_landing_metrics.Outcomes.test_n_lt_20_inconclusive_prevalence_never_kill) ... ok
+test_pa_fail_zone_large_n_kills (test_landing_metrics.Outcomes.test_pa_fail_zone_large_n_kills) ... ok
+test_pass (test_landing_metrics.Outcomes.test_pass) ... ok
+test_prevalence_uses_filtered_E1 (test_landing_metrics.Outcomes.test_prevalence_uses_filtered_E1) ... ok
+test_result_is_json_serialisable_and_deterministic (test_landing_metrics.Outcomes.test_result_is_json_serialisable_and_deterministic) ... ok
+test_wilson_requirement_is_implemented_and_binding_when_it_should (test_landing_metrics.Outcomes.test_wilson_requirement_is_implemented_and_binding_when_it_should) ... ok
+Ran 31 tests in 0.710s
+OK
